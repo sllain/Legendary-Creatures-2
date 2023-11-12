@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://lg/event.zh_CN.translation", "res://lg/event.en.translation", "res://lg/event.ja.translation", "res://lg/event.zh_HK.translation" ]
+
+source_file="res://lg/event.csv"
+dest_files=[ "res://lg/event.zh_CN.translation", "res://lg/event.en.translation", "res://lg/event.ja.translation", "res://lg/event.zh_HK.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

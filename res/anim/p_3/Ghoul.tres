@@ -1,0 +1,48 @@
+[gd_resource type="SpriteFrames" load_steps=24 format=2]
+
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-die-01.png" type="Texture" id=1]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-die-07.png" type="Texture" id=2]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-idle-00.png" type="Texture" id=3]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-run-00.png" type="Texture" id=4]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-attack-02.png" type="Texture" id=5]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-run-05.png" type="Texture" id=6]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-die-02.png" type="Texture" id=7]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-die-03.png" type="Texture" id=8]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-attack-00.png" type="Texture" id=9]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-attack-01.png" type="Texture" id=10]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-idle-01.png" type="Texture" id=11]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-die-06.png" type="Texture" id=12]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-idle-02.png" type="Texture" id=13]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-run-02.png" type="Texture" id=14]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-attack-04.png" type="Texture" id=15]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-die-05.png" type="Texture" id=16]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-idle-03.png" type="Texture" id=17]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-run-03.png" type="Texture" id=18]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-run-04.png" type="Texture" id=19]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-attack-03.png" type="Texture" id=20]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-die-04.png" type="Texture" id=21]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-run-01.png" type="Texture" id=22]
+[ext_resource path="res://res/animImg/monster/Ghoul/ghoul-die-00.png" type="Texture" id=23]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 9 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 20 ), ExtResource( 15 ) ],
+"loop": true,
+"name": "atk",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 23 ), ExtResource( 1 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 21 ), ExtResource( 16 ), ExtResource( 12 ), ExtResource( 2 ) ],
+"loop": false,
+"name": "death",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 11 ), ExtResource( 13 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 22 ), ExtResource( 14 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "move",
+"speed": 10.0
+} ]

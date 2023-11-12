@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://tscn/charaDlg/variBtn.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/map/loca/lc1_Dlg_item.tscn" type="PackedScene" id=2]
+[ext_resource path="res://tscn/eventDlg/listVariItem.gd" type="Script" id=3]
+
+[node name="lc1_Dlg_item" instance=ExtResource( 2 )]
+script = ExtResource( 3 )
+
+[node name="anim" parent="c_" index="1"]
+frame = 0
+
+[node name="Button" parent="." index="2"]
+text = "变异"
+icon = null
+
+[node name="variBtn" parent="." index="4" instance=ExtResource( 1 )]
+visible = false
+margin_left = 36.0
+margin_top = 120.0
+margin_right = 84.0
+margin_bottom = 168.0

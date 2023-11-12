@@ -1,0 +1,77 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/game/testDlg.gd" type="Script" id=2]
+
+[node name="baseDlg" instance=ExtResource( 1 )]
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 62.0
+margin_right = -11.0
+margin_bottom = -6.0
+script = ExtResource( 2 )
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+text = "测试面板"
+
+[node name="Control" type="Panel" parent="." index="1"]
+margin_left = 31.0
+margin_top = 59.0
+margin_right = 432.0
+margin_bottom = 135.0
+
+[node name="id" type="LineEdit" parent="Control" index="0"]
+margin_left = 5.0
+margin_top = 27.0
+margin_right = 190.0
+margin_bottom = 68.0
+
+[node name="lv" type="LineEdit" parent="Control" index="1"]
+margin_left = 198.0
+margin_top = 27.0
+margin_right = 254.0
+margin_bottom = 68.0
+text = "1"
+
+[node name="Button" type="Button" parent="Control" index="2"]
+margin_left = 264.0
+margin_top = 30.0
+margin_right = 387.0
+margin_bottom = 68.0
+text = "Get"
+
+[node name="Label" type="Label" parent="Control" index="3"]
+margin_left = 16.0
+margin_right = 56.0
+margin_bottom = 22.0
+text = "ID"
+
+[node name="Label2" type="Label" parent="Control" index="4"]
+margin_left = 208.0
+margin_right = 248.0
+margin_bottom = 22.0
+text = "等级"
+
+[node name="ItemList" type="ItemList" parent="." index="2"]
+margin_left = 633.0
+margin_top = 77.0
+margin_right = 912.0
+margin_bottom = 376.0
+items = [ "", null, false ]
+
+[node name="OptionButton" type="OptionButton" parent="." index="3"]
+margin_left = 685.0
+margin_top = 25.0
+margin_right = 872.0
+margin_bottom = 63.0
+text = "单位"
+items = [ "单位", null, false, 0, null, "物品", null, false, 1, null, "设施", null, false, 2, null, "神徽", null, false, 3, null ]
+selected = 0
+
+[connection signal="pressed" from="Control/Button" to="." method="_on_Button_pressed"]
+[connection signal="item_selected" from="ItemList" to="." method="_on_ItemList_item_selected"]
+[connection signal="item_selected" from="OptionButton" to="." method="_on_OptionButton_item_selected"]

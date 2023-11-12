@@ -1,0 +1,266 @@
+,zh_CN,en,ja,zh_HK
+基础魂： %d,基础魂： %d,Basic Essence: %d,基礎ソウル： %d,基礎魂： %d
+夜晚  +30%基础魂,夜晚  +30%基础魂,+30% Basic Essence at night,夜  基礎ソウル+30%,夜晚  +30%基礎魂
+最终获得魂：%d,最终获得魂：%d,Final Essence Obtained: %d,最終獲得ソウル：%d,最終獲得魂：%d
+战败,战败,Defeat,敗北,戰敗
+------,------,------,------,------
+普通敌人,普通敌人,Common Enemy,コモンエネミー,普通敵人
+你的战力等级碾压了对面!,你的战力等级碾压了对面!,Your Battle Power is much higher than your opponent's!,あなたの戦力レベルは敵を遥かに上回っています,你的戰力等級碾壓了對面!
+战败!,战败!,Defeat!,敗北！,戰敗!
+战斗消耗时间 %s，己方回复%d%%已损失生命值,战斗消耗时间 %s，己方回复%d%%已损失生命值,Time consumption of battle %s; allies restore %d%% of HP lost,戦闘で時間を %s消耗し、味方の損失HPを%d%%回復した,戰鬥消耗時間 %s，己方回復%d%%已損失生命值
+时间推进 %s，获得1个遗物,时间推进 %s，获得1个遗物,Time advances by %s and you gain 1 Emblem,時間が %s進み、遺物を1つ獲得する,時間推進 %s，獲得1個遺物
+离开地牢，时间推进 %s,离开地牢，时间推进 %s,Time advances by %s after leaving a dungeon,地下牢を離れ、時間が %s進んだ,離開地牢，時間推進 %s
+但是时间会推进 %s,但是时间会推进 %s,But time advances by %s,しかし時間が %s進む,但是時間會推進 %s
+部队在城镇休息了 %s，回复满了生命值！,部队在城镇休息了 %s，回复满了生命值！,Your team has been rested in the city for %s and their HP is fully restored!,部隊が街で %s休憩をとったため、HPが全回復した,部隊在城鎮休息了 %s，回復滿了生命值！
+己方回复%d%%已损失生命值,己方回复%d%%已损失生命值,Allies restore %d%% of HP lost,味方の損失HPを%d%%回復した,己方回復%d%%已損失生命值
+精英敌人,精英敌人,Elite Enemy,エリートエネミー,精英敵人
+,,,,
+BOSS,BOSS,BOSS,BOSS,BOSS
+消灭可减少瘴气，获得遗物,消灭可减少瘴气，获得遗物,Eliminate to reduce the miasma and obtain an Emblem,討伐することで瘴気を減少し、遺物を獲得できます,消滅可減少瘴氣，獲得遺物
+减少 2级瘴气,减少 2级瘴气,Reduce miasma by 2 levels,瘴気を2レベル減少,減少 2級瘴氣
+获得 神徽,获得 神徽,Obtain an Emblem,シンボルを獲得,獲得 神徽
+,,,,
+魔王,魔王,Demon Lord,魔王,魔王
+打败魔王游戏就获得胜利！,打败魔王游戏就获得胜利！,Defeat the Demon Lord to win the game!,魔王を撃破すると勝利！,打敗魔王遊戲就獲得勝利！
+,,,,
+魔王仆从,魔王仆从,Demon Servant,魔王の僕,魔王仆從
+必掉传奇装备,必掉传奇装备,Legendary Equipment guaranteed,レジェンド装備確定ドロップ,必掉傳奇裝備
+胜利，获得奖励。,胜利，获得奖励。,Victory! Claim rewards,勝利、ボーナス獲得,勝利，獲得獎勵。
+你选择如何处置魔王仆从？,你选择如何处置魔王仆从？,How would you like to dispose of the Demon Servant?,魔王の僕をどのように処置しますか？,你選擇如何處置魔王仆從？
+招致麾下,招致麾下,Recruit him,配下へ招く,招致麾下
+斩杀，获得恶魔之魂,斩杀，获得恶魔之魂,Execute him and gain his Soul of Demon,打ち首、悪魔の魂を獲得,斬殺，獲得惡魔之魂
+战败!,战败!,Defeat!,敗北！,戰敗!
+,,,,
+神圣监牢,神圣监牢,Divine Prison,聖なる監獄,神聖監牢
+"关押着神明,只有幽暗值达到满层才可挑战","关押着神明,只有幽暗值达到满层才可挑战","It is where a god is being held, and you can only attempt the challenge once you've reached the maximum stacks of Gloom.",神を幽閉しており、幽暗値がMaxになることで挑戦が可能になる,"關押著神明,只有幽暗值達到滿層才可挑戰"
+监牢中关押着一个神明，救出他会赐予你神器，但同时会带来一场浩劫,监牢中关押着一个神明，救出他会赐予你神器，但同时会带来一场浩劫,"A god is being held in the prison. Rescuing him will bestow upon you a powerful Artifact, but it also carries the weight of an impending catastrophe.",地下牢には神が幽閉されており、救出に成功すると神器を授けられる、同時に災いももたらされる,監牢中關押著一個神明，救出他會賜予你神器，但同時會帶來一場浩劫
+"神授予了你神器，而同时大地图上的所有的常规战斗事件提升1级,包括魔王","神授予了你神器，而同时大地图上的所有的常规战斗事件提升1级,包括魔王","The god gave you the Artifact, which enhances all common battle events on the World Map by 1 level, including those against the Demon Lord.",神より神器を授かった、しかしマップ上の通常戦闘イベントのレベルが1上がった（魔王を含む）,"神授予了你神器，而同時大地圖上的所有的常規戰鬥事件提升1級,包括魔王"
+现在超过%d级的瘴气，才会你让失败,现在超过%d级的瘴气，才会你让失败,"Now, only Miasma at level higher than %d will result in failure for you.",現在、瘴気レベルがlv%dに達すると失敗になります,現在超過%d級的瘴氣，才會你讓失敗
+"大地图上的所有的常规战斗事件提升1级,包括魔王！","大地图上的所有的常规战斗事件提升1级,包括魔王！","All common battle events on the World Map increase by 1 level, including the one against the Demon Lord！",マップ上の通常戦闘イベントのレベルが1上がった（魔王を含む）,"大地圖上的所有的常規戰鬥事件提升1級,包括魔王"
+救下他(额外的难度挑战),救下他(额外的难度挑战),Save Him (Additional Challenge),彼を救う(追加の難易度チャレンジ),救下他（額外的難度挑戰）
+幽暗监牢,幽暗监牢,Dark Prison,幽暗の牢獄,幽暗監牢
+只有幽暗值达到满层才可挑战,只有幽暗值达到满层才可挑战,Reach max Gloom to challenge,幽暗値がMAXになることで挑戦可能,只有幽暗值達到滿層才可挑戰
+,,,,
+铁箱,铁箱,Iron Chest,鉄箱,鐵箱
+,,,,
+木箱,木箱,Wooden Chest,木箱,木箱
+,,,,
+商人,商人,Merchant,商人,商人
+6折购买物品，错过不再来,6折购买物品，错过不再来,Purchase with a 40% discount. You don't want to miss it!,全品 40％オフ、お見逃しなく！,6折購買物品，錯過不再來
+购买,购买,Purchase,購入,購買
+离开,离开,Leave,離れる,離開
+,,,,
+装备商人,装备商人,Equipment Vendor,装備商人,裝備商人
+7折购买物品，错过不再来,7折购买物品，错过不再来,Purchase with a 30% discount. You don't want to miss it!,全品 30％オフ、お見逃しなく！,7折購買物品，錯過不再來
+,,,,
+宝石商人,宝石商人,Gem Vendor,宝石商人,寶石商人
+,,,,
+灯塔,灯塔,Beacon,灯台,燈塔
+可随机传送至一个未被发现的设施旁,可随机传送至一个未被发现的设施旁,Allows you to teleport to an unknown facility,発見されていないランダムな施設の傍に転送する,可隨機傳送至一個未被發現的設施旁
+激活：传送至另一个随机设施旁,激活：传送至另一个随机设施旁,Activate: teleport to another random facility,アクティブ：もう一つのランダムな施設の傍へ転送する,激活：傳送至另一個隨機設施旁
+没有未激活的设施,没有未激活的设施,All Facilities activated.,アクティブされていない施設はありません,沒有未激活的設施
+已激活，离开,已激活，离开,Activated. Leave.,アクティブ済、離れる,已激活，離開
+,,,,
+远古遗迹,远古遗迹,Ancient Ruins,古代遺跡,遠古遺跡
+只有收集金色地牢之匙 才可进入,只有收集金色地牢之匙 才可进入,Collect the Golden Key to enter,黄金の鍵でのみ入れます,只有收集金色地牢之匙 才可進入
+通关难度4,通关难度4,Clear Difficulty 4,難易度4をクリア,通關難度4
+通关难度5开启,通关难度5开启,Available at Clearance Difficulty 5,難易度5をクリアすると解放,通關難度5開啟
+只有收集3把黄金钥匙，才能打开远古遗迹,只有收集3把黄金钥匙，才能打开远古遗迹,Collect 3 Golden Keys to enter the Ancient Ruins,黄金の鍵を3つ集めると、古代遺跡をアンロックできます,只有收集3把黃金鑰匙，才能打開遠古遺跡
+消耗了3把黄金钥匙，打开了遗迹的大门,消耗了3把黄金钥匙，打开了遗迹的大门,"Consumed 3 Golden Keys, and opened the gate to the Ancient Ruins",,消耗了3把黃金鑰匙，打開了遺跡的大門
+进入,进入,Enter,入る,進入
+,,,,
+地牢,地牢,Dungeon,地下牢,地牢
+洞穴,洞穴,Cave,洞穴,洞穴
+遗迹,遗迹,Ruins,遺跡,遺跡
+,,,,
+铁匠,铁匠,Blacksmith,鍛冶屋,鐵匠
+合成装备，升级装备,合成装备，升级装备,"Craft Equipment, Upgrade Equipment",装備を合成し、レベルアップ！,合成裝備，升級裝備
+合成装备 | 剩余%d次,合成装备 | 剩余%d次,Craft Equipment | %d Chance(s) Left,装備合成｜残り%d回,合成裝備 | 剩余%d次
+升级装备（需要宝石）,升级装备（需要宝石）,Upgrade Equipment (require Gems),装備強化（宝石が必要）,升級裝備（需要寶石）
+重新随机一个装备的词条,重新随机一个装备的词条,"Regenerate a new special effect for one designated piece of equipment ",装備のステータスをランダムで1つリセット,重新隨機一個裝備的詞條
+离开,离开,Leave,離れる,離開
+次数 不足,次数 不足,Insufficient Chances,回数 不足,次數 不足
+3合1升1级，相同类型得相同，不同则为随机,3合1升1级，相同类型得相同，不同则为随机,"Level up equipment by combining 3 identical pieces. If the pieces are different, the resulting upgrade will be randomized.",3つを合成するとレベルが1上がる。同類の場合同じものを得る、非同類の場合はランダムで獲得する,3合1升1級，相同類型得相同，不同則為隨機
+选择一个装备,选择一个装备,Select 1 piece of equipment,装備を1つ選ぶ,選擇一個裝備
+选择一颗比装备高一级的宝石,选择一颗比装备高一级的宝石,Select a gem that is 1 level higher than the equipment,装備よりレベルが1高い宝石を選んでください,選擇一顆比裝備高一級的寶石
+宝石必须比装备高一级,宝石必须比装备高一级,The gem must be 1 level higher than the equipment,宝石は装備より1レベル上でなければなりません,寶石必須比裝備高一級
+支付 %d 金币,支付 %d 金币,Pay %d Coins,金貨を %d 支払う,支付 %d 金幣
+金币 不足,金币 不足,Insufficient Coins,金貨 不足,金幣 不足
+装备等级不一致,装备等级不一致,Mismatched equipment levels.,装備のレベルが一致していません,裝備等級不一致
+,,,,
+提升宝石,提升宝石,Upgrade Gem,宝石を強化,提升寶石
+"将一颗宝石的等级提高1级,最多提升至4级","将一颗宝石的等级提高1级,最多提升至4级",Upgrade a gem by 1 level (4 levels at most),宝石のレベルを1上げる、最大で4レベルまで,"將一顆寶石的等級提高1級,最多提升至4級"
+通关难度5,通关难度5,Clear Difficulty 5,難易度5をクリアする,通關難度5
+选择一颗宝石,选择一颗宝石,Select a gem,宝石を1つ選択,選擇一顆寶石
+放弃,放弃,Give up,諦める,放棄
+成功提升！,成功提升！,Upgrade Succeeded!,強化成功！,成功提升！
+无法提升，必须是小于4级的宝石,无法提升，必须是小于4级的宝石,Cannot upgrade. The gem must be under level 4.,強化できません、レベル4以下の宝石を選んで下さい,無法提升，必須是小於4級的寶石
+,,,,
+黑店,黑店,Black Market,闇商,黑店
+这里可以买到贵重的消耗品,这里可以买到贵重的消耗品,You can purchase valuable consumables here,貴重な消耗品を購入できます,這裏可以買到貴重的消耗品
+通关难度0,通关难度0,Clear Difficulty 0,難易度0をクリアする,通關難度0
+黑店,黑店,Black Market,闇商,黑店
+购买贵重消耗品,购买贵重消耗品,Purchase,貴重な消耗品を購入する,購買貴重消耗品
+,,,,
+交换,交换,Exchange,交換,交換
+将一个装备随机替换成另一个同等级装备,将一个装备随机替换成另一个同等级装备,Randomly replace 1 piece of equipment with another one of the same level,装備を1つランダムな同レベル装備に交換する,將一個裝備隨機替換成另一個同等級裝備
+通关难度2,通关难度2,Clear Difficulty 2,難易度2をクリアする,通關難度2
+选择一个装备,选择一个装备,Select 1 piece of equipment,装備を1つ選択,選擇一個裝備
+,,,,
+祭坛,祭坛,Altar,祭壇,祭壇
+献祭单位，转化魂值，还能获得不死族单位,献祭单位，转化魂值，还能获得不死族单位,Sacrifice a unit in exchange for Essence and gain an Undead unit,ユニットを生贄に捧げ、ソウル値に変換し、更にアンデットユニットを獲得できる,獻祭單位，轉化魂值，還能獲得不死族單位
+通关难度1,通关难度1,Clear Difficulty 1,難易度1をクリアする,通關難度1
+选择一个单位,选择一个单位,Select a unit,ユニットを1つ選択する,選擇一個單位
+离开,离开,Leave,離れる,離開
+献祭的单位，变为一个 %s,献祭的单位，变为一个 %s,The sacrificed unit will become %s,生贄にされるユニットは %sに変わります,獻祭的單位，變為一個 %s
+,,,,
+驱魔联盟,驱魔联盟,Exorcist League,エクソシスト連盟,驅魔聯盟
+这里是驱魔联盟，集结了反抗魔王的英雄,这里是驱魔联盟，集结了反抗魔王的英雄,"This is the Exorcist League, where heroes gather to fight against the Demon Lord",ここはエクソシスト連盟、魔王に抗う勇者が集う場所だ,這裏是驅魔聯盟，集結了反抗魔王的英雄
+通关难度3,通关难度3,Clear Difficulty 3,難易度3をクリアする,通關難度3
+雇佣,雇佣,Recruit,雇用,雇傭
+,,,,
+资源,资源,Resource,資源,資源
+,,,,
+灵魂圣杯,灵魂圣杯,Grial of Soul,霊魂聖杯,靈魂聖杯
+增加一个人口上限,增加一个人口上限,Expand Team Size by 1,人口上限を1上げる,增加一個人口上限
+拿到灵魂圣杯，它使你的 人口上限 +1,拿到灵魂圣杯，它使你的 人口上限 +1,The Grial of Soul will expand your Team Size by 1,霊魂聖杯を獲得すると、人口上限が1上がる,拿到靈魂聖杯，它使你的 人口上限 +1
+,,,,
+初始神徽,初始神徽,Initial Emblem,原初のシンボル,初始神徽
+获得一个神徽！,获得一个神徽！,Obtained 1 Emblem!,シンボルを獲得した！,獲得一個神徽！
+通关难度6,通关难度6,Clear Difficulty 6,難易6をクリアする,通關難度6
+获得一个神徽！,获得一个神徽！,Obtained 1 Emblem!,シンボルを獲得した！,獲得一個神徽！
+,,,,
+圣坛,圣坛,Holy Altar,聖壇,聖壇
+恢复满全队生命值，及领取其他奖励,恢复满全队生命值，及领取其他奖励,Restores full HP for the whole team and grants rewards,パーティのHPを全回復し、他のボーナスを獲得する,恢復滿全隊生命值，及領取其他獎勵
+激活：恢复满全队生命值,激活：恢复满全队生命值,Activate: Restores full HP for the whole team,アクティブ：パーティのHPを全回復する,激活：恢復滿全隊生命值
+已回复生命值,已回复生命值,HP Restored,HPが回復しました,已回復生命值
+,,,,
+竞技场,竞技场,Arena,アリーナ,競技場
+挑战各路豪杰，获得更高奖励。,挑战各路豪杰，获得更高奖励。,Challenge warriors from all over the continent to gain better rewards.,英雄たちに挑戦し、更なるボーナスを獲得せよ！,挑戰各路豪傑，獲得更高獎勵。
+将经历数次战斗，每次胜利都能积累战利品，失败将一无所获，做好准备了吗？,将经历数次战斗，每次胜利都能积累战利品，失败将一无所获，做好准备了吗？,You will go through several battles. Each win will accumulate loot for you and one defeat is what it takes to put your effort in vain. Are you ready?,数回にわたり戦闘を行い、毎回勝利するごとに戦利品が累積されていきます、失敗すると全ての戦利品を失います。準備はよろしいですか？,將經歷數次戰鬥，每次勝利都能積累戰利品，失敗將一無所獲，做好準備了嗎？
+挑战，失败的话累积的战利品清空,挑战，失败的话累积的战利品清空,"Challenge, lose all accumulated loot if you fail",挑戦する、失敗するとストックした戦利品はリセットされます,挑戰，失敗的話累積的戰利品清空
+接受挑战,接受挑战,Accept Challenge,挑戦する,接受挑戰
+消耗了3把黄金钥匙，打开了遗迹的大门,消耗了3把黄金钥匙，打开了遗迹的大门,You used 3 Golden Keys to open the gate to the relic.,黄金の鍵を3つ消費し、遺跡の門を開けた,本次的戰利品
+放弃，并领取积累的战利品,放弃，并领取积累的战利品,"Give up, claim all accumulated loot",諦める、ストックした戦利品を獲得します,放棄，並領取積累的戰利品
+领取如下战利品,领取如下战利品,Loot Claimed,以下の戦利品を獲得,領取如下戰利品
+"完成所有挑战,领取如下战利品","完成所有挑战,领取如下战利品",You have completed all challenges and claim the following loot:,全てのチャレンジをクリアし、以下の戦利品を獲得,"完成所有挑戰,領取如下戰利品"
+胜利！积累了如下战利品,胜利！积累了如下战利品,You won! You have accumulated the following loot:,勝利！以下の戦利品をストックしました,勝利！積累了如下戰利品
+失败！没有拿到任何战利品,失败！没有拿到任何战利品,You lost! You fail to get any loot.,失敗！戦利品を獲得できませんでした,失敗！沒有拿到任何戰利品
+本次的战利品,本次的战利品,Loot Preview,今回の戦利品,本次的戰利品
+,,,,
+向导,向导,Guide,チュートリアル,向導
+接取引导任务！,接取引导任务！,Accept the Instruction Mission!,チュートリアルミッションを受けてください！,接取引導任務！
+打败最高峰的魔王即可获得胜利，在这之前你可以任意探索大陆，积累战力。,打败最高峰的魔王即可获得胜利，在这之前你可以任意探索大陆，积累战力。,"Defeat the Demon Lord on the highest peak of the mountains to obtain victory. Before that, you can explore the continent freely and improve your Battle Power.",最高峰の魔王を倒すことで勝利を獲得します。それまでこの大陸を回り、戦力を蓄えましょう,打敗最高峰的魔王即可獲得勝利，在這之前你可以任意探索大陸，積累戰力。
+请合理的规划路线，在地图中移动和战斗都会使时间流逝，记住，海拔越高怪物越强。,请合理的规划路线，在地图中移动和战斗都会使时间流逝，记住，海拔越高怪物越强。,"Strategize your journey carefully and please keep in mind that every move and battle on the map consumes time. Please note that the higher your altitude, the fiercer the monsters become.",ルートを賢く計画し、マップ内を移動して戦うと。海抜が高ければ高いほど敵は強くなります,請合理的規劃路線，在地圖中移動和戰鬥都會使時間流逝，記住，海拔越高怪物越強。
+现在请选择一个引导任务，完成后可以获得丰厚的奖励！,现在请选择一个引导任务，完成后可以获得丰厚的奖励！,Now please select an Instruction Mission and complete it to obtain abundant rewards!,チュートリアルミッションを選択してください。達成後豪華な報酬を獲得できます！,現在請選擇一個引導任務，完成後可以獲得豐厚的獎勵！
+获得一个[color=#e883f6]史诗[/color]及以上装备,获得一个[color=#e883f6]史诗[/color]及以上装备,Obtain 1 piece of [color=#e883f6]Epic[/color] or higher-quality equipment,[color=#e883f6]エピック[/color]以上の装備を1つ獲得,獲得一個[color=#e883f6]史詩[/color]及以上裝備
+升级或者雇佣一个3级及以上单位,升级或者雇佣一个3级及以上单位,Upgrade or recruit 1 unit of Lv. 3 or above,レベル3またはレベル3以上のユニットを1つレベルアップ若しくは雇用する,升級或者雇傭一個3級及以上單位
+已经接取任务，完成任务再来找我吧,已经接取任务，完成任务再来找我吧,You have accepted the mission. Return to me once it's completed.,すでにミッションを受けています。達成してからもう一度来てください,已經接取任務，完成任務再來找我吧
+干的不错，选择奖励,干的不错，选择奖励,Nice job. Now choose your reward.,素晴らしいです！報酬を選びましょう！,幹的不錯，選擇獎勵
+完成任务再来找我吧,完成任务再来找我吧,Return to me once the mission is completed.,ミッションを達成してからまた来てください！,完成任務再來找我吧
+,,,,
+城镇,城镇,City,街,城鎮
+"休息治疗,雇佣单位,购买物品等等","休息治疗,雇佣单位,购买物品等等","Rest and heal, recruit units, purchase items, etc.",休憩、治療、ユニットの雇用、必需品の購入など,"休息治療,雇傭單位,購買物品等等"
+,,,,
+村庄,村庄,Village,村,村莊
+小镇,小镇,Town,町,小鎮
+城堡,城堡,Castle,城,城堡
+休息,休息,Rest,休憩,休息
+市场,市场,Market,市場,市場
+离开,离开,Leave,離れる,離開
+部队在城镇休息了%d个小时，回复满了生命值！,部队在城镇休息了%d个小时，回复满了生命值！,"Your team has rested in the city for %d hours, and their HP has been fully restored!",部隊が街で%d時間休憩をとったため、HPが全回復しました,部隊在城鎮休息了%d個小時，回復滿了生命值！
+,,,,
+奇遇,奇遇,Special Encounter,奇遇,奇遇
+每过3天你会遇到一次奇遇,每过3天你会遇到一次奇遇,You will have a Special Encounter every 3 days,3日置きに1回奇遇に遭遇できます,每過3天你會遇到一次奇遇
+,,,,
+------------,------------,------------,------------,------------
+,,,,
+你愿意花费什么，获得一个遗物？,你愿意花费什么，获得一个遗物？,What would you exchange for an Emblem?,何を消費して遺物を1つ手に入れますか？,你願意花費什麽，獲得一個遺物？
+魂值 不足,魂值 不足,Insufficient Essence,ソウル値　不足,魂值 不足
+%d 金币,%d 金币,%d Coins,%d 金貨,%d 金幣
+%d 魂,%d 魂,%d Essence,%d ソウル,%d 魂
+,,,,
+消耗 %d 金币 换取 %d点魂,消耗 %d 金币 换取 %d点魂,Consume %d Coin(s) to gain %d Essence,%d 金貨を消費し%d のソウルと交換する,消耗 %d 金幣 換取 %d點魂
+确定,确定,Confirm,決定,確定
+,,,,
+%d 金币 获得 2个%d级随机道具,%d 金币 获得 2个%d级随机道具,Consume %d Coins to gain 2 random Lv. %d Items,%d 金貨で %d品質のランダムなアイテムを2つ獲得できます,%d 金幣 獲得 2個%d級隨機道具
+,,,,
+花%d 金币 赌一把？,花%d 金币 赌一把？,Spend %d Coins and try your luck?,%d 金貨で賭けてみますか？,花%d 金幣 賭一把？
+%d%% 获得 %dG,%d%% 获得 %dG,You have %d%% chance to gain %d Coins,%d%%の確率で %dG を獲得,%d%% 獲得 %dG
+获得%dG,获得%dG,Gain %d Coin(s),%dGを獲得,獲得%dG
+失败,失败,Failure,失敗,失敗
+,,,,
+战斗,战斗,Battle,戦闘,戰鬥
+,,,,
+获得 %d 金币,获得 %d 金币,Obtain %d Coin(s),%d の金貨を獲得,獲得 %d 金幣
+获得1件随机传奇装备,获得1件随机传奇装备,Obtain 1 random piece of Legendary Equipment,ランダムなレジェンド装備を1つ獲得,獲得1件隨機傳奇裝備
+,,,,
+全队损失20%生命值，获得1个传奇装备,全队损失20%生命值，获得1个传奇装备,All units on your team lose 20% HP and you gain 1 piece of Legendary Equipment,パーティ全員がHPを20％損失し、レジェンド装備を1つ獲得する,全隊損失20%生命值，獲得1個傳奇裝備
+获得 %d 金币，但损失 %d 的魂,获得 %d 金币，但损失 %d 的魂,Gain %d Coin(s) but lose %d Essence," %d の金貨を獲得するが、 ソウルを %d を損失する",獲得 %d 金幣，但損失 %d 的魂
+,,,,
+二选一,二选一,Choose One,2択,二選一
+,,,,
+获得1个随机装备,获得1个随机装备,Obtain 1 random piece of Equipment,ランダムな装備を1つ獲得,獲得1個隨機裝備
+获得2个随机宝石,获得2个随机宝石,Obtain 2 random Gems,ランダムな宝石を2つ獲得する,獲得2個隨機寶石
+,,,,
+减少1点瘴气,减少1点瘴气,Reduce the Miasma by 1 level,瘴気を1減少させる,減少1點瘴氣
+时间推进6小时，获得1个遗物,时间推进6小时，获得1个遗物,Time advances by 6 hours and you gain 1 Emblem,時間が6時間進み、遺物を1つ獲得する,時間推進6小時，獲得1個遺物
+,,,,
+获得 %d 魂,获得 %d 魂,Obtain %d Essence,%d のソウルを獲得,獲得 %d 魂
+获得 %d 魂，但损失 %d 的晶石,获得 %d 魂，但损失 %d 的晶石,Gain %d Essence but lose %d Crystal(s)," %d のソウルを獲得するが、晶石を %d 損失する",獲得 %d 魂，但損失 %d 的晶石
+,,,,
+获得 2个随机道具,获得 2个随机道具,Gain 2 random items,ランダムで2つのアイテムを獲得する,獲得 2個隨機道具
+,,,,
+低价售卖的宝石,低价售卖的宝石,Gems at low price,低価販売の宝石,低價售賣的寶石
+,,,,
+花%d 魂 赌一把？,花%d 魂 赌一把？,Spend %d Essence and try your luck?,%d ソウルで賭けてみますか？,花%d 魂 賭一把？
+%d%% 获得 %d魂,%d%% 获得 %d魂,You have %d%% chance to gain %d Essence,%d%%の確率で ソウルを %d獲得,%d%% 獲得 %d魂
+获得%d魂,获得%d魂,Gain %d Essence,ソウルを%d獲得,獲得%d魂
+魂 不足,魂 不足,Insufficient Essence,ソウル 不足,魂 不足
+,,,,
+低价售卖的消耗品,低价售卖的消耗品,Consumables at low price,低価販売の消耗品,低價售賣的消耗品
+,,,,
+谜团,谜团,Mystery,謎,謎團
+海上的谜团,海上的谜团,Mystery at sea,海の謎,海上的謎團
+你要挑战谁？,你要挑战谁？,Who would you like to challenge?,誰に挑戦しますか？,你要挑戰誰？
+胜利，获得奖励。,胜利，获得奖励。,You won! Claim rewards,勝利、ボーナス獲得,勝利，獲得獎勵。
+招募了 %s,招募了 %s,You recruited %s," %sを招集した",招募了 %s
+,,,,
+战争学院,战争学院,Battle Academia,戦争学院,戰爭學院
+使你一个角色掌握一个其他职业的技能,使你一个角色掌握一个其他职业的技能,Allows one of your units to master a skill from another class,味方ユニット一体が他の職業スキルを1つ習得する,使你一個角色掌握一個其他職業的技能
+无法学习自身职业的技能,无法学习自身职业的技能,Cannot learn skills from the original class,自身の職業スキルは習得できない,無法學習自身職業的技能
+学会了,学会了,Learned,習得完了,學會了
+已经学过别的技能,已经学过别的技能,Another skill has already been learned,他のスキルを習得しました,已經學過別的技能
+,,,,
+肉体改造,肉体改造,Physical Transformation,肉体改造,肉體改造
+使你一个角色掌握一个其他角色的专属技能,使你一个角色掌握一个其他角色的专属技能,Allows one of your units to master a skill from another unit,1人のキャラクターに別のキャラクターの専属スキルを身につける,使你一個角色掌握一個其他角色的專屬技能
+无法学习已有的技能,无法学习已有的技能,Cannot learn existing skills,既存のスキルを習得できません,無法學習已有的技能
+,,,,
+,,,,
+遗忘之泉,遗忘之泉,Spring of Oblivion,忘却の泉,遺忘之泉
+花费 %d 金币,花费 %d 金币,Spend %d Coins,コスト %d ゴールド,
+使你的一个单位遗忘所有回到1级，返还魂值,使你的一个单位遗忘所有回到1级，返还魂值,Allows one of your characters to forget everything and return to Level 1. Essence spent will be refunded.,味方のユニット1体が全てを忘却し、レベル1に戻る、ソウル値は返却される,使你的一個單位遺忘所有回到1級，返還魂值
+金币 不足,金币 不足,Insufficient Coins,金貨 不足,金幣 不足
+%s 已经遗忘所学技能,%s 已经遗忘所学技能,%s has forgotten all the acquired skills.,%s はすべてのスキルを忘れた,%s 已經遺忘所學技能
+,,,,
+晶石交换,晶石交换,Crystal Exchange,晶石交換,晶石交換
+用晶石换取金币或魂,用晶石换取金币或魂,Exchange Crystals for Coins or Essence,晶石を使用し金貨若しくはソウルと交換する,用晶石換取金幣或魂
+你想用%d晶石换取什么？,你想用%d晶石换取什么？,What would you like to get with %d Crystals?,晶石を%d使用し何と交換しますか？,你想用%d晶石換取什麽？
+,,,,
+智者点拨,智者点拨,Inspiration from Seniors,賢者の助言,智者點撥
+使你的一个单位获得2点技能点,使你的一个单位获得2点技能点,Grants 2 Skill Points to 1 of your units.,味方ユニット1体のスキルポイントを2増加する,使你的一個單位獲得2點技能點
+%s 获得了%d个技能点,%s 获得了%d个技能点,%s gained %d Skill Point(s),%s はスキルポイントを%d獲得した,%s 獲得了%d個技能點
+花费 %d 金币 点拨一个单位,花费 %d 金币 点拨一个单位,Spend %d Coin(s) to inspire a unit,金貨を %d消費し、ユニット1体に助言を与える,花費 %d 金幣 點撥一個單位
+,,,,
+地牢佣兵,地牢佣兵,Dungeon Mercenary,地下牢の傭兵,地牢傭兵
+这是些在阴暗地牢里的狠角，可以雇佣他们。,这是些在阴暗地牢里的狠角，可以雇佣他们。,"These are fierce characters lurking in the dark dungeons, available for hire.",地下牢に存在する曲者たち、雇用することができる,這是些在陰暗地牢裏的狠角，可以雇傭他們。
+移除该设施,移除该设施,Remove this facility,この施設を除去する,移除該設施
+,,,,
+先知之眼,先知之眼,Eye of the Prophet,預言者の目,先知之眼
+学习技能时可选项+1,学习技能时可选项+1,Available option +1 when learning skills,オプション+1はスキルを学ぶときに利用可能です,學習技能時可選項+1
+,,,,
+通关难度7,通关难度7,Clear Difficulty 7,難易7をクリアする,通關難度7
+通关难度8,通关难度8,Clear Difficulty 8,難易8をクリアする,通關難度8
+通关难度9,通关难度9,Clear Difficulty 9,難易9をクリアする,通關難度9
+,,,,
+只有本地牢的幽暗值达到%d层才可挑战,只有本地牢的幽暗值达到%d层才可挑战,Reach Gloom of %d to challenge,幽暗値が%d層になることで挑戦可能,只有本地牢的幽暗值達到%d層才可挑戰

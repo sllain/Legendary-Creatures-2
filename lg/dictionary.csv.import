@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://lg/dictionary.zh_CN.translation", "res://lg/dictionary.en.translation", "res://lg/dictionary.ja.translation", "res://lg/dictionary.zh_HK.translation" ]
+
+source_file="res://lg/dictionary.csv"
+dest_files=[ "res://lg/dictionary.zh_CN.translation", "res://lg/dictionary.en.translation", "res://lg/dictionary.ja.translation", "res://lg/dictionary.zh_HK.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

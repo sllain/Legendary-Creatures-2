@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tile.mp3-915d13cab909d182c43b8e6fc3fd4f56.mp3str"
+
+[deps]
+
+source_file="res://res/bgm/tile.mp3"
+dest_files=[ "res://.import/tile.mp3-915d13cab909d182c43b8e6fc3fd4f56.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

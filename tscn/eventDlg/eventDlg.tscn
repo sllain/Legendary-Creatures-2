@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://res/Gui/UiElements/Char_Creation_main_window2.png" type="Texture" id=1]
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=2]
+[ext_resource path="res://res/Gui/UiElements/NoColb_HPMP_frame.png" type="Texture" id=3]
+[ext_resource path="res://tscn/eventDlg/eventDlg.gd" type="Script" id=4]
+
+[node name="baseDlg" instance=ExtResource( 2 )]
+margin_left = -406.0
+margin_top = -173.0
+margin_right = 406.0
+margin_bottom = 173.0
+popup_exclusive = true
+script = ExtResource( 4 )
+
+[node name="bg" parent="." index="0"]
+texture = ExtResource( 1 )
+patch_margin_left = 87
+patch_margin_right = 87
+
+[node name="NinePatchRect" parent="bg" index="0"]
+margin_left = -208.0
+margin_top = -8.0
+margin_right = 207.0
+margin_bottom = 29.0
+texture = ExtResource( 3 )
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+visible = false
+text = "事件"
+
+[node name="closeBtn" parent="bg" index="1"]
+visible = false
+margin_left = -43.0
+margin_top = 14.0
+margin_right = -3.0
+margin_bottom = 54.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." index="1"]
+margin_left = 25.0
+margin_top = 32.0
+margin_right = 788.0
+margin_bottom = 331.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer" index="0"]

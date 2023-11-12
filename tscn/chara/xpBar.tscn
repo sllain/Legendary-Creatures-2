@@ -1,0 +1,109 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://tscn/chara/xpBar.gd" type="Script" id=1]
+[ext_resource path="res://tscn/chara/ui.png" type="Texture" id=2]
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("hp/val:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 0.713726, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=1]
+resource_name = "l"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("hp/val:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 0.470588, 0, 1 ), Color( 1, 0.760784, 0, 1 ), Color( 1, 0.470588, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "n"
+tracks/0/type = "value"
+tracks/0/path = NodePath("hp/val:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 0.470588, 0, 1 ) ]
+}
+
+[node name="xpBar" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="hp" type="Node2D" parent="."]
+
+[node name="bg" type="Sprite" parent="hp"]
+modulate = Color( 0.164706, 0.164706, 0.164706, 0.784314 )
+light_mask = 0
+position = Vector2( -17, -3 )
+texture = ExtResource( 2 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 13, 60, 34, 5 )
+
+[node name="val2" type="Sprite" parent="hp"]
+modulate = Color( 1, 0.760784, 0, 1 )
+light_mask = 0
+position = Vector2( -17, -3 )
+texture = ExtResource( 2 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 13, 60, 34, 5 )
+
+[node name="val" type="Sprite" parent="hp"]
+modulate = Color( 1, 0.713726, 0, 1 )
+light_mask = 0
+position = Vector2( -17, -3 )
+texture = ExtResource( 2 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 13, 60, 34, 5 )
+
+[node name="k" type="Sprite" parent="hp"]
+modulate = Color( 0, 0, 0, 0.243137 )
+light_mask = 0
+position = Vector2( -17, -3 )
+texture = ExtResource( 2 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 13, 50, 34, 5 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="hp"]
+root_node = NodePath("../..")
+playback_speed = 3.0
+anims/RESET = SubResource( 2 )
+anims/l = SubResource( 1 )
+anims/n = SubResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = -17.0
+margin_top = -6.0
+margin_right = 51.0
+margin_bottom = 16.0
+rect_scale = Vector2( 0.5, 0.5 )
+text = "+10"
+align = 1

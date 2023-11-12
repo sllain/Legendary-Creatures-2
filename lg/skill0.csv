@@ -1,0 +1,148 @@
+,zh_CN,en,ja,zh_HK
+横扫,横扫,Swipe,横薙ぎ,橫掃
+对周围1格造成%d%%物理伤害，附加%d层流血,对周围1格造成%d%%物理伤害，附加%d层流血,"Deals %d%% Physical DMG to enemies within a radius of 1 tile around, inflicting %d stack(s) of Hemorrhaged",周囲1マスに%d%%の物理ダメージを与え、%d層の出血を付与する。,對周圍1格造成%d%%物理傷害，附加%d層流血
+碎星一击,碎星一击,Starbreaker,星砕けの一撃,碎星一擊
+对目标1格造成%d%%的物理伤害，附加10%%目标最大生命值的物理伤害，%d层流血,对目标1格造成%d%%的物理伤害，附加10%%目标最大生命值的物理伤害，%d层流血,"Deals %d%% Physical DMG to the target tile and extra Physical DMG that equals 10%% of the target's Max HP, inflicting %d stack(s) of Hemorrhaged",攻撃対象1マス範囲内に対し%d%%の物理ダメージを与え、対象の最大HP10%%の物理ダメージを追加で与え、%d層の出血を付与する。,對目標1格造成%d%%的物理傷害，附加10%%目標最大生命值的物理傷害，%d層流血
+分裂,分裂,Division,分裂,分裂
+每承受%d%%的生命值的伤害分裂一个自身，分身减少%d%% 的增伤和减伤，最多分裂%d次,每承受%d%%的生命值的伤害分裂一个自身，分身减少%d%% 的增伤和减伤，最多分裂%d次,"For every time when taking damage equals to %d%% of the Max HP, one splits itself, and the avatar has %d%% less DMG Boost and DMG Reduction, up to %d time(s)",体力の%d%%が受けるダメージごとに、1つが分裂し、アバターは%d%%のダメージの増減を最大%d倍まで減らします,每承受%d%%的生命值的傷害分裂一個自身，分身減少%d%% 的增傷和減傷，最多分裂%d次
+鲁莽挥击,鲁莽挥击,Reckless Strike,無謀な連撃,魯莽揮擊
+造成3次%d%%的物理伤害，暴击率能够提高挥击次数,造成3次%d%%的物理伤害，暴击率能够提高挥击次数,Deals %d%% Physical DMG three times; a higher Crit Rate allows more strikes,%d%%の物理ダメージを3回与える。会心率により、攻撃回数が増加する,造成3次%d%%的物理傷害，暴擊率能夠提高揮擊次數
+怒放挥击,怒放挥击,Bloom of Rage,怒涛の一撃,怒放揮擊
+对目标1格敌人造成%d%%的伤害，每损失10%%的生命值伤害提高10%%,对目标1格敌人造成%d%%的伤害，每损失10%%的生命值伤害提高10%%,"Deals %d%% DMG to the target tile, for every 10%% HP lost, the DMG increases by 10%%",攻撃対象1マス範囲内の敵に対し%d%%のダメージを与え、HPが10%%減少する度にダメージが10%%増加する。,對目標1格敵人造成%d%%的傷害，每損失10%%的生命值傷害提高10%%
+撕咬,撕咬,Bite,かみ砕く,撕咬
+造成%d%%物理伤害，治疗%d%%物理攻击的生命值，每损失10%%生命值，治疗量提高10%%,造成%d%%物理伤害，治疗%d%%物理攻击的生命值，每损失10%%生命值，治疗量提高10%%,"Deals %d%% Physical DMG, restoring HP by %d%% of the Physical Attack; for every 10%% HP lost, the Healing Received increases by 10%%",%d%%の物理ダメージを与え、自身のHPを物理攻撃力の%d%%分治療する。HPが10%%減少する度に、治療量が10%%増加する。,造成%d%%物理傷害，治療%d%%物理攻擊的生命值，每損失10%%生命值，治療量提高10%%
+扫堂腿,扫堂腿,Swirling Kick,足払い,掃堂腿
+对周围1格造成%d%%的物理伤害，每命中一名敌人获得%d层 狂怒和抵御,对周围1格造成%d%%的物理伤害，每命中一名敌人获得%d层 狂怒和抵御,Deals %d%% Physical DMG to enemies within the radius of 1 tile around and gains %d stack(s) of Berserked and Armored for each enemy hit,周囲1マスに対して%d%%の物理ダメージを与える。敵1体に命中する毎に、%d層の激怒と守護を獲得する,對周圍1格造成%d%%的物理傷害，每命中一名敵人獲得%d層 狂怒和抵禦
+烈焰连打,烈焰连打,Infernal Combo,炎の連撃,烈焰連打
+普通攻击%d%%的几率附加%d层烧灼，并且获得%d层狂怒和急速,普通攻击%d%%的几率附加%d层烧灼，并且获得%d层狂怒和急速,Normal Attack has a %d%% chance to inflict %d stack(s) of Burning and grant %d stack(s) of Berserked and Hasted,通常攻撃に%d%%の確率で%d層の火傷を付与し、%d層の激怒と急速を獲得する,普通攻擊%d%%的幾率附加%d層燒灼，並且獲得%d層狂怒和急速
+罡气崩拳,罡气崩拳,Blasting Fist,北斗の崩拳,罡氣崩拳
+消除自身增益状态，对目标1格敌人造成%d%%的物理攻击的真实伤害，每5层增益状态，使该伤害提高%d%%,消除自身增益状态，对目标1格敌人造成%d%%的物理攻击的真实伤害，每5层增益状态，使该伤害提高%d%%,"Removes all current buffs and deals %d%% True Damage to the enemies of the target tile and within the radius of 1 tile around. For every 5 stacks of buffs you have, the damage increases by %d%%",自身のバフ状態を解除し、目標と周囲1マスの敵に%d%%物理攻撃力分の固定ダメージを与える、解除したバフが5層毎にこのダメージを%d%%増加する,消除自身增益狀態，對目標1格敵人造成%d%%的物理攻擊的真實傷害，每5層增益狀態，使該傷害提高%d%%
+,,,,
+精装弓矢,精装弓矢,Exquisite Bow,精製の弓矢,精裝弓矢
+获得%d%%暴击率，暴击时获得%d层急速,获得%d%%暴击率，暴击时获得%d层急速,Gains %d%% Crit rate. And gains %d stack(s) of Hasted when dealing Crit DMG.,会心率を%d%%獲得、会心時で急速を%d層獲得する。,獲得%d%%暴擊率，暴擊時獲得%d層急速
+冲击矢,冲击矢,Shock Arrow,衝撃矢,沖擊矢
+"获得%d%%暴击率,暴击时附加%d层破甲","获得%d%%暴击率,暴击时附加%d层破甲",Gains a %d%% Crit Rate and inflicts %d stack(s) of Pierced when dealing Crit DMG,会心率を%d%%獲得、会心時%d層の破甲を付与する。,"獲得%d%%暴擊率,暴擊時附加%d層破甲"
+精弩,精弩,Exquisite Crossbow,精製弩,精弩
+普通攻击%d%%的几率获得5层急速,普通攻击%d%%的几率获得5层急速,Normal Attack has a %d%% chance to gain 5 stack(s) of Hasted,通常攻撃をする際、%d%%の確率で急速を5層獲得する。,普通攻擊%d%%的幾率獲得5層急速
+股针,股针,Needlework,尻針,股針
+普通攻击%d%%的几率附加5层中毒,普通攻击%d%%的几率附加5层中毒,Normal Attack has a %d%% chance to inflict 5 stack(s) of Poisoned,通常攻撃をする際、%d%%の確率で毒を5層付与する。,普通攻擊%d%%的幾率附加5層中毒
+快速上膛,快速上膛,Quick Loading,クイックリロード,快速上膛
+"获得%d%%暴击率,暴击时减少%d%%所有技能冷却","获得%d%%暴击率,暴击时减少%d%%所有技能冷却",Gains a %d%% Crit Rate and reduces %d%% CD of all skills when dealing Crit DMG,%d%%の会心率を獲得、会心時全てのスキルのCDを%d%%減少する。,"獲得%d%%暴擊率,暴擊時減少%d%%所有技能冷卻"
+超声波,超声波,Ultrasound,超音波,超聲波
+对目标造成%d次%d%%的物理伤害触发攻击特效，攻速会提高施放速度,对目标造成%d次%d%%的物理伤害触发攻击特效，攻速会提高施放速度,"Deals %d-time %d%% Physical Damage, triggering on-hit effects. A higher Attack Speed increases Casting Speed",目標に%d回%d%%の物理ダメージを与え、攻撃効果を発動する。攻撃速度はこの攻撃の発動速度を影響する,對目標造成%d次%d%%的物理傷害觸發攻擊特效，攻速會提高施放速度
+陷阱守卫,陷阱守卫,Snaring Guard,トラップセントリー,陷阱守衛
+无法移动，但获得 %d射程，%d%%减伤，%d%%攻速,无法移动，但获得 %d射程，%d%%减伤，%d%%攻速,"The unit cannot move, but Attack Range increases by %d, DMG Reduction by %d%%, and Attack Speed by %d%%",移動ができない代わりに、 %dの射程、%d%%の被ダメージ軽減、%d%%の攻撃速度を獲得,無法移動，但獲得 %d射程，%d%%減傷，%d%%攻速
+,,,,
+盾击,盾击,Shield Bash,盾攻撃,盾擊
+普通攻击时获得%d%%最大生命值的护盾，并附加自身%d%%护盾值的物理伤害,普通攻击时获得%d%%最大生命值的护盾，并附加自身%d%%护盾值的物理伤害,Normal Attack will grant the unit a shield and its strength equals %d%% of their Max HP; deals extra Physical DMG that equals %d%% of the shield strength,通常攻撃時自身の最大HP%d%%分の盾を獲得し、盾値の%d%%分の物理ダメージを追加で与える。,普通攻擊時獲得%d%%最大生命值的護盾，並附加自身%d%%護盾值的物理傷害
+芒硝护盾,芒硝护盾,Spreading Shield,大いなる盾,芒硝護盾
+获得护盾时也会获得一半的治疗效果，且战斗开始时，获得%d%%最大生命值的护盾,获得护盾时也会获得一半的治疗效果，且战斗开始时，获得%d%%最大生命值的护盾,"When gaining a shield, also restores HP that equals half of the Shield Strength; when a battle starts, gains a shield with strength equals to %d%% of the Max HP",盾を獲得すると同時にその半分の治療も獲得する、更に戦闘開始時、最大HP%d%%分の盾を獲得する,獲得護盾時也會獲得壹半的治療效果，且戰鬥開始時，獲得%d%%最大生命值的護盾
+冰之甲,冰之甲,Ice Armor,氷の鎧,冰之甲
+免疫结霜，获得%d%%的物理防御；受到普攻时，30%%概率对攻击者施加%d层结霜，且自身获得%d层抵御,免疫结霜，获得%d%%的物理防御；受到普攻时，30%%概率对攻击者施加%d层结霜，且自身获得%d层抵御,"Becomes immune to Frozen and the Physical Defense increases by %d%%; when taking Normal Attack DMG, has a 30%% chance to inflict %d stack(s) of Frozen on the attacker, and gains %d stack(s) of Armored",霜降を無効化し、物理防御力が%d%%増加する；通常攻撃を受けた際、30%%の確率で相手に%d層の霜降を付与し、更に自身が守護を%d層獲得する,免疫結霜，獲得%d%%的物理防禦；受到普攻時，30%%概率對攻擊者施加%d層結霜，且自身獲得%d層抵禦
+炎之甲,炎之甲,Fire Armor,炎の鎧,炎之甲
+免疫烧灼，获得%d%%的魔法物理防御；受到技能伤害时，对攻击者施加%d层烧灼，自身获得%d层抵御,免疫烧灼，获得%d%%的魔法物理防御；受到技能伤害时，对攻击者施加%d层烧灼，自身获得%d层抵御,"Becomes immune to Burning and the Magic Defense increases by %d%%; when taking Skill Damage, inflicts %d stack(s) of Burning on the attacker and gains %d stack(s) of Armored",火傷を無効化し、魔法防御力が%d%%増加する；スキルダメージを受けた際、相手に%d層の火傷を付与し、更に自身が守護を%d層獲得する,免疫燒灼，獲得%d%%的魔法物理防禦；受到技能傷害時，對攻擊者施加%d層燒灼，自身獲得%d層抵禦
+食腐,食腐,Scavenger,グール,食腐
+每有单位死亡，回复%d%%生命值,每有单位死亡，回复%d%%生命值,"Whenever a unit dies, restores %d%% HP",ユニットが倒される度に、%d%%のHPを回復する。,每有單位死亡，回複%d%%生命值
+黏糊身躯,黏糊身躯,Slimy Body,粘液体質,黏糊身軀
+"被附加烧灼，中毒时,免疫 并有%d%%的几率回复%d%%的生命值","被附加烧灼，中毒时,免疫 并有%d%%的几率回复%d%%的生命值","Immune to Burning and Poisoned. And when inflicted with these two effects, has a %d%% chance to restore %d%% HP",火傷、毒を付与された際それを無効化し、更に%d%%の確率でHPを%d%%回復する,"被附加燒灼，中毒時,免疫 並有%d%%的幾率回複%d%%的生命值"
+电磁力场,电磁力场,Electromagnetic Field,電磁場,電磁力場
+减少%d%%周围1格敌人对你的伤害，并且他们对你的普通攻击%d%%的几率使他们附着%d层麻痹,减少%d%%周围1格敌人对你的伤害，并且他们对你的普通攻击%d%%的几率使他们附着%d层麻痹,"Reduces %d%% damage from enemies within the radius of 1 tile around, and their Normal Attacks have a %d%% chance to inflict themselves with %d stack(s) of Paralyzed.",周囲1マス内の敵によるダメージを%d%%減少し、通常攻撃を受けた際、%d%%の確率で%d層の麻痺を付与する,減少%d%%周圍1格敵人對妳的傷害，並且他們對妳的普通攻擊%d%%的幾率使他們附著%d層麻痹
+高压激荡,高压激荡,High Voltage,高圧の振動,高壓激蕩
++%d%%对技能的减伤，并且受到技能伤害时%d%%的几率对周围一格单位造成%d%%的物理伤害附加%d层麻痹,+%d%%对技能的减伤，并且受到技能伤害时%d%%的几率对周围一格单位造成%d%%的物理伤害附加%d层麻痹,"Increases %d%% Skill DMG Reduction, has a %d%% chance to deal %d%% Physical DMG to enemies within the radius of 1 tile, inflicting %d stack(s) of Paralyzed",スキルに対する被ダメージ軽減を%d%%増加し、スキルダメージを受けた際%d%%の確率で周囲1マスのユニットに%d%%の物理ダメージを与え、%d層の麻痺を付与する,+%d%%對技能的減傷，並且受到技能傷害時%d%%的幾率對周圍壹格單位造成%d%%的物理傷害附加%d層麻痹
+,,,,
+奇袭,奇袭,Surprise Attack,奇襲,奇襲
+开场时闪现至敌方后排，获得%d层急速和狂怒，且前2次攻击必定造成暴击,开场时闪现至敌方后排，获得%d层急速和狂怒，且前2次攻击必定造成暴击,"When the battle starts, flashes to the back row of the enemy team and gains %d stack(s) of Hasted and Berserked; the first 2 attacks always Crit",戦闘開始時、敵後列に瞬間移動する。%d層の急速と激怒を獲得し、2回目までの攻撃は確定会心となる。,開場時閃現至敵方後排，獲得%d層急速和狂怒，且前2次攻擊必定造成暴擊
+斩杀,斩杀,Execute,止めの一撃,斬殺
+任意伤害秒杀生命值低于%d%%的敌人，并闪现至另一个血量最低敌方旁,任意伤害秒杀生命值低于%d%%的敌人，并闪现至另一个血量最低敌方旁,"The unit executes enemy with less than %d%% HP, regardless of their attack types or damage dealt; flashes to another enemy with the lowest HP.",任意の傷害にてHPが%d%%以下の敵を即死させ、そして敵の最もHPが低いユニットの傍に瞬間移動する,普通攻擊秒殺生命值低於%d%%的敵人，並閃現至另一個血量最低敵方旁
+利爪,利爪,Clawwork,鋭爪,利爪
+普通攻击%d%%的几率附加5层流血和中毒,普通攻击%d%%的几率附加5层流血和中毒,Normal Attack has a %d%% chance to inflict 5 stack(s) of Hemorrhaged and Poisoned,通常攻撃をする際、%d%%の確率で出血と毒を5層付与する。,普通攻擊%d%%的幾率附加5層流血和中毒
+凿击,凿击,Chisel,鑿,
+造成%d%%的物理伤害附加%d层中毒和流血,造成%d%%的物理伤害附加%d层中毒和流血,Deals %d%% physical damage and inflicts %d stack(s) Hemorrhaged and Poisoned,%d%% の物理的ダメージとで出血と毒を%d層付与する,
+无极剑道,无极剑道,Wuju Swordsmanship,無極剣術,無極劍道
+闪现敌方后排，普攻永久附带%d%%攻击力的真实伤害,闪现敌方后排，普攻永久附带%d%%攻击力的真实伤害,Flashes to the back row of the enemy team and Normal Attack always deals extra True DMG that equals to %d%% Physical Attack,敵後列に瞬間移動する。通常攻撃に攻撃力%d%%分の固定ダメージを付与する。,閃現敵方後排，普攻永久附帶%d%%攻擊力的真實傷害
+出其不意,出其不意,Invisible Threat,不意を突く,出其不意
+闪现敌方后排，并且获得%d层隐身,闪现敌方后排，并且获得%d层隐身,Flashes to the back row of the enemy team and gains %d stack(s) of Invisible,敵の後ろに瞬間移動し、%d層のインビジブルを獲得する,閃現敵方後排，並且獲得%d層隱身
+攻其不备,攻其不备,Deadly Lurker,不備を攻め,攻其不備
+闪现至血量最低的敌人旁，造成%d%%的物理伤害，获得%d层隐身，且每5层隐身使该伤害提高%d%%,闪现至血量最低的敌人旁，造成%d%%的物理伤害，获得%d层隐身，且每5层隐身使该伤害提高%d%%,"Flashes to the enemy with the lowest HP, dealing %d%% Physical DMG and gains %d stack(s) of Invisible; this damage increases by %d%% for every 5 stacks of Invisible gained",最もHPが低い敵の傍に瞬間移動し、%d%%の物理ダメージを与える、%d層のインビジブルを獲得。このダメージはインビジブルが5層毎に%d%%上昇する,閃現至血量最低的敵人旁，造成%d%%的物理傷害，獲得%d層隱身，且每5層隱身使該傷害提高%d%%
+兵行诡道,兵行诡道,Art of Assassination,兵は詭道なり,兵行詭道
+施放主动技能时获得%d层隐身，普通攻击减少一半隐身层数，每5层隐身使该次攻击额外造成%d%%的物理伤害,施放主动技能时获得%d层隐身，普通攻击减少一半隐身层数，每5层隐身使该次攻击额外造成%d%%的物理伤害,Gains %d stack(s) of Invisible when casting Active Skills. Normal Attacks reduce the stacks of Invisible by half; the attack will deal an extra %d%% Physical DMG for every 5 stacks of Invisible gained,アクティブスキルを使用する際%d層のインビジブルを獲得する。通常攻撃はインビジブルの層数を半分に減らし、インビジブルが5層毎に%d%%の追加物理ダメージを与える,施放主動技能時獲得%d層隱身，普通攻擊減少一半隱身層數，每5層隱身使該次攻擊額外造成%d%%的物理傷害
+,,,,
+冰弹,冰弹,Ice Strike,氷弾,冰彈
+对最近3个敌人造成%d%%的魔法伤害，附加%d层结霜,对最近3个敌人造成%d%%的魔法伤害，附加%d层结霜,"Deals %d%% Magic DMG to the 3 nearest enemies, inflicting %d stack(s) of Frozen",直近の敵3名に%d%%の魔法ダメージを与え、%d層の霜降を付与する,對最近3個敵人造成%d%%的魔法傷害，附加%d層結霜
+焰旋,焰旋,Swirling Fire,炎の渦,焰旋
+对目标一格敌人造成%d%%的魔法伤害附加%d层烧灼，中心敌人额外受到%d%%的最大生命值的魔法伤害,对目标一格敌人造成%d%%的魔法伤害附加%d层烧灼，中心敌人额外受到%d%%的最大生命值的魔法伤害,"Deals %d%% Magic DMG to enemies of the target and within the radius of 1 tile around, inflicting %d stack(s) of Burning; enemy on the central tile takes extra Magic DMG that equals %d%% of their Max HP",目標と周囲1マスの敵に%d%%の魔法ダメージを与え、%d層の火傷を付与する。中心の敵は追加で最大HP%d%%分の魔法ダメージを受ける,對目標一格敵人造成%d%%的魔法傷害附加%d層燒灼，中心敵人額外受到%d%%的最大生命值的魔法傷害
+霜之刃,霜之刃,Frostblade,霜の刃,霜之刃
+普攻%d%%的几率召唤1枚冰球对最近敌方造成%d%%的魔法伤害附加%d层结霜。而施放技能时召唤%d枚同样的冰球,普攻%d%%的几率召唤1枚冰球对最近敌方造成%d%%的魔法伤害附加%d层结霜。而施放技能时召唤%d枚同样的冰球,"Normal Attack has a %d%% chance to summon 1 Ice Ball to deal %d%% Magic DMG to the nearest enemy, inflicting %d stack(s) of Frozen; summons %d Ice Balls when casting a skill",通常攻撃時、%d%%の確立で雪玉を1つ召喚し直近の敵に%d%%の魔法ダメージを与え、さらに%d層の霜降を付与する。スキルを使用した場合、雪玉を%dつ召喚する,普攻%d%%的幾率召喚1枚冰球對最近敵方造成%d%%的魔法傷害附加%d層結霜。而施放技能時召喚%d枚同樣的冰球
+火焰之力,火焰之力,Power of Flame,火炎の力,火焰之力
+普攻%d%%的几率造成%d%%魔法伤害附加%d层烧灼，并且获得技能冷却速度一半的攻速,普攻%d%%的几率造成%d%%魔法伤害附加%d层烧灼，并且获得技能冷却速度一半的攻速,"Normal Attack has a %d%% chance to deal %d%% Magic DMG, inflicting %d stack(s) of Burning, and grants extra Attack Speed that equals half of the Cooldown Speed",通常攻撃に%d%%の確率で%d%%の魔法ダメージを与え、%d層の火傷を付与し、更にCD短縮速度の半分の攻撃速度を獲得する,普攻%d%%的幾率造成%d%%魔法傷害附加%d層燒灼，並且獲得技能冷卻速度一半的攻速
+寄生粘液,寄生粘液,Parasitic Mucus,寄生粘液,寄生粘液
+"战斗开始时，克隆一个自身,但减少%d%%的增伤和减伤","战斗开始时，克隆一个自身,但减少%d%%的增伤和减伤","When the battle starts, creates a duplicate of self but DMG Boost and DMG Reduction decrease by %d%%",戦闘開始時、自身のクローンを作成し、但し自身のダメージ増加と被ダメージ軽減を%d%%減少する,"戰鬥開始時，克隆一個自身,但減少%d%%的增傷和減傷"
+圆舞飞刃,圆舞飞刃,Swirling Blade,剣の舞,圓舞飛刃
+对敌方物理攻击最高的单位造成%d%%的物理伤害，对魔法攻击最高的单位造成%d%%的魔法伤害,对敌方物理攻击最高的单位造成%d%%的物理伤害，对魔法攻击最高的单位造成%d%%的魔法伤害,"Deals %d%% Physical Attack to the enemy with the highest Physical ATK, %d%% Magic DMG to the one with the highest Magic Power",敵の物理攻撃力が最も高いユニットに%d%%の物理ダメージを与え、魔法攻撃力が最も高いユニットに%d%%の魔法ダメージを与える,對敵方物理攻擊最高的單位造成%d%%的物理傷害，對魔法攻擊最高的單位造成%d%%的魔法傷害
+贯穿枪伤,贯穿枪伤,Penetrating Injury,貫通の槍,貫穿槍傷
+普攻和特效伤害提高%d%%，并且普攻额外命中一个单位,普攻和特效伤害提高%d%%，并且普攻额外命中一个单位,Normal Attack and effects DMG increases by %d%% and Normal Attack targets one extra unit,通常攻撃のダメージを 攻撃効果%d%%増加し、通常攻撃の命中対象を1増やす,普攻傷害和特效傷害提高%d%%，並且普攻額外命中一個單位
+,,,,
+果味十足,果味十足,Tasty Fruits,果実の味,果味十足
+回复周围2格友军%d%%的最大生命值,回复周围2格友军%d%%的最大生命值,Restores HP for allies within a radius of 2 tiles around by %d%% of their Max HP,周囲2マスの味方のHPを最大値の%d%%分回復する。,回復周圍2格友軍%d%%的最大生命值
+超度,超度,Soul Releasing,成仏,超度
+每个敌人死亡，使最虚弱友方恢复%d%%魔法攻击的生命值，且有%d%%概率获得%d魂,每个敌人死亡，使最虚弱友方恢复%d%%魔法攻击的生命值，且有%d%%概率获得%d魂,"Whenever an enemy dies, the most wounded ally restores HP by %d%% of their Magic Power and has a %d%% chance to gain %d Essence",敵が倒れる度、最も弱っている味方のHPを魔法攻撃力の%d%%分回復し、%d%%の確率でソウルを%d獲得する。,每個敵人死亡，使最虛弱友方恢復%d%%魔法攻擊的生命值，且有%d%%概率獲得%d魂
+奉献,奉献,Self Sacrifice,献身,奉獻
+受到技能伤害时，使他以及最近的友方，获得%d%%最大生命值的护盾,受到技能伤害时，使他以及最近的友方，获得%d%%最大生命值的护盾,"When the unit takes Skill DMG, they and the nearest ally gain a shield and its strength equals %d%% of their Max HP",スキルダメージを受けた際、自身と直近の味方が最大HP%d%%分の盾を獲得する。,受到技能傷害時，使他以及最近的友方，獲得%d%%最大生命值的護盾
+制药,制药,Potion Brewing,製薬,製藥
+每场战斗结束%d%%的几率获得一瓶随机的%d级药剂,每场战斗结束%d%%的几率获得一瓶随机的%d级药剂,"After each battle, has a %d%% chance to gain 1 random Lv. %d potion",毎回戦闘終了後、%d%%の確率でランダムなレベル%dポーションを1個獲得する,每場戰鬥結束%d%%的幾率獲得一瓶隨機的%d級藥劑
+质能坍缩,质能坍缩,Energy Collapse,エネルギー凝縮,質能坍縮
+投掷质能球对目标造成%d%%的魔法伤害附加%d层随机负面状态，如果目标有%d层以上负面状态则分裂成2个追击最近的敌方，最多分裂%d次,投掷质能球对目标造成%d%%的魔法伤害附加%d层随机负面状态，如果目标有%d层以上负面状态则分裂成2个追击最近的敌方，最多分裂%d次,"Throws an energy ball to deal %d%% Magic DMG to a target, inflicting %d stack(s) of a random debuff; if the target has over %d stack of debuffs, the ball will split and attack the 2 nearest enemies, up to %d time(s)",エネルギー弾を発射し目標に%d%%の魔法ダメージを与え、ランダムなデバフを%d層付与する。もし目標に%d層以上のデバフがある場合、エネルギー弾は2つに分裂し直近の敵を追撃する、最大で%d回分裂可能,投擲質能球對目標造成%d%%的魔法傷害附加%d層隨機負面狀態，如果目標有%d層以上負面狀態則分裂成2個追擊最近的敵方，最多分裂%d次
+,,,,
+幽灵身躯,幽灵身躯,Ghosty Body,幽霊の身,幽靈身軀
+减少%d%%受到的物理伤害,减少%d%%受到的物理伤害,Physical DMG taken -%d%%,受け入れられた物理的ダメージを%d%%削減。,減少%d%%受到的物理傷害
+武士剑道,武士剑道,Bushido,武士道,武士劍道
+技能可以暴击，获得%d%%的暴击率,技能可以暴击，获得%d%%的暴击率,Skills can Crit and have a %d%% Crit Rate,スキルによる会心が可能、%d%%の会心率を獲得する。,技能可以暴擊，獲得%d%%的暴擊率
+爆裂射击,爆裂射击,Blasty Shot,爆裂射撃,爆裂射擊
+对最近3个敌人造成%d%%的物理伤害，暴击率可以提升伤害，施法速度随攻速提高,对最近3个敌人造成%d%%的物理伤害，暴击率可以提升伤害，施法速度随攻速提高,Deals %d%% Physical DMG to the 3 nearest enemies; a higher Crit Rate increases DMG and a higher Attack Speed increases Casting Speed,直近の敵3名に対し%d%%の物理ダメージを与える。会心率はダメージを増加でき、発動速度は攻撃速度の上昇につれ上昇する。,對最近3個敵人造成%d%%的物理傷害，暴擊率可以提升傷害，施法速度隨攻速提高
+尸骸重组,尸骸重组,Reshaping Body,屍の組換,屍骸重組
+死亡时复活1次，恢复%d%%生命值，获得%d%%最大生命值的护盾，获得%d层抵御,死亡时复活1次，恢复%d%%生命值，获得%d%%最大生命值的护盾，获得%d层抵御,"Respawns upon death once, restores %d%% HP and gains a shield and its strength equals %d%% Max HP. Gains %d stack(s) of Armored",倒された際、1回のみ復活しHPを%d%%回復する。さらにHP最大値%d%%分の盾を獲得し、更に自身が守護を%d層獲得する,死亡時復活1次，恢復%d%%生命值，獲得%d%%最大生命值的護盾，獲得%d層抵禦
+感染,感染,Infection,感染,感染
+杀死敌人时召唤一个丧尸，拥有%d%%的生命值,杀死敌人时召唤一个丧尸，拥有%d%%的生命值,Summons a zombie after killing an enemy and the zombie has %d%% HP,敵を倒した際、%d%%HPのゾンビを1体召喚する。,殺死敵人時召喚一個喪屍，擁有%d%%的生命值
+凶镰,凶镰,Inauspicious Sycthe,凶鎌,兇鐮
+"技能附加%d%%物理伤害,普攻附加%d%%的魔法伤害","技能附加%d%%物理伤害,普攻附加%d%%的魔法伤害",Skills deal an extra %d%% Physical DMG; Normal Attack deals an extra %d%% Magic DMG,スキルに%d%%の物理ダメージを追加し、通常攻撃に%d%%の魔法ダメージを追加する。,"技能附加%d%%物理傷害,普攻附加%d%%的魔法傷害"
+招魂术,招魂术,Soul Call,降霊術,招魂術
+复活第一个死亡的非召唤友方单位，恢复%d%%生命值，并使其获得%d层隐身,复活第一个死亡的非召唤友方单位，恢复%d%%生命值，并使其获得%d层隐身,"Resurrects the first killed non-summoned ally, restores %d%% of their HP, and grants them %d stack(s) of Invisible",最初に倒れた召喚ユニット以外の味方ユニット1体を復活し、HPを%d%%回復させ、更に%d層のインビジブルを付与する,復活第一個死亡的非召喚友方單位，恢復%d%%生命值，並使其獲得%d層隱身
+蛮族血统,蛮族血统,Barbarian Blood,野蛮な血,蠻族血統
+生命值高于%d%%时 + %d%%的增伤，低于时 + %d%%的减伤,生命值高于%d%%时 + %d%%的增伤，低于时 + %d%%的减伤,"When HP is higher than %d%%, +%d%% DMG Boost; when lower, +%d%% DMG Reduction",HPが%d%%を上回る際、ダメージが %d%%増加する。下回る際、被ダメージ軽減 が%d%%増加する,生命值高於%d%%時 + %d%%的增傷，低於時 + %d%%的減傷
+裂甲圣弹,裂甲圣弹,Penetrating Bullet,鎧破りの聖弾,裂甲聖彈
+对血量最高的单位造成%d%%的物理伤害，如果目标生命值大于%d%%，则为真实伤害,对血量最高的单位造成%d%%的物理伤害，如果目标生命值大于%d%%，则为真实伤害,"Deals %d%% Physical DMG to the unit with highest HP and if the HP of the target is above %d%%, deals True DMG instead",HPの最高単位に対し%d%%の物理ダメージを与える。目標のHPが%d%%以上だった場合、固定ダメージとなる。,對血量最高的單位造成%d%%的物理傷害，如果目標生命值大於%d%%，則為真實傷害
+骨甲,骨甲,Bone Armor,骨の鎧,骨甲
+生命值大于60%%时，获得%d%%的减伤,生命值大于60%%时，获得%d%%的减伤,"When HP is above 60%%, gains %d%% DMG Reduction",HPが60%%以上の時、%d%%のダメージ軽減を獲得する。,生命值大於60%%時，獲得%d%%的減傷
+极影斩,极影斩,Shadow Slash,極影斬,極影斬
+对目标造成%d次%d%%的物理伤害，触发普攻特效,对目标造成%d次%d%%的物理伤害，触发普攻特效,"For %d times, deals %d%% Physical DMG, triggering on-hit effects of Normal Attacks",目標に対し%d回連続で%d%%の物理ダメージを与える。通常攻撃効果を発動する。,對目標造成%d次%d%%的物理傷害，觸發普攻特效
+雷罚净世,雷罚净世,Electro Surge,雷の罰災,雷罰凈世
+对目标造成%d%%的魔法伤害，附加10层麻痹，并使下一个技能伤害提升%d%%,对目标造成%d%%的魔法伤害，附加10层麻痹，并使下一个技能伤害提升%d%%,"Deals %d%% Magic DMG to the target, inflicting 10 stacks of Paralyzed and increasing the DMG of the next skill by %d%%",目標に対し%d%%の魔法ダメージを与え、10層の麻痺を付与する。次に発動するスキルのダメージが%d%%増加する。,對目標造成%d%%的魔法傷害，附加10層麻痹，並使下一個技能傷害提升%d%%
+立誓之枪,立誓之枪,Spear of Faith,誓いの槍,立誓之槍
+普攻时使周围1格友军获得帕拉丁%d%%最大生命值的护盾,普攻时使周围1格友军获得帕拉丁%d%%最大生命值的护盾,Normal Attack will grant allies within a radius of 1 tile around Paladin a shield and its strength equals %d%% of his Max HP,通常攻撃時、周囲1マスの味方はパラディンの最大HP%d%%分の盾を獲得する。,普攻時使周圍1格友軍獲得帕拉丁%d%%最大生命值的護盾
+噬魂斩,噬魂斩,Soul Devourer,ソウルイーター,噬魂斬
+对周围1格敌人造成%d%%目标最大生命值的物理伤害，获得%d层5种不同的增益状态，回复%d%%物理攻击的生命值和护盾值,对周围1格敌人造成%d%%目标最大生命值的物理伤害，获得%d层5种不同的增益状态，回复%d%%物理攻击的生命值和护盾值,"Deals Physical DMG to enemies within 6 tiles around, the damage equals %d%% of their Max HP; grants 5 different buffs, each of %d stack(s), and restores HP and Shield Strength that equal %d%% Physical Attack",周囲1マスの敵に最大HP%d%%分の物理ダメージを与え、%d層のバフをランダムで5つ獲得し、物理攻撃力%d%%分のHPと盾値を回復,對周圍1格敵人造成%d%%目標最大生命值的物理傷害，獲得%d層5種不同的增益狀態，回復%d%%物理攻擊的生命值和護盾值
+地爆天星,地爆天星,Planetary Devastation,地爆天星,地爆天星
+对周围1格敌人造成%d%%目标最大生命值的真实伤害，附加%d层5种不同的负面状态,对周围1格敌人造成%d%%目标最大生命值的真实伤害，附加%d层5种不同的负面状态,"Deals True DMG to enemies within the radius of 1 tile around, the damage equals %d%% of their Max HP, and inflicts them with %d stack(s) of 5 different debuffs",周囲1マス内の敵にその敵自身の最大HP%d%%分の固定ダメージを与え、%d層の異なるデバフを5つ付与する,對周圍1格敵人造成%d%%目標最大生命值的真實傷害，附加%d層5種不同的負面狀態
+飞沙走石,飞沙走石,Sandy Gale,飛礫,飛沙走石
+通常普攻时额外对2个敌人造成%d%%的物理伤害，触发攻击特效,通常普攻时额外对2个敌人造成%d%%的物理伤害，触发攻击特效,"Usually normal Attack deals %d%% Physical DMG to 2 extra enemies, triggering on-hit effects",通常攻撃時、追加で2名の敵に%d%%の物理ダメージを与え、攻撃効果を発動する,普攻時額外對2個敵人造成%d%%的物理傷害，觸發攻擊特效
+尖刺甲壳,尖刺甲壳,Spiky Shell,棘の甲羅,尖刺甲殼
+"物理防御提升%d%%,普通攻击%d%%的几率造成%d%%的物理防御的物理伤害和%d层麻痹","物理防御提升%d%%,普通攻击%d%%的几率造成%d%%的物理防御的物理伤害和%d层麻痹","Physical Defense increases by %d%%, Normal Attacks have %d%% chance to deal Physical Damage equals to %d%% of the Physical Defense and inflict %d Stack(s) of Paralyzed",物理防御力が %d%% 増加、通常攻撃力 %d%% 物理ダメージを与える確率 %d%%、層麻痺 %d,"物理防禦提升%d%%,普通攻擊%d%%的幾率造成%d%%的物理防禦的物理傷害和%d層麻痹"
+阎罗刀刃,阎罗刀刃,Hellish Blade,閻魔の太刀,閻羅刀刃
+闪现敌方后排，普攻暴击时额外造成%d%%攻击力的真实伤害,闪现敌方后排，普攻暴击时额外造成%d%%攻击力的真实伤害,Flashes to the back row of the enemy team and deals True DMG that equals %d%% Physical Attack when dealing Crit DMG during Normal Attacks,敵後列に瞬間移動する。会心攻撃時に攻撃力%d%%分の固定ダメージを追加で与える。,閃現敵方後排，普攻暴擊時額外造成%d%%攻擊力的真實傷害
+鲜血飞弹,鲜血飞弹,Blood Missile,血の魔法弾,鮮血飛彈
+施放5发鲜血飞弹攻击随机敌人，每发造成%d%%的魔法伤害，附加10层流血，冷却速度能够增加飞弹数量,施放5发鲜血飞弹攻击随机敌人，每发造成%d%%的魔法伤害，附加10层流血，冷却速度能够增加飞弹数量,"Launches 5 Blood Missiles to attack random enemies, each missile dealing %d%% Magic DMG and inflicting 10 stacks of Hemorrhaged; with higher Cooldown Speed, more missiles will be generated",血の魔法弾を5発放ち、ランダムな敵を攻撃する。それぞれ%d%%の魔法ダメージを与え、出血を10層付与する。CD短縮速度により魔法弾の数を増やすことができる。,施放5發鮮血飛彈攻擊隨機敵人，每發造成%d%%的魔法傷害，附加10層流血，冷卻速度能夠增加飛彈數量
+毒雾,毒雾,Poison Mist,毒の霧,毒霧
+打击2格范围敌人，造成%d%%魔法伤害，附加%d层中毒。而范围内友军则回复%d%%魔法攻击的生命值,打击2格范围敌人，造成%d%%魔法伤害，附加%d层中毒。而范围内友军则回复%d%%魔法攻击的生命值,"Poisons enemies within a radius of 2 tiles, dealing %d%% Magic DMG and inflicting %d stack(s) of Poisoned; allies within range restore HP by %d%% of the Magic Power",2マス内の敵を攻撃し、%d%%の魔法ダメージを与え、%d層の毒を付与する。範囲内の味方は魔法攻撃力%d%%分のHPを回復する。,打擊2格範圍敵人，造成%d%%魔法傷害，附加%d層中毒。而範圍內友軍則回復%d%%魔法攻擊的生命值
+,,,,
+身外化身,身外化身,Avatar,身外身の術,身外化身
+开战时在前方召唤%d个分身，只要本体存活分身死亡时就会重新召唤，分身减少%d%%的增伤和减伤,开战时在前方召唤%d个分身，只要本体存活分身死亡时就会重新召唤，分身减少%d%%的增伤和减伤,"Summons %d Avatar(s) of self before a battle starts; the Avatar will be re-summoned as long as the unit is alive, and it has %d%% less DMG Boost and DMG Reduction",戦闘開始時、前方に分身を%d個召喚し、本体が生存している限り、分身は倒されても再召喚される。分身のダメージ増加と被ダメージ軽減は%d%%減少される,開戰時在前方召喚%d個分身，只要本體存活分身死亡時就會重新召喚，分身減少%d%%的增傷和減傷
+水弹喷发,水弹喷发,Quick Spray,水弾噴射,水彈噴發
+获得%d层急速，身上每有%d层急速便发射一颗水弹造成%d%%的真实伤害,获得%d层急速，身上每有%d层急速便发射一颗水弹造成%d%%的真实伤害,"Gains %d stack(s) of Hasted and fires one water bullet for every %d stack(s) of Hasted gained, dealing %d%% True DMG",%d層の急速を獲得、自身の急速が%d層ある毎に水弾を1発発射し、%d%%の固定ダメージを与える,獲得%d層急速，身上每有%d層急速便發射一顆水彈造成%d%%的真實傷害
+蟹甲,蟹甲,Crab Shell,蟹甲,蟹甲
+每2秒获得%d层抵御，受到技能伤害时，会消耗自身%d层抵御来抵消一次伤害,每2秒获得%d层抵御，受到技能伤害时，会消耗自身%d层抵御来抵消一次伤害,"Gains %d stack(s) of Armored every 2 seconds; when taking Skill DMG, consumes %d stack(s) of Armored to offset the damage once",2秒ごとに守護を%d層獲得する、スキルダメージを受けた際、自身の守護を%d層消費し、ダメージを打ち消す,每2秒獲得%d層抵禦，受到技能傷害時，會消耗自身%d層抵禦來抵消一次傷害
+水隐刀,水隐刀,Shadow Blade,水隠刀,水隱刀
+开战时闪现至血量最低的敌人旁，获得%d层隐身，隐身期间普攻附加%d%%物理攻击的真实伤害,开战时闪现至血量最低的敌人旁，获得%d层隐身，隐身期间普攻附加%d%%物理攻击的真实伤害,"When a battle starts, flashes to the enemy with the lowest HP and gains %d stack(s) of Invisible; under the Invisible state, Normal Attack deals True DMG that equals %d%% Physical Attack",戦闘開始時に敵のHPが最も低いユニットの傍に瞬間移動し、インビジブルを%d層獲得する。インビジブル期間中、通常攻撃に物理攻撃力%d%%分の固定ダメージを付与する,開戰時閃現至血量最低的敵人旁，獲得%d層隱身，隱身期間普攻附加%d%%物理攻擊的真實傷害
+冰结,冰结,Bonechiller,氷結,冰結
+对敌方最虚弱的单位造成%d%%的魔法伤害附加%d眩晕，而他周围敌人受到%d%%的魔法伤害附加%d层结霜,对敌方最虚弱的单位造成%d%%的魔法伤害附加%d眩晕，而他周围敌人受到%d%%的魔法伤害附加%d层结霜,"Deals %d%% Magic DMG to the enemy with the lowest HP, inflicting %d stack(s) of Stunned; enemies around the target take %d%% Magic DMG and are inflicted with %d stack(s) of Frozen",敵のHPが最も低いユニットに%d%%の魔法ダメージを与え、%d層のスタンを付与する。その敵の周囲にいる敵は%d%%の魔法ダメージを受け、%d層の霜降を付与される,對敵方最虛弱的單位造成%d%%的魔法傷害附加%d眩暈，而他周圍敵人受到%d%%的魔法傷害附加%d層結霜
+水疗,水疗,Healing of Water,水の治療,水療
+最近%d个友军回复%d%%魔法攻击的生命值和%d层随机增益，目标每5层增益治疗效果提升%d%%,最近%d个友军回复%d%%魔法攻击的生命值和%d层随机增益，目标每5层增益治疗效果提升%d%%,The nearest %d allies restore HP that equals %d%% Magic Power and gain %d stack(s) of a random buff; increases Healing Received by %d%% for every 5 stack(s) buffs they own,直近の味方%d体のHPを魔法攻撃力%d%%分回復し、ランダムなバフを%d層付与する。目標のバフが5層毎にこの治療効果が%d%%増加する,最近%d個友軍回復%d%%魔法攻擊的生命值和%d層隨機增益，目標每5層增益治療效果提升%d%%

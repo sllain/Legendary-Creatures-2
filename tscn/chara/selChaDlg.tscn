@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/chara/selChaDlg.gd" type="Script" id=2]
+
+[node name="baseDlg" instance=ExtResource( 1 )]
+visible = false
+margin_left = -453.0
+margin_top = -177.0
+margin_right = 453.0
+margin_bottom = 222.0
+script = ExtResource( 2 )
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+text = "选择角色"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." index="1"]
+margin_left = 27.0
+margin_top = 35.0
+margin_right = 878.0
+margin_bottom = 374.0
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer" index="0"]
+columns = 10

@@ -1,0 +1,281 @@
+[gd_resource type="SpriteFrames" load_steps=64 format=2]
+
+[ext_resource path="res://res/animImg/p/tieJiang/BattlePriest_Death.png" type="Texture" id=1]
+[ext_resource path="res://res/animImg/p/tieJiang/BattlePriest.png" type="Texture" id=2]
+
+[sub_resource type="AtlasTexture" id=84]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 500, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=85]
+atlas = ExtResource( 2 )
+region = Rect2( 400, 500, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=86]
+atlas = ExtResource( 2 )
+region = Rect2( 100, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=87]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=88]
+atlas = ExtResource( 2 )
+region = Rect2( 300, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=89]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 700, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=90]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 700, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=91]
+atlas = ExtResource( 2 )
+region = Rect2( 300, 700, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=92]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 500, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=93]
+atlas = ExtResource( 2 )
+region = Rect2( 300, 500, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=94]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=95]
+atlas = ExtResource( 2 )
+region = Rect2( 100, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=96]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=97]
+atlas = ExtResource( 2 )
+region = Rect2( 300, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=98]
+atlas = ExtResource( 2 )
+region = Rect2( 400, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=99]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 700, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=100]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 700, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=101]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 500, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=102]
+atlas = ExtResource( 2 )
+region = Rect2( 400, 500, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=103]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=104]
+atlas = ExtResource( 2 )
+region = Rect2( 100, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=105]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=106]
+atlas = ExtResource( 2 )
+region = Rect2( 300, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=107]
+atlas = ExtResource( 2 )
+region = Rect2( 400, 600, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=108]
+atlas = ExtResource( 2 )
+region = Rect2( 100, 700, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=109]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 700, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=25]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=26]
+atlas = ExtResource( 1 )
+region = Rect2( 64, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=27]
+atlas = ExtResource( 1 )
+region = Rect2( 128, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=28]
+atlas = ExtResource( 1 )
+region = Rect2( 192, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=29]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 64, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=30]
+atlas = ExtResource( 1 )
+region = Rect2( 64, 64, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=31]
+atlas = ExtResource( 1 )
+region = Rect2( 128, 64, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=32]
+atlas = ExtResource( 1 )
+region = Rect2( 192, 64, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=33]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 128, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=34]
+atlas = ExtResource( 1 )
+region = Rect2( 64, 128, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=35]
+atlas = ExtResource( 1 )
+region = Rect2( 128, 128, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=36]
+atlas = ExtResource( 1 )
+region = Rect2( 192, 128, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=37]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 192, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=72]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=73]
+atlas = ExtResource( 2 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=74]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=75]
+atlas = ExtResource( 2 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=76]
+atlas = ExtResource( 2 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=77]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 100, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=78]
+atlas = ExtResource( 2 )
+region = Rect2( 100, 100, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=79]
+atlas = ExtResource( 2 )
+region = Rect2( 200, 100, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=80]
+atlas = ExtResource( 2 )
+region = Rect2( 300, 100, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=81]
+atlas = ExtResource( 2 )
+region = Rect2( 400, 100, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=82]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 200, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=83]
+atlas = ExtResource( 2 )
+region = Rect2( 100, 200, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=38]
+atlas = ExtResource( 2 )
+region = Rect2( 198, 200, 99, 100 )
+
+[sub_resource type="AtlasTexture" id=39]
+atlas = ExtResource( 2 )
+region = Rect2( 297, 200, 99, 100 )
+
+[sub_resource type="AtlasTexture" id=40]
+atlas = ExtResource( 2 )
+region = Rect2( 396, 200, 99, 100 )
+
+[sub_resource type="AtlasTexture" id=41]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 300, 99, 100 )
+
+[sub_resource type="AtlasTexture" id=42]
+atlas = ExtResource( 2 )
+region = Rect2( 99, 300, 99, 100 )
+
+[sub_resource type="AtlasTexture" id=43]
+atlas = ExtResource( 2 )
+region = Rect2( 198, 300, 99, 100 )
+
+[sub_resource type="AtlasTexture" id=44]
+atlas = ExtResource( 2 )
+region = Rect2( 297, 300, 99, 100 )
+
+[sub_resource type="AtlasTexture" id=45]
+atlas = ExtResource( 2 )
+region = Rect2( 396, 300, 99, 100 )
+
+[sub_resource type="AtlasTexture" id=46]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 400, 99, 100 )
+
+[sub_resource type="AtlasTexture" id=47]
+atlas = ExtResource( 2 )
+region = Rect2( 99, 400, 99, 100 )
+
+[resource]
+animations = [ {
+"frames": [ SubResource( 84 ), SubResource( 85 ), SubResource( 86 ), SubResource( 87 ), SubResource( 88 ), SubResource( 89 ), SubResource( 90 ), SubResource( 91 ) ],
+"loop": true,
+"name": "atk",
+"speed": 15.0
+}, {
+"frames": [ SubResource( 92 ), SubResource( 93 ), SubResource( 94 ), SubResource( 95 ), SubResource( 96 ), SubResource( 97 ), SubResource( 98 ), SubResource( 99 ), SubResource( 100 ) ],
+"loop": true,
+"name": "atk2",
+"speed": 15.0
+}, {
+"frames": [ SubResource( 101 ), SubResource( 102 ), SubResource( 103 ), SubResource( 104 ), SubResource( 105 ), SubResource( 106 ), SubResource( 107 ), SubResource( 108 ), SubResource( 109 ) ],
+"loop": false,
+"name": "buff",
+"speed": 15.0
+}, {
+"frames": [ SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 31 ), SubResource( 32 ), SubResource( 33 ), SubResource( 34 ), SubResource( 35 ), SubResource( 36 ), SubResource( 37 ) ],
+"loop": false,
+"name": "death",
+"speed": 15.0
+}, {
+"frames": [ SubResource( 72 ), SubResource( 73 ), SubResource( 74 ), SubResource( 75 ), SubResource( 76 ), SubResource( 77 ), SubResource( 78 ), SubResource( 79 ), SubResource( 80 ), SubResource( 81 ), SubResource( 82 ), SubResource( 83 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 38 ), SubResource( 39 ), SubResource( 40 ), SubResource( 41 ), SubResource( 42 ), SubResource( 43 ), SubResource( 44 ), SubResource( 45 ), SubResource( 46 ), SubResource( 47 ) ],
+"loop": true,
+"name": "move",
+"speed": 15.0
+} ]

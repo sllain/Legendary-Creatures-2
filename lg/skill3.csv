@@ -1,0 +1,66 @@
+,zh_CN,en,ja,zh_HK
+铁布衫,铁布衫,No Provocation,鉄の体,鐵布衫
+"每承受15%%最大生命值的伤害,获得 %d层 狂怒，抵御，急速，超然","每承受15%%最大生命值的伤害,获得 %d层 狂怒，抵御，急速，超然","For every DMG taken that equals 15%% of Max HP, gains %d stack(s) of Berserked, Armored, Hasted and Transcendent",最大HPの15%%のダメージを受ける度に、%d層の激怒、守護、急速、超然を獲得する,"每承受15%%最大生命值的傷害,獲得 %d層 狂怒，抵禦，急速，超然"
+金钟罩,金钟罩,Shield Up,鐘の守,金鐘罩
+施放技能时，获得%d%%物理攻击的护盾，身上每5层增益状态，使该值提高%d%%,施放技能时，获得%d%%物理攻击的护盾，身上每5层增益状态，使该值提高%d%%,"When casting a skill, gains a shield with its strength equal to %d%% Physical Attack; the strength increases by %d%% for every 5 buffs gained",スキル使用時、物理攻撃力 %d%%分の盾を獲得する、自身のバフが5層毎にこの盾値を%d%%増加する,施放技能時，獲得%d%%物理攻擊的護盾，身上每5層增益狀態，使該值提高%d%%
+翔龙摆尾,翔龙摆尾,Swipe Kick,龍の舞,翔龍擺尾
+对目标1格敌人造成%d%%的物理伤害，身上每5层增益状态，使该伤害提高%d%%,对目标1格敌人造成%d%%的物理伤害，身上每5层增益状态，使该伤害提高%d%%,Deals %d%% Physical DMG to the target and within the radius of 1 tile around; increase the damage by %d%% for every 5 stacks of buffs this unit has,目標と周囲1マスの敵に%d%%の物理ダメージを与える、自身のバフが5層毎にこのダメージを%d%%増加する,對目標1格敵人造成%d%%的物理傷害，身上每5層增益狀態，使該傷害提高%d%%
+化骨掌,化骨掌,Bonecracker,掌撃破,化骨掌
+普攻附加%d%%目标最大生命值的物理伤害，身上每5层增益状态，使该伤害提高%d%%,普攻附加%d%%目标最大生命值的物理伤害，身上每5层增益状态，使该伤害提高%d%%,Normal Attack deals extra Physical DMG that equals %d%% of the target's Max HP; the DMG increases by %d%% for every 5 stacks of buffs this unit has,通常攻撃に目標の最大HP%d%%分の物理ダメージを追加する。目標のバフ5層毎に%d%%ずつダメージが増加する,普攻附加%d%%目標最大生命值的物理傷害，身上每5層增益狀態，使該傷害提高%d%%
+气聚丹田,气聚丹田,Concentration,内丹,氣聚丹田
+净化自身的负面状态，并获得%d层 狂怒，抵御，急速，超然,净化自身的负面状态，并获得%d层 狂怒，抵御，急速，超然,"Dispels all debuffs on self and gains %d stack(s) of Berserked, Armored, Hasted, Transcendent",自身のデバフ状態を解除し、%d層の激怒、守護、急速、超然を獲得する,凈化自身的負面狀態，並獲得%d層 狂怒，抵禦，急速，超然
+,,,,
+高速射击,高速射击,Fast Shooting,高速射撃,高速射擊
+每%d次普通攻击攻速提高%d%%，持续到战斗结束,每%d次普通攻击攻速提高%d%%，持续到战斗结束,"For every %d Normal Attack, the Attack Speed increases by %d%%, lasts until the end of the battle",通常攻撃%d回ごとに攻撃速度を%d%%増加する、戦闘終了まで継続,每%d次普通攻擊攻速提高%d%%，持續到戰鬥結束
+连发弩,连发弩,Crossbow,連弩,連發弩
+快速射出%d发箭矢，每发造成%d%%的真实伤害，身上每%d层急速，额外射出1发,快速射出%d发箭矢，每发造成%d%%的真实伤害，身上每%d层急速，额外射出1发,"Fires %d arrows in one go, each dealing %d%% True DMG; for every %d stack(s) of Hasted gained, fires an extra arrow",素早く矢を%d発発射し、毎発%d%%の固定ダメージを与える、自身の急速が%d層毎に追加で1発発射する,快速射出%d發箭矢，每發造成%d%%的真實傷害，身上每%d層急速，額外射出1發
+流线矢,流线矢,Curve Arrow,流星の矢,流線矢
+普通攻击%d%%的几率额造成%d%%的真实伤害，且获得%d层急速,普通攻击%d%%的几率额造成%d%%的真实伤害，且获得%d层急速,Normal Attack has a %d%% chance to deal %d%% True DMG and grants %d stack(s) of Hasted,通常攻撃に%d%%の確率で%d%%の固定ダメージを追加し、%d層の急速を獲得する,普通攻擊%d%%的幾率額造成%d%%的真實傷害，且獲得%d層急速
+驽精通,驽精通,Crossbow Mastery,弩精通,駑精通
+获得%d层急速，无施法动作，冷却速度额外收益于攻击速度,获得%d层急速，无施法动作，冷却速度额外收益于攻击速度,Gains %d stack(s) of Hasted; This skill needs no casting and its CD Speed also benefits from Attack Speed.,%d層の急速を獲得、瞬時発動、クールタイムが追加で攻撃速度を基準に短縮される,獲得%d層急速，無施法動作，冷卻速度額外收益於攻擊速度
+光芒点射,光芒点射,Arrow of Light,光の矢,光芒點射
+获得急速时，每%d层急速便射出一发箭矢对目标造成%d%%的真实伤害,获得急速时，每%d层急速便射出一发箭矢对目标造成%d%%的真实伤害,"When gaining Hasted, for every %d stack(s) of Hasted, fires an arrow dealing %d%% True DMG ",急速を獲得した際、急速が%d層毎に矢を1発発射し、目標に%d%%の固定ダメージを与える,获得急速时，每%d层急速便射出一发箭矢对目标造成%d%%的真實伤害
+,,,,
+机械臂爪,机械臂爪,Mechanical Grab,機械アーム,機械臂爪
+把距离最远的单位拉至身边造成%d%%物理伤害并附加%d层麻痹，开场满CD,把距离最远的单位拉至身边造成%d%%物理伤害并附加%d层麻痹，开场满CD,"Pulls the furthest enemy unit over, dealing %d%% Physical DMG and inflicting %d stack(s) of Paralyzed. This skill can be used immediately when the battle starts",距離が最も遠い敵ユニットを自身の傍まで引っ張り、%d%%の物理ダメージと%d層の麻痺を与える。戦闘開始時はクールダウン状態,把距離最遠的單位拉至身邊造成%d%%物理傷害並附加%d層麻痹，開場滿CD
+充电,充电,Charge Up,充電,充電
+施加和被施加麻痹时，基础属性提升%d%%，最高%d%%，战斗结束重置,施加和被施加麻痹时，基础属性提升%d%%，最高%d%%，战斗结束重置,"When inflicting or being inflicted with Paralyzed, basic attributes increase by %d%%, up to %d%%. This effect will be reset after a battle",麻痺を付与及び受けた際、基本ステータスが%d%%増加、最大%d%%まで、戦闘終了時リセット,施加和被施加麻痹時，基礎屬性提升%d%%，最高%d%%，戰鬥結束重置
+电能屏障,电能屏障,Electric Barrier,サンダーバリア,電能屏障
+"对敌方施加麻痹时,每%d层麻痹获得%d%%最大生命值的护盾","对敌方施加麻痹时,每%d层麻痹获得%d%%最大生命值的护盾","When inflicting Paralyzed to enemies, for every %d stack(s) of Paralyzed, gains a shield with strength that equals %d%% Max HP",敵に麻痺を付与する際、麻痺を%d層付与するたびに、最大HP%d%%分の盾を獲得する,"對敵方施加麻痹時,每%d層麻痹獲得%d%%最大生命值的護盾"
+钢铁之躯,钢铁之躯,Body of Steel,鋼の意志,鋼鐵之軀
+免疫中毒，+%d%%最终物理减伤，所受的治疗效果转为护盾,免疫中毒，+%d%%最终物理减伤，所受的治疗效果转为护盾,"Immune to Poisoned, +%d%% final Physical DMG Reduction, and transfers Healing Received into Shield Strength",毒耐性を得る。最終物理被ダメージ軽減を%d%%増加し、受ける治療効果全てを盾へと変換する,免疫中毒，+%d%%最終物理減傷，所受的治療效果轉為護盾
+雷霆震击,雷霆震击,Thunder Bash,雷霆の一撃,雷霆震擊
+对周围1格造成自身%d%%的物理伤害，附加%d层麻痹和%d层眩晕,对周围1格造成自身%d%%的物理伤害，附加%d层麻痹和%d层眩晕,"Deals %d%% Physical DMG to enemies within the radius of 1 tile around, inflicting %d stack(s) of Paralyzed and %d stack(s) of Stunned",周囲1マスに自身の物理攻撃力%d%%の物理ダメージを与え、%d層の麻痺と%d層のスタンを付与する,對周圍1格造成自身%d%%的物理傷害，附加%d層麻痹和%d層眩暈
+,,,,
+蓄势待发,蓄势待发,Lurk in Darkness,段取り,蓄勢待發
+隐身期间每秒回复%d%%已损失生命值,隐身期间每秒回复%d%%已损失生命值,"When invisible, restores %d%% of HP lost per second",インビジブル中、毎秒失ったHPの%d%%分HPを回復する,隱身期間每秒回復%d%%已損失生命值
+暗影突袭,暗影突袭,Phantom Strike,潜影突撃,暗影突襲
+对目标造成%d%%的物理伤害，隐身期间对3个单位造成伤害,对目标造成%d%%的物理伤害，隐身期间对3个单位造成伤害,Deals %d%% Physical DMG to the target; and deals DMG to 3 enemy units when invisible,目標に対し%d%%の物理ダメージを与える。インビジブル中は敵3体にダメージを与える,對目標造成%d%%的物理傷害，隱身期間對3個單位造成傷害
+伺机而动,伺机而动,Opportunist,虎視眈々,伺機而動
+如果是隐身状态，解除隐身并对周围1格造成%d%%物理伤害，每5层隐身伤害提升%d%%；否则获得%d层隐身,如果是隐身状态，解除隐身并对周围1格造成%d%%物理伤害，每5层隐身伤害提升%d%%；否则获得%d层隐身,"If this unit is invisible now, disables the state and deals %d%% Physical DMG to enemies within the radius of 1 tile around and this damage increases by %d%% for every 5 stacks of Invisible; if not, gains %d stack(s) of Invisible",インビジブル状態の場合、状態を解除し周囲1マスに%d%%の物理ダメージを与える、インビジブル5層毎にダメージが%d%%増加。インビジブル状態でない場合、インビジブルを%d層獲得する,如果是隱身狀態，解除隱身並對周圍1格造成%d%%物理傷害，每5層隱身傷害提升%d%%；否則獲得%d層隱身
+藏形匿影,藏形匿影,Hidden Anger,身隠しの術,藏形匿影
+获得%d层隐身，%d层狂怒和急速,获得%d层隐身，%d层狂怒和急速,"Gains %d stack(s) of Invisible, %d stack(s) of Hasted and Berserked",%d層のインビジブル 獲得する。%d層の激怒、急速を獲得する,獲得%d層隱身，%d層 狂怒和急速
+毫不留情,毫不留情,No Mercy,手加減無し,毫不留情
+暴击伤害提升%d%%，隐身期间普攻必定暴击,暴击伤害提升%d%%，隐身期间普攻必定暴击,Crit DMG increases by %d%%; Normal Attack always Crit when this unit is invisible,会心ダメージを%d%%増加、インビジブル中の通常攻撃は必ず会心となる,暴擊傷害提升%d%%，隱身期間普攻必定暴擊
+,,,,
+魔武修行,魔武修行,Martial Magic,魔道の修行,魔武修行
+每%d点物理攻击转化为%d点魔法攻击,每%d点物理攻击转化为%d点魔法攻击,Every %d Physical Attack will be converted into %d Magic Power,物理攻撃力が%d毎に、%dの魔法攻撃力に変換する,每%d點物理攻擊轉化為%d點魔法攻擊
+注魔兵刃,注魔兵刃,Magic-instilled Weapon,マジックソード,註魔兵刃
+普攻附加%d%%的魔法伤害,普攻附加%d%%的魔法伤害,Normal Attack deals an extra %d%% Magic DMG,通常攻撃に%d%%の魔法ダメージを追加で与える,普攻附加%d%%的魔法傷害
+奥能护盾,奥能护盾,Arcane Shield,秘術の盾,奧能護盾
+造成非被动伤害的%d%%转为护盾值,造成非被动伤害的%d%%转为护盾值,%d%% of your non-passive DMG dealt will be converted into Shield Strength,与えたダメージの%d%%分の盾を獲得する,造成傷害的%d%%轉為護盾值
+晶矛投射,晶矛投射,Crystal Spear,クリスタルランス,晶矛投射
+"对最近3个敌人造成%d%%的魔法伤害和物理伤害,并获得%d%%该伤害值的护盾","对最近3个敌人造成%d%%的魔法伤害和物理伤害,并获得%d%%该伤害值的护盾",Deals %d%% Magic DMG and Physical DMG to the 3 nearest enemies and gains Shield Strength that equals %d%% of the damage,直近3名の敵に%d%%の魔法ダメージと物理ダメージを与え、このダメージの%d%%分の盾を獲得する,"對最近3個敵人造成%d%%的魔法傷害和物理傷害,並獲得%d%%該傷害值的護盾"
+辉能斩,辉能斩,Slash of Chaos,シャイニングソード,輝能斬
+对目标1格敌人造成%d%%的物理伤害和魔法伤害,对目标1格敌人造成%d%%的物理伤害和魔法伤害,Deals %d%% Physical DMG and Magic DMG to the target and within the radius of 1 tile around,目標と周囲1マスの敵に%d%%の物理ダメージと魔法ダメージを与える,對目標1格敵人造成%d%%的物理傷害和魔法傷害
+,,,,
+等价交换,等价交换,Fair Exchange,等価交換,等價交換
+消除最虚弱友方一半的增益状态，每5层增益使他回复%d%%魔法攻击的生命值,消除最虚弱友方一半的增益状态，每5层增益使他回复%d%%魔法攻击的生命值,"Removes half of the buffs owned by the ally with the lowest HP, and for every 5 stacks of buffs removed, restores their HP by %d%% of the Magic Power",最もHPが低い味方のバフを半分打ち消す、打ち消したバフが5層毎にその味方が魔法攻撃力%d%%分のHPを回復する,消除最虛弱友方一半的增益狀態，每5層增益使他回復%d%%魔法攻擊的生命值
+能量调配,能量调配,Allocation of Energy,エネルギー配分,能量調配
+使你最大生命值，物理攻击，魔法攻击最高的3名随从分别获得%d层抵御 狂怒和威能，并恢复%d%%魔法攻击的生命值,使你最大生命值，物理攻击，魔法攻击最高的3名随从分别获得%d层抵御 狂怒和威能，并恢复%d%%魔法攻击的生命值,"Applies %d stack(s) of Armored, Berserked and Empowered respectively to 3 of your units with the highest Max HP, Physical Attack and Magic Power, and restores their HP by %d%% of this unit's Magic Power",味方の最大HP、物理攻撃力、魔法攻撃力が最も高い3名にそれぞれ、%d層の守護、激怒、神威を付与し、魔法攻撃力%d%%分のHPを回復する,使你最大生命值，物理攻擊，魔法攻擊最高的3名隨從分別獲得%d層抵禦 狂怒和威能，並恢復%d%%魔法攻擊的生命值
+点金手,点金手,Golden Finger,ミダスの手,點金手
+敌人死亡时，他身上的每%d层负面状态使你获得%d金币,敌人死亡时，他身上的每%d层负面状态使你获得%d金币,"When an enemy dies, for every %d stack(s) of debuff they gained, you gain %d Coins",敵を倒した際、その敵のデバフが%d層毎に金貨を%d獲得する,敵人死亡時，他身上的每%d層負面狀態使你獲得%d金幣
+化学风暴,化学风暴,Chemical Storm,ケミカルストーム,化學風暴
+使2格范围内的友军获得%d层随机增益状态，对敌人施加%d层随机负面状态,使2格范围内的友军获得%d层随机增益状态，对敌人施加%d层随机负面状态,Grants %d stack(s) of a random buff to allies within a radius of 2 tiles and inflict %d stack(s) of a random debuff on enemies within range,2マス範囲内の味方がランダムなバフを%d層獲得し、敵にランダムなデバフを%d層付与する,使2格範圍內的友軍獲得%d層隨機增益狀態，對敵人施加%d層隨機負面狀態
+元素失控,元素失控,Elemental Disorder,元素暴走,元素失控
+当我方对敌方附加负面状态时，%d%%的几率召唤飞弹追击造成%d%%的魔法伤害，并使负面状态额外增加%d层,当我方对敌方附加负面状态时，%d%%的几率召唤飞弹追击造成%d%%的魔法伤害，并使负面状态额外增加%d层,"When inflicting a debuff on enemies, has a %d%% chance to summon a missile, dealing %d%% Magic DMG and adding %d extra stack(s) to the debuff",味方が敵に対しデバフを付与する際、%d%%の確率で追跡ミサイルを召喚し、%d%%の魔法ダメージを与え、そのデバフを追加で%d層付与する,當我方對敵方附加負面狀態時，%d%%的幾率召喚飛彈追擊造成%d%%的魔法傷害，並使負面狀態額外增加%d層

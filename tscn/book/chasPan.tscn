@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://res/Gui/UiElements/OptionsKeyboard_frame_extra_long.png" type="Texture" id=1]
+[ext_resource path="res://res/Gui/UiElements/Talents_TopPanel_Warrior.png" type="Texture" id=2]
+[ext_resource path="res://tscn/book/chasPan.gd" type="Script" id=3]
+
+[node name="chasPan" type="NinePatchRect"]
+self_modulate = Color( 0, 0, 0, 0.635294 )
+margin_right = 220.0
+margin_bottom = 130.0
+rect_min_size = Vector2( 220, 130 )
+texture = ExtResource( 1 )
+patch_margin_left = 58
+patch_margin_top = 34
+patch_margin_right = 60
+patch_margin_bottom = 23
+script = ExtResource( 3 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+margin_left = 14.0
+margin_top = -6.0
+margin_right = 213.0
+margin_bottom = 114.0
+scroll_vertical_enabled = false
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer"]
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -63.5
+margin_top = 102.0
+margin_right = 63.5
+margin_bottom = 126.0
+mouse_filter = 1
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="NinePatchRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "猛男"
+align = 1

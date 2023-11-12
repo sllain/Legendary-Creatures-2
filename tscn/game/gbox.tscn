@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://tscn/game/gbox.gd" type="Script" id=1]
+
+[node name="gbox" type="HBoxContainer"]
+margin_left = 79.0
+margin_top = 11.0
+margin_right = 879.0
+margin_bottom = 59.0
+alignment = 1
+script = ExtResource( 1 )

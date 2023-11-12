@@ -1,0 +1,104 @@
+[gd_scene load_steps=61 format=2]
+
+[ext_resource path="res://tscn/eff/eff.tscn" type="PackedScene" id=1]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_34.png" type="Texture" id=2]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_08.png" type="Texture" id=3]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_19.png" type="Texture" id=4]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_17.png" type="Texture" id=5]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_03.png" type="Texture" id=6]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_18.png" type="Texture" id=7]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_37.png" type="Texture" id=8]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_11.png" type="Texture" id=9]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_05.png" type="Texture" id=10]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_40.png" type="Texture" id=11]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_42.png" type="Texture" id=12]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_14.png" type="Texture" id=13]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_02.png" type="Texture" id=14]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_15.png" type="Texture" id=15]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_46.png" type="Texture" id=16]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_01.png" type="Texture" id=17]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_20.png" type="Texture" id=18]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_00.png" type="Texture" id=19]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_04.png" type="Texture" id=20]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_07.png" type="Texture" id=21]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_13.png" type="Texture" id=22]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_16.png" type="Texture" id=23]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_21.png" type="Texture" id=24]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_28.png" type="Texture" id=25]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_09.png" type="Texture" id=26]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_31.png" type="Texture" id=27]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_32.png" type="Texture" id=28]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_33.png" type="Texture" id=29]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_24.png" type="Texture" id=30]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_25.png" type="Texture" id=31]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_26.png" type="Texture" id=32]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_27.png" type="Texture" id=33]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_29.png" type="Texture" id=34]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_22.png" type="Texture" id=35]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_23.png" type="Texture" id=36]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_57.png" type="Texture" id=37]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_30.png" type="Texture" id=38]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_35.png" type="Texture" id=39]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_39.png" type="Texture" id=40]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_49.png" type="Texture" id=41]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_44.png" type="Texture" id=42]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_41.png" type="Texture" id=43]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_10.png" type="Texture" id=44]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_47.png" type="Texture" id=45]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_12.png" type="Texture" id=46]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_59.png" type="Texture" id=47]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_06.png" type="Texture" id=48]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_38.png" type="Texture" id=50]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_55.png" type="Texture" id=52]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_53.png" type="Texture" id=53]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_36.png" type="Texture" id=54]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_43.png" type="Texture" id=57]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_50.png" type="Texture" id=58]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_45.png" type="Texture" id=59]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_51.png" type="Texture" id=61]
+[ext_resource path="res://res/eff/ShenJianZhan-Huo/skill_eff_690_48.png" type="Texture" id=63]
+
+[sub_resource type="GDScript" id=8]
+script/source = "extends Eff
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	$up/anim.frame = 0
+	sys.playSe(\"jian1.wav\")
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	passfunc _ready():
+"
+
+[sub_resource type="CanvasItemMaterial" id=11]
+blend_mode = 1
+
+[sub_resource type="SpriteFrames" id=10]
+animations = [ {
+"frames": [ ExtResource( 19 ), ExtResource( 17 ), ExtResource( 14 ), ExtResource( 6 ), ExtResource( 20 ), ExtResource( 10 ), ExtResource( 48 ), ExtResource( 21 ), ExtResource( 3 ), ExtResource( 26 ), ExtResource( 44 ), ExtResource( 9 ), ExtResource( 46 ), ExtResource( 22 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 23 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 18 ), ExtResource( 24 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 25 ), ExtResource( 34 ), ExtResource( 38 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 2 ), ExtResource( 39 ), ExtResource( 54 ), ExtResource( 8 ), ExtResource( 50 ), ExtResource( 40 ), ExtResource( 11 ), ExtResource( 43 ), ExtResource( 12 ), ExtResource( 57 ), ExtResource( 42 ), ExtResource( 59 ), ExtResource( 16 ), ExtResource( 45 ), ExtResource( 63 ), ExtResource( 41 ), ExtResource( 58 ), ExtResource( 61 ), ExtResource( 53 ), ExtResource( 52 ), ExtResource( 37 ), ExtResource( 47 ) ],
+"loop": true,
+"name": "default",
+"speed": 50.0
+} ]
+
+[node name="eff" instance=ExtResource( 1 )]
+script = SubResource( 8 )
+
+[node name="anim" type="AnimatedSprite" parent="up" index="0"]
+self_modulate = Color( 1, 1, 1, 0.588235 )
+show_behind_parent = true
+material = SubResource( 11 )
+position = Vector2( 2, -86 )
+scale = Vector2( 2.21552, 1.7 )
+frames = SubResource( 10 )
+frame = 7
+playing = true
+
+[connection signal="animation_finished" from="up/anim" to="." method="del"]

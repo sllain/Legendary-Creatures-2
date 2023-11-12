@@ -1,0 +1,83 @@
+[gd_scene load_steps=41 format=2]
+
+[ext_resource path="res://tscn/eff/eff.tscn" type="PackedScene" id=1]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_10.png" type="Texture" id=2]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_13.png" type="Texture" id=4]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_15.png" type="Texture" id=5]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_21.png" type="Texture" id=6]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_23.png" type="Texture" id=7]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_19.png" type="Texture" id=17]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_28.png" type="Texture" id=19]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_08.png" type="Texture" id=21]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_12.png" type="Texture" id=22]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_09.png" type="Texture" id=28]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_14.png" type="Texture" id=29]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_22.png" type="Texture" id=30]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_17.png" type="Texture" id=31]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_18.png" type="Texture" id=33]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_20.png" type="Texture" id=36]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_05.png" type="Texture" id=39]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_02.png" type="Texture" id=40]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_04.png" type="Texture" id=41]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_06.png" type="Texture" id=42]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_16.png" type="Texture" id=43]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_03.png" type="Texture" id=44]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_07.png" type="Texture" id=45]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_60.png" type="Texture" id=47]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_61.png" type="Texture" id=48]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_63.png" type="Texture" id=49]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_82.png" type="Texture" id=58]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_85.png" type="Texture" id=59]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_86.png" type="Texture" id=60]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_78.png" type="Texture" id=62]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_65.png" type="Texture" id=65]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_62.png" type="Texture" id=66]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_59.png" type="Texture" id=75]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_88.png" type="Texture" id=77]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_83.png" type="Texture" id=80]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_84.png" type="Texture" id=86]
+[ext_resource path="res://res/eff/GuiYiWuQi/skill_eff_291_87.png" type="Texture" id=88]
+
+[sub_resource type="GDScript" id=8]
+script/source = "extends Eff
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	$up/anim.frame = 0
+	sys.playSe(\"NecromancerDeath.wav\")
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+"
+
+[sub_resource type="CanvasItemMaterial" id=34]
+blend_mode = 1
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ ExtResource( 40 ), ExtResource( 44 ), ExtResource( 41 ), ExtResource( 39 ), ExtResource( 42 ), ExtResource( 45 ), ExtResource( 21 ), ExtResource( 28 ), ExtResource( 2 ), ExtResource( 22 ), ExtResource( 4 ), ExtResource( 29 ), ExtResource( 5 ), ExtResource( 43 ), ExtResource( 31 ), ExtResource( 33 ), ExtResource( 17 ), ExtResource( 36 ), ExtResource( 6 ), ExtResource( 30 ), ExtResource( 7 ), ExtResource( 19 ), ExtResource( 75 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 66 ), ExtResource( 49 ), ExtResource( 65 ), ExtResource( 62 ), ExtResource( 58 ), ExtResource( 80 ), ExtResource( 86 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 88 ), ExtResource( 77 ) ],
+"loop": true,
+"name": "default",
+"speed": 40.0
+} ]
+
+[node name="eff2" instance=ExtResource( 1 )]
+script = SubResource( 8 )
+
+[node name="anim" type="AnimatedSprite" parent="up" index="0"]
+self_modulate = Color( 1, 1, 1, 0.705882 )
+material = SubResource( 34 )
+position = Vector2( -1.35525e-20, 10 )
+scale = Vector2( 0.568559, 0.720604 )
+frames = SubResource( 7 )
+frame = 4
+playing = true
+
+[connection signal="animation_finished" from="up/anim" to="." method="del"]

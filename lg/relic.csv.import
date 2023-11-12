@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://lg/relic.zh_CN.translation", "res://lg/relic.en.translation", "res://lg/relic.ja.translation", "res://lg/relic.zh_HK.translation" ]
+
+source_file="res://lg/relic.csv"
+dest_files=[ "res://lg/relic.zh_CN.translation", "res://lg/relic.en.translation", "res://lg/relic.ja.translation", "res://lg/relic.zh_HK.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

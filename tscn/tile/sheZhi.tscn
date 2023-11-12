@@ -1,0 +1,116 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/tile/sheZhi.gd" type="Script" id=2]
+
+[node name="baseDlg" instance=ExtResource( 1 )]
+margin_left = -316.0
+margin_top = -177.0
+margin_right = 316.0
+margin_bottom = 208.0
+script = ExtResource( 2 )
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+text = "设置"
+
+[node name="HSlider" type="HSlider" parent="." index="1"]
+anchor_left = 0.363836
+anchor_top = 0.195159
+anchor_right = 0.707048
+anchor_bottom = 0.224356
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="HSlider" index="0"]
+anchor_left = -0.0471947
+anchor_top = 0.3125
+anchor_right = -0.0173876
+anchor_bottom = 0.582185
+margin_left = -52.9266
+margin_top = -10.2913
+margin_right = 6.07343
+margin_bottom = 22.7087
+text = "音乐："
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="HSlider2" type="HSlider" parent="." index="2"]
+anchor_left = 0.363836
+anchor_top = 0.269977
+anchor_right = 0.707048
+anchor_bottom = 0.299174
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="HSlider2" index="0"]
+anchor_left = -0.0507123
+anchor_top = 0.3125
+anchor_right = -0.0507123
+anchor_bottom = 0.3125
+margin_left = -52.9266
+margin_top = -10.2913
+margin_right = 6.07343
+margin_bottom = 22.7087
+text = "音效："
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="fenBian" type="OptionButton" parent="." index="3"]
+margin_left = 325.0
+margin_top = 160.0
+margin_right = 401.0
+margin_bottom = 199.0
+
+[node name="Label" type="Label" parent="fenBian" index="1"]
+margin_left = -136.0
+margin_right = -48.0
+margin_bottom = 39.0
+text = "分辨率："
+
+[node name="CheckButton" type="CheckBox" parent="fenBian" index="2"]
+margin_left = 115.0
+margin_right = 183.0
+margin_bottom = 39.0
+text = "全屏"
+
+[node name="LinkButton" type="Button" parent="." index="4"]
+visible = false
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -42.0
+margin_top = -89.0
+margin_right = 57.0
+margin_bottom = -39.0
+text = "关于作者"
+
+[node name="Label" type="Label" parent="." index="5"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -49.0
+margin_top = -54.0
+margin_right = 49.0
+margin_bottom = -32.0
+text = "制作：隐藏角色"
+
+[node name="CheckL" type="CheckBox" parent="." index="6"]
+margin_left = 262.0
+margin_top = 216.0
+margin_right = 371.0
+margin_bottom = 264.0
+text = "夜晚灯光"
+
+[connection signal="tree_exiting" from="." to="." method="_on_baseDlg_tree_exiting"]
+[connection signal="value_changed" from="HSlider" to="." method="_on_HSlider_value_changed"]
+[connection signal="value_changed" from="HSlider2" to="." method="_on_HSlider2_value_changed"]
+[connection signal="item_selected" from="fenBian" to="." method="_on_fenBian_item_selected"]
+[connection signal="pressed" from="fenBian/CheckButton" to="." method="_on_CheckButton_pressed"]
+[connection signal="pressed" from="LinkButton" to="." method="_on_LinkButton_pressed"]
+[connection signal="pressed" from="CheckL" to="." method="_on_CheckL_pressed"]

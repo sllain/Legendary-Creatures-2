@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://tscn/eventDlg/eventBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/eventDlg/eventBat.gd" type="Script" id=2]
+
+[node name="bonusListTxt" instance=ExtResource( 1 )]
+rect_min_size = Vector2( 750, 120 )
+script = ExtResource( 2 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -88.0
+margin_bottom = -1.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer" index="0"]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." index="1"]
+margin_left = 647.0
+margin_top = 21.0
+margin_right = 735.0
+margin_bottom = 101.0
+
+[node name="Button" type="Button" parent="VBoxContainer" index="0"]
+unique_name_in_owner = true
+margin_right = 88.0
+margin_bottom = 38.0
+text = "战斗"
+
+[node name="Button2" type="Button" parent="VBoxContainer" index="1"]
+unique_name_in_owner = true
+margin_top = 42.0
+margin_right = 88.0
+margin_bottom = 80.0
+text = "离开"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_Button2_pressed"]

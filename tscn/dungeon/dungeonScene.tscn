@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://tscn/map/mapScene.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/dungeon/dungeonScene.gd" type="Script" id=2]
+
+[sub_resource type="CanvasItemMaterial" id=4]
+blend_mode = 1
+
+[sub_resource type="Animation" id=1]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "idle"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0.266667 ), Color( 0.458824, 0.85098, 0.443137, 0.847059 ), Color( 1, 1, 1, 0.266667 ) ]
+}
+
+[node name="mapScene" instance=ExtResource( 1 )]
+margin_right = 967.0
+margin_bottom = 486.0
+script = ExtResource( 2 )
+
+[node name="TextureRect" parent="CanvasLayer" index="0"]
+visible = false
+texture = null
+
+[node name="mouseCell" parent="." index="4"]
+material = SubResource( 4 )
+
+[node name="AnimationPlayer" parent="mouseCell" index="0"]
+anims/RESET = SubResource( 1 )
+anims/idle = SubResource( 5 )
+
+[node name="Camera2D" parent="." index="7"]
+current = false

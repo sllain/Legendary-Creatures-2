@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://res/Gui/UiElements/LongFlag_options.png" type="Texture" id=1]
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=3]
+[ext_resource path="res://tscn/player/playerDlg.gd" type="Script" id=4]
+
+[node name="charaDlg" instance=ExtResource( 3 )]
+margin_left = -437.0
+margin_top = -181.5
+margin_right = 437.0
+margin_bottom = 161.5
+script = ExtResource( 4 )
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+text = "统帅"
+
+[node name="eqpK" type="NinePatchRect" parent="." index="1"]
+margin_left = 23.0
+margin_top = 53.5
+margin_right = 549.0
+margin_bottom = 313.5
+texture = ExtResource( 1 )
+patch_margin_top = 223
+
+[node name="Label" type="Label" parent="eqpK" index="0"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -235.0
+margin_right = 237.0
+margin_bottom = 22.0
+text = "遗物"
+align = 1
+
+[node name="CenterContainer" type="CenterContainer" parent="eqpK" index="1"]
+margin_left = 35.0
+margin_top = 31.0
+margin_right = 495.0
+margin_bottom = 255.0
+
+[node name="rBox" type="GridContainer" parent="eqpK/CenterContainer" index="0"]
+margin_left = 230.0
+margin_top = 112.0
+margin_right = 230.0
+margin_bottom = 112.0
+columns = 6

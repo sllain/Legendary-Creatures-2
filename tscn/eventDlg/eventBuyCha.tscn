@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://tscn/eventDlg/eventBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/eventDlg/eventBuyCha.gd" type="Script" id=2]
+[ext_resource path="res://tscn/eventDlg/reUp/reUpBtn.tscn" type="PackedScene" id=3]
+
+[node name="eventBuyCha" instance=ExtResource( 1 )]
+margin_bottom = 280.0
+rect_min_size = Vector2( 750, 200 )
+patch_margin_top = 77
+patch_margin_bottom = 79
+axis_stretch_vertical = 1
+script = ExtResource( 2 )
+
+[node name="items" type="ScrollContainer" parent="." index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 15.0
+margin_top = 17.0
+margin_right = -110.0
+margin_bottom = -10.0
+
+[node name="box" type="GridContainer" parent="items" index="0"]
+columns = 6
+
+[node name="Button" type="Button" parent="." index="1"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -108.0
+margin_top = -57.0
+margin_right = -10.0
+margin_bottom = -19.0
+text = "离开"
+
+[node name="reUpBtn" parent="." index="2" instance=ExtResource( 3 )]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -110.0
+margin_top = -110.0
+margin_right = -10.0
+margin_bottom = -72.0
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

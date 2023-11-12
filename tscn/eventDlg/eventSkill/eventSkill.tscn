@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://tscn/eventDlg/eventBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/eventDlg/eventSkill/eventSkill.gd" type="Script" id=2]
+[ext_resource path="res://tscn/eventDlg/reUp/reUpBtn.tscn" type="PackedScene" id=3]
+
+[node name="bonusListVari" instance=ExtResource( 1 )]
+margin_bottom = 153.0
+rect_min_size = Vector2( 750, 140 )
+patch_margin_top = 81
+patch_margin_bottom = 72
+script = ExtResource( 2 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." index="0"]
+margin_left = 6.0
+margin_top = 8.0
+margin_right = 743.0
+margin_bottom = 183.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer" index="0"]
+
+[node name="Button" type="Button" parent="." index="1"]
+margin_left = 636.0
+margin_top = 101.0
+margin_right = 729.0
+margin_bottom = 139.0
+text = "取消"
+
+[node name="reUpBtn" parent="." index="2" instance=ExtResource( 3 )]
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

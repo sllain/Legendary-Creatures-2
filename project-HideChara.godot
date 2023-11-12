@@ -1,0 +1,243 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Base",
+"class": "Att",
+"language": "GDScript",
+"path": "res://core/att.gd"
+}, {
+"base": "Reference",
+"class": "Base",
+"language": "GDScript",
+"path": "res://core/base.gd"
+}, {
+"base": "Att",
+"class": "Buff",
+"language": "GDScript",
+"path": "res://core/buff.gd"
+}, {
+"base": "Conter",
+"class": "Chara",
+"language": "GDScript",
+"path": "res://core/chara.gd"
+}, {
+"base": "Obj",
+"class": "Conter",
+"language": "GDScript",
+"path": "res://core/conter.gd"
+}, {
+"base": "Item",
+"class": "Csb",
+"language": "GDScript",
+"path": "res://core/ex/csb.gd"
+}, {
+"base": "Item",
+"class": "Eqp",
+"language": "GDScript",
+"path": "res://core/ex/eqp.gd"
+}, {
+"base": "Eqp",
+"class": "EqpCreate",
+"language": "GDScript",
+"path": "res://core/ex/eqpCreate.gd"
+}, {
+"base": "Obj",
+"class": "Faci",
+"language": "GDScript",
+"path": "res://core/faci.gd"
+}, {
+"base": "Faci",
+"class": "FaciBat",
+"language": "GDScript",
+"path": "res://ex/faci/faci_bat.gd"
+}, {
+"base": "Faci",
+"class": "FaciBuy",
+"language": "GDScript",
+"path": "res://ex/faci/faci_buy.gd"
+}, {
+"base": "Faci",
+"class": "FaciTown",
+"language": "GDScript",
+"path": "res://ex/faci/faci_town.gd"
+}, {
+"base": "Item",
+"class": "Gem",
+"language": "GDScript",
+"path": "res://core/ex/gem.gd"
+}, {
+"base": "Gem",
+"class": "GemAtt",
+"language": "GDScript",
+"path": "res://ex/item/gem/gem_010.gd"
+}, {
+"base": "Gem",
+"class": "GemAttL",
+"language": "GDScript",
+"path": "res://ex/item/gem/gem_000.gd"
+}, {
+"base": "Gem",
+"class": "GemBuffHurtL",
+"language": "GDScript",
+"path": "res://ex/item/gem/gem_020.gd"
+}, {
+"base": "Buff",
+"class": "Item",
+"language": "GDScript",
+"path": "res://core/item.gd"
+}, {
+"base": "Reference",
+"class": "ItemGrid",
+"language": "GDScript",
+"path": "res://core/itemGrid.gd"
+}, {
+"base": "Reference",
+"class": "ItemPck",
+"language": "GDScript",
+"path": "res://core/itemPck.gd"
+}, {
+"base": "Loca",
+"class": "LocaCastle",
+"language": "GDScript",
+"path": "res://core/ex/locaCastle.gd"
+}, {
+"base": "Loca",
+"class": "LocaTake",
+"language": "GDScript",
+"path": "res://core/ex/locaTake.gd"
+}, {
+"base": "Item",
+"class": "Mater",
+"language": "GDScript",
+"path": "res://core/ex/mater.gd"
+}, {
+"base": "Att",
+"class": "Obj",
+"language": "GDScript",
+"path": "res://core/obj.gd"
+}, {
+"base": "Faci",
+"class": "Player",
+"language": "GDScript",
+"path": "res://core/player.gd"
+}, {
+"base": "Item",
+"class": "Relic",
+"language": "GDScript",
+"path": "res://core/relic.gd"
+}, {
+"base": "Reference",
+"class": "RndPool",
+"language": "GDScript",
+"path": "res://core/rndPool.gd"
+}, {
+"base": "Buff",
+"class": "Skill",
+"language": "GDScript",
+"path": "res://core/skill.gd"
+}, {
+"base": "Node",
+"class": "Sys",
+"language": "GDScript",
+"path": "res://core/global/sys.gd"
+}, {
+"base": "Obj",
+"class": "Team",
+"language": "GDScript",
+"path": "res://core/team.gd"
+}, {
+"base": "Buff",
+"class": "Vari",
+"language": "GDScript",
+"path": "res://core/ex/vari.gd"
+} ]
+_global_script_class_icons={
+"Att": "",
+"Base": "",
+"Buff": "",
+"Chara": "",
+"Conter": "",
+"Csb": "",
+"Eqp": "",
+"EqpCreate": "",
+"Faci": "",
+"FaciBat": "",
+"FaciBuy": "",
+"FaciTown": "",
+"Gem": "",
+"GemAtt": "",
+"GemAttL": "",
+"GemBuffHurtL": "",
+"Item": "",
+"ItemGrid": "",
+"ItemPck": "",
+"LocaCastle": "",
+"LocaTake": "",
+"Mater": "",
+"Obj": "",
+"Player": "",
+"Relic": "",
+"RndPool": "",
+"Skill": "",
+"Sys": "",
+"Team": "",
+"Vari": ""
+}
+
+[application]
+
+config/name="Legend Creatures 2"
+run/main_scene="res://tscn/mian.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+data="*res://core/global/data.gd"
+sys="*res://core/global/sys.gd"
+cons="*res://core/global/cons.gd"
+rnp="*res://core/global/rnp.gd"
+
+[debug]
+
+gdscript/warnings/unassigned_variable=false
+gdscript/warnings/unassigned_variable_op_assign=false
+gdscript/warnings/unused_variable=false
+gdscript/warnings/shadowed_variable=false
+gdscript/warnings/unused_argument=false
+gdscript/warnings/unreachable_code=false
+gdscript/warnings/unused_signal=false
+gdscript/warnings/return_value_discarded=false
+gdscript/warnings/integer_division=false
+
+[display]
+
+window/size/width=960
+window/size/height=480
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/codeandweb.texturepacker/plugin.cfg" )
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+theme/custom="res://res/theme.tres"
+theme/custom_font="res://res/font/t.tres"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

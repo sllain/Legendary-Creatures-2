@@ -1,0 +1,58 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://tscn/sceneV.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/charaDlg/chaScene.gd" type="Script" id=2]
+[ext_resource path="res://res/Gui/UiElements/Char_shadow.png" type="Texture" id=3]
+[ext_resource path="res://res/font/b.tres" type="DynamicFont" id=4]
+
+[node name="batScene" instance=ExtResource( 1 )]
+margin_left = 41.0
+margin_top = 23.0
+margin_right = 963.0
+margin_bottom = 485.0
+script = ExtResource( 2 )
+
+[node name="TileMap" type="TileMap" parent="." index="0"]
+modulate = Color( 0.694118, 0.694118, 0.694118, 1 )
+scale = Vector2( 0.27, 0.27 )
+cell_size = Vector2( 256, 193 )
+cell_half_offset = 0
+centered_textures = true
+format = 1
+tile_data = PoolIntArray( 0, 2, 0, 1, 2, 0, 2, 2, 0, 3, 2, 0, 4, 2, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 65536, 2, 0, 65537, 2, 0, 65538, 2, 0, 65539, 2, 0, 65540, 2, 0, 65541, 0, 0, 65542, 0, 0, 65543, 0, 0, 65544, 0, 0, 65545, 0, 0, 131072, 2, 0, 131073, 2, 0, 131074, 2, 0, 131075, 2, 0, 131076, 2, 0, 131077, 0, 0, 131078, 0, 0, 131079, 0, 0, 131080, 0, 0, 131081, 0, 0, 196608, 2, 0, 196609, 2, 0, 196610, 2, 0, 196611, 2, 0, 196612, 2, 0, 196613, 0, 0, 196614, 0, 0, 196615, 0, 0, 196616, 0, 0, 196617, 0, 0, 262144, 2, 0, 262145, 2, 0, 262146, 2, 0, 262147, 2, 0, 262148, 2, 0, 262149, 0, 0, 262150, 0, 0, 262151, 0, 0, 262152, 0, 0, 262153, 0, 0, 327680, 2, 0, 327681, 2, 0, 327682, 2, 0, 327683, 2, 0, 327684, 2, 0, 327685, 0, 0, 327686, 0, 0, 327687, 0, 0, 327688, 0, 0, 327689, 0, 0, 393216, 2, 0, 393217, 2, 0, 393218, 2, 0, 393219, 2, 0, 393220, 2, 0, 393221, 0, 0, 393222, 0, 0, 393223, 0, 0, 393224, 0, 0, 393225, 0, 0 )
+
+[node name="map" parent="." index="2"]
+cell_size = Vector2( 256, 193 )
+tile_data = PoolIntArray( 0, 330, 0, 1, 330, 0, 2, 330, 0, 3, 330, 0, 4, 330, 0, 5, 312, 0, 6, 312, 0, 7, 312, 0, 8, 312, 0, 9, 312, 0, 65536, 330, 0, 65537, 330, 0, 65538, 330, 0, 65539, 330, 0, 65540, 330, 0, 65541, 312, 0, 65542, 312, 0, 65543, 312, 0, 65544, 312, 0, 65545, 312, 0, 131072, 330, 0, 131073, 330, 0, 131074, 330, 0, 131075, 330, 0, 131076, 330, 0, 131077, 312, 0, 131078, 312, 0, 131079, 312, 0, 131080, 312, 0, 131081, 312, 0, 196608, 330, 0, 196609, 330, 0, 196610, 330, 0, 196611, 330, 0, 196612, 330, 0, 196613, 312, 0, 196614, 312, 0, 196615, 312, 0, 196616, 312, 0, 196617, 312, 0, 262144, 330, 0, 262145, 330, 0, 262146, 330, 0, 262147, 330, 0, 262148, 330, 0, 262149, 312, 0, 262150, 312, 0, 262151, 312, 0, 262152, 312, 0, 262153, 312, 0, 327680, 330, 0, 327681, 330, 0, 327682, 330, 0, 327683, 330, 0, 327684, 330, 0, 327685, 312, 0, 327686, 312, 0, 327687, 312, 0, 327688, 312, 0, 327689, 312, 0, 393216, 330, 0, 393217, 330, 0, 393218, 330, 0, 393219, 330, 0, 393220, 330, 0, 393221, 312, 0, 393222, 312, 0, 393223, 312, 0, 393224, 312, 0, 393225, 312, 0 )
+
+[node name="NinePatchRect" type="NinePatchRect" parent="." index="3"]
+self_modulate = Color( 1, 1, 1, 0.309804 )
+margin_left = 447.0
+margin_top = 169.0
+margin_right = 656.0
+margin_bottom = 235.0
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="NinePatchRect" index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 4 )
+text = "后备区"
+align = 1
+valign = 1
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="." index="4"]
+self_modulate = Color( 1, 1, 1, 0.309804 )
+margin_left = 91.0
+margin_top = 169.0
+margin_right = 300.0
+margin_bottom = 235.0
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="NinePatchRect2" index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 4 )
+text = "出战区"
+align = 1
+valign = 1

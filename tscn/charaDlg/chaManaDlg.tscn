@@ -1,0 +1,136 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://tscn/base/close.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/charaDlg/chaScene.tscn" type="PackedScene" id=2]
+[ext_resource path="res://res/Gui/UiElements/Background_04.png" type="Texture" id=3]
+[ext_resource path="res://tscn/charaDlg/chaManaDlg.gd" type="Script" id=4]
+[ext_resource path="res://res/Gui/UiElements/MAINTopPanelBarMirrored.png" type="Texture" id=5]
+[ext_resource path="res://res/Gui/UiElements/Information_window.png" type="Texture" id=6]
+[ext_resource path="res://tscn/charaDlg/eqpPan.gd" type="Script" id=7]
+[ext_resource path="res://res/Gui/UiElements/MiniInventory_shadow.png" type="Texture" id=8]
+[ext_resource path="res://res/Gui/UiElements/Slide_frame_bot.png" type="Texture" id=9]
+[ext_resource path="res://res/Gui/UiElements/Slide_frame_top.png" type="Texture" id=10]
+
+[node name="Popup" type="Popup"]
+margin_right = 963.0
+margin_bottom = 484.0
+script = ExtResource( 4 )
+
+[node name="NinePatchRect" type="Sprite" parent="."]
+show_behind_parent = true
+position = Vector2( 479, 241.5 )
+scale = Vector2( 0.514377, 0.479492 )
+texture = ExtResource( 3 )
+
+[node name="batScene" parent="." instance=ExtResource( 2 )]
+margin_left = 229.0
+margin_top = 73.0
+margin_right = 937.0
+margin_bottom = 513.0
+
+[node name="Button" parent="." instance=ExtResource( 1 )]
+margin_left = 437.5
+margin_top = -475.0
+margin_right = 477.5
+margin_bottom = -437.0
+
+[node name="eqp" type="NinePatchRect" parent="."]
+margin_left = 6.0
+margin_top = 1.0
+margin_right = 221.0
+margin_bottom = 477.0
+mouse_filter = 1
+texture = ExtResource( 6 )
+patch_margin_left = 53
+patch_margin_top = 21
+patch_margin_right = 44
+patch_margin_bottom = 56
+
+[node name="ScrollContainer" type="ScrollContainer" parent="eqp"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 7.0
+margin_right = -5.0
+margin_bottom = -84.0
+script = ExtResource( 7 )
+
+[node name="box" type="GridContainer" parent="eqp/ScrollContainer"]
+columns = 3
+
+[node name="Label" type="NinePatchRect" parent="."]
+margin_left = 591.0
+margin_top = 7.0
+margin_right = 913.0
+margin_bottom = 49.0
+mouse_filter = 1
+texture = ExtResource( 5 )
+
+[node name="popl" type="Label" parent="Label"]
+margin_left = 177.0
+margin_top = 9.0
+margin_right = 261.0
+margin_bottom = 31.0
+mouse_filter = 1
+custom_colors/font_color = Color( 0.627451, 0.784314, 0.584314, 1 )
+text = "人口："
+
+[node name="lab" type="Label" parent="Label/popl"]
+margin_left = 90.0
+margin_top = 1.0
+margin_right = 148.0
+margin_bottom = 23.0
+text = "10/40"
+
+[node name="lv" type="Label" parent="Label"]
+margin_left = 19.0
+margin_top = 9.0
+margin_right = 110.0
+margin_bottom = 31.0
+mouse_filter = 1
+custom_colors/font_color = Color( 0.627451, 0.784314, 0.584314, 1 )
+text = "战力等级："
+
+[node name="lab" type="Label" parent="Label/lv"]
+margin_left = 98.0
+margin_top = 1.0
+margin_right = 133.0
+margin_bottom = 23.0
+text = "20"
+
+[node name="m" type="NinePatchRect" parent="."]
+margin_left = 12.0
+margin_top = 403.0
+margin_right = 52.0
+margin_bottom = 443.0
+
+[node name="box" type="HBoxContainer" parent="m"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="SlideFrameBot" type="Sprite" parent="."]
+position = Vector2( 481.5, 471 )
+scale = Vector2( 0.472168, 0.407408 )
+texture = ExtResource( 9 )
+
+[node name="SlideFrameBot2" type="Sprite" parent="."]
+position = Vector2( 481.5, 9 )
+scale = Vector2( 0.472168, 0.407408 )
+texture = ExtResource( 10 )
+
+[node name="jtip" type="Label" parent="."]
+margin_left = 230.0
+margin_top = 13.0
+margin_right = 356.0
+margin_bottom = 35.0
+text = "可拖动装备到角色上"
+
+[node name="bg" type="NinePatchRect" parent="jtip"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 8 )
+patch_margin_left = 11
+patch_margin_right = 11
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

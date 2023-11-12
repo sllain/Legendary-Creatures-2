@@ -1,0 +1,132 @@
+,zh_CN,en,ja,zh_HK
+重劈,重劈,Heavy Slash,重斬,重劈
+造成%d%%物理伤害，附加%d层流血，目标每5层流血使你获得%d%%物理攻击的护盾,造成%d%%物理伤害，附加%d层流血，目标每5层流血使你获得%d%%物理攻击的护盾,"Deals %d%% Physical DMG, inflicting %d stack(s) of Hemorrhaged; for every 5 stacks of Hemorrhaged the target has, gain a shield with strength equal to %d%% Physical Attack",%d%%の物理ダメージを与え、%d層の出血を付与する。目標に出血が5層ごとに物理攻撃力%d%%分の盾を獲得する,造成%d%%物理傷害，附加%d層流血，目標每5層流血使你獲得%d%%物理攻擊的護盾
+锋刃追击,锋刃追击,Deep Cut,鋭刃の追撃,鋒刃追擊
+施放技能时，下次普攻提高%d%%的伤害，附加%d层流血,施放技能时，下次普攻提高%d%%的伤害，附加%d层流血,"After this skill is cast, the next Normal Attack deals an extra %d%% DMG and inflicts %d stack(s) of Hemorrhaged",スキル使用時、次の通常攻撃のダメージが%d%%増加し、敵に%d層の出血を付与する。,施放技能時，下次普攻提高%d%%的傷害，附加%d層流血
+霸王斩,霸王斩,Throatcutter,覇王斬,霸王斬
+"对目标1格造成%d%%物理伤害,每次攻击减少20%%冷却,附加%d层流血","对目标1格造成%d%%物理伤害,每次攻击减少20%%冷却,附加%d层流血","Deals %d%% Physical DMG to the target tile and within the radius of 1 tile, each Normal Attack reducing the Skill CD by 20%% and inflicting %d stack(s) of Hemorrhaged",目標1マス範囲内に%d%%の物理ダメージを与える。攻撃する度に20%%のCDを短縮し、%d層の出血を付与する。,"對目標1格造成%d%%物理傷害,每次攻擊減少20%%冷卻,附加%d層流血"
+伤口撕裂,伤口撕裂,To the Bone,傷口の裂開,傷口撕裂
+对敌人附加的流血达到%d层时，消除层数，造成%d%%的最大生命值的真实伤害,对敌人附加的流血达到%d层时，消除层数，造成%d%%的最大生命值的真实伤害,"At %d stacks of Hemorrhaged inflicted on an enemy, resets the stack number to 0 and deals True DMG that equals %d%% of the target's Max HP to them",敵に付与した出血が%d層に達した時、層数をリセットし、相手に%d%%最大HP分の固定ダメージを与える,對敵人附加的流血達到%d層時，消除層數，造成%d%%的最大生命值的真實傷害
+大杀四方,大杀四方,Decimate,四方滅殺,大殺四方
+对周围1格造成%d%%物理伤害，目标每层流血提高%d%%的伤害，并回复%d%%该伤害的生命值,对周围1格造成%d%%物理伤害，目标每层流血提高%d%%的伤害，并回复%d%%该伤害的生命值,"Deals %d%% Physical DMG to enemies within a radius of 1 tile around; each stack of Hemorrhaged on the target increases the DMG by %d%%, and the unit's HP will be restored equals %d%% of the DMG dealt",周囲1マスに対し%d%%の物理ダメージを与える。目標にかけた出血が１層ごとにこのダメージが%d%%増加し、与ダメージの%d%%分のHPを回復する。,對周圍1格造成%d%%物理傷害，目標每層流血提高%d%%的傷害，並回復%d%%該傷害的生命值
+,,,,
+撼地,撼地,Groundshaker,地ならし,撼地
+对目标单位造成%d%%的物理伤害，并对其周围1格其他单位造成%d%%伤害，附加%d层破甲,对目标单位造成%d%%的物理伤害，并对其周围1格其他单位造成%d%%伤害，附加%d层破甲,"Deals %d%% Physical DMG to the target and %d%% DMG to other units within a radius of 1 tile around them, inflicting %d stack(s) of Pierced",目標ユニットに対し%d%%の物理ダメージを与え、更に周囲1マスのユニットに%d%%のダメージを与える。%d層の破甲を付与する。,對目標單位造成%d%%的物理傷害，並對其周圍1格其他單位造成%d%%傷害，附加%d層破甲
+粉碎,粉碎,Smash,粉砕,粉碎
+造成%d%%物理伤害，附加%d层眩晕，%d层破甲,造成%d%%物理伤害，附加%d层眩晕，%d层破甲,"Deals %d%% Physical DMG, inflicting %d stack(s) of Stunned and %d stack(s) of Pierced",%d%%の物理ダメージを与え、%d層のスタンと%d層の破甲を付与する。,造成%d%%物理傷害，附加%d層眩暈，%d層破甲
+飞锤,飞锤,Hammer Crush,飛槌,飛錘
+"对最远3个敌人造成%d%%的物理伤害,附加目标10%%最大生命值的伤害和%d层破甲","对最远3个敌人造成%d%%的物理伤害,附加目标10%%最大生命值的伤害和%d层破甲","Deals %d%% Physical DMG to the 3 furthest enemies, dealing extra DMG that equals 10%% of their Max HP and inflicting %d stack(s) of Pierced on them",最も遠いユニット3名に対し%d%%の物理ダメージを与える。さらに目標の最大HP10%%分の追加ダメージを与え、%d層の破甲を付与する,"對最遠3個敵人造成%d%%的物理傷害,附加目標10%%最大生命值的傷害和%d層破甲"
+破击晕,破击晕,Pierce and Stun,破甲スタン,破擊暈
+附加破甲时额外造成%d%%目标最大生命值的物理伤害并附加%d层眩晕,附加破甲时额外造成%d%%目标最大生命值的物理伤害并附加%d层眩晕,"When inflicting Pierced, deals extra Physical DMG that equals %d%% of the target's Max HP and also inflicts %d stack(s) of Stunned",破甲を付与した際追加で目標の最大HP%d%%分の物理ダメージを与え、%d層のスタンを付与する,附加破甲時額外造成%d%%目標最大生命值的物理傷害並附加%d層眩暈
+锤精通,锤精通,Hammer Master,槌精通,錘精通
+施加破甲时，自身获得%d%%物理攻击的护盾和%d层抵御,施加破甲时，自身获得%d%%物理攻击的护盾和%d层抵御,"When inflicting Pierced, gains a shield with strength equal to %d%% Physical Attack and %d stack(s) of Armored",破甲を付与した際、物理攻撃力%d%%分の盾と%d層の守護を獲得する,施加破甲時，自身獲得%d%%物理攻擊的護盾和%d層抵禦
+,,,,
+野性咆哮,野性咆哮,Wild Roar,野性の咆哮,野性咆哮
+对周围1格造成%d%%物理伤害，每命中一名敌人获得%d层狂怒和急速,对周围1格造成%d%%物理伤害，每命中一名敌人获得%d层狂怒和急速,Deals %d%% Physical DMG to enemies within a radius of 1 tile around and gains %d stack(s) of Berserked and Hasted for each enemy hit,周囲1マスに対して%d%%の物理ダメージを与える。敵1体に命中する毎に、%d層の激怒と急速を獲得する。,對周圍1格造成%d%%物理傷害，每命中一名敵人獲得%d層狂怒和急速
+嗜血一击,嗜血一击,Lifestealing Strike,吸血の一撃,嗜血一擊
+对目标单位造成%d%%的物理伤害，自身恢复该伤害等量的生命值,对目标单位造成%d%%的物理伤害，自身恢复该伤害等量的生命值,Deals %d%% Physical DMG to a target and restores HP that equals the DMG,目標ユニットに対して%d%%の物理ダメージを与え、ダメージと同等量のHPを回復する。,對目標單位造成%d%%的物理傷害，自身恢復該傷害等量的生命值
+狂放重击,狂放重击,Dark Deal,狂乱の重撃,狂放重擊
+对自身造成5%%的当前生命值的真实伤害，对目标1格敌人造成%d%%的物理攻击的真实伤害,对自身造成5%%的当前生命值的真实伤害，对目标1格敌人造成%d%%的物理攻击的真实伤害,Deals True DMG that equals 5%% of current HP to self while dealing True DMG that equals %d%% Physical Attack to enemies of target tile and within the radius of 1 tile around,自身にHP5%%分の固定ダメージを与え、目標と周囲1マスの敵に物理攻撃力%d%%分の固定ダメージを与える。,對自身造成5%%的當前生命值的真實傷害，對目標1格敵人造成%d%%的物理攻擊的真實傷害
+暴怒,暴怒,Last Resort,憤怒,暴怒
+根据剩余生命值最高获得%d%%的增伤和减伤,根据剩余生命值最高获得%d%%的增伤和减伤,Gains at most %d%% DMG Boost and DMG Reduction based on HP left,残りダメージ基づき、最大%d%%のダメージ増加とダメージ減少を獲得可能,根據剩余生命值最高獲得%d%%的增傷和減傷
+浴血奋战,浴血奋战,Bloodbath,血の奮争,浴血奮戰
+本场战斗：每承受15%%的最大生命值的伤害，+%d点攻击，最高%d点,本场战斗：每承受15%%的最大生命值的伤害，+%d点攻击，最高%d点,"During the current battle: for every DMG taken that equals 15%% of Max HP, +%d Attack (%d at most)",この戦闘内：最大HP15%%分のダメージを受ける毎に、攻撃力が%d増加する、最大%d増加,本場戰鬥：每承受15%%的最大生命值的傷害，+%d點攻擊，最高%d點
+,,,,
+勇武,勇武,Bravery,武勇,勇武
+获得%d层狂怒，抵御和超然，无施法动作,获得%d层狂怒，抵御和超然，无施法动作,"Gains %d stack(s) of Berserked, Armored and Transcendent. This skill needs no casting",%d層の激怒、守護、超然を獲得、瞬時発動,獲得%d層狂怒，抵禦和超然，無施法動作
+以战养战,以战养战,Battle Mania,戦争を以て戦争を養う,以戰養戰
+获得%d%%全能吸血,获得%d%%全能吸血,Gains %d%% Omni-Lifesteal effect,%d%%の全能吸血を獲得する。,獲得%d%%全能吸血
+武器大师,武器大师,Grandmaster at Arms,ウェポンマスター,武器大師
+普通攻击减少所有主动技能%d%%的冷却,普通攻击减少所有主动技能%d%%的冷却,Normal Attack reduces the CD of all active skills by %d%%,通常攻撃をする際、すべてのアクティブスキルのCDが%d%%減少する。,普通攻擊減少所有主動技能%d%%的冷卻
+以一抵十,以一抵十,One Against Many,一騎当千,以一抵十
+周围1格每有一个敌人，增伤和减伤 提升%d%%,周围1格每有一个敌人，增伤和减伤 提升%d%%,"For every enemy within a radius of 1 tile around, gains an extra %d%% of DMG Boost and DMG reduction",周囲1マスに敵が1名いる毎に、ダメージ軽減とダメージ増加が%d%%増加する。,周圍1格每有一個敵人，增傷和減傷 提升%d%%
+勇往无前,勇往无前,Unstoppable,勇猛果敢,勇往無前
+获得%d%%物理攻击的护盾，每损失10%%的生命值，提高10%%的护盾值,获得%d%%物理攻击的护盾，每损失10%%的生命值，提高10%%的护盾值,"Gains a shield and its strength equals %d%% Physical Attack; for every 10%% HP lost, increases the shield strength by 10%%",物理攻撃力%d%%分の盾を獲得し、HPを10%%損失する度に、盾値が10%%増加する。,獲得%d%%物理攻擊的護盾，每損失10%%的生命值，提高10%%的護盾值
+,,,,
+力大开弓,力大开弓,Stone Bow,馬鹿力,力大開弓
+对敌方附加破甲时，本场战斗 + %d%%的暴击率,对敌方附加破甲时，本场战斗 + %d%%的暴击率,"When inflicting Pierced on a target, + %d%% Crit Rate in this battle",敵に破甲を付与する際、この戦闘内：%d%%の会心率を獲得する。,對敵方附加破甲時，本場戰鬥 + %d%%的暴擊率
+蓄力射击,蓄力射击,Power Shot,チャージショット,蓄力射擊
+"对目标造成%d%%的物理伤害，附加%d层破甲,可以暴击且攻速提高该技能施放速度","对目标造成%d%%的物理伤害，附加%d层破甲,可以暴击且攻速提高该技能施放速度","Deals %d%% Physical DMG to the target, inflicts %d stack(s) of Pierced, can deal Crit DMG and Attack Speed increases Casting Speed of this skill",目標に対し%d%%の物理ダメージを与え、%d層の破甲を付与する。会心可能、発動速度は攻撃速度の上昇につれ上昇する。,"對目標造成%d%%的物理傷害，附加%d層破甲,可以暴擊且攻速提高該技能施放速度"
+弓箭精通,弓箭精通,Bow Master,弓矢精通,弓箭精通
+获得%d%%暴击率，暴击伤害提高%d%%,获得%d%%暴击率，暴击伤害提高%d%%,"Gains an extra %d%% Crit Rate, Crit DMG increases by %d%%",%d%%の会心率を獲得し、会心ダメージが%d%%増加する。,獲得%d%%暴擊率，暴擊傷害提高%d%%
+破甲箭,破甲箭,Armor-breaking Arrow,破甲矢,破甲箭
+"普通攻击%d%%的概率附加%d层破甲,暴击时必定附加","普通攻击%d%%的概率附加%d层破甲,暴击时必定附加",Normal attacks have a %d%% chance to inflict %d stack(s) of Pierced. 100%% chance when dealing Crit DMG.,通常攻撃をする際、%d%%の確率で%d層の破甲を付与する，会心時は必ず付け加える。,"普通攻擊%d%%的概率附加%d層破甲,暴擊時必定附加"
+精准破伤,精准破伤,Precise Shot,一点突破,精準破傷
+暴击时，附加%d%%的物理攻击的真实伤害，目标每层破甲伤害提高%d%%,暴击时，附加%d%%的物理攻击的真实伤害，目标每层破甲伤害提高%d%%,"Inflicts an extra True DMG that equals %d%% of the Physical Attack when dealing Crit DMG, each stack of Pierced increases the DMG by %d%%.",会心時，物理攻撃力の%d%%の固定ダメージを付与する，目標にかけた破甲が１層ごとにダメージが%d%%増加。,暴擊時，附加%d%%的物理攻擊的真實傷害，目標每層破甲傷害提高%d%%
+,,,,
+毒刺,毒刺,Poisonous Sting,毒刺,毒刺
+普攻%d%%几率附加%d层中毒并造成%d%%的物理伤害，每层中毒使该伤害提高%d%%,普攻%d%%几率附加%d层中毒并造成%d%%的物理伤害，每层中毒使该伤害提高%d%%,"Normal Attack has a %d%% chance to inflict %d stack(s) of Poisoned and deal %d%% Physical DMG, each stack increasing the damage by %d%%",%d%%の確率で通常攻撃に%d層の毒を付与し、%d%%の物理ダメージを与える。このダメージは毒が1層ごとに%d%%増加する,普攻%d%%幾率附加%d層中毒並造成%d%%的物理傷害，每層中毒使該傷害提高%d%%
+回音击,回音击,Echo Strike,エコーアタック,回音擊
+普攻附加%d%%目标最大生命值的物理伤害，目标每层负面状态使这个伤害提升%d%%,普攻附加%d%%目标最大生命值的物理伤害，目标每层负面状态使这个伤害提升%d%%,Normal Attack deals extra Physical DMG that equals %d%% of the target's Max HP; the DMG increases by %d%% for every debuff the enemy has,通常攻撃に目標の最大HP%d%%分の物理ダメージを追加する。目標のデバフ1層毎にこのダメージが%d%%増加する,普攻附加%d%%目標最大生命值的物理傷害，目標每層負面狀態使這個傷害提升%d%%
+血牙,血牙,Bloodfang,血牙,血牙
+普攻%d%%几率附加%d层流血并造成%d%%的物理伤害，每层流血使该伤害提高%d%%,普攻%d%%几率附加%d层流血并造成%d%%的物理伤害，每层流血使该伤害提高%d%%,"Normal Attack has a %d%% chance to inflict %d stack(s) of Hemorrhaged and deal %d%% Physical DMG, each stack increasing the damage by %d%%",%d%%の確率で通常攻撃に%d層の出血を付与し、%d%%の物理ダメージを与える、出血が1層ごとにこのダメージが%d%%ずつ上昇する,普攻%d%%幾率附加%d層流血並造成%d%%的物理傷害，每層流血使該傷害提高%d%%
+多重投射,多重投射,Multi-projection,多重投射,多重投射
+对最近3个敌人造成%d%%的物理伤害，触发普攻特效，攻速会提高施放速度，每次普攻减少%d%%的冷却,对最近3个敌人造成%d%%的物理伤害，触发普攻特效，攻速会提高施放速度，每次普攻减少%d%%的冷却,"Deals %d%% Physical DMG to the 3 nearest enemies, triggering on-hit effects of the Normal Attacks; a higher Attack Speed increases Casting Speed and each Normal Attack reduces the Skill CD by %d%%",直近の敵3名に%d%%の物理ダメージを与え、通常攻撃効果を発動する。攻撃速度により発動速度を加速できる、通常攻撃をする度にクールタイムを%d%%短縮する,對最近3個敵人造成%d%%的物理傷害，觸發普攻特效，攻速會提高施放速度，每次普攻減少%d%%的冷卻
+唾液酸,唾液酸,Acid Spitter,唾液酸,唾液酸
+每3次普通攻击额外附加一次强击造成%d%%的伤害，触发普攻特效,每3次普通攻击额外附加一次强击造成%d%%的伤害，触发普攻特效,"After 2 Normal Attacks, the next Normal Attack will deal an extra %d%% DMG, triggering on-hit effects of Normal Attacks",通常攻撃3回毎に1回の強攻撃を発動し、%d%%のダメージを与え、通常攻撃効果を発動する,每3次普通攻擊額外附加一次強擊造成%d%%的傷害，觸發普攻特效
+,,,,
+溅射弹药,溅射弹药,Big Barrel,拡散弾薬,濺射彈藥
+攻击提升50%%，攻速减少50%%，普攻命中时，对周围单位造成%d%%的物理伤害，可暴击,攻击提升50%%，攻速减少50%%，普攻命中时，对周围单位造成%d%%的物理伤害，可暴击,"Physical Attack increases by 50%% but Attack Speed decreases by 50%%; when Normal Attack hits, deals %d%% Physical DMG to nearby enemies and this DMG can Crit",攻撃力を50%%増加させ、攻撃速度を50%%減少させる。普通攻撃が命中した際、周囲のユニットに%d%%の物理ダメージを与える。会心可能。,攻擊提升50%%，攻速減少50%%，普攻命中時，對周圍單位造成%d%%的物理傷害，可暴擊
+爆破榴弹,爆破榴弹,Grenade,爆破榴弾,爆破榴彈
+"对目标及1格内单位造成%d%%的物理伤害，附加%d层烧灼和破甲,视为普攻","对目标及1格内单位造成%d%%的物理伤害，附加%d层烧灼和破甲,视为普攻","Deals %d%% Physical DMG to the target unit and units within a radius of 1 tile around, inflicting %d stack(s) of Burning and Pierced; this skill is considered as a Normal Attack",目標及び目標周囲1マス内のユニットに%d%%の物理ダメージを与え、%d層の火傷と破甲を付与する。通常攻撃と見なす。,"對目標及1格內單位造成%d%%的物理傷害，附加%d層燒灼和破甲,視為普攻"
+多重燃烧弹,多重燃烧弹,Multi-Napalm Bomb,多重燃焼弾,多重燃燒彈
+对随机6名敌人造成%d%%的物理伤害，附加%d层烧灼，视为普攻,对随机6名敌人造成%d%%的物理伤害，附加%d层烧灼，视为普攻,"Deals %d%% Physical DMG to 6 random enemies, inflicting %d stack(s) of Burning; this skill is considered as a Normal Attack",ランダムな敵ユニット6名に%d%%の物理ダメージを与え、%d層の火傷を付与する。通常攻撃と見なす。,對隨機6名敵人造成%d%%的物理傷害，附加%d層燒灼，視為普攻
+整装待发,整装待发,Hype Up,準備完了,整裝待發
+每15%%暴击率可以提升%d%%伤害,每15%%暴击率可以提升%d%%伤害,"For every 15%% Crit Rate, increases DMG by %d%%",会心率15%%毎にスキルダメージが%d%%増加する。,每15%%暴擊率可以提升%d%%傷害
+精准制导,精准制导,Precision Guided,精密誘導,精準製導
+对距离最远的目标造成%d%%的物理伤害，目标每种异常状态使伤害提高%d%%,对距离最远的目标造成%d%%的物理伤害，目标每种异常状态使伤害提高%d%%,Deals %d%% Physical DMG to the furthest enemy and this DMG will increase by %d%% for every debuff the enemy has,最も距離が遠い敵に対し%d%%の物理ダメージを与える。目標のデバフが1種ごとにこのダメージは%d%%ダメージを増加する,對距離最遠的目標造成%d%%的物理傷害，目標每種異常狀態使傷害提高%d%%
+,,,,
+弱点感知,弱点感知,Weakness Perception,弱点感知,弱點感知
+对手生命值每高你一倍获得%d%%的增伤,对手生命值每高你一倍获得%d%%的增伤,Gain an additional %d%% DMG boost for each time the enemy's HP surpasses yours by a factor of two or more.,相手のHPがこちらより倍高い場合、倍数*%d%%のダメージ増加を獲得する。,對手生命值每高你一倍獲得%d%%的增傷
+屏气凝神,屏气凝神,Hold Your Breath,全集中,屏氣凝神
+获得%d层急速，无施法动作,获得%d层急速，无施法动作,Gains %d stack(s) of Hasted. This skill needs no casting,%d層の急速を獲得する。瞬時発動。,獲得%d層急速，無施法動作
+快速上弦,快速上弦,Quick Draw,高速引分け,快速上弦
+每次对同一目标普攻时，+%d%%攻速，切换目标后重置，最高提升%d%%,每次对同一目标普攻时，+%d%%攻速，切换目标后重置，最高提升%d%%,"When hitting the same unit using Normal Attack, +%d%% Attack Speed, up to %d%%; the effect will be reset after switching targets",同じ目標に対して通常攻撃する度に、攻撃速度が%d%%増加する。目標を切り替えた際にリセットする。最高で%d%%上昇。,每次對同一目標普攻時，+%d%%攻速，切換目標後重置，最高提升%d%%
+猎人之眼,猎人之眼,Eye of Hunter,狩人の目,獵人之眼
+获得%d%%暴击率和攻速加成,获得%d%%暴击率和攻速加成,Gains an extra %d%% Crit Rate and Attack Speed Boost,会心率と攻撃速度を%d%%獲得する。,獲得%d%%暴擊率和攻速加成
+射手直觉,射手直觉,Shooting Training,射撃訓練,射手直覺
+增加1点射程和%d%%的物理攻击和攻击速度,增加1点射程和%d%%的物理攻击和攻击速度,"Increases Attack Range by 1, Physical Attack and Attack Speed by %d%%",射程を1増加し、物理攻撃力と攻撃速度を%d%%増加する,增加1點射程和%d%%的物理攻擊和攻擊速度
+,,,,
+盾档,盾档,Shield Block,盾構え,盾檔
+"获得%d%%最大生命值的护盾值,%d层抵御","获得%d%%最大生命值的护盾值,%d层抵御",Gains a shield and its strength equals %d%% Max HP and %d stack(s) of Armored,最大HP%d%%分の盾を獲得し、%d層の守護を獲得する。,"獲得%d%%最大生命值的護盾值,%d層抵禦"
+铁壁盾墙,铁壁盾墙,Iron Wall,鉄壁の盾,鐵壁盾墻
+嘲讽周围1格敌人，每嘲讽一个敌人获得%d%%最大生命值的护盾,嘲讽周围1格敌人，每嘲讽一个敌人获得%d%%最大生命值的护盾,Taunts enemies within a radius of 1 tile around; gains a shield and its strength equals %d%% Max HP for every enemy taunted,周囲1マスの敵を挑発する。挑発対象1体に付き最大HP%d%%分の盾を獲得する。,嘲諷周圍1格敵人，每嘲諷一個敵人獲得%d%%最大生命值的護盾
+持盾防守,持盾防守,Hold Your Ground,持久盾,持盾防守
+"每承受30%%最大生命值的伤害,获得 %d%%最大生命值的护盾","每承受30%%最大生命值的伤害,获得 %d%%最大生命值的护盾","For every damage taken that equals of 30%% Max HP, gains a shield and its strength equals %d%% Max HP",最大HP30%%分のダメージを受ける度に、最大HP %d%%分の盾を獲得する。,"每承受30%%最大生命值的傷害,獲得 %d%%最大生命值的護盾"
+盾反,盾反,Raise Your Shield,棘の盾,盾反
+获得护盾时，对周围1格敌方造成%d%%该护盾值的物理伤害,获得护盾时，对周围1格敌方造成%d%%该护盾值的物理伤害,"After gaining a shield, deals Physical DMG that equals %d%% of the Shield Strength to the nearest enemy within the radius of 1 tile",盾を獲得した際、周囲1マスに今回獲得した盾値%d%%分の物理ダメージを与える。,獲得護盾時，對最近敵方造成%d%%該護盾值的物理傷害
+盾术精通,盾术精通,Shield Master,盾精通,盾術精通
+提高%d%%获得的护盾值,提高%d%%获得的护盾值,Increases the shield strength by %d%%,獲得した盾値が%d%%増加する。,提高%d%%獲得的護盾值
+,,,,
+反伤甲,反伤甲,Throny Armor,棘の鎧,反傷甲
+对他造成伤害的单位会受到反伤，普攻攻击者受到%d%%的物理防御的魔法伤害，技能攻击者受到%d%%的魔法防御的魔法伤害,对他造成伤害的单位会受到反伤，普攻攻击者受到%d%%的物理防御的魔法伤害，技能攻击者受到%d%%的魔法防御的魔法伤害,"Enemies that deal DMG to this unit receive reflective DMG, attackers who perform Normal Attack receive Magic DMG of %d%% Physical Defense, attackers who perform Skill Attack receive Magic DMG of %d%% Magic Defense",それにダメージを与えた単位は反傷を受け、通常攻撃の攻撃者は%d%%の物理防御力の魔法ダメージを受ける、スキルによる攻撃の攻撃者は%d%%の魔法防御力の魔法ダメージを受ける。,對他造成傷害的單位會受到反傷，普攻攻擊者受到%d%%的物理防禦的魔法傷害，技能攻擊者受到%d%%的魔法防禦的魔法傷害
+臂铠重击,臂铠重击,Gauntlet Strike,籠手重撃,臂鎧重擊
+对目标造成%d%%物理防御+魔法防御的魔法伤害，获取目标%d%%双抗，最高%d点，战斗结束重置,对目标造成%d%%物理防御+魔法防御的魔法伤害，获取目标%d%%双抗，最高%d点，战斗结束重置,Deals Magic DMG that equals %d%% of the total of Physical and Magic Defense to a target and increases both kinds of Defense by %d%% of the target's (up to %d); this effect will be removed after each battle,目標に対し物理防御力＋魔法防御力の%d%%分の魔法ダメージを与え、目標物理と魔法防御力の%d%%分を獲得する、最大%dまで、戦闘終了時リセット,對目標造成%d%%物理防禦+魔法防禦的魔法傷害，獲取目標%d%%雙抗，最高%d點，戰鬥結束重置
+板甲精通,板甲精通,Plate Armor Master,重鎧精通,板甲精通
+最终的物理防御和魔法防御提高%d%%,最终的物理防御和魔法防御提高%d%%,The final Physical and Magic Defense increase by %d%%,最終物理防御力と魔法防御力が%d%%増加する。,最終的物理防禦和魔法防禦提高%d%%
+元素抵抗,元素抵抗,Elemental Resistance,元素耐性,元素抵抗
+被施加负面状态时，回复%d%%最大生命值，获得%d层抵御，并且每层抵御会提高%d%%的回复值,被施加负面状态时，回复%d%%最大生命值，获得%d层抵御，并且每层抵御会提高%d%%的回复值,"Restores %d%% of Max HP and gains %d stack(s) of Armored when inflicted debuffs, and each stack of Armored increases %d%% of the restored HP",デバフが加えられた場合，HPを最大値の%d%%分回復する，自身が%d層の守護を獲得する，1層の守護毎に回復値を %d%% 増加させます。,被施加負面狀態時，回復%d%%最大生命值，獲得%d層抵禦，並且每層抵禦會提高%d%%的回復值
+反能铠,反能铠,Anti-energy Plate,アンチスキルアーマー,反能鎧
+"受到技能伤害时,+%d%% 对技能的减伤，并获得%d层抵御","受到技能伤害时,+%d%% 对技能的减伤，并获得%d层抵御","+%d%% DMG Reduction against Skills when taking Skill DMG, and gains %d stack(s) of Armored",スキルダメージを受けた際、スキルに対するダメージ軽減を%d%% 増加し、自身が%d層の守護を獲得する。,"受到技能傷害時,+%d%% 對技能的減傷，並獲得%d層抵禦"
+,,,,
+血肉凝结,血肉凝结,Concentration of Blood,血肉の凝結,血肉凝結
+每场非普通战斗的胜利永久提升 %d点最大生命值,每场非普通战斗的胜利永久提升 %d点最大生命值,"For every victory of non-common battle, increases Max HP by %d",毎回非通常戦闘の勝利後最大HPを %d増加する,每場非普通戰鬥的勝利永久提升 %d點最大生命值
+生命肉铠,生命肉铠,Flesh Armor,肉の鎧,生命肉鎧
+每%d点最大生命值获得%d点双防,每%d点最大生命值获得%d点双防,"For every %d Max HP, gains %d Physical and Magic Defense ",%d最大HP毎に、物理防御力と魔法防御力が%d増加する。,每%d點最大生命值獲得%d點雙防
+生命湍流,生命湍流,Turbulent of Life,生命の川,生命湍流
+战斗前和战斗后，恢复%d%%最大生命值，且承受的治疗效果提高%d%%,战斗前和战斗后，恢复%d%%最大生命值，且承受的治疗效果提高%d%%,"Before and after the battle, restore %d%% max HP and increase the Healing received by %d%%",戦闘前後に、最大体力を回復し%d%%、回復効果%d%%を上昇させる,戰鬥前和戰鬥後，恢復%d%%最大生命值，且承受的治療效果提高%d%%
+庞大身躯,庞大身躯,Huge Body,巨体,龐大身軀
+最终的最大生命值提升%d%%,最终的最大生命值提升%d%%,Max HP increases by %d%%,最大HPが%d%%増加する。,最終的最大生命值提升%d%%
+践踏,践踏,Stomp,蹂躙,踐踏
+对周围1格造成自身%d%%最大生命值的物理伤害，附加%d层眩晕,对周围1格造成自身%d%%最大生命值的物理伤害，附加%d层眩晕,"Deals Physical DMG that equals %d%% Max HP to enemies within a radius of 1 tile around, inflicting %d stack(s) Stunned",周囲1マスの敵に自身の最大HP%d%%分の物理ダメージを与え、%d層のスタンを付与する。,對周圍1格造成自身%d%%最大生命值的物理傷害，附加%d層眩暈
+,,,,
+咆哮,咆哮,Intimidation,威厳,咆哮
+以自身%d%%最大生命值对周围1格敌人造成魔法伤害，并嘲讽他们,以自身%d%%最大生命值对周围1格敌人造成魔法伤害，并嘲讽他们,"Deals Magic DMG that equals %d%% of their Max HP to enemies within a radius of 1 tile around, and taunt them",周囲1マスの敵にその最大HP%d%%分の魔法ダメージを与え、それらを挑発する。,以自身%d%%最大生命值對周圍1格敵人造成魔法傷害，並嘲諷他們
+坚守之姿,坚守之姿,Steady Poise,守りの姿,堅守之姿
+减少%d%%受到的普攻伤害，如果是暴击，则双倍减伤,减少%d%%受到的普攻伤害，如果是暴击，则双倍减伤,"Reduces DMG taken from Normal Attack by %d%%; if it is Crit DMG, the Reduction doubles",通常攻撃による被ダメージを%d%%軽減する。会心の場合、2倍の効果を得る。,減少%d%%受到的普攻傷害，如果是暴擊，則雙倍減傷
+反击之势,反击之势,Counterattack,反撃態勢,反擊之勢
+普通攻击能够嘲讽敌人，并有30%%的概率附加%d层眩晕,普通攻击能够嘲讽敌人，并有30%%的概率附加%d层眩晕,Normal Attack can taunt enemies and has a 30%% chance to inflict %d stack(s) of Stunned,通常攻撃による挑発が可能になり、30%%の確率でスタンを%d層付与する。,普通攻擊能夠嘲諷敵人，並有30%%的概率附加%d層眩暈
+健硕身躯,健硕身躯,Masculinity,頑健,健碩身軀
+"治疗自身%d%%的生命值,受到技能伤害时，减少10%%冷却","治疗自身%d%%的生命值,受到技能伤害时，减少10%%冷却",Restores %d%% HP and reduces this skill's CD by 10%% when taking Skill DMG,自身のHPを%d%%回復する。スキルによるダメージを受けた際、CDを10%%短縮する。,"治療自身%d%%的生命值,受到技能傷害時，減少10%%冷卻"
+坚定意志,坚定意志,Determination,固い意志,堅定意誌
+受到技能伤害时，减少%d%%所有主动技能当前冷却时间，并且获得%d层抵御,受到技能伤害时，减少%d%%所有主动技能当前冷却时间，并且获得%d层抵御,"When taking Skill DMG, reduces all Active Skills' current CD by %d%% and gains %d stack(s) of Armored",スキルダメージを受けた際、すべてのアクティブスキルのクールタイムを%d%%短縮し、%d層の守護を獲得する,受到技能傷害時，減少%d%%所有主動技能當前冷卻時間，並且獲得%d層抵禦

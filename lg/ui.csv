@@ -1,0 +1,164 @@
+,zh_CN,en,ja,zh_HK
+传奇生物2,传奇生物2,Legendary Creatures 2,伝説の生き物2,傳奇生物2
+新游戏,新游戏,New Game,ニューゲーム,新遊戲
+解锁,解锁,Unlock,"アンロック ",解鎖
+退出,退出,Exit,終了,退出
+设置,设置,Settings,設定,設置
+继续,继续,Continue,続ける,繼續
+状态列表,状态列表,Status List,状態リスト,狀態列表
+解锁图册,解锁图册,Unlock Encyclopedia,図鑑をアンロック,解鎖圖冊
+测试面板,测试面板,Test Panel,テストボード,測試面板
+投降并结算,投降并结算,Surrender and Settle,降参し決算,投降並結算
+保存并退出,保存并退出,Save and Exit,セーブし退出,保存並退出
+难度,难度,Difficulty,難易度,難度
+进阶等级,进阶等级,Advanced Level,昇格ランク,進階等級
+开始,开始,Start,スタート,開始
+语言：,语言：,Language:,言語：,語言：
+音乐：,音乐：,Music:,BGM：,音樂：
+音效：,音效：,SFX:,SE：,音效：
+分辨率：,分辨率：,Resolution:,解像度：,分辨率：
+全屏,全屏,Full Screen,フルスクリーン,全屏
+,,,,
+用于铁匠铺升级装备,用于铁匠铺升级装备,Can be used to upgrade equipment at the Blacksmith,鉄鋼所で装備の強化に使用,用於鐵匠鋪升級裝備
+,,,,
+决定生命上限,决定生命上限,Determines Max HP,HP上限を影響する,決定生命上限
+提升普通攻击和物理伤害,提升普通攻击和物理伤害,Increases Normal Attack and Physical DMG,通常攻撃力と物理攻撃力を上昇させる,提升普通攻擊和物理傷害
+大幅提升魔法伤害,大幅提升魔法伤害,Significantly increases Magic DMG,魔法ダメージを大幅に上昇させる,大幅提升魔法傷害
+减少物理伤害,减少物理伤害,Reduces Physical DMG,物理ダメージを軽減させる,減少物理傷害
+减少魔法伤害,减少魔法伤害,Reduces Magic DMG,魔法ダメージを軽減させる,減少魔法傷害
+无视一部分物理和魔法防御,无视一部分物理和魔法防御,Ignores part of the enemies' Physical and Magic Defense,一部の物理防御力と魔法防御力を無視する,無視一部分物理和魔法防禦
+攻击范围,攻击范围,Attack Range,攻撃範囲,攻擊範圍
+普通攻击的暴击率,普通攻击的暴击率,Crit Rate of Normal Attack,通常攻撃の会心率,普通攻擊的暴擊率
+暴击时造成的伤害倍率,暴击时造成的伤害倍率,DMG Multiplier on a Crit Hit,会心時のダメージ倍率,暴擊時造成的傷害倍率
+普通攻击的速度,普通攻击的速度,Normal Attack Speed,通常攻撃の速度,普通攻擊的速度
+主动技能的冷却速度,主动技能的冷却速度,Cooldown Speed of Active Skills,アクティブスキルのCD,主動技能的冷卻速度
+,,,,
+金币 不足,金币 不足,Insufficient Coins,金貨 不足,金幣 不足
+魂 不足,魂 不足,Insufficient Essence,ソウル 不足,魂 不足
+晶石 不足,晶石 不足,Insufficient Crystals,晶石 不足,晶石 不足
+技能点：,技能点：,"Skill Point(s): ",SP：,技能點：
+影响你升级时随机到的技能,影响你升级时随机到的技能,Influences the random skill obtained upon leveling up,レベルアップ時のランダムで修得したスキルに影響する,影響你升級時隨機到的技能
+已经最高等级,已经最高等级,Max Level reached,すでにLvMAXです,已經最高等級
+CD:%d秒,CD:%d秒,CD: %d sec,CD：%d秒,CD:%d秒
+秒,秒,Sec,秒,秒
+%s：%d级,%s：%d级,%s: Lv. %d,%s：Lv%d,%s：%d級
+专属,专属,Exclusive,専用,專屬
+缺少物品,缺少物品,Necessary Items Required,アイテムが不足,缺少物品
+事件,事件,Events,イベント,事件
+解锁部分内容所消耗的晶石,解锁部分内容所消耗的晶石,Crystals for unlocking part of the game content,一部内容のアンロックに必要な晶石,解鎖部分內容所消耗的晶石
+后备区,后备区,Bench,準備エリア,後備區
+出战区,出战区,Battlefield,出陣エリア,出戰區
+部队,部队,Troop,部隊,部隊
+仓库,仓库,Warehouse,倉庫,倉庫
+选项,选项,Options,オプション,選項
+战力等级：,战力等级：,Battle Power:,戦力レベル：,戰力等級：
+%d 级,%d 级,"Lv. %d ","%d ソウル ",%d 級
+人口：,人口：,Team Size:,人口：,人口：
+战力等级提升时，将提高人口上限,战力等级提升时，将提高人口上限,Increase your Battle Power to expand your Team Size,戦力レベルが上がった際、人口上限も上昇する,戰力等級提升時，將提高人口上限
+战力等级随单位的总等级而提高,战力等级随单位的总等级而提高,Battle Power increases with unit level accumulation.,戦力レベルはユニットの総レベルに沿って上昇する,戰力等級隨單位的總等級而提高
+,,,,
+点击穿戴装备,点击穿戴装备,Click to equip,クリックして装備,點擊穿戴裝備
+装备,装备,Equipment,装備,裝備
+升级,升级,Upgrade,強化,升級
+选择,选择,Select,選択,選擇
+更换,更换,Change,切替,更換
+卸下,卸下,Unequip,外す,卸下
+解雇,解雇,Dismiss,解雇,解雇
+学习,学习,Learn,修得,學習
+取消,取消,Cancel,キャンセル,取消
+试玩版,试玩版,Demo,お試し版,試玩版
+试玩版未解锁此功能,试玩版未解锁此功能,This function is unavailable in the demo version,お試し版ではこの機能は解放されていません,試玩版未解鎖此功能
+试玩版只能体验到%d天，谢谢游玩,试玩版只能体验到%d天，谢谢游玩,You can only venture until Day %d in the demo version. Thank you for playing.,お試し版の期限は%d日です。プレイしていただきありがとうございます,試玩版只能體驗到%d天，謝謝遊玩
+试玩版只能体验到%d天,试玩版只能体验到%d天,You can only venture until Day %d in the demo version,お試し版の期限は%d日です,試玩版只能體驗到%d天
+胜利,胜利,Victory,勝利,勝利
+失败,失败,Defeat,失敗,失敗
+收集了 %d 晶石,收集了 %d 晶石,You collected %d Crystals,晶石を %d 収集した\n,收集了 %d 晶石
+解锁 %s:%s,解锁 %s:%s,You unlocked %s: %s," %sをアンロック：%s \n",解鎖 %s:%s
+,,,,
+离开,离开,Leave,離れる,離開
+但是时间会推进%d个小时,但是时间会推进%d个小时,But time will advance by %d hour(s),但し時間は%d時間進みます,但是時間會推進%d個小時
+第 %d 天,第 %d 天,Day %d," %d 日目",第 %d 天
+每过3天会遭遇奇遇,每过3天会遭遇奇遇,You will have a Special Encounter every 3 days,3日ごとに奇遇に遭遇します,每過3天會遭遇奇遇
+夜晚,夜晚,Night,夜,夜晚
+白天,白天,Day,昼,白天
+,,,,
+你的部队,你的部队,Your Troop,部隊,你的部隊
+镜头,镜头,Camera,縮小/拡大,鏡頭
+鼠标滚轮：缩放,鼠标滚轮：缩放,Scroll Wheel: Zoom,クイックキー：マウススクロール,鼠標滾輪：縮放
+点击：指向玩家,点击：指向玩家,Click: Center to player,クリック：カメラをキャラクター位置に帰還,點擊：指向玩家
+,,,,
+没有安排出战单位，请在部队中安排,没有安排出战单位，请在部队中安排,You haven't assigned any unit to fight. Assign them in Troop.,出陣ユニットを選択していません、部隊で出陣ユニットを選択してください,沒有安排出戰單位，請在部隊中安排
+传送标记：点击即可传送到此设施,传送标记：点击即可传送到此设施,Teleportation Mark: Click to teleport to the Facility.,ワープマーク：クリックすると該当する施設にワープする,傳送標記：點擊即可傳送到此設施
+拖进卖出 或者 Ctrl+点击物品卖出,拖进卖出 或者 Ctrl+点击物品卖出,Drag in to sell or use Ctrl + Click to sell,ドラッグで 若しくは Ctrl+クリックで売却,拖進賣出 或者 Ctrl+點擊物品賣出
+伤害榜,伤害榜,DMG Ranking,ダメージランキング,傷害榜
+开战,开战,Battle,開戦,開戰
+加速,加速,2x Speed,加速,加速
+伤害,伤害,Damage,ダメージ,傷害
+承伤,承伤,Damage Taken,被ダメージ,承傷
+治疗/护盾,治疗/护盾,Healing/Shield,治療/盾,治療/護盾
+增益/负面,增益/负面,Buff/Debuff,バフ/デバフ,增益/負面
+,,,,
+解锁:花费%d晶石,解锁:花费%d晶石,Unlock: Spend %d Crystals,アンロック：晶石を%d消費,解鎖:花費%d晶石
+解锁:%s,解锁:%s,Unlock: %s,アンロック：%s,解鎖:%s
+是否出现在游戏里,是否出现在游戏里,Appear in the game or not,ゲーム内に出現しますか？,是否出現在遊戲裏
+花费 %d 晶石 解锁该项目？,花费 %d 晶石 解锁该项目？,Would you like to spend %d Crystals to unlock this?,晶石を %d 消費してアンロックしますか？,花費 %d 晶石 解鎖該項目？
+晶石 不足,晶石 不足,Insufficient Crystals,晶石 不足,晶石 不足
+,,,,
+升级一个战士到5级,升级一个战士到5级,Upgrade a Warrior to Lv. 5,ファイターを1人Lv５まで上げる,升級一個戰士到5級
+升级一个射手到5级,升级一个射手到5级,Upgrade a Ranger to Lv. 5,マークスマンを1人Lv５まで上げる,升級一個射手到5級
+升级一个坦克到5级,升级一个坦克到5级,Upgrade a Tank to Lv. 5,タンクを1人Lv５まで上げる,升級一個坦克到5級
+升级一个刺客到5级,升级一个刺客到5级,Upgrade an Assassin to Lv. 5,アサシンを1人Lv５まで上げる,升級一個刺客到5級
+升级一个辅助到5级,升级一个辅助到5级,Upgrade a Support to Lv. 5,サポーターを1人Lv５まで上げる,升級一個輔助到5級
+升级一个法师到5级,升级一个法师到5级,Upgrade a Mage to Lv. 5,メイジを1人Lv５まで上げる,升級一個法師到5級
+,,,,
+当前 等级:%d,当前 等级:%d,Current Level: %d,現在 レベル：%d,當前 等級:%d
+升级后 等级:%d,升级后 等级:%d,"After the Upgrade, Level: %d",アップグレード後 レベル：%d,升級後 等級:%d
+战力等级提升，人口上限 +1,战力等级提升，人口上限 +1,"Battle Power Level upgraded, Team Size +1",戦力レベルが上がった、人口上限 +1,戰力等級提升，人口上限 +1
+选择角色,选择角色,Character Selection,キャラクターを選ぶ,選擇角色
+,,,,
+超过本场战斗道具使用次数,超过本场战斗道具使用次数,Exceeded the number of item uses in this battle.,この戦闘でのアイテム使用制限に達しました。,超過本場戰鬥道具使用次數
+,,,,
+"获取： ","获取： ","Obtain:  ",獲得：,"獲取： "
+整理,整理,Organize,整理,整理
+初始难度，小试身手,初始难度，小试身手,Initial Difficulty. Time to test the waters.,初期難易度、手慣らしにどうぞ,初始難度，小試身手
+出售所有1级装备,出售所有1级装备,Sell all the equipment at Lv. 1.,すべてのレベル1装備を売却,出售所有1級裝備
+按等级排序物品,按等级排序物品,Rearrange your items according to the level.,アイテムをレベル順で並ぶ,按等級排序物品
+放弃,放弃,Give up,放棄する,放棄
+选择神徽,选择神徽,Select Emblem,シンボルを選択,選擇神徽
+解雇，获得 %d 金币,解雇，获得 %d 金币,"Dismiss, and obtain %d Coin(s)",解雇し、%d の金貨を獲得する,解雇，獲得 %d 金幣
+换一批,换一批,Refresh,更新,換一批
+卖出,卖出,Sell,売る,賣出
+职业会影响可以学到的技能,职业会影响可以学到的技能,Classes will affect the skills that can be learned,キャリアは学ぶことができるスキルに影響を与えます,職業會影響可以學到的技能
+可学的技能,可学的技能,Available Skills,学ぶスキル,可學的技能
+独一无二,独一无二,One and only,唯一無二,唯一無二
+制作：隐藏角色,制作：隐藏角色,Producer: HideChara,プロデューサ：HideChara,製作：隱藏角色
+夜晚灯光,夜晚灯光,Lighting at night,常夜灯,夜晚燈光
+可拖动装备到角色上,可拖动装备到角色上,Equipment can be dragged onto the character,装備はキャラクターにドラッグできます,裝備はキャラクターにドラッグできます
+一键出售,一键出售,Sell with one click,ワンクリックで販売,一鍵出售
+状态和说明,状态和说明,Status and Clarification,ステータスと説明,狀態和說明
+,,,,
+状态时长：每秒减少5层，层数越高减的越快，最高70层,状态时长：每秒减少5层，层数越高减的越快，最高70层,"Status duration: Initially, reduces by 5 stacks per second. When the status reaches a certain stack count, the reduction rate accelerates. Up to 70 layers",状態時間：毎秒5層減ります、層数が高いほど速く、最大70層,狀態時長：每秒減少5層，層數越高減的越快，最高70層
+攻击类型,攻击类型,Types of Attack,攻撃の種類,攻擊類型
+普攻：如非特殊标注视为普攻或者触发攻击特效的技能为该类型，但无法暴击,普攻：如非特殊标注视为普攻或者触发攻击特效的技能为该类型，但无法暴击,"Normal Attack: Unless otherwise specified, skills considered as Normal Attacks or those triggering on-hit effects fall under this category but cannot critically hit.",通常攻撃：特殊な表示がない場合は、通常攻撃や攻撃効果を発動するスキルはこのタイプです。でも会心は打てない,普攻：如非特殊標註視為普攻或者觸發攻擊特效的技能為該類型，但無法暴擊
+技能：如非特殊标注，主动技能为该类型,技能：如非特殊标注，主动技能为该类型,"Skill: Unless otherwise specified, active skills belong to this category.",スキル：特殊な表示がない場合は、アクティブスキルはこのタイプです,技能：如非特殊標註，主動技能為該類型
+被动：如非特殊标注，被动技能和其他效果为该类型,被动：如非特殊标注，被动技能和其他效果为该类型,"Passive: Unless otherwise specified, passive skills and other effects fall under this category.",パッシブ：特殊な表示がない場合は、パッシブスキルとその他の効果はこのタイプです,被動：如非特殊標註，被動技能和其他效果為該類型
+伤害类型：物理，魔法，真实,伤害类型：物理，魔法，真实,"Damage Types: Physical DMG, Magical DMG, True DMG.",ダメージタイプ：物理、魔法、固定,傷害類型：物理，魔法，真實
+真实伤害不受护甲影响，但受增减伤影响,真实伤害不受护甲影响，但受增减伤影响,"True damage is not affected by armor, but is affected by DMG Boost or DMG Reduction.",固定ダメージは物理防御力の影響を受けないが、増幅と減幅の影響を受ける,真實傷害不受護甲影響，但受增減傷影響
+,,,,
+在第%d天 通关了 难度%d,在第%d天 通关了 难度%d,On day %d cleared the difficulty %d,当日 %d は難易度 %d をクリアしました,在第%d天 通關了 難度%d
+击败了浩劫下的魔王,击败了浩劫下的魔王,Defeated the Demon Lord of the catastrophe,大惨事で魔王を倒した,擊敗了浩劫下的魔王
+,,,,
+按类型筛选设施,按类型筛选设施,Filter facilities by type,施設をタイプ別に絞り込む,按類型篩選設施
+整顿,整顿,Others,矯,整頓
+,,,,
+禁用本页,禁用本页,Disable this tab,このページを無効化,禁用本頁
+禁用本页可解锁的内容，使他们不会出现在游戏里,禁用本页可解锁的内容，使他们不会出现在游戏里,"Disable unlockable content on this tab, so that these won't appear in the game.",このページのアンロック可能の単位を無効にします、ゲーム内に現れないようにする,禁用本頁可解鎖的內容，使他們不會出現在遊戲裡
+已禁用本页解锁的内容,已禁用本页解锁的内容,Content on this tab disabled,Content on this page disabled,已禁用本頁解鎖的內容
+人口不足,人口不足,Team Full,人口の上限が足りない,人口不足
+,,,,
+大地图模式,大地图模式,Open World Mode,地図探索モード,大地圖模式
+在大地图上自由的探索，找到并击败最终的魔王获得胜利！,在大地图上自由的探索，找到并击败最终的魔王获得胜利！,"Explore the vast world freely, locate and defeat the ultimate Demon Lord!",地図を探索しながら，魔王を見つけて倒す。,在大地圖上自由的探索，找到並擊敗最終的魔王獲得勝利！
+爬塔模式,爬塔模式,Conquest Mode,征服モード,爬塔模式
+一层层推进，更快的节奏，更直接简单的模式。,一层层推进，更快的节奏，更直接简单的模式。,"Progress step by step, at a faster pace. This is a more straightforward and simplified mode.",各階層に挑戦、より速いゲームリズム、直接的で簡単なモード。,一層層推進，更快的節奏，更直接簡單的模式
+,,,,
+,,,,

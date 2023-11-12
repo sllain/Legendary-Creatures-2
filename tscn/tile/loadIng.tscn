@@ -1,0 +1,36 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.215686, 0.25098, 0.290196, 1 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+self_modulate = Color( 1, 1, 1, 0.937255 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_colors/default_color = Color( 1, 0.701961, 0.313726, 1 )
+custom_colors/font_color_shadow = Color( 0.388235, 0.396078, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[]
+这是一个屠魔的故事
+在达尔文岛上
+被重创的魔王盘踞在最高山峰上
+为了积蓄力量他摄取着地脉下的混沌之力
+而散发的瘴气弥漫了整个大陆
+大量的生物的变得残暴
+而你将统御幸存的生物
+重新征伐魔王"
+text = "[]
+这是一个屠魔的故事
+在达尔文岛上
+被重创的魔王盘踞在最高山峰上
+为了积蓄力量他摄取着地脉下的混沌之力
+而散发的瘴气弥漫了整个大陆
+大量的生物的变得残暴
+而你将统御幸存的生物
+重新征伐魔王"

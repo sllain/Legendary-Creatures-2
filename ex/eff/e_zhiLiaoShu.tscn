@@ -1,0 +1,65 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://tscn/eff/eff.tscn" type="PackedScene" id=1]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_13.png" type="Texture" id=2]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_4.png" type="Texture" id=3]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_8.png" type="Texture" id=4]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_5.png" type="Texture" id=5]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_9.png" type="Texture" id=6]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_6.png" type="Texture" id=7]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_3.png" type="Texture" id=8]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_0.png" type="Texture" id=9]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_1.png" type="Texture" id=10]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_2.png" type="Texture" id=11]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_15.png" type="Texture" id=12]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_12.png" type="Texture" id=13]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_7.png" type="Texture" id=14]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_10.png" type="Texture" id=15]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_14.png" type="Texture" id=16]
+[ext_resource path="res://res/eff/ZhiLiaoShu/skill_eff_538_11.png" type="Texture" id=17]
+
+[sub_resource type="GDScript" id=8]
+script/source = "extends Eff
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	$up/anim.frame = 0
+	sys.playSe(\"TeleportationCircleStart.wav\")
+	yield(get_tree().create_timer(0.08),\"timeout\")
+	sys.playSe(\"RecoveryBreak.wav\")
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+"
+
+[sub_resource type="CanvasItemMaterial" id=34]
+blend_mode = 1
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 8 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 14 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 15 ), ExtResource( 17 ), ExtResource( 13 ), ExtResource( 2 ), ExtResource( 16 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "default",
+"speed": 25.0
+} ]
+
+[node name="eff2" instance=ExtResource( 1 )]
+script = SubResource( 8 )
+
+[node name="anim" type="AnimatedSprite" parent="up" index="0"]
+self_modulate = Color( 1, 1, 1, 0.705882 )
+material = SubResource( 34 )
+position = Vector2( 1, -6 )
+scale = Vector2( 0.450135, 0.453104 )
+frames = SubResource( 7 )
+frame = 2
+playing = true
+
+[connection signal="animation_finished" from="up/anim" to="." method="del"]

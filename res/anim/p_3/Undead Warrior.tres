@@ -1,0 +1,47 @@
+[gd_resource type="SpriteFrames" load_steps=23 format=2]
+
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-attack-01.png" type="Texture" id=1]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-run-05.png" type="Texture" id=2]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-attack-02.png" type="Texture" id=3]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-die-02.png" type="Texture" id=4]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-idle-01.png" type="Texture" id=5]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-run-03.png" type="Texture" id=6]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-attack-04.png" type="Texture" id=7]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-attack-00.png" type="Texture" id=8]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-die-00.png" type="Texture" id=9]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-die-04.png" type="Texture" id=10]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-die-06.png" type="Texture" id=11]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-die-03.png" type="Texture" id=12]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-idle-00.png" type="Texture" id=13]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-idle-02.png" type="Texture" id=14]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-die-01.png" type="Texture" id=15]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-attack-03.png" type="Texture" id=16]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-run-01.png" type="Texture" id=17]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-run-04.png" type="Texture" id=18]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-die-05.png" type="Texture" id=19]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-idle-03.png" type="Texture" id=20]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-run-00.png" type="Texture" id=21]
+[ext_resource path="res://res/animImg/monster/Undead Warrior/undead-warrior-run-02.png" type="Texture" id=22]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 8 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 16 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "atk",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 9 ), ExtResource( 15 ), ExtResource( 4 ), ExtResource( 12 ), ExtResource( 10 ), ExtResource( 19 ), ExtResource( 11 ) ],
+"loop": false,
+"name": "death",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 13 ), ExtResource( 5 ), ExtResource( 14 ), ExtResource( 20 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 17 ), ExtResource( 22 ), ExtResource( 6 ), ExtResource( 18 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "move",
+"speed": 10.0
+} ]

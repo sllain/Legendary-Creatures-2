@@ -1,0 +1,324 @@
+,zh_CN,en,ja,zh_HK
+晶石,晶石,Crystal,晶石,晶石
+用于外围解锁内容,用于外围解锁内容,Can be used to unlock extra content from the Main Menu,外周のアンロックに使用,用於外圍解鎖內容
+恶魔之魂,恶魔之魂,Soul of Demon,悪魔の魂,惡魔之魂
+可以卖掉,可以卖掉,Can be sold,売却可能,可以賣掉
+但也许你能收集3个恶魔之魂？,但也许你能收集3个恶魔之魂？,But perhaps you can collect 3 Souls of Demon?,でも3つを収集すると……？,但也許你能收集3個惡魔之魂？
+,,,,
+金币,金币,Coin,金貨,金幣
+购买物品装备等等,购买物品装备等等,"Can be used to purchase items, equipment and so on.",アイテムや装備などの購入に使用可能,購買物品裝備等等
+升级单位技能,升级单位技能,Upgrade unit skill,ユニットのスキル強化に使用可能,升級單位技能
+黄金钥匙,黄金钥匙,Golden Key,黄金の鍵,黃金鑰匙
+可以卖掉，也可以用来解锁某个隐藏遗迹,可以卖掉，也可以用来解锁某个隐藏遗迹,Can be sold or used to unlock some secret ruins,売却、若しくはある秘密の遺跡のアンロックに使用可能,可以賣掉，也可以用來解鎖某個隱藏遺跡
+魂,魂,Essence,ソウル,魂
+升级单位所用,升级单位所用,This is used to upgrade units,ユニットレベルアップ用,升級單位所用
+---,,,,
+长剑,长剑,Sword,長剣,長劍
+,,,,
+锤,锤,Hammer,槌,錘
+,,,,
+巨剑,巨剑,Claymore,大剣,巨劍
+,,,,
+箭矢,箭矢,Arrow,弓矢,箭矢
+,,,,
+弓,弓,Bow,弓,弓
+,,,,
+驽,驽,Crossbow,弩,駑
+,,,,
+圆盾,圆盾,Round Shield,円盾,圓盾
+,,,,
+重甲,重甲,Heavy Armor,重鎧,重甲
+,,,,
+布衣,布衣,Cotton Cloth,布の服,布衣
+,,,,
+匕首,匕首,Dagger,短剣,匕首
+,,,,
+手里剑,手里剑,Shuriken,手裏剣,手裏劍
+,,,,
+镰刀,镰刀,Scythe,鎌,鐮刀
+,,,,
+长杖,长杖,Staff,両手杖,長杖
+,,,,
+短杖,短杖,Wand,片手杖,短杖
+,,,,
+魔法书,魔法书,Spellbook,魔導書,魔法書
+,,,,
+披肩,披肩,Shawl,マント,披肩
+,,,,
+项链,项链,Necklace,ネックレス,項鏈
+,,,,
+戒指,戒指,Ring,リング,戒指
+,,,,
+---,---,---,---,---
+血瓶,血瓶,Healing Potion,HP回復薬,血瓶
+回复全队%d点生命值,回复全队%d点生命值,Restores %d HP for all allies,パーティ全体のHPを%d回復する,回復全隊%d點生命值
+小血瓶,小血瓶,Healing Potion (S),HP回復薬（小）,小血瓶
+回复最虚弱友军%d生命值,回复最虚弱友军%d生命值,Restores %d HP for the most wounded ally,HPが最も低い味方単体のHPを%d回復,回復最虛弱友軍%d生命值
+净化药水,净化药水,Purification Potion,浄化ポーション,凈化藥水
+清除所有友军的负面状态，并恢复%d点生命值,清除所有友军的负面状态，并恢复%d点生命值,Cleanses debuffs of all allies and restores %d HP for them,味方全体の状態異常をすべて解除し、HPを%d回復する,清除所有友軍的負面狀態，並恢復%d點生命值
+祝福水-抵御,祝福水-抵御,Blessing Potion - Armored,祝福の水ー守護,祝福水-抵禦
+"回复全队%d点生命值,并获得%d层 %s","回复全队%d点生命值,并获得%d层 %s",Restores %d HP for all allies and they gain %d stack(s) of %s,パーティ全体のHPを%d回復し、%d層の%sを獲得する,"回復全隊%d點生命值,並獲得%d層 %s"
+祝福水-狂怒,祝福水-狂怒,Blessing Potion - Berserked,祝福の水ー激怒,祝福水-狂怒
+,,,,
+祝福水-急速,祝福水-急速,Blessing Potion - Hasted,祝福の水ー急速,祝福水-急速
+,,,,
+祝福水-超然,祝福水-超然,Blessing Potion - Transcendent,祝福の水ー超然,祝福水-超然
+祝福水-威能,祝福水-威能,Blessing Potion - Empowered,祝福の水ー神威,祝福水-威能
+雷电卷轴,雷电卷轴,Lightning Scroll,雷の巻物,雷電卷軸
+召唤5道闪电攻击随机敌人，每次造成%d魔法伤害 并附加20层麻痹,召唤5道闪电攻击随机敌人，每次造成%d魔法伤害 并附加20层麻痹,"Summons 5 lightning bolts to strike random enemies, dealing %d Magic DMG each bolt and inflicting 20 stacks of Paralyzed",稲妻を5つ召喚しランダムな敵を攻撃する。それぞれ%dの魔法ダメージを与え、20層の麻痺を付与する,召喚5道閃電攻擊隨機敵人，每次造成%d魔法傷害 並附加20層麻痹
+陨石卷轴,陨石卷轴,Meteorite Scroll,隕石の巻物,隕石卷軸
+召唤陨石打击敌人，造成%d魔法伤害，附加20层烧灼,召唤陨石打击敌人，造成%d魔法伤害，附加20层烧灼,"Summons a Meteorite to attack enemies, dealing %d Magic DMG and inflicting 20 stacks of Burning",隕石を召喚して敵を攻撃する。%dの魔法ダメージを与え、20層の火傷を付与する,召喚隕石打擊敵人，造成%d魔法傷害，附加20層燒灼
+闪电球卷轴,闪电球卷轴,Lightning Ball Scroll,雷玉の巻物,閃電球卷軸
+对敌方法强最高的单位造成%d点伤害，附加20层麻痹,对敌方法强最高的单位造成%d点伤害，附加20层麻痹,"Deals %d DMG to the enemy unit with the highest Magic Power, inflicting 20 stacks of Paralyzed",魔法攻撃力が最も高い敵ユニットに%dのダメージを与え、麻痺を20層付与する,對敵方法強最高的單位造成%d點傷害，附加20層麻痹
+冰刺卷轴,冰刺卷轴,Icicle Scroll,氷柱の巻物,冰刺卷軸
+对敌方攻速最高的单位造成%d点伤害，附加20层结霜,对敌方攻速最高的单位造成%d点伤害，附加20层结霜,"Deals %d DMG to the enemy unit with the highest Attack Speed, inflicting 20 stacks of Frozen",速度が最も高い敵ユニットに%dのダメージを与え、霜降を20層付与する,對敵方攻速最高的單位造成%d點傷害，附加20層結霜
+护盾卷轴,护盾卷轴,Shield Scroll,盾の巻物,護盾卷軸
+为我方所有友军施加%d的护盾,为我方所有友军施加%d的护盾,Grants a shield (shield strength: %d) to all allies,味方全員に%dの盾を付与する,為我方所有友軍施加%d的護盾
+冰霜之书,冰霜之书,Book of Frost,氷結の書,冰霜之書
+在我方最后排单位周围召唤2个%d级冰霜精灵,在我方最后排单位周围召唤2个%d级冰霜精灵,Summons 2 Lv. %d Frostie next to the ally unit in the back row,味方の最後列ユニットの周囲に2体レベル%dの氷結の精霊を召喚する,在我方最後排單位周圍召喚2個%d級冰霜精靈
+金币挑战券,金币挑战券,Coin Challenge Ticket,金貨チャレンジ券,金幣挑戰券
+本场战斗敌方所有单位的增伤和减伤 +50%%，胜利获得 %d * 敌人总等级的金币,本场战斗敌方所有单位的增伤和减伤 +50%%，胜利获得 %d * 敌人总等级的金币,"In this battle, all enemy units receive a +50% DMG Boost and DMG Reduction. Upon victory, you will earn Coins equivalent to %d times the combined Enemy Levels.",この戦闘における敵ユニットのダメージ増加とダメージ軽減を50%%増加、勝利後 %d * 敵の総レベル分の金貨を獲得する,本場戰鬥敵方所有單位的增傷和減傷 +50%%，勝利獲得 %d * 敵人總等級的金幣
+魂挑战券,魂挑战券,Essence Challenge Ticket,ソウルチャレンジ券,魂挑戰券
+本场战斗敌方所有单位的增伤和减伤 +50%%，胜利获得 %d * 敌人总等级的魂,本场战斗敌方所有单位的增伤和减伤 +50%%，胜利获得 %d * 敌人总等级的魂,"In this battle, all enemy units receive a +50% DMG Boost and DMG Reduction. Upon victory, you will earn Essence equivalent to %d times the combined Enemy Levels.",この戦闘における敵ユニットのダメージ増加とダメージ軽減を50%%増加、勝利後 %d * 敵の総レベル分のソウルを獲得する,本場戰鬥敵方所有單位的增傷和減傷 +50%%，勝利獲得 %d * 敵人總等級的魂
+主仆契约,主仆契约,Soul Contract,君臣契約,主仆契約
+战斗胜利后，%d%%概率随机获取当前敌方一名非boss单位,战斗胜利后，%d%%概率随机获取当前敌方一名非boss单位,"After victory, you have %d%% chance to obtain 1 non-boss enemy unit",戦闘勝利後、%d%%の確率で敵のBOSS以外のユニットをランダムで1体獲得する,戰鬥勝利後，%d%%概率隨機獲取當前敵方一名非boss單位
+怪盗手套,怪盗手套,Thief's Glove,怪盗の手袋,怪盜手套
+战斗胜利后，%d%%概率随机获取当前敌方的一件装备,战斗胜利后，%d%%概率随机获取当前敌方的一件装备,"After victory, you have %d%% chance to obtain 1 piece of the enemy's equipment",戦闘勝利後、%d%%の確率で敵のランダムな装備を1つ獲得する,戰鬥勝利後，%d%%概率隨機獲取當前敵方的一件裝備
+混元弹,混元弹,Spirit Bomb,混元弾,混元彈
+对所有敌方造成%d点真实伤害,对所有敌方造成%d点真实伤害,Deals %d True DMG to all enemies,敵全体に%dの固定ダメージを与える,對所有敵方造成%d點真實傷害
+核弹,核弹,Nuclear Bomb,核弾頭,核彈
+造成%d真实伤害,造成%d真实伤害,Deals %d True DMG,%dの固定ダメージを与える,造成%d真實傷害
+---,---,---,---,---
+攻击石,攻击石,ATK Stone,攻撃石,攻擊石
+,,,,
+物抗石,物抗石,Phys Res Stone,物防石,物抗石
+,,,,
+生命石,生命石,HP Stone,生命石,生命石
+,,,,
+魔法石,魔法石,Magic Power Stone,魔法石,魔法石
+,,,,
+魔抗石,魔抗石,Magic Res Stone,魔防石,魔抗石
+,,,,
+结霜石,结霜石,Frozen Stone,霜降石,結霜石
++%d%% 伤害对%s单位,+%d%% 伤害对%s单位,Increases %d%% DMG against %s units,%d%%増加させる 【%sのユニットへの与ダメージ】,+%d%% 傷害對%s單位
+流血石,流血石,Hemorrhaged Stone,流血石,流血石
+,,,,
+麻痹石,麻痹石,Paralyzed Stone,麻痺石,麻痹石
+,,,,
+破甲石,破甲石,Pierced Stone,破甲石,破甲石
+,,,,
+烧灼石,烧灼石,Burning Stone,燃焼石,燒灼石
+,,,,
+中毒石,中毒石,Poisoned Stone,毒石,中毒石
+,,,,
+普攻石,普攻石,Normal Attack Stone,通攻石,普攻石
++%d%% 普攻伤害,+%d%% 普攻伤害,Normal Attack DMG +%d%%,通常攻撃のダメージが%d%% 増加する,+%d%% 普攻傷害
+技伤石,技伤石,Skill DMG Stone,技能石,技傷石
++%d%% 技能伤害,+%d%% 技能伤害,Skill DMG +%d%%,スキルのダメージが%d%% 増加する,+%d%% 技能傷害
+近伤石,近伤石,Melee DMG Stone,近接石,近傷石
++%d%% 伤害对近战单位,+%d%% 伤害对近战单位,DMG against melee units +%d%%,近接ユニットへのダメージが%d%% 増加する,+%d%% 傷害對近戰單位
+远伤石,远伤石,Ranged DMG Stone,遠隔石,遠傷石
++%d%% 伤害对远程单位,+%d%% 伤害对远程单位,DMG against ranged units +%d%%,遠距離ユニットへのダメージが%d%% 増加する,+%d%% 傷害對遠程單位
+魔伤石,魔伤石,Magic DMG Stone,魔攻石,魔傷石
++%d%% 魔法伤害,+%d%% 魔法伤害,Magic DMG +%d%%,魔法ダメージが%d%% 増加する,+%d%% 魔法傷害
+物伤石,物伤石,Phys DMG Stone,物攻石,物傷石
++%d%% 物理伤害,+%d%% 物理伤害,Physical DMG +%d%%,物理ダメージが%d%% 増加する,+%d%% 物理傷害
+普防石,普防石,Normal DEF Stone,通防石,普防石
++%d%% 减伤对普攻,+%d%% 减伤对普攻,DMG Reduction against Normal Attack +%d%%,通常攻撃に対するダメージ軽減が%d%% 増加する,+%d%% 減傷對普攻
+技防石,技防石,Skill DEF Stone,技防石,技防石
++%d%% 减伤对技能,+%d%% 减伤对技能,DMG Reduction against Skills +%d%%,スキル攻撃に対するダメージ軽減が%d%% 増加する,+%d%% 減傷對技能
+近防石,近防石,Melee DEF Stone,近防石,近防石
++%d%% 减伤对近战,+%d%% 减伤对近战,DMG Reduction against Melee Attack +%d%%,近接戦でのダメージ軽減が%d%% 増加する,+%d%% 減傷對近戰
+远防石,远防石,Ranged DEF Stone,遠防石,遠防石
++%d%% 减伤对远程,+%d%% 减伤对远程,DMG Reduction against Ranged Attack +%d%%,遠距離戦でのダメージ軽減が%d%% 増加する,+%d%% 減傷對遠程
+暴防石,暴防石,Crit DEF Stone,会防石,暴防石
++%d%% 减伤对暴击,+%d%% 减伤对暴击,DMG Reduction against Crit DMG +%d%%,会心攻撃に対するダメージ軽減が%d%% 増加する,+%d%% 減傷對暴擊
+魔防石,魔防石,Magic DEF Stone,魔防石,魔防石
++%d%% 减伤对魔法伤害,+%d%% 减伤对魔法伤害,DMG Reduction against Magic DMG +%d%%,魔法攻撃に対してのダメージ軽減が%d%% 増加する,+%d%% 減傷對魔法傷害
+物防石,物防石,Phys DEF Stone,物防石,物防石
++%d%% 减伤对物理伤害,+%d%% 减伤对物理伤害,DMG Reduction against Physical DMG +%d%%,物理攻撃に対してのダメージ軽減が%d%% 増加する,+%d%% 減傷對物理傷害
+增疗石,增疗石,Life-granting Stone,増療石,增療石
++%d%% 施加的治疗效果,+%d%% 施加的治疗效果,The Healing effect +%d%%,治療効果が%d%% 増加する,+%d%% 施加的治療效果
+增盾石,增盾石,Shield-granting Stone,増盾石,增盾石
++%d%% 施加的护盾效果,+%d%% 施加的护盾效果,Shield Strength gained +%d%%,盾効果が%d%% 増加する,+%d%% 施加的護盾效果
+双疗石,双疗石,Nightingale Stone,双療石,雙療石
++%d%% 施加的护盾和治疗效果,+%d%% 施加的护盾和治疗效果,Shield Strength gained and Healing +%d%%,盾効果と治療効果が%d%% 増加する,+%d%% 施加的護盾和治療效果
+超然石,超然石,Transcendent Stone,超然石,超然石
++%d%% 拥有超然时增伤,+%d%% 拥有超然时增伤,"When Transcendent, DMG Boost +%d%%",超然時のダメージ増加が%d%% 増加する,+%d%% 擁有超然時增傷
+抵御石,抵御石,Armored Stone,守護石,抵禦石
++%d%% 拥有抵御时减伤,+%d%% 拥有抵御时减伤,"When Armored, reduction of the received DMG +%d%%",守護状態時のダメージ軽減が%d%% 増加する,+%d%% 擁有抵禦時減傷
+急速石,急速石,Hasted Stone,急速石,急速石
++%d%% 拥有急速时增伤,+%d%% 拥有急速时增伤,"When Hasted, DMG Boost +%d%%",急速時のダメージ増加が%d%% 増加する,+%d%% 擁有急速時增傷
+狂怒石,狂怒石,Berserked Stone,激怒石,狂怒石
++%d%% 拥有狂怒时增伤,+%d%% 拥有狂怒时增伤,"When Berserked, DMG Boost +%d%%",激怒時のダメージ増加が%d%% 増加する,+%d%% 擁有狂怒時增傷
+威能石,威能石,Empowered Stone,神威石,威能石
++%d%% 拥有威能时增伤,+%d%% 拥有威能时增伤,"When Empowered, DMG Boost +%d%%",神威時のダメージ増加が%d%% 増加する,+%d%% 擁有威能時增傷
+血石,血石,Blood Stone,血石,血石
+技能伤害附加%d层流血,技能伤害附加%d层流血,Skill inflicts %d stack(s) of Hemorrhaged,スキルダメージに%d層の出血を付与する,技能傷害附加%d層流血
+砥石,砥石,Whetstone,砥石,砥石
+技能伤害附加%d层破甲,技能伤害附加%d层破甲,Skill inflicts %d stack(s) of Pierced,スキルダメージに%d層の破甲を付与する,技能傷害附加%d層破甲
+吸血技石,吸血技石,Lifesteal Stone,吸血技石,吸血技石
+技能伤害获得%d%%吸血,技能伤害获得%d%%吸血,Skill gains %d%% stack(s) of Lifesteal,スキルダメージによる吸血効果を%d%%獲得する,技能傷害獲得%d%%吸血
+巨力石,巨力石,Hercules Stone,怪力石,巨力石
+普通攻击对1格内其他敌人造成%d%%的物理伤害,普通攻击对1格内其他敌人造成%d%%的物理伤害,Normal Attack will deal %d%% Physical DMG to other enemies within 1 tile,通常攻撃が攻撃対象1マス範囲内の隣接した敵に対し%d%%の物理ダメージを追加する,普通攻擊對1格內其他敵人造成%d%%的物理傷害
+破盾石,破盾石,Shieldbreaking Stone,破盾石,破盾石
+对护盾造成额外%d%%的伤害,对护盾造成额外%d%%的伤害,Deals an extra %d%% DMG to shields,盾に対するダメージが%d%%増加する,對護盾造成額外%d%%的傷害
+追击石,追击石,Pursuit Stone,追撃石,追擊石
+施放技能时，下次普攻附加%d%%的物理伤害,施放技能时，下次普攻附加%d%%的物理伤害,"After casting a skill, the next Normal Attack deals an extra %d%% Physical DMG",スキル使用時、次の通常攻撃に%d%%の物理ダメージを追加する,施放技能時，下次普攻附加%d%%的物理傷害
+力量石,力量石,Strength Stone,力石,力量石
+最终物理攻击增加%d%%,最终物理攻击增加%d%%,The final Physical Attack increases by %d%%,最終物理攻撃力を%d%%追加する,最終物理攻擊增加%d%%
+怒却石,怒却石,Calmness Stone,怒超石,怒卻石
+受到技能伤害时，获得%d层超然,受到技能伤害时，获得%d层超然,Gains %d stack(s) of Transcendent after taking Skill DMG,スキルダメージを受けた際、超然を%d層獲得する,受到技能傷害時，獲得%d層超然
+狂石,狂石,Fury Stone,狂石,狂石
+暴击时，40%%几率获得%d层狂怒,暴击时，40%%几率获得%d层狂怒,Has a 40%% chance to gain %d stack(s) of Berserked when dealing Crit DMG,会心時、40%%の確率で%d層の激怒を獲得する,暴擊時，40%%幾率獲得%d層狂怒
+细雪石,细雪石,Snowflake Stone,細雪石,細雪石
+普攻附加%d%%目标当前生命值的物理伤害,普攻附加%d%%目标当前生命值的物理伤害,Normal Attack deals an extra Physical DMG that equals %d%% of the target's current HP,通常攻撃に攻撃対象の残りHP%d%%の物理ダメージを追加する,普攻附加%d%%目標當前生命值的物理傷害
+速石,速石,Speed Stone,速石,速石
+暴击时，40%%几率获得%d层急速,暴击时，40%%几率获得%d层急速,Has a 40%% chance to gain %d stack(s) of Hasted when dealing Crit DMG,会心時、40%%の確率で%d層の急速を獲得する,暴擊時，40%%幾率獲得%d層急速
+爆裂石,爆裂石,Explosive Stone,会攻石,爆裂石
+暴击伤害提升%d%%,暴击伤害提升%d%%,Crit DMG increases by %d%%,会心ダメージが%d%%増加する,暴擊傷害提升%d%%
+海妖石,海妖石,Kraken Stone,海妖石,海妖石
+每3次普通攻击附加%d%%物理攻击的真实伤害,每3次普通攻击附加%d%%物理攻击的真实伤害,"After 2 Normal Attacks, the next Normal Attack will deal an extra True DMG that equals %d%% of the Physical Attack",通常攻撃3回ごとに%d%%物理攻撃力分の固定ダメージを追加する,每3次普通攻擊附加%d%%物理攻擊的真實傷害
+巨杀石,巨杀石,Giantslaying Stone,巨殺石,巨殺石
+对手生命值每高你一倍获得%d%%的增伤,对手生命值每高你一倍获得%d%%的增伤,Gain an additional %d%% DMG boost for each time the enemy's HP surpasses yours by a factor of two or more.,相手のHPがこちらより倍高い場合、倍数*%d%%のダメージ増加を獲得する,對手生命值每高你一倍獲得%d%%的增傷
+普裂石,普裂石,Cleaver Stone,通破石,普裂石
+普攻%d%%几率附加%d层破甲,普攻%d%%几率附加%d层破甲,Normal Attack has a %d%% chance to inflict %d stack(s) of Pierced,%d%%の確率で通常攻撃時に%d層の破甲を付与する,普攻%d%%幾率附加%d層破甲
+普血石,普血石,Injury Stone,通血石,普血石
+普攻%d%%几率附加%d层流血,普攻%d%%几率附加%d层流血,Normal Attack has a %d%% chance to inflict %d stack(s) of Hemorrhaged,%d%%の確率で通常攻撃時に%d層の出血を付与する,普攻%d%%幾率附加%d層流血
+盾石,盾石,Shield Stone,盾石,盾石
+战斗开始时，获得%d%%最大生命值的护盾,战斗开始时，获得%d%%最大生命值的护盾,"When the battle starts, the unit gains a shield and its strength equals %d%% of their Max HP",戦闘開始時、最大HP%d%%分の盾を獲得する,戰鬥開始時，獲得%d%%最大生命值的護盾
+御石,御石,Defense Stone,守石,禦石
+每承受15%%的最大生命值的伤害，获得%d层抵御,每承受15%%的最大生命值的伤害，获得%d层抵御,"Whenever the unit takes DMG that equals 15%% of their Max HP, they gain %d stack(s) of Armored",最大HP15%%分のダメージを受ける度、%d層の守護を獲得する,每承受15%%的最大生命值的傷害，獲得%d層抵禦
+时御石,时御石,Sec-fender Stone,時守石,時禦石
+每5秒获得%d层抵御,每5秒获得%d层抵御,Gains %d stack(s) of Armored every 5 sec,5秒ごとに%d層の守護を獲得する,每5秒獲得%d層抵禦
+抵技石,抵技石,Skill-offsetting Stone,技消石,抵技石
+开战时和每%d秒抵消一次技能伤害,开战时和每%d秒抵消一次技能伤害,"Upon starting a battle and for every %d seconds afterward, offsets Skill DMG once.",%d秒毎にスキルダメージを1回打ち消すことができる。戦闘開始時に打ち消し効果を1層獲得する。,開戰時和每%d秒抵消一次技能傷害
+铸甲石,铸甲石,Armor-crafting Stone,装甲石,鑄甲石
+双抗提升%d%%,双抗提升%d%%,Physical and Magic Defense increase by %d%%,物理と魔法耐性が%d%%増加する,雙抗提升%d%%
+生命石,生命石,HP Stone,生命石,生命石
+最大生命值提升%d%%,最大生命值提升%d%%,Max HP increases by %d%%,最大HPが%d%%増加する,最大生命值提升%d%%
+抵毒石,抵毒石,Poison-resisting Stone,毒防石,抵毒石
+免疫中毒,免疫中毒,Becomes immune to Poisoned,毒無効,免疫中毒
+止血石,止血石,Bandage Stone,血止石,止血石
+免疫流血,免疫流血,Becomes immune to Hemorrhaged,出血無効,免疫流血
+闪光石,闪光石,Flash Stone,閃光石,閃光石
+开场时闪现至敌方后排，获得%d层急速,开场时闪现至敌方后排，获得%d层急速,"When the battle starts, flashes to the back row of the enemy team and gains %d stack(s) of Hasted",戦闘開始時、敵後列に瞬間移動し、%d層の急速を獲得する,開場時閃現至敵方後排，獲得%d層急速
+吸血石,吸血石,Lifelink Stone,吸血石,吸血石
+普攻伤害获得%d%%吸血,普攻伤害获得%d%%吸血,Normal Attack gains %d%% stack(s) of Lifesteal,通常攻撃ダメージによる吸血効果を%d%%獲得する,普攻傷害獲得%d%%吸血
+超然石,超然石,Transcendent Stone,超然石,超然石
+施放技能时，50%%的几率获得%d层超然,施放技能时，50%%的几率获得%d层超然,The unit has a 50%% chance to gain %d stack(s) of Transcendent when casting their skill,スキル使用時、50%%の確率で%d層の超然を獲得する,施放技能時，50%%的幾率獲得%d層超然
+剧毒石,剧毒石,Toxin Stone,猛毒石,劇毒石
+技能伤害附加%d层中毒,技能伤害附加%d层中毒,Skill inflicts %d stack(s) of Poisoned,スキルダメージに%d層の毒効果を付与する,技能傷害附加%d層中毒
+击杀石,击杀石,Kill Stone,キルストーン,擊殺石
+本场战斗每个击杀+%d点物理攻击,本场战斗每个击杀+%d点物理攻击,"For every Kill in this battle, +%d points of Physical Attack",このバトルで1キルするごとに、物理攻撃+%dポイント,本場戰鬥每個擊殺+%d點物理攻擊
+魔能石,魔能石,Arcane Stone,魔能石,魔能石
+最终魔法攻击增加%d%%,最终魔法攻击增加%d%%,The final Magic Power increases by %d%%,最終魔法攻撃力が%d%%追加する,最終魔法攻擊增加%d%%
+冷冽石,冷冽石,Tranquility Stone,冷徹石,冷冽石
+普通攻击减少%d%%所有技能冷却,普通攻击减少%d%%所有技能冷却,Normal Attack reduces the CD of all skills by %d%%,普通攻撃によりすべてのスキルのCDを%d%%短縮させる,普通攻擊減少%d%%所有技能冷卻
+法伤石,法伤石,Warlock Stone,魔傷石,法傷石
+技能附加目标%d%%最大生命值的魔法伤害,技能附加目标%d%%最大生命值的魔法伤害,Skill deals extra Magic DMG that equals %d%% of the target's Max HP,スキルに攻撃対象最大HPの%d%%分の魔法ダメージを追加する,技能附加目標%d%%最大生命值的魔法傷害
+火焰石,火焰石,Fire Stone,火炎石,火焰石
+技能伤害附加%d层烧灼,技能伤害附加%d层烧灼,Skill DMG inflicts %d stack(s) of Burning,スキルダメージに%d層の火傷効果を付与する,技能傷害附加%d層燒灼
+寒霜石,寒霜石,Blizzard Stone,寒冷石,寒霜石
+技能伤害附加%d层结霜,技能伤害附加%d层结霜,Skill DMG inflicts %d stack(s) of Frozen,スキルダメージに%d層の霜降効果を付与する,技能傷害附加%d層結霜
+雷鸣石,雷鸣石,Thunder Stone,雷鳴石,雷鳴石
+技能伤害附加%d层麻痹,技能伤害附加%d层麻痹,Skill DMG inflicts %d stack(s) of Paralyzed,スキルダメージに%d層の麻痺効果を付与する,技能傷害附加%d層麻痹
+法爆石,法爆石,Wizard Stone,技会石,法爆石
+技能可以暴击,技能可以暴击,Skill can deal Crit DMG now,スキルによる会心が可能になる,技能可以暴擊
+法技石,法技石,Focus Stone,魔技石,法技石
+"战斗开始时,技能CD减少%d%%","战斗开始时,技能CD减少%d%%",Skill CD is reduced by %d%% when the battle starts,戦闘開始時、スキルのCDを%d%%短縮させる,"戰鬥開始時,技能CD減少%d%%"
+,,,,
+,,,,
+誓约之剑,誓约之剑,Blade of Pledges,誓いの剣,誓約之劍
+开战时使周围1格友军获得%d层狂怒，而你获得%d%% 他们总和的物理攻击，持续到战斗结束,开战时使周围1格友军获得%d层狂怒，而你获得%d%% 他们总和的物理攻击，持续到战斗结束,"When the battle starts, bestows %d stack(s) of Berserked to allies within a radius of 1 tile. Meanwhile, gains %d%% of their combined physical attack, the effect lasts until the end of the battle",戦闘開始時、周囲1マスの味方が激怒を%d層獲得、自身が彼らの合計物理攻撃力%d%%分の物理攻撃力を獲得する。戦闘終了まで持続,開戰時使周圍1格友軍獲得%d層狂怒，而你獲得%d%% 他們總和的物理攻擊，持續到戰鬥結束
+皇冠,皇冠,Royal Diadem,王冠,皇冠
+当你获得增益状态时，你最近的2名友军也获得同样层数的该增益状态,当你获得增益状态时，你最近的2名友军也获得同样层数的该增益状态,"When buffed, your nearest 2 allies also attain an equivalent number of stack(s) of the same enhancement.",自身がバフを獲得した際、直近2名の味方に同じ層数の該当バフを付与する,當你獲得增益狀態時，你最近的2名友軍也獲得同樣層數的該增益狀態
+王者之戒,王者之戒,Ring of Monarchs,王者の指輪,王者之戒
+当你获得超然时，也获得同样层数的威能,当你获得超然时，也获得同样层数的威能,"After gaining Transcendence, receive a corresponding number of stack(s) of Empowered.",超然を獲得した際、同じ層数の神威を獲得する,當你獲得超然時，也獲得同樣層數的威能
+,,,,
+隐身药水,隐身药水,Invisibility Potion,身隠しのポーション,隱身藥水
+使所有友军获得%d层隐身,使所有友军获得%d层隐身,Grants all allies %d stack(s) of Invisible,味方全体が%d層のインビジブルを獲得する,使所有友軍獲得%d層隱身
+震击卷轴,震击卷轴,Stun Scroll,震撃の巻物,震擊卷軸
+对敌方攻击力最高的敌人造成%d点物理伤害，并眩晕%d秒,对敌方攻击力最高的敌人造成%d点物理伤害，并眩晕%d秒,Deals %d Physical DMG to the enemy with the highest ATK and stuns them for %d sec,最も攻撃力が高い敵に%dの物理ダメージを与え、スタンを%d秒付与する,對敵方攻擊力最高的敵人造成%d點物理傷害，並眩暈%d秒
+真视卷轴,真视卷轴,Vision Scroll,視界の巻物,真視卷軸
+对敌方所有单位造成%d点魔法伤害，并解除其隐身状态,对敌方所有单位造成%d点魔法伤害，并解除其隐身状态,Deals %d Magic DMG to all enemies and disables their invisibility,敵全てのユニットに魔法ダメージを%d与え、インビジブル状態を解除する,對敵方所有單位造成%d點魔法傷害，並解除其隱身狀態
+毒雾卷轴,毒雾卷轴,Poison Mist Scroll,毒霧の巻物,毒霧卷軸
+召唤毒雾对2格范围敌人造成%d点魔法伤害，附加%d层中毒,召唤毒雾对2格范围敌人造成%d点魔法伤害，附加%d层中毒,"Casts Poison Mist to deal %d Magic DMG to enemies within a radius of 2 tiles, inflicting %d stack(s) of Poisoned",毒の霧を召喚、2マス以内の敵に%dの魔法ダメージを与え、中毒を%d層付与する,召喚毒霧對2格範圍敵人造成%d點魔法傷害，附加%d層中毒
+霜雨卷轴,霜雨卷轴,Frosty Rain Scroll,霰の巻物,霜雨卷軸
+召唤5波霜雨，每波对1格范围敌人造成%d点魔法伤害附加%d层结霜,召唤5波霜雨，每波对1格范围敌人造成%d点魔法伤害附加%d层结霜,"Casts 5 waves of Frosty Rain, each wave dealing %d Magic DMG to enemies within a radius of 1 tile and inflicting %d stack(s) of Frozen",霰を5回召喚する、毎回1マス範囲の敵に魔法ダメージを%d与え、霜降を%d層付与する,召喚5波霜雨，每波對1格範圍敵人造成%d點魔法傷害附加%d層結霜
+巨镰卷轴,巨镰卷轴,Scythe Scroll,大鎌の巻物,巨鐮卷軸
+对1格范围敌人造成%d点物理伤害，附加%d层流血,对1格范围敌人造成%d点物理伤害，附加%d层流血,"Deals %d Physical DMG to enemies within a radius of 1 tile, inflicting %d stack(s) of Hemorrhaged",周囲1マス範囲内の敵に%d%%の物理ダメージを与え、%d層の出血を付与する,對1格範圍敵人造成%d點物理傷害，附加%d層流血
+灭绝术,灭绝术,Apocalypse,滅殺の巻物,滅絕術
+随机对3名敌人造成%d点真实伤害，目标每有一种异常状态伤害提升50%%,随机对3名敌人造成%d点真实伤害，目标每有一种异常状态伤害提升50%%,"Deals %d True DMG to 3 random enemies, this DMG increases by 50%% for each debuff they have",ランダムな敵3名に%dの固定ダメージを与える、目標にかけられたデバフが1種ごとにこのダメージが50%%増加する,隨機對3名敵人造成%d點真實傷害，目標每有一種異常狀態傷害提升50%%
+,,,,
+震荡石,震荡石,Shock Stone,震動石,震蕩石
+暴击时%d%%概率使目标眩晕%d层,暴击时%d%%概率使目标眩晕%d层,Has a %d%% chance to inflict %d stack(s) of Stunned when dealing Crit DMG,会心時、%d%%の確率で目標にスタンを%d層付与する,暴擊時%d%%概率使目標眩暈%d層
+夺萃石,夺萃石,Deprivation Stone,奪魂石,奪萃石
+击杀敌人时，回复%d%%已损失生命值,击杀敌人时，回复%d%%已损失生命值,"After killing an enemy, restores %d%% of HP lost",敵を倒した際、損失HPを%d%%回復する,擊殺敵人時，回復%d%%已損失生命值
+狂战石,狂战石,Berserker Stone,狂乱石,狂戰石
+每损失10%%生命值，技能伤害+%d%%,每损失10%%生命值，技能伤害+%d%%,"For every 10%% HP lost, +%d%% Skill DMG",HPを10%%損失する毎に、スキルダメージが%d%%増加する,每損失10%%生命值，技能傷害+%d%%
+血伤石,血伤石,Cleaver Stone,血傷石,血傷石
+目标每5层流血 +%d%%增伤,目标每5层流血 +%d%%增伤,+%d%% DMG Boost for every 5 stacks of Hemorrhaged on the target,目標の出血が5層毎にダメージ増加を%d%%増加する,目標每5層流血 +%d%%增傷
+怒伤石,怒伤石,Crusher Stone,怒傷石,怒傷石
+每5层狂怒 +%d%%增伤,每5层狂怒 +%d%%增伤,+%d%% DMG Boost for every 5 stacks of Berserked owned,激怒が5層毎にダメージ増加を%d%%増加する,每5層狂怒 +%d%%增傷
+超伤石,超伤石,Hermit Stone,超傷石,超傷石
+每5层超然 +%d%%增伤,每5层超然 +%d%%增伤,+%d%% DMG Boost for every 5 stacks of Transcendent owned,超然が5層毎にダメージ増加を%d%%増加する,每5層超然 +%d%%增傷
+猎手石,猎手石,Hunter Stone,狩人石,獵手石
+每距离目标1格，+%d%%增伤,每距离目标1格，+%d%%增伤,+%d%% DMG Boost for every tile between the user and the target,ダメージ増加を目標との距離マス数＊%d%%増加する,每距離目標1格，+%d%%增傷
+会心石,会心石,Concentration Stone,会心石,會心石
+普通攻击20%%概率造成目标%d%%最大生命值的真实伤害,普通攻击20%%概率造成目标%d%%最大生命值的真实伤害,"Normal Attack has a 20%% chance to deal True DMG to the target, the damage equals %d%% of the target's Max HP",20%%の確率で通常攻撃に目標の最大HP%d%%分の固定ダメージを追加で与える,普通攻擊20%%概率造成目標%d%%最大生命值的真實傷害
+速伤石,速伤石,Flash Stone,速傷石,速傷石
+每5层急速 +%d%%增伤,每5层急速 +%d%%增伤,+%d%% DMG Boost for every 5 stacks of Hasted owned,急速が5層毎にダメージ増加を%d%%増加する,每5層急速 +%d%%增傷
+猛击石,猛击石,Bash Stone,猛撃石,猛擊石
+普攻附带%d%%护盾量的物理伤害,普攻附带%d%%护盾量的物理伤害,Normal Attack deals an extra Physical DMG that equals %d%% of Shield Strength,通常攻撃に盾値%d%%の物理ダメージを付与する,普攻附帶%d%%護盾量的物理傷害
+灭焰石,灭焰石,Ember Stone,滅炎石,滅焰石
+被施加烧灼时，层数减半，对施加者施加%d层烧灼,被施加烧灼时，层数减半，对施加者施加%d层烧灼,"When inflicted with Burning, halves the stack number and inflicts %d stack(s) of Burning back to the attacker",火傷を付与された際、層数が半減し、付与した敵に%d層の火傷を付与する,被施加燒灼時，層數減半，對施加者施加%d層燒灼
+去冻石,去冻石,Thaw Stone,除雪石,去凍石
+被施加结霜时，层数减半，对施加者施加%d层结霜,被施加结霜时，层数减半，对施加者施加%d层结霜,"When inflicted with Frozen, halves the stack number and inflicts %d stack(s) of Frozen back to the attacker",霜降を付与された際、層数が半減し、付与した敵に%d層の霜降を付与する,被施加結霜時，層數減半，對施加者施加%d層結霜
+缓麻石,缓麻石,Soberness Stone,抗麻石,緩麻石
+被施加麻痹时，层数减半，对施加者施加%d层麻痹,被施加麻痹时，层数减半，对施加者施加%d层麻痹,"When inflicted with Paralyzed, halves the stack number and inflicts %d stack(s) of Paralyzed back to the attacker",麻痺を付与された際、層数が半減し、付与した敵に%d層の麻痺を付与する,被施加麻痹時，層數減半，對施加者施加%d層麻痹
+御伤石,御伤石,Conversion Stone,護傷石,禦傷石
+每5层抵御 +%d%%增伤,每5层抵御 +%d%%增伤,+%d%% DMG Boost for every 5 stacks of Armored owned,守護が5層毎にダメージ増加を%d%%増加する,每5層抵禦 +%d%%增傷
+盗金石,盗金石,Goldpicker Stone,窃盗石（金）,盜金石
+击杀敌人时，获取目标等级*%d的金币,击杀敌人时，获取目标等级*%d的金币,"After killing an enemy, gains Coins that equals %d*target level",敵を倒した際、倒した敵のレベル*%dの金貨を獲得する,擊殺敵人時，獲取目標等級*%d的金幣
+盗魂石,盗魂石,Soulstealing Stone,窃盗石（魂）,盜魂石
+击杀敌人时，获取目标等级*%d的魂,击杀敌人时，获取目标等级*%d的魂,"After killing an enemy, gains Essence that equals %d*target level",敵を倒した際、倒した敵のレベル*%dのソウルを獲得する,擊殺敵人時，獲取目標等級*%d的魂
+无极石,无极石,Infinity Stone,無極石,無極石
+暴击时，附加一次%d%%伤害量的真实伤害,暴击时，附加一次%d%%伤害量的真实伤害,"When dealing Crit DMG, deals extra True DMG that equals %d%% of the damage",会心時、ダメージ量%d%%分の固定ダメージを追加で与える,暴擊時，附加一次%d%%傷害量的真實傷害
+狩猎石,狩猎石,Prey Stone,狩猟石,狩獵石
+击杀敌人时，获得%d层狂怒和急速,击杀敌人时，获得%d层狂怒和急速,"After killing an enemy, gains %d stack(s) of Hasted and Berserked",敵を倒した際、%d層の狂怒と急速を獲得する,擊殺敵人時，獲得%d層狂怒和急速
+斩杀石,斩杀石,Execution Stone,斬殺石,斬殺石
+对生命值低于30%%的目标，+%d%%增伤,对生命值低于30%%的目标，+%d%%增伤,"Against targets with 30%% or lower HP, +%d%% DMG Boost ",残りHPが30%%以下の目標に対して、ダメージを%d%%増加する,對生命值低於30%%的目標，+%d%%增傷
+转能石,转能石,Shield-generating Stone,転換石,轉能石
+造成技能伤害时，获得%d%%伤害量的护盾,造成技能伤害时，获得%d%%伤害量的护盾,"When dealing skill damage, gains a shield with its strength equal to %d%% of the damage",スキルダメージに、ダメージ量%d%%の盾を獲得する,造成技能傷害時，獲得%d%%傷害量的護盾
+麻伤石,麻伤石,Paralyzing Stone,麻傷石,麻傷石
+目标每5层麻痹 +%d%%增伤,目标每5层麻痹 +%d%%增伤,+%d%% DMG Boost for every 5 stacks of Paralyzed on the target,目標の麻痺が5層毎にダメージ増加を%d%%増加する,目標每5層麻痹 +%d%%增傷
+火伤石,火伤石,Scorching Stone,火傷石,火傷石
+目标每5层烧灼 +%d%%增伤,目标每5层烧灼 +%d%%增伤,+%d%% DMG Boost for every 5 stacks of Burning on the target,目標の火傷が5層毎にダメージ増加を%d%%増加する,目標每5層燒灼 +%d%%增傷
+冰伤石,冰伤石,Freezing Stone,氷傷石,冰傷石
+目标每5层结霜 +%d%%增伤,目标每5层结霜 +%d%%增伤,+%d%% DMG Boost for every 5 stacks of Frozen on the target,目標の霜降が5層毎にダメージ増加を%d%%増加する,目標每5層結霜 +%d%%增傷
+毒伤石,毒伤石,Erosion Stone,毒傷石,毒傷石
+目标每5层中毒 +%d%%增伤,目标每5层中毒 +%d%%增伤,+%d%% DMG Boost for every 5 stacks of Poisoned on the target,目標の毒が5層毎にダメージ増加を%d%%増加する,目標每5層中毒 +%d%%增傷
+法锋石,法锋石,Gandalf Stone,魔刃石,法鋒石
+普通攻击附带%d%%法强的物理伤害,普通攻击附带%d%%法强的物理伤害,Normal Attack deals extra Physical DMG that equals %d%% Magic Power,通常攻撃に魔法攻撃力%d%%分の物理ダメージを追加で与える,普通攻擊附帶%d%%法強的物理傷害
+威伤石,威伤石,Powersurge Stone,威傷石,威傷石
+每5层威能 +%d%%增伤,每5层威能 +%d%%增伤,+%d%% DMG Boost for every 5 stacks of Empowered owned,神威が5層毎にダメージ増加を%d%%増加する,每5層威能 +%d%%增傷
+治疗赋能石,治疗赋能石,Ultra Healing Stone,治療付与石,治療賦能石
+施加治疗时，目标获得%d层超然和抵御,施加治疗时，目标获得%d层超然和抵御,"When healing a unit, they also gain %d stack(s) of Transcendent and Armored",治療をする際、目標に%d層の超然と守護を付与する,施加治療時，目標獲得%d層超然和抵禦
+护盾赋能石,护盾赋能石,Holy Shield Stone,盾付与石,護盾賦能石
+施加护盾时，目标获得%d层超然和抵御,施加护盾时，目标获得%d层超然和抵御,"When granting a shield to a unit, they also gain %d stack(s) of Transcendent and Armored",盾を付与する際、目標に%d層の超然と守護を付与する,施加護盾時，目標獲得%d層超然和抵禦
+怒能石,怒能石,Encouragement Stone,怒能石,怒能石
+施加护盾时，目标获得%d层狂怒和威能,施加护盾时，目标获得%d层狂怒和威能,"When granting shield to a unit, the target gains %d stack(s) of Berserked and Empowered as well",は盾を付与する際、目標に%d層の激怒と神威を付与する,施加護盾時，目標獲得%d層狂怒和威能
+,,,,
+定海神针,定海神针,Explosive Needle,如意棒,定海神針
+普通攻击%d%%几率附加%d层破甲，技能伤害会消除目标破甲，每层破甲造成%d%%物理攻击的真实伤害,普通攻击%d%%几率附加%d层破甲，技能伤害会消除目标破甲，每层破甲造成%d%%物理攻击的真实伤害,Normal Attack has a %d%% chance to inflict %d stack(s) of Pierced; Skill DMG will remove Pierced and deals True DMG that equals %d%% Physical DMG for each stack removed,通常攻撃に%d%%の確率で%d層の破甲を付与する、スキルダメージにより目標の破甲は消費し、破甲の層数＊物理攻撃力%d%%分の固定ダメージを与える,普通攻擊%d%%幾率附加%d層破甲，技能傷害會消除目標破甲，每層破甲造成%d%%物理攻擊的真實傷害
+冰之矢,冰之矢,Arrow of Ice,氷の矢,冰之矢
+附加结霜时自身获得同样层数的急速，且普通攻击%d%%的几率附加%d层结霜,附加结霜时自身获得同样层数的急速，且普通攻击%d%%的几率附加%d层结霜,"When inflicting Frozen, gains Hasted of the same number of stack; Normal Attack has a %d%% chance to inflict %d stack(s) of Frozen",霜降を付与する際、自身も同じ層数の急速を獲得する。%d%%の確率で通常攻撃に%d層の霜降を付与する,附加結霜時自身獲得同樣層數的急速，且普通攻擊%d%%的幾率附加%d層結霜
+远古巨钳,远古巨钳,Ancient Huge Claw,エンシェントクロー,遠古巨鉗
+每获得5层抵御，恢复%d%%最大生命值,每获得5层抵御，恢复%d%%最大生命值,Restores %d%% Max HP for every 5 stacks of Armored owned,守護を5層獲得する毎に、HPを最大HP%d%%分回復する,每獲得5層抵禦，恢復%d%%最大生命值
+水光刃,水光刃,Blade of Water,水面の刃,水光刃
+本场战斗每击杀一个单位 +%d的穿透,本场战斗每击杀一个单位 +%d的穿透,+%d Penetration for every unit killed in the current battle,この戦闘にて敵ユニットを1体倒した度に貫通が%d増加する,本場戰鬥每擊殺一個單位 +%d的穿透
+元素法杖,元素法杖,Element Staff,元素の杖,元素法杖
+施加负面状态时，每%d层负面状态对目标造成%d%%的魔法伤害,施加负面状态时，每%d层负面状态对目标造成%d%%的魔法伤害,"When inflicting a debuff, for every %d stack(s) of debuff they own, deals %d%% Magic DMG to the target",デバフを付与する際、デバフが%d層毎に%d%%の魔法ダメージを与える,施加負面狀態時，每%d層負面狀態對目標造成%d%%的魔法傷害
+星耀短杖,星耀短杖,Starlight Wand,星屑の杖,星耀短杖
+施放治疗或者护盾会为目标附加%d层随机增益,施放治疗或者护盾会为目标附加%d层随机增益,Healing a target or granting them a shield will apply %d stack(s) of a random buff on them.,治療もしくは盾を付与する際、目標にランダムなバフを%d層付与する,施放治療或者護盾會為目標附加%d層隨機增益

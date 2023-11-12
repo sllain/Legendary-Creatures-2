@@ -1,0 +1,64 @@
+[gd_scene load_steps=20 format=2]
+
+[ext_resource path="res://tscn/eff/eff.tscn" type="PackedScene" id=1]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_089.png" type="Texture" id=2]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_097.png" type="Texture" id=3]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_090.png" type="Texture" id=4]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_099.png" type="Texture" id=5]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_101.png" type="Texture" id=6]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_092.png" type="Texture" id=7]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_096.png" type="Texture" id=8]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_100.png" type="Texture" id=9]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_102.png" type="Texture" id=10]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_091.png" type="Texture" id=11]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_095.png" type="Texture" id=12]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_093.png" type="Texture" id=13]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_103.png" type="Texture" id=14]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_094.png" type="Texture" id=15]
+[ext_resource path="res://res/eff/ChuJue/skill_eff_401_098.png" type="Texture" id=16]
+
+[sub_resource type="GDScript" id=8]
+script/source = "extends Eff
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	$up/anim.frame = 0
+	sys.playSe(\"Drop.wav\")
+	yield(get_tree().create_timer(0.05),\"timeout\")
+	sys.playSe(\"DeathBreak4.wav\")
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+"
+
+[sub_resource type="CanvasItemMaterial" id=34]
+blend_mode = 1
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 11 ), ExtResource( 7 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 12 ), ExtResource( 8 ), ExtResource( 3 ), ExtResource( 16 ), ExtResource( 5 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 10 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "default",
+"speed": 20.0
+} ]
+
+[node name="eff2" instance=ExtResource( 1 )]
+script = SubResource( 8 )
+
+[node name="anim" type="AnimatedSprite" parent="up" index="0"]
+self_modulate = Color( 1, 1, 1, 0.666667 )
+material = SubResource( 34 )
+position = Vector2( 14, -15 )
+scale = Vector2( 0.493507, 0.516209 )
+frames = SubResource( 7 )
+frame = 11
+playing = true
+
+[connection signal="animation_finished" from="up/anim" to="." method="del"]

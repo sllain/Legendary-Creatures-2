@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://res/map/1.res" type="TileSet" id=1]
+[ext_resource path="res://tscn/map/dungeonMap.gd" type="Script" id=2]
+
+[node name="map" type="TileMap"]
+scale = Vector2( 0.27, 0.27 )
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 193 )
+cell_half_offset = 0
+cell_y_sort = true
+centered_textures = true
+format = 1
+tile_data = PoolIntArray( 0, 312, 0 )
+script = ExtResource( 2 )

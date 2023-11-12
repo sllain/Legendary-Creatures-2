@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://tscn/item/itemBtn.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/eventDlg/eventItemSel/itemSel.gd" type="Script" id=2]
+
+[node name="itemSel" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Button" type="Button" parent="." index="2"]
+margin_left = 3.0
+margin_top = 67.0
+margin_right = 61.0
+margin_bottom = 105.0
+text = "选择"
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

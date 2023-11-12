@@ -1,0 +1,61 @@
+[gd_resource type="SpriteFrames" load_steps=32 format=2]
+
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-summon-00.png" type="Texture" id=1]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-summon-01.png" type="Texture" id=2]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-summon-03.png" type="Texture" id=3]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-summon-04.png" type="Texture" id=4]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-attack-00.png" type="Texture" id=5]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-attack-04.png" type="Texture" id=6]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-die-00.png" type="Texture" id=7]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-die-01.png" type="Texture" id=8]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-attack-02.png" type="Texture" id=9]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-summon-05.png" type="Texture" id=10]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-summon-02.png" type="Texture" id=11]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-attack-01.png" type="Texture" id=12]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-attack-03.png" type="Texture" id=13]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-idle-02.png" type="Texture" id=14]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-idle-03.png" type="Texture" id=15]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-die-06.png" type="Texture" id=16]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-die-07.png" type="Texture" id=17]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-die-04.png" type="Texture" id=18]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-idle-00.png" type="Texture" id=19]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-die-03.png" type="Texture" id=20]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-die-05.png" type="Texture" id=21]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-idle-01.png" type="Texture" id=22]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-move-00.png" type="Texture" id=23]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-die-08.png" type="Texture" id=24]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-die-09.png" type="Texture" id=25]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-die-02.png" type="Texture" id=26]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-move-04.png" type="Texture" id=27]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-move-01.png" type="Texture" id=28]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-move-03.png" type="Texture" id=29]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-move-02.png" type="Texture" id=30]
+[ext_resource path="res://res/animImg/monster/Necromancer/necromancer-move-05.png" type="Texture" id=31]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 5 ), ExtResource( 12 ), ExtResource( 9 ), ExtResource( 13 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "atk",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 11 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "atk2",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 26 ), ExtResource( 20 ), ExtResource( 18 ), ExtResource( 21 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 24 ), ExtResource( 25 ) ],
+"loop": false,
+"name": "death",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 19 ), ExtResource( 22 ), ExtResource( 14 ), ExtResource( 15 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 23 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 29 ), ExtResource( 27 ), ExtResource( 31 ) ],
+"loop": true,
+"name": "move",
+"speed": 10.0
+} ]

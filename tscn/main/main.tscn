@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://res/theme.tres" type="Theme" id=1]
+[ext_resource path="res://res/font/b.tres" type="DynamicFont" id=2]
+[ext_resource path="res://tscn/main/main.gd" type="Script" id=3]
+[ext_resource path="res://res/Gui/UiElements/Info_Bar.png" type="Texture" id=4]
+
+[node name="main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="ui" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="ui2" type="CanvasLayer" parent="."]
+layer = 11
+
+[node name="tip" type="Node2D" parent="ui2"]
+visible = false
+
+[node name="k" type="NinePatchRect" parent="ui2/tip"]
+show_behind_parent = true
+texture = ExtResource( 4 )
+patch_margin_left = 15
+patch_margin_top = 18
+patch_margin_right = 18
+patch_margin_bottom = 19
+
+[node name="txt" type="RichTextLabel" parent="ui2/tip"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 245.0
+margin_bottom = 132.0
+mouse_filter = 2
+custom_fonts/bold_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "天才 网中玩"
+text = "天才 网中玩"
+fit_content_height = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+
+[connection signal="tree_entered" from="." to="." method="_on_mian_tree_entered"]

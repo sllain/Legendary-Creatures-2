@@ -1,0 +1,162 @@
+,zh_CN,en,ja,zh_HK
+训练-物理攻击,训练-物理攻击,Training - Physical Attack,訓練ー物理攻撃,訓練-物理攻擊
+全队 +%d%% %s,全队 +%d%% %s,All allies +%d%% %s,%d%%増加させる 【パーティ全体の%s】,全隊 +%d%% %s
+训练-防御,训练-防御,Training - Defense,訓練ー防御,訓練-防禦
+全队 +%d%% 双抗,全队 +%d%% 双抗,Full team +%d%% Magic and physical defense,チーム全員 +%d%% 魔法と物理防御,全隊 +%d%% 雙抗
+训练-最大生命值,训练-最大生命值,Training - Max HP,訓練ー最大HP,訓練-最大生命值
+训练-魔法攻击,训练-魔法攻击,Training - Magic Attack,訓練ー魔法攻撃,
+养身备战,养身备战,Well Prepared,戦後の癒やし,養身備戰
+战斗结束时，全队回复%d%% 生命值,战斗结束时，全队回复%d%% 生命值,All allies restore %d%% HP when the battle ends,戦闘終了時、味方全体のHPを%d%% 回復する,戰鬥結束時，全隊回復%d%% 生命值
+无畏之势,无畏之势,Fearless,無畏の勢い,無畏之勢
+战斗开始时，全队获得%d%% 护盾值,战斗开始时，全队获得%d%% 护盾值,All allies gain a shield of strength equal to %d%% when the battle starts.,戦闘開始時、味方全体が%d%% の盾を獲得する,戰鬥開始時，全隊獲得%d%% 護盾值
+吸血獠牙,吸血獠牙,Bloodthirsty,吸血の牙,吸血獠牙
+全队获得%d%%普攻吸血,全队获得%d%%普攻吸血,All allies' Normal Attack has a %d%% Lifesteal effect,味方全体が%d%%の通常攻撃による吸血を獲得する,全隊獲得%d%%普攻吸血
+吸血之触,吸血之触,Touch of Blood,吸血の触,吸血之觸
+全队获得%d%%技能吸血,全队获得%d%%技能吸血,All allies' Skills have a %d%% Lifesteal effect,味方全体が%d%%のスキルによる吸血を獲得する,全隊獲得%d%%技能吸血
+狂暴之刃,狂暴之刃,Berserker's Blade,狂暴の刃,狂暴之刃
+全队暴击时伤害提升%d%%,全队暴击时伤害提升%d%%,All allies' Crit DMG increases by %d%%,味方全体の会心ダメージを%d%%増加させる,全隊暴擊時傷害提升%d%%
+辉能之源,辉能之源,Radiant Energy,輝きの源,輝能之源
+全队魔法伤害提升%d%%,全队魔法伤害提升%d%%,All allies' Magic DMG increases by %d%%,味方全体の魔法ダメージを%d%%増加させる,全隊魔法傷害提升%d%%
+蛮族之力,蛮族之力,Barbarian's Force,蛮族の力,蠻族之力
+全队物理伤害提升%d%%,全队物理伤害提升%d%%,All allies' Physical DMG increases by %d%%,味方全体の物理ダメージを%d%%増加させる,全隊物理傷害提升%d%%
+开路先锋,开路先锋,Pathfinder,先鋒,開路先鋒
+进入敌方区域的单位伤害提升%d%%,进入敌方区域的单位伤害提升%d%%,Units entering hostile areas will have their DMG increased by %d%%,敵区域に入ったユニットのダメージを%d%%増加させる,進入敵方區域的單位傷害提升%d%%
+夜盗,夜盗,Thief Time,夜盗,夜盜
+夜晚的精英战胜利后，获得额外 %d * 战斗等级 的 金币,夜晚的精英战胜利后，获得额外 %d * 战斗等级 的 金币,"After winning an Elite battle at night, gains extra Coins that equal %d * Battle Level",夜の精鋭戦勝利後、 %d * 戦闘レベルの金貨を追加で獲得する,夜晚的精英戰勝利後，獲得額外 %d * 戰鬥等級 的 金幣
+急行军,急行军,In a Rush,急行軍,急行軍
+玩家移动时，时间的流逝减缓%d%%,玩家移动时，时间的流逝减缓%d%%,"As the player moves, time slows down by %d%%.",プレイやー移動時、時間の流れが%d%%遅くなる,玩家移動時，時間的流逝減緩%d%%
+商人之友,商人之友,Friend of Merchants,商人の友,商人之友
+购买物品时，返还%d%%的消费,购买物品时，返还%d%%的消费,"When purchasing items, %d%% of the Coins spent will be refunded",アイテム購入時、%d%%の消費量を返金する,購買物品時，返還%d%%的消費
+宝石大亨,宝石大亨,Gem Tycoon,宝石富豪,寶石大亨
+购买宝石时，%d%%的概率提高1级，最高5级,购买宝石时，%d%%的概率提高1级，最高5级,"When purchasing gems, there's a chance of %d%% incrasing the gem level by 1, up to 5 levels.",宝石購入時、%d%%の確率でレベルを1上げる、最大でレベル5まで,購買寶石時，%d%%的概率提高1級，最高5級
+食腐之心,食腐之心,Heart of Scavenger,腐食の心,食腐之心
+战斗结束有%d%%概率获得对应战斗等级的随机普通消耗品,战斗结束有%d%%概率获得对应战斗等级的随机普通消耗品,Has a %d%% chance of obtaining random common consumables of the corresponding Battle Level after a battle,戦闘終了時%d%%の確率で対応戦闘レベルのコモン品質の消耗品を獲得する,戰鬥結束有%d%%概率獲得對應戰鬥等級的隨機普通消耗品
+重整旗鼓,重整旗鼓,Revive,仕切り直し,重整旗鼓
+单位战死，在战斗结束后能额外恢复%d%%的生命值,单位战死，在战斗结束后能额外恢复%d%%的生命值,Units that are killed in battle can restore an extra %d%% of their HP afterward,ユニットが倒された場合、戦闘終了後%d%%のHPを追加で回復する,單位戰死，在戰鬥結束後能額外恢復%d%%的生命值
+狂战之姿,狂战之姿,Battle Momentum,狂戦の姿,狂戰之姿
+战士每损失10%%的生命值获得%d%%的增伤,战士每损失10%%的生命值获得%d%%的增伤,"For every 10%% HP lost, Warriors gain a %d%% DMG Boost",ファイターがHPを10%%損失するたびに%d%%のダメージ増加を獲得する,戰士每損失10%%的生命值獲得%d%%的增傷
+战斗之魂,战斗之魂,Soul of Battle,戦いの魂,戰鬥之魂
+战士获得%d%%的全能吸血,战士获得%d%%的全能吸血,Warriors gain a %d%% Omni-Lifesteal effect,ファイターが%d%%の全能吸血を獲得,戰士獲得%d%%的全能吸血
+扒皮拆骨,扒皮拆骨,Slice and Dice,骨喰,扒皮拆骨
+战士造成伤害时，额外附加%d%%物理攻击的真实伤害,战士造成伤害时，额外附加%d%%物理攻击的真实伤害,"When Warriors deal DMG, they deal an extra True DMG that equals %d%% of their Physical Attack",ファイターがダメージを与えた際、物理攻撃力%d%%分の固定ダメージを追加で与える,戰士造成傷害時，額外附加%d%%物理攻擊的真實傷害
+锯齿之刃,锯齿之刃,Chainsaw,鋸の刃,鋸齒之刃
+战士的普攻%d%%的概率附加%d层流血,战士的普攻%d%%的概率附加%d层流血,Warriors' Normal Attack has a %d%% chance to inflict %d stack(s) of Hemorrhaged,ファイターの通常攻撃に%d%%の確率で%d層の出血を付与する,戰士的普攻%d%%的概率附加%d層流血
+可乘之隙,可乘之隙,Deepening Wounds,隙を突く,可乘之隙
+战士对破甲的敌人伤害提高，每10层提高%d%%,战士对破甲的敌人伤害提高，每10层提高%d%%,"Warriors deal higher DMG to Pierced enemies. For every 10 stacks of the effect, DMG increases by %d%%.",ファイターが破甲状態の敵に対するダメージが10層毎に%d%%増加する,戰士對破甲的敵人傷害提高，每10層提高%d%%
+不屈之魂,不屈之魂,Unyielding Soul,不屈の魂,不屈之魂
+战士的血量低于50%%时，获得%d%%的减伤,战士的血量低于50%%时，获得%d%%的减伤,"When Warriors' HP is lower than 50%%, they gain a %d%% DMG Reduction",ファイターのHPが50%%以下の際、%d%%のダメージ軽減を獲得する,戰士的血量低於50%%時，獲得%d%%的減傷
+幻影残像,幻影残像,Soul Division,幻影残像,幻影殘像
+战斗开始时，战士将复制一个自身，但减少%d%%的增伤和减伤,战斗开始时，战士将复制一个自身，但减少%d%%的增伤和减伤,"When the battle starts, Warriors will create a duplicate of themselves but reduce their DMG Boost and DMG Reduction by %d%%",戦闘開始時、ファイターは自身のコピーを作成し、自身の物理攻撃力とHPが%d%%減少する,戰鬥開始時，戰士將復製一個自身，但減少%d%%的增傷和減傷
+穿透攻击,穿透攻击,Penetrator,貫通攻撃,穿透攻擊
+射手对拥有护盾的单位伤害提升%d%%,射手对拥有护盾的单位伤害提升%d%%,Rangers deal %d%% more DMG to shielded units,マークスマンが盾持ちのユニットに対するダメージが%d%%増加する,射手對擁有護盾的單位傷害提升%d%%
+技术射击,技术射击,Technical Shooting,技術射撃,技術射擊
+射手施放技能后，获得%d层急速,射手施放技能后，获得%d层急速,"After Rangers cast a skill, they gain %d stack(s) of Hasted",マークスマンがスキル発動後、%d層の急速を獲得する,射手施放技能後，獲得%d層急速
+百步穿杨,百步穿杨,Fleshrender,百歩穿楊,百步穿楊
+射手的普攻伤害，会额外造成%d%%物理攻击的真实伤害,射手的普攻伤害，会额外造成%d%%物理攻击的真实伤害,Rangers' Normal Attack deals an extra True DMG that equals %d%% of Physical Attack,マークスマンの通常攻撃に物理攻撃力%d%%の固定ダメージを追加する,射手的普攻傷害，會額外造成%d%%物理攻擊的真實傷害
+瞄准弱点,瞄准弱点,Target the Weakness,弱点狙い,瞄準弱點
+射手的暴击伤害提高%d%%,射手的暴击伤害提高%d%%,Rangers' Crit DMG increases by %d%%,マークスマンの会心ダメージが%d%%増加する,射手的暴擊傷害提高%d%%
+备用箭矢,备用箭矢,Backup Arrows,予備の矢,備用箭矢
+射手普攻%d%%的概率，对另一名敌人造成%d%%的物理伤害，触发攻击特效,射手普攻%d%%的概率，对另一名敌人造成%d%%的物理伤害，触发攻击特效,"Rangers' Normal Attack has a %d%% chance to deal %d%% Physical DMG to another enemy, triggering on-hit effects",マークスマンの通常攻撃は%d%%の確率で、もう1人の敵に%d%%の物理ダメージを与え、攻撃効果を発動する,射手普攻%d%%的概率，對另一名敵人造成%d%%的物理傷害，觸發攻擊特效
+随身暗器,随身暗器,Concealed Weapon,暗器,隨身暗器
+射手施放技能时，对最近2名敌方造成%d%%的物理伤害，触发攻击特效,射手施放技能时，对最近2名敌方造成%d%%的物理伤害，触发攻击特效,"When Rangers cast skills, they deal %d%% Physical DMG to the two nearest enemies, triggering on-hit effects",マークスマンがスキルを発動する際、直近2名の敵に%d%%の物理ダメージを与え、攻撃効果を発動する,射手施放技能時，對最近2名敵方造成%d%%的物理傷害，觸發攻擊特效
+临危不乱,临危不乱,Stay Calm,冷静沈着,臨危不亂
+坦克释放技能时回复自身最大生命值%d%%的生命,坦克释放技能时回复自身最大生命值%d%%的生命,"When Tanks cast a skill, they restore %d%% of their Max HP",タンクがスキルを発動する際、自身の最大HP%d%%分のHPを回復する,坦克釋放技能時回復自身最大生命值%d%%的生命
+能抗能打,能抗能打,Strength Within,攻守兼備,能抗能打
+坦克造成伤害时附加他%d%%最大生命值的魔法伤害,坦克造成伤害时附加他%d%%最大生命值的魔法伤害,"When Tanks deal DMG, they deal extra Magic DMG that equals %d%% of their Max HP as well",タンクがダメージを与えた際、自身の最大HP%d%%分の魔法ダメージを追加で与える,坦克造成傷害時附加他%d%%最大生命值的魔法傷害
+安全可靠,安全可靠,Stay Behind Me,安全安心,安全可靠
+开战时，坦克为周围1格友方附加%d%%他最大生命值的护盾,开战时，坦克为周围1格友方附加%d%%他最大生命值的护盾,"When the battle starts, Tanks grant a shield and its strength equals %d%% of their Max HP to allies within a radius of 1 tile around them",戦闘開始時、タンクは自身周囲１マスの味方に自身の最大HP%d%%分の盾を付与する,開戰時，坦克為周圍1格友方附加%d%%他最大生命值的護盾
+百炼成钢,百炼成钢,Tough as Steel,百戦錬磨,百煉成鋼
+坦克每5秒，获得%d%%最大生命值的护盾,坦克每5秒，获得%d%%最大生命值的护盾,"For every 5 seconds, Tanks gain a shield and its strength equals %d%% of their Max HP",タンクは5秒ごとに自身の最大HP%d%%分の盾を獲得する,坦克每5秒，獲得%d%%最大生命值的護盾
+战前准备,战前准备,Pre-battle Preparation,戦前準備,戰前準備
+战斗开始时坦克周围1格友军获得他%d%%的护甲，而他获得双倍的此加成,战斗开始时坦克周围1格友军获得他%d%%的护甲，而他获得双倍的此加成,"When the battle starts, allies within a radius of 1 tile around Tanks gain %d%% of their Armor, and Tanks gain double the value",戦闘開始時、タンクは自身の周囲1マスの味方に自身の物理防御力%d%%の物理防御力を付与し、自身はその倍獲得する,戰鬥開始時坦克周圍1格友軍獲得他%d%%的護甲，而他獲得雙倍的此加成
+气势压制,气势压制,Momentum,威圧,氣勢壓製
+坦克提高%d%%的生命值，且他的技能会造成他%d%%最大生命值的额外魔法伤害,坦克提高%d%%的生命值，且他的技能会造成他%d%%最大生命值的额外魔法伤害,Tanks increase their HP by %d%% and their skills deal extra Magic DMG that equals %d%% of their Max HP,タンクの最大HPを%d%%増加させ、タンクのスキル攻撃によるダメージに自身の最大HP%d%%の魔法ダメージを追加する,坦克提高%d%%的生命值，且他的技能會造成他%d%%最大生命值的額外魔法傷害
+暗杀之道,暗杀之道,Way of Assassination,暗殺道,暗殺之道
+对手每损失10%%的生命值刺客就获得%d%%的增伤,对手每损失10%%的生命值刺客就获得%d%%的增伤,"For every 10%% HP the enemy loses, Assassins gain a %d%% DMG Boost",攻撃対象のHPが10%%減る毎に、アサシンは%d%%のダメージ増加を獲得する,對手每損失10%%的生命值刺客就獲得%d%%的增傷
+用毒高手,用毒高手,Poisonous Blade,毒の使い手,用毒高手
+刺客技能造成伤害时，附加%d层中毒,刺客技能造成伤害时，附加%d层中毒,"When Assassins deal DMG with his skills, inflict %d stack(s) of Poisoned on the target",アサシンがスキルでダメージを与えた際、%d層の毒を付与する,刺客技能造成傷害時，附加%d層中毒
+横尸游刃,横尸游刃,Evil Excitement,横屍遊刃,橫屍遊刃
+刺客在击杀后，获得%d层 急速和超然,刺客在击杀后，获得%d层 急速和超然,"After killing a target, Assassins gain %d stack(s) of Transcendent and Hasted",アサシンが敵を倒した際、%d層の 急速と超然 を獲得する,刺客在擊殺後，獲得%d層 急速和超然
+心狠手辣,心狠手辣,Stone Cold,無情非道,心狠手辣
+刺客获得%d%%的暴击率，暴击时获得%d层狂怒,刺客获得%d%%的暴击率，暴击时获得%d层狂怒,Assassins gain a %d%% Crit Rate and %d stack(s) of Berserked when dealing Crit DMG,アサシンは%d%%の会心率を獲得し、会心時%d層の激怒を獲得する,刺客獲得%d%%的暴擊率，暴擊時獲得%d層狂怒
+巫毒娃娃,巫毒娃娃,Voodoo Doll,呪い人形,巫毒娃娃
+刺客对中毒的敌人伤害提高，每10层提高%d%%,刺客对中毒的敌人伤害提高，每10层提高%d%%,"Assassins deal higher DMG to Poisoned enemies. For every 10 stacks of the effect, DMG increases by %d%%.",アサシンが毒状態の敵に対するダメージが10層毎に%d%%増加する,刺客對中毒的敵人傷害提高，每10層提高%d%%
+快速接敌,快速接敌,Quick Engagement,急速接近,快速接敵
+刺客非被动伤害%d%%的概率获得%d层急速,刺客非被动伤害%d%%的概率获得%d层急速,Assassins' non-passive DMG has a %d%% chance to gain %d stack(s) of Hasted,アサシンが攻撃する際、%d%%の確率で%d層の急速を獲得する,刺客非被动伤害%d%%的概率獲得%d層急速
+超速施法,超速施法,Quick Cast,高速詠唱,超速施法
+开战时法师，所有技能cd减少%d秒,开战时法师，所有技能cd减少%d秒,"When the battle starts, the CD of all Mage skills is reduced by %d sec",戦闘開始時、メイジのすべてのスキルのCDが%d秒短縮する,開戰時法師，所有技能cd減少%d秒
+元素失控,元素失控,Elemental Disorder,元素暴走,元素失控
+法师的技能伤害，附加%d层随机 烧灼，结霜，麻痹,法师的技能伤害，附加%d层随机 烧灼，结霜，麻痹,"Mages' Skill DMG will inflict %d stack(s) of a random debuff from Burning, Frozen, and Paralyzed",メイジのスキルダメージは攻撃対象に火傷、霜降、麻痺からランダムで1つを%d層付与する,法師的技能傷害，附加%d層隨機 燒灼，結霜，麻痹
+奥术大师,奥术大师,Arcane Master,巴術の達人,奧術大師
+法师 +%d%% %s,法师 +%d%% %s,Mages +%d%% %s,%d%%増加させる 【メイジの%s】,法師 +%d%% %s
+湮灭禁术,湮灭禁术,Annihilation,破滅の禁術,湮滅禁術
+法师施放技能时，对生命值最低的敌方造成%d%%的魔法伤害,法师施放技能时，对生命值最低的敌方造成%d%%的魔法伤害,"When Mages cast a skill, they deal %d%% Magic DMG to the enemy with the lowest HP",メイジがスキルを使用する際、HPが最も低い敵に対して%d%%の魔法ダメージを与える,法師施放技能時，對生命值最低的敵方造成%d%%的魔法傷害
+熟能生巧,熟能生巧,Skillful Caster,熟練の技,熟能生巧
+法师角色掌握的第二个技能，在施放时有%d%%的概率重复施放一次,法师角色掌握的第二个技能，在施放时有%d%%的概率重复施放一次,"When Mages cast the second skill they learned, they have a %d%% chance to cast it twice",メイジが所有する2つ目のスキルは、使用時に%d%%の確率で2回発動される,法師角色掌握的第二個技能，在施放時有%d%%的概率重復施放一次
+光辉信仰,光辉信仰,Light Above,光の信仰,光輝信仰
+辅助施加的治疗和护盾效果提升%d%%,辅助施加的治疗和护盾效果提升%d%%,Healing and shield effects granted by Supports are enhanced by %d%%,サポーターが使用した治療および盾の効果が%d%%上昇する,輔助施加的治療和護盾效果提升%d%%
+鼓舞之威,鼓舞之威,Encouragement,鼓舞激励,鼓舞之威
+辅助施放技能时，最近一名友军获得%d层狂怒和威能,辅助施放技能时，最近一名友军获得%d层狂怒和威能,"When Supports cast a skill, the nearest ally gains %d stack(s) of Berserked and Empowered",サポーターがスキルを使用する際、直近の味方1人が%d層の激怒と神威を獲得する,輔助施放技能時，最近一名友軍獲得%d層狂怒和威能
+精神导师,精神导师,Spiritual Mentor,精神的指導者,精神導師
+开战时，辅助为周围1格友方附加%d层，超然和急速,开战时，辅助为周围1格友方附加%d层，超然和急速,"When the battle starts, Supports grant %d stack(s) of Transcendent and Hasted to allies within a radius of 1 tile around",戦闘開始時、サポーターが周囲1マスの味方に%d層の超然と急速を与える,開戰時，輔助為周圍1格友方附加%d層，超然和急速
+先知,先知,Prophecy,預言者,先知
+战斗开始时，辅助为最近的2名友军提供%d%%其最大生命值的护盾,战斗开始时，辅助为最近的2名友军提供%d%%其最大生命值的护盾,"When the battle starts, Supports grant a shield and its strength equals %d%% of their Max HP to the 2 nearest allies",戦闘開始時、サポーターは直近の味方2人に最大HP%d%%分の盾を付与する,戰鬥開始時，輔助為最近的2名友軍提供%d%%其最大生命值的護盾
+吟游者,吟游者,Enchanter,吟遊詩人,吟遊者
+辅助对友方施加的增益层数+%d,辅助对友方施加的增益层数+%d,Supports always grant %d extra stack(s) of buff,サポーターの発動するバフ効果の層数を%d層増加させる,輔助對友方施加的增益層數+%d
+伤痛转移,伤痛转移,Transmission of Pain,痛みの転移,傷痛轉移
+辅助造成伤害时，治疗最虚弱友军%d%%该伤害值的生命值,辅助造成伤害时，治疗最虚弱友军%d%%该伤害值的生命值,"When Supports deal DMG, they restore the most wounded ally's HP by %d%% of the DMG",サポーターがダメージを与えた際、最も弱っている味方のユニットのHPを%d%%回復する,輔助造成傷害時，治療最虛弱友軍%d%%該傷害值的生命值
+,,,,
+利息,利息,Interest,利子,利息
+游戏中每过1天，获得当前金币的%d%%,游戏中每过1天，获得当前金币的%d%%,Gain %d%% of current Gold for each day passed,ゲーム内時間が1日を過ぎるごとに現在の金貨%d%%分の金貨を獲得する,遊戲中每過1天，獲得當前金幣的%d%%
+破陨之心,破陨之心,Broken Heart,不屈の心,破隕之心
+对方的战力等级每高于我方一级，我方增伤和减伤提高%d%%,对方的战力等级每高于我方一级，我方增伤和减伤提高%d%%,"For every 1 Battle Power Level higher the enemy, your DMG Boost and DMG Reduction increase by %d%%.",敵の戦力レベルがこちらより1レベル高い毎に、味方のダメージ増加、被ダメージ軽減を%d%%増加する,對方的戰力等級每高於我方一級，我方增傷和減傷提高%d%%
+幸运四叶草,幸运四叶草,Clover,ラッキークローバー,幸運四葉草
+战斗胜利后，%d%%概率获得一件装备，装备等级等于队伍战力等级,战斗胜利后，%d%%概率获得一件装备，装备等级等于队伍战力等级,"After winning a battle, has a %d%% chance to gain a piece of equipment, and the Equipment Level equals the Battle Power Level of your team",戦闘に勝利した際、%d%%の確率で装備を1つ獲得する、装備のレベルは戦力レベルに比例する,戰鬥勝利後，%d%%概率獲得一件裝備，裝備等級等於隊伍戰力等級
+复生,复生,Resurrection,蘇生,復生
+战斗时，我方非召唤单位死亡，则复活并回复%d%%生命值，每场战斗仅能触发%d次,战斗时，我方非召唤单位死亡，则复活并回复%d%%生命值，每场战斗仅能触发%d次,"During a battle, when non-summoned allies die, resurrects them and restore their HP by %d%%. This effect can only take place %d time(s) per battle",戦闘時、味方非召喚ユニットが倒された際、それを復活しHPを%d%%回復する。1回の戦闘中に%d回のみ発動できる,戰鬥時，我方非召喚單位死亡，則復活並回復%d%%生命值，每場戰鬥僅能觸發%d次
+行军练习,行军练习,Marching Practice,進軍練習,行軍練習
+每在大地图移动5格，获得%d点魂,每在大地图移动5格，获得%d点魂,Gains %d Essence for every 5 tiles you travel on World Map,マップで5マス移動するごとに、ソウルを%d獲得する,每在大地圖移動5格，獲得%d點魂
+狂欢,狂欢,Carnival,フィーバー,狂歡
+生命值高于70%%的单位，获得%d%%的增伤和减伤,生命值高于70%%的单位，获得%d%%的增伤和减伤,Units with over 70%% HP gain %d%% DMG Boost and DMG Reduction,HPが70%%以上のユニットは、ダメージ増加と被ダメージ軽減を%d%%獲得する,生命值高於70%%的單位，獲得%d%%的增傷和減傷
+龟甲,龟甲,Turtle Shell,亀甲,龜甲
+我方获得%d%%减伤，但减少%d%%的增伤,我方获得%d%%减伤，但减少%d%%的增伤,Allies gain %d%% DMG Reduction but have DMG Boost decreased by %d%%,味方全体が被ダメージ軽減を%d%%獲得する。但しダメージ増加を%d%%減少する,我方獲得%d%%減傷，但減少%d%%的增傷
+能量转换,能量转换,Conversion of Energy,エネルギー転換,能量轉換
+我方的普通攻击能偷取目标%d%%的护盾值,我方的普通攻击能偷取目标%d%%的护盾值,Allies' Normal Attack can steal %d%% of the target's Shield Strength,味方の通常攻撃は目標の盾値の%d%%を奪取する,我方的普通攻擊能偷取目標%d%%的護盾值
+收割者,收割者,Reaper,スクラッパー,收割者
+本场战斗中我方单位在击杀时，获得%d%%攻击力和法强,本场战斗中我方单位在击杀时，获得%d%%攻击力和法强,"During the current battle, allies gain %d%% Physical Attack and Magic Power after they made kills",戦闘中に味方ユニットが敵を倒した際、物理攻撃力と魔法攻撃力を%d%%獲得する,本場戰鬥中我方單位在擊殺時，獲得%d%%攻擊力和法強
+契约精神,契约精神,Contract Spirit,契約精神,契約精神
+解雇单位时，获得%d件等同于解雇单位等级的装备,解雇单位时，获得%d件等同于解雇单位等级的装备,"When dismissing a unit, gains %d piece(s) of equipment whose level equals that of the dismissed unit",ユニットを解雇する際、解雇ユニットのレベルと同等の装備を%d個獲得する,解雇單位時，獲得%d件等同於解雇單位等級的裝備
+职责分明,职责分明,Division of Responsibilities,役割分担,職責分明
+战斗开始时，队伍每有一个不重复的主职业角色，全队增伤和减伤提高%d%%,战斗开始时，队伍每有一个不重复的主职业角色，全队增伤和减伤提高%d%%,"When the battle starts, for every non-repetitive main-class character on your team, your team's DMG Boost and DMG Reduction increase by %d%%",戦闘開始時、パーティ内に職業がかぶらないキャラが1体いる毎に、全体のダメージ増加と被ダメージ軽減を%d%%増加する,戰鬥開始時，隊伍每有一個不重復的主職業角色，全隊增傷和減傷提高%d%%
+鏖战磨练,鏖战磨练,Grinding of Battle,練磨,鏖戰磨練
+精英战斗额外获得 %d * 战斗等级的魂,精英战斗额外获得 %d * 战斗等级的魂,Elite battles will grant you extra Essence of %d*Battle Level,エリートバトルにて追加で戦闘レベル＊%dのソウルを獲得する,精英戰鬥額外獲得 %d * 戰鬥等級的魂
+虚空盾,虚空盾,Void Shield,ヴォイドシールド,虛空盾
+我方拥有护盾的单位，获得%d%%减伤,我方拥有护盾的单位，获得%d%%减伤,Your shielded units gain %d%% DMG Reduction,味方の盾を所持しているユニットは%d%%の被ダメージ軽減を獲得する,我方擁有護盾的單位，獲得%d%%減傷
+遗迹探索者,遗迹探索者,Relic Explorer,遺跡探究者,遺跡探索者
+发现一个地牢时%d%%的几率减少1层瘴气,发现一个地牢时%d%%的几率减少1层瘴气,Has a %d%% chance to reduce 1 stack of Miasma when a new dungeon is found,地下牢を発見した際、%d%%の確率で瘴気を1下げることができる,發現一個地牢時%d%%的幾率減少1層瘴氣
+食物补给,食物补给,Food Supply,食料補給,食物補給
+大地图移动时，回复队伍%d%%已损失生命值,大地图移动时，回复队伍%d%%已损失生命值,"When moving on World Map, restores %d%% of your units' lost HP",マップで移動する際、パーティの失ったHPを%d%%回復する,大地圖移動時，回復隊伍%d%%已損失生命值
+贵重物品,贵重物品,Precious Stuff,貴重品,貴重物品
+玩家售卖物品时，售价提升%d%%,玩家售卖物品时，售价提升%d%%,"When selling items, the prices increase by %d%%",プレイヤーがアイテムを売却する際、売値が%d%%上昇する,玩家售賣物品時，售價提升%d%%
+狼群,狼群,Wolf Pack,狼の群れ,狼群
+战斗开始时，每有一名非召唤友军，全队增伤+%d%%,战斗开始时，每有一名非召唤友军，全队增伤+%d%%,"When the battle starts, your team +%d%% DMG Boost for every non-summoned ally there is",戦闘開始時、非召喚ユニットの数＊%d%%分のダメージ増加を増加する,戰鬥開始時，每有一名非召喚友軍，全隊增傷+%d%%
+夜行,夜行,Nightwalker,夜行,夜行
+夜晚战斗时，全队 +%d%%增伤,夜晚战斗时，全队 +%d%%增伤,"When battling at night, your team +%d%% DMG Boost",夜の戦闘時、味方全体のダメージ増加を%d%%増加する,夜晚戰鬥時，全隊 +%d%%增傷
+宝石矿工,宝石矿工,Gem Miner,宝石ハンター,寶石礦工
+击杀地牢的BOSS时，%d%%几率额外获得1个传奇宝石,击杀地牢的BOSS时，%d%%几率额外获得1个传奇宝石,Has a %d%% chance to gain 1 Legendary Gem after killing the boss of a dungeon,地下牢のBOSSを倒した際、%d%%の確率でレジェンド宝石を1つ獲得する,擊殺地牢的BOSS時，%d%%幾率額外獲得1個傳奇寶石
+战略储备,战略储备,Strategic Storage,戦略備蓄,戰略儲備
+战斗中消耗品使用次数上限+%d,战斗中消耗品使用次数上限+%d,The use limit of consumables in battle +%d,戦闘中の消耗品使用回数上限を%d上げる,戰鬥中消耗品使用次數上限+%d
+棒槌,棒槌,Huge Bat,棍棒,棒槌
+战斗开始时使所有敌军附加%d层眩晕,战斗开始时使所有敌军附加%d层眩晕,"When the battle starts, inflicts %d stack(s) of Stunned on all enemies",戦闘開始時、敵全体に%d層のスタンを付与する,戰鬥開始時使所有敵軍附加%d層眩暈
+藏品,藏品,Collection,秘蔵品,藏品
+开启宝箱时，额外获取%d个等同于宝箱等级的随机普通消耗品,开启宝箱时，额外获取%d个等同于宝箱等级的随机普通消耗品,"When opening a chest, gains %d extra common consumables whose level equals that of the chest",宝箱を開ける際、追加で%d個宝箱のレベルと同等レベルのコモン消耗品をランダムで獲得する,開啟寶箱時，額外獲取%d個等同於寶箱等級的隨機普通消耗品
+断剑,断剑,Broken Blade,断剣,斷劍
+战士每3次普通攻击时，必定暴击，并回复%d%%攻击力的生命,战士每3次普通攻击时，必定暴击，并回复%d%%攻击力的生命,Every third Normal Attack from Warriors will Crit and restore their HP by %d%% of their Physical Attack,ファイターが通常攻撃を3回するごとに、必ず会心となり、攻撃力%d%%分のHPを回復する,戰士每3次普通攻擊時，必定暴擊，並回復%d%%攻擊力的生命
+震威,震威,Intimidation,威厳,震威
+战士的技能造成伤害时，附加目标%d%%最大生命值的物理伤害,战士的技能造成伤害时，附加目标%d%%最大生命值的物理伤害,"When Warriors' Skills deal damage, also deals Physical DMG that equals the target's %d%% Max HP",ファイターがスキルでダメージを与えた際、目標の最大HP%d%%分の物理ダメージを追加で与える,戰士的技能造成傷害時，附加目標%d%%最大生命值的物理傷害
+潜伏,潜伏,Into Darkness,潜伏,潛伏
+刺客击杀单位后获得%d层隐身,刺客击杀单位后获得%d层隐身,Assassins gain %d stack(s) of Invisible after killing an enemy,アサシンがユニットを倒した際、%d層のインビジブルを獲得する,刺客擊殺單位後獲得%d層隱身
+湮灭禁术,湮灭禁术,Annihilation,破滅の禁術,湮滅禁術
+法师施放技能时，对生命值最低的敌方造成%d%%法强的魔法伤害,法师施放技能时，对生命值最低的敌方造成%d%%法强的魔法伤害,"When Mages cast a skill, they deal Magic DMG that equals %d%% of their Magic Power to the enemy with the lowest HP",メイジがスキルを使用する際、HPが最も低い敵に対して魔法攻撃力%d%%分の魔法ダメージを与える,法師施放技能時，對生命值最低的敵方造成%d%%法強的魔法傷害
+永恒,永恒,Eternity,エターナル,永恒
+辅助单位升级时额外获得%d个技能点,辅助单位升级时额外获得%d个技能点,Supports gain %d extra Skill Point(s) when they level up,補助ユニットがレベルアップする際、追加でスキルポイントを%d獲得する,輔助單位升級時額外獲得%d個技能點

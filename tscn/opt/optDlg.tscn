@@ -1,0 +1,93 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/opt/optDlg.gd" type="Script" id=2]
+[ext_resource path="res://res/Gui/UiElements/Dead_frame.png" type="Texture" id=3]
+
+[node name="baseDlg" instance=ExtResource( 1 )]
+margin_left = -196.0
+margin_top = -201.0
+margin_right = 197.0
+margin_bottom = 169.0
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="." index="0"]
+margin_left = -321.5
+margin_top = -118.0
+margin_right = 726.5
+margin_bottom = 513.0
+color = Color( 0, 0, 0, 0.623529 )
+
+[node name="bg" parent="." index="1"]
+texture = ExtResource( 3 )
+
+[node name="NinePatchRect" parent="bg" index="0"]
+texture = null
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+visible = false
+
+[node name="closeBtn" parent="bg" index="1"]
+margin_left = -26.0
+margin_top = 6.5
+margin_right = 14.0
+margin_bottom = 46.5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." index="2"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -93.5
+margin_top = -117.0
+margin_right = 94.5
+margin_bottom = 143.0
+alignment = 1
+
+[node name="Button" type="Button" parent="VBoxContainer" index="0"]
+margin_right = 188.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 0, 40 )
+text = "状态和说明"
+
+[node name="book" type="Button" parent="VBoxContainer" index="1"]
+margin_top = 44.0
+margin_right = 188.0
+margin_bottom = 84.0
+rect_min_size = Vector2( 0, 40 )
+text = "解锁图册"
+
+[node name="test" type="Button" parent="VBoxContainer" index="2"]
+margin_top = 88.0
+margin_right = 188.0
+margin_bottom = 128.0
+rect_min_size = Vector2( 0, 40 )
+text = "测试面板"
+
+[node name="sheZhi" type="Button" parent="VBoxContainer" index="3"]
+margin_top = 132.0
+margin_right = 188.0
+margin_bottom = 172.0
+rect_min_size = Vector2( 0, 40 )
+text = "设置"
+
+[node name="end" type="Button" parent="VBoxContainer" index="4"]
+margin_top = 176.0
+margin_right = 188.0
+margin_bottom = 216.0
+rect_min_size = Vector2( 0, 40 )
+text = "投降并结算"
+
+[node name="save" type="Button" parent="VBoxContainer" index="5"]
+margin_top = 220.0
+margin_right = 188.0
+margin_bottom = 260.0
+rect_min_size = Vector2( 0, 40 )
+text = "保存并退出"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="VBoxContainer/book" to="." method="_on_book_pressed"]
+[connection signal="pressed" from="VBoxContainer/test" to="." method="_on_test_pressed"]
+[connection signal="pressed" from="VBoxContainer/sheZhi" to="." method="_on_sheZhi_pressed"]
+[connection signal="pressed" from="VBoxContainer/end" to="." method="_on_end_pressed"]
+[connection signal="pressed" from="VBoxContainer/save" to="." method="_on_Button2_pressed"]

@@ -1,0 +1,312 @@
+[gd_scene load_steps=23 format=2]
+
+[ext_resource path="res://res/Gui/UiElements/Overhead_HP_frame_medium.png" type="Texture" id=1]
+[ext_resource path="res://tscn/map/home.gd" type="Script" id=2]
+[ext_resource path="res://res/Gui/Colbs/Angel_statue.png" type="Texture" id=3]
+[ext_resource path="res://res/Gui/BigUiIcons/Menu_UI_Icon.png" type="Texture" id=4]
+[ext_resource path="res://tscn/base/imgBtn.tscn" type="PackedScene" id=5]
+[ext_resource path="res://res/Colored/55_out.png" type="Texture" id=6]
+[ext_resource path="res://res/Gui/Colbs/Big_Colb_Glass.png" type="Texture" id=7]
+[ext_resource path="res://res/Gui/Colbs/Big_Colb_Frame_Double.png" type="Texture" id=8]
+[ext_resource path="res://res/Gui/UiElements/Slide_frame_top.png" type="Texture" id=9]
+[ext_resource path="res://res/Gui/Colbs/Knight_statue.png" type="Texture" id=10]
+[ext_resource path="res://res/Gui/UiElements/Options_pin.png" type="Texture" id=11]
+[ext_resource path="res://res/Gui/BigUiIcons/Bag_ui_icon.png" type="Texture" id=12]
+[ext_resource path="res://res/Gui/BigUiIcons/Quest_ui_icon.png" type="Texture" id=13]
+[ext_resource path="res://res/Gui/Colbs/Big_Colb_Blood.png" type="Texture" id=14]
+[ext_resource path="res://res/Gui/UiElements/Crystal_white.png" type="Texture" id=15]
+[ext_resource path="res://ex/ico/global/ico_g_m.png" type="Texture" id=16]
+[ext_resource path="res://res/Gui/UiElements/Slide_frame_bot.png" type="Texture" id=17]
+[ext_resource path="res://res/Gui/UiElements/Overhead_HP_Line_little.png" type="Texture" id=18]
+[ext_resource path="res://res/font/SourceHanSansCN-Black.otf" type="DynamicFontData" id=19]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+outline_size = 1
+outline_color = Color( 0.121569, 0.027451, 0.109804, 1 )
+font_data = ExtResource( 19 )
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("..:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "up"
+tracks/0/type = "value"
+tracks/0/path = NodePath("..:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 2, 2 ), Vector2( 2, 2 ), Vector2( 1, 1 ) ]
+}
+
+[node name="home" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -1.0
+margin_right = -1.0
+mouse_filter = 2
+script = ExtResource( 2 )
+
+[node name="hcBtn" parent="." instance=ExtResource( 5 )]
+margin_left = 885.0
+margin_top = 191.0
+margin_right = 949.0
+margin_bottom = 255.0
+
+[node name="img" parent="hcBtn/node" index="0"]
+texture = ExtResource( 6 )
+
+[node name="Label" parent="hcBtn" index="1"]
+text = ""
+
+[node name="TextureRect" type="TextureRect" parent="hcBtn"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 11 )
+expand = true
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+anchor_right = 1.0
+margin_bottom = 33.0
+texture = ExtResource( 9 )
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -26.0
+texture = ExtResource( 17 )
+
+[node name="RtsBar" type="TextureRect" parent="."]
+margin_left = 855.0
+margin_top = 366.0
+margin_right = 962.0
+margin_bottom = 477.0
+texture = ExtResource( 10 )
+expand = true
+flip_h = true
+
+[node name="btnBox" type="HBoxContainer" parent="RtsBar"]
+margin_left = -261.0
+margin_top = 39.0
+margin_right = 47.0
+margin_bottom = 103.0
+alignment = 2
+
+[node name="1" parent="RtsBar/btnBox" instance=ExtResource( 5 )]
+margin_left = 40.0
+margin_right = 104.0
+
+[node name="Label" parent="RtsBar/btnBox/1" index="1"]
+text = ""
+
+[node name="TextureRect" type="TextureRect" parent="RtsBar/btnBox/1"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 11 )
+expand = true
+
+[node name="2" parent="RtsBar/btnBox" instance=ExtResource( 5 )]
+margin_left = 108.0
+margin_right = 172.0
+
+[node name="img" parent="RtsBar/btnBox/2/node" index="0"]
+texture = ExtResource( 12 )
+
+[node name="Label" parent="RtsBar/btnBox/2" index="1"]
+text = ""
+
+[node name="TextureRect" type="TextureRect" parent="RtsBar/btnBox/2"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 11 )
+expand = true
+
+[node name="4" parent="RtsBar/btnBox" instance=ExtResource( 5 )]
+margin_left = 176.0
+margin_right = 240.0
+
+[node name="img" parent="RtsBar/btnBox/4/node" index="0"]
+texture = ExtResource( 13 )
+
+[node name="Label" parent="RtsBar/btnBox/4" index="1"]
+text = ""
+
+[node name="TextureRect" type="TextureRect" parent="RtsBar/btnBox/4"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 11 )
+expand = true
+
+[node name="3" parent="RtsBar/btnBox" instance=ExtResource( 5 )]
+margin_left = 244.0
+margin_right = 308.0
+
+[node name="img" parent="RtsBar/btnBox/3/node" index="0"]
+texture = ExtResource( 4 )
+
+[node name="Label" parent="RtsBar/btnBox/3" index="1"]
+text = ""
+
+[node name="TextureRect" type="TextureRect" parent="RtsBar/btnBox/3"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 11 )
+expand = true
+
+[node name="mRect" type="TextureRect" parent="."]
+margin_left = -35.0
+margin_top = 363.0
+margin_right = 84.0
+margin_bottom = 477.0
+texture = ExtResource( 3 )
+expand = true
+flip_h = true
+
+[node name="box" type="HBoxContainer" parent="mRect"]
+margin_left = 111.0
+margin_top = 43.0
+margin_right = 430.0
+margin_bottom = 107.0
+mouse_filter = 2
+
+[node name="time" type="NinePatchRect" parent="."]
+margin_left = 396.0
+margin_top = 375.0
+margin_right = 539.0
+margin_bottom = 472.0
+rect_scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 8 )
+
+[node name="1" type="Sprite" parent="time"]
+modulate = Color( 0.313726, 0.533333, 0.756863, 1 )
+show_behind_parent = true
+position = Vector2( 84.25, 48 )
+scale = Vector2( 0.201172, 0.203125 )
+texture = ExtResource( 14 )
+hframes = 2
+frame = 1
+
+[node name="2" type="Sprite" parent="time"]
+modulate = Color( 1, 0.741176, 0.00392157, 1 )
+show_behind_parent = true
+position = Vector2( 58.25, 48 )
+scale = Vector2( 0.201172, 0.203125 )
+texture = ExtResource( 14 )
+hframes = 2
+
+[node name="k" type="TextureRect" parent="time"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 46.0
+margin_top = 22.0
+margin_right = -46.0
+margin_bottom = -23.0
+texture = ExtResource( 7 )
+expand = true
+
+[node name="time" type="Node2D" parent="time"]
+position = Vector2( 71.5, 48.5 )
+
+[node name="OverheadHpFrameMedium" type="Sprite" parent="time/time"]
+position = Vector2( 16.657, -0.631348 )
+scale = Vector2( 0.139398, 0.163955 )
+texture = ExtResource( 1 )
+
+[node name="OverheadHpLineLittle" type="Sprite" parent="time/time"]
+position = Vector2( 15.8285, -0.499983 )
+scale = Vector2( 0.138058, 0.222225 )
+texture = ExtResource( 18 )
+
+[node name="RoundButton" type="Sprite" parent="time/time"]
+position = Vector2( 0.366947, -0.374988 )
+scale = Vector2( 0.129157, 0.121094 )
+texture = ExtResource( 15 )
+
+[node name="Node2D" type="Node2D" parent="time"]
+visible = false
+position = Vector2( 71.6667, 47.5 )
+
+[node name="migLab" type="Label" parent="time/Node2D"]
+unique_name_in_owner = true
+margin_left = -17.5
+margin_top = -15.8333
+margin_right = 19.5
+margin_bottom = 18.1667
+rect_pivot_offset = Vector2( 17.5, 16.6666 )
+mouse_filter = 1
+custom_colors/font_color = Color( 1, 0.364706, 0.239216, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "0"
+align = 1
+valign = 1
+
+[node name="TextureRect3" type="TextureRect" parent="time/Node2D/migLab"]
+self_modulate = Color( 1, 0.658824, 0.658824, 1 )
+show_behind_parent = true
+margin_left = 4.0
+margin_top = 3.0
+margin_right = 32.0
+margin_bottom = 31.0
+texture = ExtResource( 11 )
+expand = true
+
+[node name="TextureRect" type="TextureRect" parent="time/Node2D/migLab"]
+show_behind_parent = true
+margin_left = 1.66663
+margin_top = -3.05176e-05
+margin_right = 34.6666
+margin_bottom = 33.0
+texture = ExtResource( 16 )
+expand = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="time/Node2D/migLab"]
+anims/RESET = SubResource( 2 )
+anims/up = SubResource( 3 )
+
+[connection signal="tree_entered" from="." to="." method="_on_home_tree_entered"]
+[connection signal="pressed" from="hcBtn" to="." method="_on_hcBtn_pressed"]
+[connection signal="pressed" from="RtsBar/btnBox/1" to="." method="_on_1_pressed"]
+[connection signal="pressed" from="RtsBar/btnBox/2" to="." method="_on_2_pressed"]
+[connection signal="pressed" from="RtsBar/btnBox/4" to="." method="_on_4_pressed"]
+[connection signal="pressed" from="RtsBar/btnBox/3" to="." method="_on_3_pressed"]
+
+[editable path="hcBtn"]
+[editable path="RtsBar/btnBox/1"]
+[editable path="RtsBar/btnBox/2"]
+[editable path="RtsBar/btnBox/4"]
+[editable path="RtsBar/btnBox/3"]

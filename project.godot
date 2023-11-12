@@ -1,0 +1,497 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Base",
+"class": "Att",
+"language": "GDScript",
+"path": "res://core/att.gd"
+}, {
+"base": "Reference",
+"class": "Base",
+"language": "GDScript",
+"path": "res://core/base.gd"
+}, {
+"base": "BasePopup",
+"class": "BaseDlg",
+"language": "GDScript",
+"path": "res://tscn/base/baseDlg.gd"
+}, {
+"base": "Popup",
+"class": "BasePopup",
+"language": "GDScript",
+"path": "res://tscn/base/basePopup.gd"
+}, {
+"base": "Scene",
+"class": "BatScene",
+"language": "GDScript",
+"path": "res://tscn/bat/batScene.gd"
+}, {
+"base": "Att",
+"class": "Buff",
+"language": "GDScript",
+"path": "res://core/buff.gd"
+}, {
+"base": "Scene",
+"class": "ChaScene",
+"language": "GDScript",
+"path": "res://tscn/charaDlg/chaScene.gd"
+}, {
+"base": "Conter",
+"class": "Chara",
+"language": "GDScript",
+"path": "res://core/chara.gd"
+}, {
+"base": "ObjV",
+"class": "CharaV",
+"language": "GDScript",
+"path": "res://tscn/chara/charaV.gd"
+}, {
+"base": "Obj",
+"class": "Conter",
+"language": "GDScript",
+"path": "res://core/conter.gd"
+}, {
+"base": "Item",
+"class": "Csb",
+"language": "GDScript",
+"path": "res://core/ex/csb.gd"
+}, {
+"base": "MapScene",
+"class": "DungeonScene",
+"language": "GDScript",
+"path": "res://tscn/dungeon/dungeonScene.gd"
+}, {
+"base": "Node2D",
+"class": "Eff",
+"language": "GDScript",
+"path": "res://tscn/eff/eff.gd"
+}, {
+"base": "Item",
+"class": "Eqp",
+"language": "GDScript",
+"path": "res://core/ex/eqp.gd"
+}, {
+"base": "TextureButton",
+"class": "EqpChaBtn",
+"language": "GDScript",
+"path": "res://tscn/item/itemChaBtn.gd"
+}, {
+"base": "TextureButton",
+"class": "EqpLBtn",
+"language": "GDScript",
+"path": "res://tscn/charaDlg/eqplBtn.gd"
+}, {
+"base": "BaseDlg",
+"class": "EventDlg",
+"language": "GDScript",
+"path": "res://tscn/eventDlg/eventDlg.gd"
+}, {
+"base": "Conter",
+"class": "Faci",
+"language": "GDScript",
+"path": "res://core/faci.gd"
+}, {
+"base": "Faci",
+"class": "FaciBat",
+"language": "GDScript",
+"path": "res://ex/faci/faci_bat.gd"
+}, {
+"base": "FaciBat",
+"class": "FaciBatBoss",
+"language": "GDScript",
+"path": "res://ex/faci/faci_batBoss.gd"
+}, {
+"base": "Faci",
+"class": "FaciBuy",
+"language": "GDScript",
+"path": "res://ex/faci/faci_buy.gd"
+}, {
+"base": "Faci",
+"class": "FaciDungeon",
+"language": "GDScript",
+"path": "res://ex/faci/faci_dungeon.gd"
+}, {
+"base": "Faci",
+"class": "FaciTown",
+"language": "GDScript",
+"path": "res://ex/faci/faci_town.gd"
+}, {
+"base": "Faci",
+"class": "FaciUnk",
+"language": "GDScript",
+"path": "res://ex/faci/faci_unk.gd"
+}, {
+"base": "Control",
+"class": "Game",
+"language": "GDScript",
+"path": "res://tscn/game/game.gd"
+}, {
+"base": "Item",
+"class": "Gem",
+"language": "GDScript",
+"path": "res://core/ex/gem.gd"
+}, {
+"base": "Gem",
+"class": "GemAttL",
+"language": "GDScript",
+"path": "res://ex/item/gem/nor/gem_000.gd"
+}, {
+"base": "Gem",
+"class": "GemBuffHurtL",
+"language": "GDScript",
+"path": "res://ex/item/gem/nor/gem_020.gd"
+}, {
+"base": "Gem",
+"class": "GemUn",
+"language": "GDScript",
+"path": "res://core/ex/gemUn.gd"
+}, {
+"base": "Obj",
+"class": "Global",
+"language": "GDScript",
+"path": "res://core/global.gd"
+}, {
+"base": "Control",
+"class": "Home",
+"language": "GDScript",
+"path": "res://tscn/map/home.gd"
+}, {
+"base": "TextureButton",
+"class": "ImgBtn",
+"language": "GDScript",
+"path": "res://tscn/base/imgBtn.gd"
+}, {
+"base": "Buff",
+"class": "Item",
+"language": "GDScript",
+"path": "res://core/item.gd"
+}, {
+"base": "TextureButton",
+"class": "ItemBtn",
+"language": "GDScript",
+"path": "res://tscn/item/itemBtn.gd"
+}, {
+"base": "Base",
+"class": "ItemGrid",
+"language": "GDScript",
+"path": "res://core/itemGrid.gd"
+}, {
+"base": "Base",
+"class": "ItemPck",
+"language": "GDScript",
+"path": "res://core/itemPck.gd"
+}, {
+"base": "BaseDlg",
+"class": "LcBaseDlg",
+"language": "GDScript",
+"path": "res://tscn/map/loca/lcBaseDlg.gd"
+}, {
+"base": "Control",
+"class": "Main",
+"language": "GDScript",
+"path": "res://tscn/main/main.gd"
+}, {
+"base": "TileMap",
+"class": "Map",
+"language": "GDScript",
+"path": "res://tscn/map/map.gd"
+}, {
+"base": "Scene",
+"class": "MapScene",
+"language": "GDScript",
+"path": "res://tscn/map/mapScene.gd"
+}, {
+"base": "Item",
+"class": "Mater",
+"language": "GDScript",
+"path": "res://core/ex/mater.gd"
+}, {
+"base": "Att",
+"class": "Obj",
+"language": "GDScript",
+"path": "res://core/obj.gd"
+}, {
+"base": "Node2D",
+"class": "ObjV",
+"language": "GDScript",
+"path": "res://tscn/map/objV.gd"
+}, {
+"base": "Faci",
+"class": "Player",
+"language": "GDScript",
+"path": "res://core/player.gd"
+}, {
+"base": "Buff",
+"class": "PubBuff",
+"language": "GDScript",
+"path": "res://core/ex/pubBuff.gd"
+}, {
+"base": "Item",
+"class": "Relic",
+"language": "GDScript",
+"path": "res://core/relic.gd"
+}, {
+"base": "Reference",
+"class": "RndPool",
+"language": "GDScript",
+"path": "res://core/rndPool.gd"
+}, {
+"base": "Control",
+"class": "Scene",
+"language": "GDScript",
+"path": "res://tscn/scene.gd"
+}, {
+"base": "Buff",
+"class": "Skill",
+"language": "GDScript",
+"path": "res://core/skill.gd"
+}, {
+"base": "Node",
+"class": "Sys",
+"language": "GDScript",
+"path": "res://core/global/sys.gd"
+}, {
+"base": "Obj",
+"class": "Team",
+"language": "GDScript",
+"path": "res://core/team.gd"
+}, {
+"base": "Control",
+"class": "Tile",
+"language": "GDScript",
+"path": "res://tscn/tile/tile.gd"
+}, {
+"base": "Map",
+"class": "WorldMap",
+"language": "GDScript",
+"path": "res://tscn/map/worldMap.gd"
+} ]
+_global_script_class_icons={
+"Att": "",
+"Base": "",
+"BaseDlg": "",
+"BasePopup": "",
+"BatScene": "",
+"Buff": "",
+"ChaScene": "",
+"Chara": "",
+"CharaV": "",
+"Conter": "",
+"Csb": "",
+"DungeonScene": "",
+"Eff": "",
+"Eqp": "",
+"EqpChaBtn": "",
+"EqpLBtn": "",
+"EventDlg": "",
+"Faci": "",
+"FaciBat": "",
+"FaciBatBoss": "",
+"FaciBuy": "",
+"FaciDungeon": "",
+"FaciTown": "",
+"FaciUnk": "",
+"Game": "",
+"Gem": "",
+"GemAttL": "",
+"GemBuffHurtL": "",
+"GemUn": "",
+"Global": "",
+"Home": "",
+"ImgBtn": "",
+"Item": "",
+"ItemBtn": "",
+"ItemGrid": "",
+"ItemPck": "",
+"LcBaseDlg": "",
+"Main": "",
+"Map": "",
+"MapScene": "",
+"Mater": "",
+"Obj": "",
+"ObjV": "",
+"Player": "",
+"PubBuff": "",
+"Relic": "",
+"RndPool": "",
+"Scene": "",
+"Skill": "",
+"Sys": "",
+"Team": "",
+"Tile": "",
+"WorldMap": ""
+}
+
+[application]
+
+config/name="Legendary Creatures 2"
+run/main_scene="res://tscn/main/main.tscn"
+run/delta_sync_after_draw=true
+boot_splash/image="res://res/Gui/BigUiIcons/Inventory_ui_icon.png"
+boot_splash/fullsize=false
+config/icon="res://res/Gui/BigUiIcons/Inventory_ui_icon.png"
+
+[autoload]
+
+data="*res://core/global/data.gd"
+cons="*res://core/global/cons.gd"
+rnp="*res://core/global/rnp.gd"
+sys="*res://tscn/main/sys.tscn"
+
+[debug]
+
+gdscript/warnings/unassigned_variable=false
+gdscript/warnings/unassigned_variable_op_assign=false
+gdscript/warnings/unused_variable=false
+gdscript/warnings/shadowed_variable=false
+gdscript/warnings/unused_argument=false
+gdscript/warnings/unreachable_code=false
+gdscript/warnings/unused_signal=false
+gdscript/warnings/return_value_discarded=false
+gdscript/warnings/integer_division=false
+
+[display]
+
+window/size/width=960
+window/size/height=480
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/codeandweb.texturepacker/plugin.cfg" )
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+theme/custom="res://res/theme.tres"
+theme/custom_font="res://res/font/t.tres"
+
+[importer_defaults]
+
+texture={
+"compress/bptc_ldr": 0,
+"compress/hdr_mode": 0,
+"compress/lossy_quality": 0.7,
+"compress/mode": 0,
+"compress/normal_map": 0,
+"detect_3d": false,
+"flags/anisotropic": false,
+"flags/filter": true,
+"flags/mipmaps": false,
+"flags/repeat": 0,
+"flags/srgb": 2,
+"process/HDR_as_SRGB": false,
+"process/fix_alpha_border": true,
+"process/invert_color": false,
+"process/normal_map_invert_y": false,
+"process/premult_alpha": false,
+"size_limit": 0,
+"stream": false,
+"svg/scale": 1.0
+}
+
+[input]
+
+ui_left={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777231,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":14,"pressure":0.0,"pressed":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_right={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777233,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":15,"pressure":0.0,"pressed":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_up={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777232,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":12,"pressure":0.0,"pressed":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_down={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777234,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":13,"pressure":0.0,"pressed":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_ctrl={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777238,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_0={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":48,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_1={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":49,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_2={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":50,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_3={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":51,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_4={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":52,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_5={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":53,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_6={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":54,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_7={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":55,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_8={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":56,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+mod={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":0,"physical_scancode":77,"unicode":0,"echo":false,"script":null)
+ ]
+}
+
+[locale]
+
+translations=PoolStringArray( "res://lg/chara.en.translation", "res://lg/chara.ja.translation", "res://lg/chara.zh_CN.translation", "res://lg/chara.zh_HK.translation", "res://lg/relic.en.translation", "res://lg/relic.ja.translation", "res://lg/relic.zh_CN.translation", "res://lg/relic.zh_HK.translation", "res://lg/item.en.translation", "res://lg/item.ja.translation", "res://lg/item.zh_CN.translation", "res://lg/item.zh_HK.translation", "res://lg/event.en.translation", "res://lg/event.ja.translation", "res://lg/event.zh_CN.translation", "res://lg/event.zh_HK.translation", "res://lg/faci.en.translation", "res://lg/faci.ja.translation", "res://lg/faci.zh_CN.translation", "res://lg/faci.zh_HK.translation", "res://lg/global.en.translation", "res://lg/global.ja.translation", "res://lg/global.zh_CN.translation", "res://lg/global.zh_HK.translation", "res://lg/dictionary.en.translation", "res://lg/dictionary.ja.translation", "res://lg/dictionary.zh_CN.translation", "res://lg/dictionary.zh_HK.translation", "res://lg/ui.en.translation", "res://lg/ui.ja.translation", "res://lg/ui.zh_CN.translation", "res://lg/ui.zh_HK.translation", "res://lg/skill0.en.translation", "res://lg/skill0.ja.translation", "res://lg/skill0.zh_CN.translation", "res://lg/skill0.zh_HK.translation", "res://lg/skill1.en.translation", "res://lg/skill1.ja.translation", "res://lg/skill1.zh_CN.translation", "res://lg/skill1.zh_HK.translation", "res://lg/skill2.en.translation", "res://lg/skill2.ja.translation", "res://lg/skill2.zh_CN.translation", "res://lg/skill2.zh_HK.translation", "res://lg/skill3.en.translation", "res://lg/skill3.ja.translation", "res://lg/skill3.zh_CN.translation", "res://lg/skill3.zh_HK.translation" )
+translation_remaps={
+"res://tscn/tile/logo_zh_CN.png": PoolStringArray( "res://tscn/tile/logo_en.png:en", "res://tscn/tile/logo_ja.png:ja", "res://tscn/tile/logo_zh_HK.png:zh_HK", "res://tscn/tile/logo_zh_CN.png:zh_CN" )
+}
+
+[physics]
+
+common/enable_pause_aware_picking=true

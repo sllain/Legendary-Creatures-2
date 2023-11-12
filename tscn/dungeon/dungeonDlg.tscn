@@ -1,0 +1,89 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/dungeon/dungeonScene.tscn" type="PackedScene" id=2]
+[ext_resource path="res://tscn/dungeon/dungeonDlg.gd" type="Script" id=3]
+
+[sub_resource type="CanvasItemMaterial" id=4]
+blend_mode = 1
+
+[sub_resource type="Animation" id=1]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "idle"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0.266667 ), Color( 0.458824, 0.85098, 0.443137, 0.847059 ), Color( 1, 1, 1, 0.266667 ) ]
+}
+
+[node name="baseDlg" instance=ExtResource( 1 )]
+margin_left = -432.0
+margin_top = -160.0
+margin_right = 429.0
+margin_bottom = 161.0
+script = ExtResource( 3 )
+
+[node name="mapScene@faciPos@faci_bat" type="Position2D" parent="." index="0"]
+position = Vector2( 173, 146 )
+
+[node name="mapScene@faciPos@faci_bat|2" type="Position2D" parent="." index="1"]
+position = Vector2( 243, 148 )
+
+[node name="mapScene@faciPos@faci_bat2" type="Position2D" parent="." index="2"]
+position = Vector2( 315, 147 )
+
+[node name="mapScene@faciPos@faci_bat|4" type="Position2D" parent="." index="3"]
+position = Vector2( 378, 146 )
+
+[node name="mapScene@faciPos@faci_bat|3" type="Position2D" parent="." index="4"]
+position = Vector2( 448, 148 )
+
+[node name="mapScene@faciPos@faci_bat2|2" type="Position2D" parent="." index="5"]
+position = Vector2( 520, 147 )
+
+[node name="mapScene@faciPos@faci_bat3" type="Position2D" parent="." index="6"]
+position = Vector2( 588, 148 )
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+text = "地牢"
+
+[node name="mapScene" parent="." index="8" instance=ExtResource( 2 )]
+margin_left = 23.0
+margin_top = 51.0
+margin_right = 829.0
+margin_bottom = 267.0
+
+[node name="map" parent="mapScene" index="2"]
+tile_data = PoolIntArray( 131073, 0, 0, 131074, 0, 0, 131075, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0, 131079, 0, 0, 131080, 0, 0 )
+
+[node name="mouseCell" parent="mapScene" index="5"]
+material = SubResource( 4 )
+
+[node name="AnimationPlayer" parent="mapScene/mouseCell" index="0"]
+anims/RESET = SubResource( 1 )
+anims/idle = SubResource( 5 )
+
+[editable path="mapScene"]
+[editable path="mapScene/ui1/camCon/3"]

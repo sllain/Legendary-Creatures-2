@@ -1,0 +1,108 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/tile/newGameDlg.gd" type="Script" id=2]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_ArrowRight.png" type="Texture" id=3]
+[ext_resource path="res://res/Gui/UiElements/RoundButton_green.png" type="Texture" id=4]
+[ext_resource path="res://res/Gui/UiElements/RoundButton_blue.png" type="Texture" id=5]
+[ext_resource path="res://res/Gui/UiElements/RoundButton.png" type="Texture" id=6]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_ArrowLeft.png" type="Texture" id=7]
+[ext_resource path="res://res/font/b.tres" type="DynamicFont" id=8]
+[ext_resource path="res://res/Gui/UiElements/Equipment_background_v4.png" type="Texture" id=9]
+
+[node name="baseDlg" instance=ExtResource( 1 )]
+visible = true
+margin_left = -255.5
+margin_top = -151.5
+margin_right = 255.5
+margin_bottom = 151.5
+script = ExtResource( 2 )
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+text = "难度"
+
+[node name="diffi" type="NinePatchRect" parent="." index="1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Label" type="Label" parent="diffi" index="0"]
+margin_left = 176.0
+margin_top = 44.0
+margin_right = 340.0
+margin_bottom = 66.0
+text = "进阶等级"
+align = 1
+
+[node name="2" type="TextureButton" parent="diffi" index="1"]
+margin_left = 297.5
+margin_top = 73.5
+margin_right = 337.5
+margin_bottom = 113.5
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 4 )
+expand = true
+
+[node name="Sprite" type="Sprite" parent="diffi/2" index="0"]
+position = Vector2( 22, 20.5 )
+scale = Vector2( 0.34375, 0.242188 )
+texture = ExtResource( 3 )
+
+[node name="1" type="TextureButton" parent="diffi" index="2"]
+margin_left = 177.5
+margin_top = 73.5
+margin_right = 217.5
+margin_bottom = 113.5
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 4 )
+expand = true
+
+[node name="Sprite" type="Sprite" parent="diffi/1" index="0"]
+position = Vector2( 17, 20.5 )
+scale = Vector2( 0.34375, 0.242188 )
+texture = ExtResource( 7 )
+
+[node name="lvLab" type="Label" parent="diffi" index="3"]
+margin_left = 236.5
+margin_top = 86.5
+margin_right = 276.5
+margin_bottom = 108.5
+custom_fonts/font = ExtResource( 8 )
+text = "10"
+align = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="diffi" index="4"]
+margin_left = 62.0
+margin_top = 134.0
+margin_right = 450.0
+margin_bottom = 221.0
+texture = ExtResource( 9 )
+patch_margin_left = 48
+patch_margin_top = 33
+patch_margin_right = 42
+patch_margin_bottom = 43
+
+[node name="txt" type="RichTextLabel" parent="diffi/NinePatchRect" index="0"]
+unique_name_in_owner = true
+margin_left = 6.0
+margin_top = 9.0
+margin_right = 383.0
+margin_bottom = 81.0
+bbcode_enabled = true
+
+[node name="Button" type="Button" parent="diffi" index="5"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -73.5
+margin_top = -65.0
+margin_right = 73.5
+margin_bottom = -18.0
+custom_fonts/font = ExtResource( 8 )
+text = "开始"
+
+[connection signal="pressed" from="diffi/2" to="." method="_on_2_pressed"]
+[connection signal="pressed" from="diffi/1" to="." method="_on_1_pressed"]
+[connection signal="pressed" from="diffi/Button" to="." method="_on_Button_pressed"]

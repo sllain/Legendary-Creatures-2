@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://res/Colored/19_plus.png" type="Texture" id=1]
+[ext_resource path="res://tscn/map/loca/lcLvItem.gd" type="Script" id=2]
+
+[node name="lcLvItem" type="ReferenceRect"]
+margin_right = 145.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 145, 28 )
+mouse_filter = 1
+script = ExtResource( 2 )
+
+[node name="info" type="ReferenceRect" parent="."]
+margin_right = 145.0
+margin_bottom = 28.0
+mouse_filter = 1
+border_color = Color( 0.137255, 0.956863, 0.176471, 1 )
+
+[node name="name" type="Label" parent="."]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_left = 5.0
+margin_top = -8.0
+margin_right = 75.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.501961, 0.878431, 0.435294, 1 )
+text = "牛逼之力："
+
+[node name="lv" type="Label" parent="."]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -83.0
+margin_top = -8.0
+margin_right = -6.0
+margin_bottom = 14.0
+text = "1级"
+align = 2
+
+[node name="upBtn" type="Button" parent="."]
+margin_left = 159.0
+margin_top = 2.0
+margin_right = 188.0
+margin_bottom = 31.0
+icon = ExtResource( 1 )
+expand_icon = true
+
+[connection signal="pressed" from="upBtn" to="." method="_on_upBtn_pressed"]

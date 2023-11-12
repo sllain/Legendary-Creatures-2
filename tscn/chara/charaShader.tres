@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://res/shader/baTi.shader" type="Shader" id=1]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/rainbow = true
+shader_param/line_color = Color( 0.921569, 0.0745098, 0.0745098, 1 )
+shader_param/line_scale = 0.5
+shader_param/frequency = 0.5
+shader_param/light_offset = 0.5
+shader_param/alpha = 0.483

@@ -1,0 +1,70 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://res/eff/31_Bolt_2.png" type="Texture" id=1]
+
+[sub_resource type="GDScript" id=6]
+script/source = "extends Node2D
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+onready var anim = $AnimatedSprite
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_AnimatedSprite_animation_finished():
+	queue_free()
+
+func init(pos:Vector2,toPos:Vector2):
+	position = pos
+	look_at(toPos)
+	anim.scale.y = (pos-toPos).length() / 313.0
+"
+
+[sub_resource type="CanvasItemMaterial" id=5]
+blend_mode = 1
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 256, 256 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 1 )
+region = Rect2( 256, 0, 256, 256 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 1 )
+region = Rect2( 512, 0, 256, 256 )
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ SubResource( 7 ), SubResource( 8 ), SubResource( 9 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[node name="node" type="Node2D"]
+z_index = 2
+script = SubResource( 6 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+material = SubResource( 5 )
+position = Vector2( -0.997164, -0.37204 )
+rotation = 1.57157
+scale = Vector2( 0.35, 1 )
+frames = SubResource( 4 )
+frame = 2
+playing = true
+offset = Vector2( 5.12378, -32.3028 )
+
+[connection signal="animation_finished" from="AnimatedSprite" to="." method="_on_AnimatedSprite_animation_finished"]

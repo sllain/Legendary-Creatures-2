@@ -1,0 +1,78 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://tscn/charaDlg/skill/skillBtn.tscn" type="PackedScene" id=1]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_Plus2.png" type="Texture" id=2]
+[ext_resource path="res://res/Gui/UiElements/Equipment_background_v4.png" type="Texture" id=3]
+[ext_resource path="res://tscn/charaDlg/skill/skillPan.gd" type="Script" id=4]
+
+[node name="skillPan" type="Control"]
+margin_right = 467.0
+margin_bottom = 88.0
+rect_min_size = Vector2( 300, 90 )
+script = ExtResource( 4 )
+
+[node name="skillBtn" parent="." instance=ExtResource( 1 )]
+margin_left = 4.0
+margin_top = 3.0
+margin_right = 68.0
+margin_bottom = 67.0
+
+[node name="box" type="NinePatchRect" parent="."]
+margin_left = 72.0
+margin_right = 466.0
+margin_bottom = 90.0
+texture = ExtResource( 3 )
+patch_margin_left = 21
+patch_margin_top = 19
+patch_margin_right = 11
+patch_margin_bottom = 18
+
+[node name="txt" type="RichTextLabel" parent="box"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 22.0
+margin_bottom = -2.0
+bbcode_enabled = true
+text = "sdf
+asdf"
+
+[node name="name" type="Label" parent="box"]
+margin_left = 4.0
+margin_right = 44.0
+margin_bottom = 22.0
+custom_colors/font_color = Color( 1, 0.898039, 0.545098, 1 )
+text = "野蛮冲撞"
+
+[node name="lv" type="Label" parent="box"]
+margin_left = 188.0
+margin_right = 283.0
+margin_bottom = 22.0
+custom_colors/font_color = Color( 0.505882, 0.8, 0.509804, 1 )
+text = "Lv：1"
+align = 2
+
+[node name="cd" type="Label" parent="box"]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -102.0
+margin_right = -2.0
+margin_bottom = 22.0
+custom_colors/font_color = Color( 0.282353, 0.572549, 1, 1 )
+text = "CD:5秒"
+align = 2
+
+[node name="lvBtn" type="Button" parent="."]
+margin_left = 16.0
+margin_top = 52.0
+margin_right = 55.0
+margin_bottom = 90.0
+expand_icon = true
+
+[node name="Sprite" type="Sprite" parent="lvBtn"]
+position = Vector2( 19, 20 )
+scale = Vector2( 0.25, 0.21875 )
+texture = ExtResource( 2 )
+
+[connection signal="meta_clicked" from="box/txt" to="." method="_on_txt_meta_clicked"]
+[connection signal="pressed" from="lvBtn" to="." method="_on_lvBtn_pressed"]

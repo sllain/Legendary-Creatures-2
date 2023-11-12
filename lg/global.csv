@@ -1,0 +1,79 @@
+,zh_CN,en,ja,zh_HK
+你需要通关当前等级，才可解锁下一个等级,你需要通关当前等级，才可解锁下一个等级,You need to beat this level first to unlock the next level,次のレベルをアンロックするには今のレベルをクリアする必要があります,你需要通關當前等級，才可解鎖下一個等級
+目前最高,目前最高,Currently Highest,現在の最高,目前最高
+初始难度，小试身手,初始难度，小试身手,Initial Difficulty. Time to test the waters.,初期難易度、手慣らしにどうぞ,初始難度，小試身手
+敌人的属性小幅增加,敌人的属性小幅增加,Enemy attributes are slightly enhanced,敵の属性がわずかに強化されています,敵人的屬性小幅增加
+瘴气对敌人属性的影响提高100%,瘴气对敌人属性的影响提高100%,Increased the influence of the Miasma on enemy effects by 100%,瘴気は敵のステータスの効果が100%増加します,瘴氣對敵人屬性的影響提高200%
+夜晚的敌人获得15%的增伤和减伤,夜晚的敌人获得15%的增伤和减伤,Enemies gain a 15% DMG Boost and DMG Reduction at night.,夜中の敵のダメージ増加と被ダメージ軽減が15%増加する,夜晚的敵人獲得15%的增傷和減傷
+大地图移动1格消耗的时间增加10分钟,大地图移动1格消耗的时间增加10分钟,Increase the time spent on moving 1 tile on the World Map by 10 minutes.,マップ上で1マス移動する際の消費時間が10分増加する,大地圖移動1格消耗的時間增加10分鐘
+敌人的属性中幅增加,敌人的属性中幅增加,Enemy attributes are considerably enhanced.,敵のステータスが中位上昇,敵人的屬性中幅增加
+魔王战敌人获得魔王军状态 %d%%的增伤和减伤,魔王战敌人获得魔王军状态 %d%%的增伤和减伤,"When fighting the Demon Lord, enemies enter the Demonic Troop state, gaining a %d%% DMG Boost and DMG Reduction",魔王戦中、敵は魔王軍状態を獲得、ダメージ増加と被ダメージ軽減を%d%%増加,魔王戰敵人獲得魔王軍狀態 %d%%的增傷和減傷
+瘴气对敌人属性的影响提高200%,瘴气对敌人属性的影响提高200%,Increased the influence of the Miasma on enemy effects by 200%,瘴気は敵のステータスの効果が200%増加します,瘴氣對敵人屬性的影響提高200%
+战斗的时间花费增加50%,战斗的时间花费增加50%,Battle time increases by 50%.,戦闘による時間消費が50%上昇する,戰鬥的時間花費增加50%
+敌人的属性大幅增加,敌人的属性大幅增加,Enemy attributes are greatly enhanced.,敵のステータスが大幅上昇,敵人的屬性大幅增加
+魔王觉醒并诅咒你的部队，减少%d%%的增伤和减伤,魔王觉醒并诅咒你的部队，减少%d%%的增伤和减伤,"The Demon Lord is awakened and curses your team, reducing your DMG Boost and DMG Reduction by %d%%.",魔王が覚醒し、味方部隊を呪う。味方のダメージ増加、被ダメージ軽減を%d%%減少する,魔王覺醒並詛咒你的部隊，減少%d%%的增傷和減傷
+瘴气层数无上限,瘴气层数无上限,There is no limit to the Miasma levels,瘴気の層数に上限はない,瘴氣層數無上限
+敌人的属性超幅增加,敌人的属性超幅增加,Enemy attributes are massively enhanced.,敵の属性が超大幅に増加,敵人的屬性超幅增加
+,,,,
+,,,,
+难度,难度,Difficulty,難易度,難度
+,,,,
+战况激烈,战况激烈,Intense Battle,戦況熱烈,戰況激烈
+每30秒所有单位最终伤害提升50%,每30秒所有单位最终伤害提升50%,"Every 30 sec, the final damage dealt by each unit increases by 50%",30秒ごとに各ユニットの最終ダメージを50％増加,每30秒所有單位最終傷害提升50%
+,,,,
+幽暗值,幽暗值,Gloom,幽暗値,幽暗值
+当前幽暗值%d,当前幽暗值%d,Current Gloom: %d,現在の幽暗値%d,當前幽暗值%d
+敌方增加%d%%的增伤和减伤,敌方增加%d%%的增伤和减伤,Enemy DMG Boost and DMG Reduction increase by %d%%,敵のダメージ増加とダメージ軽減が%d%%増加,敵方增加%d%%的增傷和減傷
+在地牢中战斗时间减少，但是会增加幽暗值,在地牢中战斗时间减少，但是会增加幽暗值,Reduces combat time in the dungeon but increases Gloom,ダンジョンでの戦闘時間の短縮、幽暗値は増加します,在地牢中戰鬥時間減少，但是會增加幽暗值
+,,,,
+,,,,
+游戏,游戏,Game,ゲーム,遊戲
+请雇佣%d个初始单位,请雇佣%d个初始单位,Please recruit %d initial units,初期ユニットを%dつ雇用してください,請雇傭%d個初始單位
+获得 %dG初始金币,获得 %dG初始金币,Obtain %d Coins," %dGの路銀を獲得",獲得 %dG初始金幣
+离开地牢，时间推进%d个小时,离开地牢，时间推进%d个小时,Leave the dungeon and time advances by %d hour(s),地下牢を離れ、時間が%d時間進む,離開地牢，時間推進%d個小時
+,,,,
+瘴气,瘴气,Miasma,瘴気,瘴氣
+敌方的生命，防御，攻击提高%d%%,敌方的生命，防御，攻击提高%d%%,"Enemy HP, Defense and Attack increase by %d%%",敵のHP 、防御力、攻撃力が%d%%増加,敵方的生命，防禦，攻擊提高%d%%
+每过一天提高%d级,每过一天提高%d级,Increases by %d level(s) each day,1日ごとに%dレベルずつ上がり,每過一天提高%d級
+,,,,
+,,,,
+瘴气到达了5级，请注意瘴气的流逝，瘴气越高，敌人越强,瘴气到达了5级，请注意瘴气的流逝，瘴气越高，敌人越强,"The miasma has reached Lv. 5. Please pay attention to its intensity. The more infectious the miasma, the more powerful the enemies. ",瘴気がレベル５になりました！瘴気の増加に注意してください、瘴気が高ければ高いほど敵が強くなります。,瘴氣到達了5級，請註意瘴氣的流逝，瘴氣越高，敵人越強
+瘴气到达%d级，游戏失败！,瘴气到达%d级，游戏失败！,The miasma has reached Lv. %d. You are defeated!,瘴気レベルが%dに達しました！ゲームオーバーです！,瘴氣到達%d級，遊戲失敗！
+,,,,
+夜晚,夜晚,Night,夜,夜晚
+夜晚探索范围减少1格，敌人获得增益状态，同时获取的魂值提高,夜晚探索范围减少1格，敌人获得增益状态，同时获取的魂值提高,The exploration range decreases by 1 tile at night; enemies are buffed and you gain more Essence upon defeating them,夜での探索範囲は1減少し、敵はBUFF状態になり、獲得するソウル値が高くなります,夜晚探索範圍減少1格，敵人獲得增益狀態，同時獲取的魂值提高
+,,,,
+收集到3个恶魔之魂，召唤出苍白剑士,收集到3个恶魔之魂，召唤出苍白剑士,Collect 3 Souls of Demon to summon Pale Swordsman,悪魔の魂を3つ集め、蒼白の剣士を召喚,收集到3個惡魔之魂，召喚出蒼白劍士
+,,,,
+奇遇,奇遇,Special Encounter,奇遇,奇遇
+点击图标遭遇奇遇,点击图标遭遇奇遇,Click the icon to trigger the Special Encounter,アイコンをクリックし奇遇に遭遇,點擊圖標遭遇奇遇
+出现了新的奇遇，点击屏幕上方的问号图标触发,出现了新的奇遇，点击屏幕上方的问号图标触发,A new Special Encounter appears. Click on the question mark above to trigger it.,新たな奇遇が現れました。画面の上にある「？」マークをクリックすると奇遇に遭遇します,出現了新的奇遇，點擊屏幕上方的問號圖標觸發
+,,,,
+神的启示,神的启示,Apocalypse,神のお告げ,神的啟示
+"神给了你预言,现在超过20级的瘴气，不会让你失败，但是会带来一场浩劫！","神给了你预言,现在超过20级的瘴气，不会让你失败，但是会带来一场浩劫！",The immortal reveals the truth about your future. Miasma above Lv. 20 will no longer cause your defeat but it is definitely devastating.,神よりお告げを授かりました、現在瘴気レベルが20を超えてもゲームオーバーになりませんが、災いが訪れるでしょう,"神給了你預言,現在超過20級的瘴氣，不會讓你失敗，但是會帶來一場浩劫！"
+"最后的审判来临，瘴气弥漫大地，魔王觉醒！大地图上的所有的常规战斗事件提升1级,包括魔王","最后的审判来临，瘴气弥漫大地，魔王觉醒！大地图上的所有的常规战斗事件提升1级,包括魔王","The final judgment befalls. The continent is engulfed in miasma, and the Demon Lord has awakened! All common battle events on the world map have been elevated by 1 level—including the Demong Lord!",最後の審判が降臨し、瘴気が大地を満たす。魔王覚醒の時なり！魔王を含み、マップ上全ての通常戦闘イベントはレベルが1上がります,"最後的審判來臨，瘴氣彌漫大地，魔王覺醒！大地圖上的所有的常規戰鬥事件提升1級,包括魔王"
+,,,,
+引导任务,引导任务,Instruction Mission,チュートリアルミッション,引導任務
+获得一个[color=#e883f6]史诗[/color]及以上装备,获得一个[color=#e883f6]史诗[/color]及以上装备,Obtain 1 piece of [color=#e883f6]Epic[/color] or higher-quality equipment,[color=#e883f6]エピック[/color]以上の装備を1つ獲得,獲得一個[color=#e883f6]史詩[/color]及以上裝備
+升级或者雇佣一个3级及以上单位,升级或者雇佣一个3级及以上单位,Upgrade or recruit 1 unit of Lv. 3 or above,レベル3以上のユニットを1つレベルアップ若しくは雇用する,升級或者雇傭一個3級及以上單位
+完成,完成,Complete,COMPLETE!,完成
+完成引导任务！快去向导那领取奖励,完成引导任务！快去向导那领取奖励,You have completed the Instruction Mission! Go claim rewards from the guide.,チュートリアルミッション完了！ボーナスを受け取ってください！,完成引導任務！快去向導那領取獎勵
+,,,,
+消灭可减少瘴气，获得神徽,消灭可减少瘴气，获得神徽,Defeat them to reduce Miasma and acquire Emblems.,討伐することで瘴気を減少し、シンボルを獲得できます,消滅可減少瘴氣，獲得神徽
+地牢佣兵,地牢佣兵,Dungeon Mercenaries,地下牢の傭兵,地牢傭兵
+这是些在阴暗地牢里的狠角，可以雇佣他们。,这是些在阴暗地牢里的狠角，可以雇佣他们。,"These are fierce characters lurking in the dark dungeons, available for hire.",地下牢に存在する曲者たち、雇用することができる,這是些在陰暗地牢裏的狠角，可以雇傭他們。
+,,,,
+在城镇或者其他渠道雇佣一个单位。,在城镇或者其他渠道雇佣一个单位。,Recruit a unit within the city or through alternative methods.,街もしくは他のルートでユニットを1体雇用する,在城鎮或者其他渠道雇傭一個單位。
+获得足够的魂，升级一个单位。,获得足够的魂，升级一个单位。,Gather sufficient Essence to upgrade a unit.,十分なソウルを獲得し、ユニット1体のレベルを上げる,獲得足夠的魂，升級一個單位。
+发现并进入一个地牢。,发现并进入一个地牢。,Unearth and venture into a dungeon.,地下牢を発見して入る,發現並進入一個地牢。
+找到并击败3名魔王仆从。,找到并击败3名魔王仆从。,Locate and conquer 3 Demon Servants.,魔王の僕を3体見つけて倒す,找到並擊敗3名魔王仆從。
+,,,,
+完成引导任务！点击引导任务的图标领取奖励,完成引导任务！点击引导任务的图标领取奖励,Instruction Mission completed! Click on the icon to claim your rewards.,チュートリアルミッション完了！ミッションのアイコンをクリックして報酬を受け取ってください,完成引導任務！點擊引導任務的圖標領取獎勵
+请合理的规划路线，在地图中移动和战斗都会使时间流逝，海拔越高怪物越强。,请合理的规划路线，在地图中移动和战斗都会使时间流逝，海拔越高怪物越强。,"Strategize your journey carefully and please keep in mind that every move and battle on the map consumes time. Please note that the higher your altitude, the fiercer the monsters become.",マップでの移動や戦闘は時間が経つし、場所が高いほどモンスターは強くなるため、進むルートを合理的に計画してください。,請合理的規劃路線，在地圖中移動和戰鬥都會使時間流逝，海拔越高怪物越強。
+每过1天，瘴气会提高1级。,每过1天，瘴气会提高1级。,"With each passing day, Miasma escalates by 1 level. ",1日を過ぎるごとに瘴気が1レベル上がり。,每過1天，瘴氣會提高1級。
+接下来请完成如下任务：,接下来请完成如下任务：,Please complete the subsequent missions:,これからは以下のミッションを完了してください：,接下來請完成如下任務：
+完成任务！获得奖励。,完成任务！获得奖励。,Mission accomplished! Claim your rewards.,ミッション完了！ボーナスを獲得。,完成任務！獲得獎勵。
+点击城镇以其他有小箭头的设施可以直接传送，接下来请完成：,点击城镇以其他有小箭头的设施可以直接传送，接下来请完成：,Click on the city and facilities marked with small arrows for direct teleportation. Please finish the following steps:,街及び他の矢印が付けられた施設をクリックすると転移できる、これからは以下の目標を完了してください：,點擊城鎮以其他有小箭頭的設施可以直接傳送，接下來請完成：
+你已经踏上了成王之路，最后请完成任务：,你已经踏上了成王之路，最后请完成任务：,You have embarked on the journey to kingship. Please complete this final mission:,あなたは王への道を歩み始めた、最後にこのミッションを完了してください：,你已經踏上了成王之路，最後請完成任務：
+你已经完成了所有引导任务，也凝聚一支强力的队伍，证明了你成为王的资格。,你已经完成了所有引导任务，也凝聚一支强力的队伍，证明了你成为王的资格。,"You've accomplished all the Instruction Missions, forged a formidable team, and proved your worthiness to ascend as a ruler.",あなたはすべてのチュートリアルミッションを完了し、強力なパーティーも集めました。あなたに王になる資格があることを十分に証明しました。,你已經完成了所有引導任務，也凝聚一支強力的隊伍，證明了你成為王的資格。
+这是授予给你的。,这是授予给你的。,This is an accolade bestowed upon you.,これはあなたに授けるものです。,這是授予給你的。

@@ -1,0 +1,249 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://tscn/bat/batScene.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/bat/batDlg.gd" type="Script" id=2]
+[ext_resource path="res://res/Gui/UiElements/RoundButton_blue.png" type="Texture" id=3]
+[ext_resource path="res://res/Gui/UiElements/RoundButton.png" type="Texture" id=4]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_menu2.png" type="Texture" id=5]
+[ext_resource path="res://res/Gui/UiElements/MiniMap_frame.png" type="Texture" id=6]
+[ext_resource path="res://res/Gui/UiElements/Information_window.png" type="Texture" id=7]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_Sword2.png" type="Texture" id=8]
+[ext_resource path="res://res/Gui/UiElements/Big_flag_logo.png" type="Texture" id=9]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_cancel.png" type="Texture" id=10]
+[ext_resource path="res://res/Gui/UiElements/LongFlag_options.png" type="Texture" id=11]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_Bag.png" type="Texture" id=12]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_Play.png" type="Texture" id=13]
+[ext_resource path="res://res/font/SourceHanSansCN-Black.otf" type="DynamicFontData" id=14]
+[ext_resource path="res://res/Gui/UiElements/Background_04.png" type="Texture" id=15]
+[ext_resource path="res://tscn/game/gbox.tscn" type="PackedScene" id=16]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_SpeedUp.png" type="Texture" id=17]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_ArrowRight.png" type="Texture" id=18]
+[ext_resource path="res://tscn/bat/new_buttongroup.tres" type="ButtonGroup" id=19]
+
+[sub_resource type="DynamicFont" id=1]
+size = 22
+outline_size = 1
+outline_color = Color( 0, 0, 0, 0.607843 )
+font_data = ExtResource( 14 )
+
+[node name="batDlg" type="Popup"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+popup_exclusive = true
+script = ExtResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 963.0
+margin_bottom = 484.0
+texture = ExtResource( 15 )
+expand = true
+
+[node name="batScene" parent="." instance=ExtResource( 1 )]
+margin_left = 80.0
+margin_top = 78.0
+margin_right = 80.0
+margin_bottom = 78.0
+
+[node name="ui" type="Control" parent="."]
+
+[node name="pan" type="NinePatchRect" parent="ui"]
+margin_left = 849.0
+margin_top = 1.0
+margin_right = 958.0
+margin_bottom = 186.0
+patch_margin_left = 17
+patch_margin_top = 24
+patch_margin_right = 15
+patch_margin_bottom = 24
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ui/pan"]
+margin_left = -36.0
+margin_top = 2.0
+margin_right = 111.0
+margin_bottom = 263.0
+texture = ExtResource( 9 )
+
+[node name="Control" type="VBoxContainer" parent="ui/pan"]
+margin_left = -30.0
+margin_top = 4.0
+margin_right = 105.0
+margin_bottom = 195.0
+
+[node name="Button" type="Button" parent="ui/pan/Control"]
+margin_right = 135.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 0, 35 )
+text = "伤害榜"
+icon = ExtResource( 8 )
+clip_text = true
+expand_icon = true
+
+[node name="Button5" type="Button" parent="ui/pan/Control"]
+visible = false
+margin_top = 42.0
+margin_right = 106.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 35 )
+text = "战利品"
+icon = ExtResource( 12 )
+clip_text = true
+expand_icon = true
+
+[node name="Button2" type="Button" parent="ui/pan/Control"]
+margin_top = 42.0
+margin_right = 135.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 35 )
+text = "离开"
+icon = ExtResource( 10 )
+clip_text = true
+expand_icon = true
+
+[node name="Button3" type="Button" parent="ui/pan/Control"]
+margin_top = 84.0
+margin_right = 135.0
+margin_bottom = 122.0
+rect_min_size = Vector2( 0, 35 )
+text = "选项"
+icon = ExtResource( 5 )
+clip_text = true
+expand_icon = true
+
+[node name="yinc" type="NinePatchRect" parent="ui/pan"]
+margin_left = -37.0
+margin_top = 298.0
+margin_right = 105.0
+margin_bottom = 479.0
+texture = ExtResource( 11 )
+patch_margin_left = 17
+patch_margin_top = 17
+patch_margin_right = 17
+patch_margin_bottom = 16
+
+[node name="btnBat" type="TextureButton" parent="ui/pan/yinc"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -42.0
+margin_top = 34.0
+margin_right = 43.0
+margin_bottom = 120.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 3 )
+texture_hover = ExtResource( 4 )
+expand = true
+
+[node name="Label" type="Label" parent="ui/pan/yinc/btnBat"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -64.0
+margin_top = -11.0
+margin_right = 64.0
+margin_bottom = 11.0
+custom_colors/font_color = Color( 0.8, 0.709804, 0.572549, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "开战"
+align = 1
+valign = 1
+
+[node name="TextureRect" type="TextureRect" parent="ui/pan/yinc/btnBat"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -12.0
+margin_top = -11.0
+margin_right = 11.0
+margin_bottom = 12.0
+texture = ExtResource( 6 )
+expand = true
+
+[node name="Control" type="HBoxContainer" parent="ui/pan/yinc"]
+margin_left = 7.0
+margin_top = 136.0
+margin_right = 143.0
+margin_bottom = 176.0
+rect_min_size = Vector2( 40, 40 )
+
+[node name="spd1" type="Button" parent="ui/pan/yinc/Control"]
+unique_name_in_owner = true
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+toggle_mode = true
+group = ExtResource( 19 )
+expand_icon = true
+
+[node name="Sprite" type="Sprite" parent="ui/pan/yinc/Control/spd1"]
+position = Vector2( 21.125, 19.7812 )
+scale = Vector2( 0.294921, 0.253418 )
+texture = ExtResource( 18 )
+
+[node name="spd2" type="Button" parent="ui/pan/yinc/Control"]
+unique_name_in_owner = true
+margin_left = 44.0
+margin_right = 84.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+toggle_mode = true
+group = ExtResource( 19 )
+expand_icon = true
+
+[node name="Sprite" type="Sprite" parent="ui/pan/yinc/Control/spd2"]
+position = Vector2( 21, 20 )
+scale = Vector2( 0.375, 0.386719 )
+texture = ExtResource( 13 )
+
+[node name="spd3" type="Button" parent="ui/pan/yinc/Control"]
+unique_name_in_owner = true
+margin_left = 88.0
+margin_right = 128.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+toggle_mode = true
+group = ExtResource( 19 )
+expand_icon = true
+
+[node name="Sprite" type="Sprite" parent="ui/pan/yinc/Control/spd3"]
+position = Vector2( 21, 20 )
+scale = Vector2( 0.375, 0.386719 )
+texture = ExtResource( 17 )
+
+[node name="items" type="NinePatchRect" parent="ui/pan"]
+margin_left = -848.0
+margin_right = -777.0
+margin_bottom = 479.0
+texture = ExtResource( 7 )
+patch_margin_left = 23
+patch_margin_top = 59
+patch_margin_right = 24
+patch_margin_bottom = 51
+
+[node name="ScrollContainer" type="ScrollContainer" parent="ui/pan/items"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 80.0
+margin_bottom = 456.0
+
+[node name="box" type="VBoxContainer" parent="ui/pan/items/ScrollContainer"]
+
+[node name="labCsb" type="Label" parent="ui/pan/items"]
+unique_name_in_owner = true
+margin_left = 1.0
+margin_top = 456.0
+margin_right = 69.0
+margin_bottom = 478.0
+mouse_filter = 1
+text = "3/3"
+align = 1
+
+[node name="gbox" parent="ui" instance=ExtResource( 16 )]
+margin_right = 839.0
+
+[connection signal="tree_exiting" from="." to="." method="_on_batDlg_tree_exiting"]
+[connection signal="pressed" from="ui/pan/Control/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="ui/pan/Control/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="ui/pan/Control/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="ui/pan/yinc/btnBat" to="." method="_on_btnBat_pressed"]
+[connection signal="pressed" from="ui/pan/yinc/Control/spd1" to="." method="_on_spd1_pressed"]
+[connection signal="pressed" from="ui/pan/yinc/Control/spd2" to="." method="_on_spd2_pressed"]
+[connection signal="pressed" from="ui/pan/yinc/Control/spd3" to="." method="_on_spd3_pressed"]

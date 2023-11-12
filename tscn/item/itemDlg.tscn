@@ -1,0 +1,186 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_Potion.png" type="Texture" id=1]
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=2]
+[ext_resource path="res://tscn/item/itemDlg.gd" type="Script" id=3]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_Chest.png" type="Texture" id=4]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_Sword.png" type="Texture" id=5]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_of.png" type="Texture" id=6]
+[ext_resource path="res://res/Gui/UiElements/Background_round.png" type="Texture" id=7]
+[ext_resource path="res://res/Colored/06_money.png" type="Texture" id=8]
+[ext_resource path="res://res/Gui/UiElements/Mobile_SkillFrame.png" type="Texture" id=9]
+[ext_resource path="res://tscn/base/items.tscn" type="PackedScene" id=10]
+[ext_resource path="res://res/font/t.tres" type="DynamicFont" id=11]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends NinePatchRect
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	sys.addTip(self,\"拖进卖出 或者 Ctrl+点击物品卖出\")
+
+
+func drop_data(position, data):
+	sell(data.item)
+
+func can_drop_data(pos, data):
+	if data is ItemBtn && data.item.canSell:
+		return true
+	return false
+
+func sell(item):
+	var items = sys.player.sell(item)
+	if items != null:
+		$items.init(items)
+
+func _on_Button_pressed():
+	var inx =  yield(sys.eventDlg.selBB([tr(\"出售所有1级装备\"),tr(\"放弃\")]),\"onSel\") 
+	if inx == 0 :
+		var itemPck = ItemPck.new()
+		for i in range(sys.player.items.items.size()-1,-1,-1):
+			var item = sys.player.items.items[i]
+			if item is Eqp && item.lv <= 1 :
+				var iteml = sys.player.sell(item,item.num)
+				for j in iteml:
+					itemPck.addItem(j)
+		sys.eventDlg.itemShow(itemPck)
+
+"
+
+[node name="baseDlg" instance=ExtResource( 2 )]
+margin_left = -450.0
+margin_top = -194.0
+margin_right = 444.0
+margin_bottom = 155.0
+script = ExtResource( 3 )
+
+[node name="NinePatchRect" parent="bg" index="0"]
+margin_left = -201.0
+margin_top = -44.0
+margin_right = 196.0
+margin_bottom = 43.0
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+anchor_left = 0.0352645
+anchor_top = -0.330075
+anchor_right = 0.912373
+anchor_bottom = -0.0558986
+text = "物品"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." index="1"]
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -721.0
+margin_top = 39.0
+margin_right = -17.0
+margin_bottom = -15.0
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer" index="0"]
+columns = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." index="2"]
+margin_left = 16.0
+margin_top = 39.0
+margin_right = 165.0
+margin_bottom = 203.0
+
+[node name="Button" type="Button" parent="VBoxContainer" index="0"]
+margin_right = 149.0
+margin_bottom = 38.0
+toggle_mode = true
+text = "全部"
+icon = ExtResource( 4 )
+clip_text = true
+expand_icon = true
+
+[node name="Button2" type="Button" parent="VBoxContainer" index="1"]
+margin_top = 42.0
+margin_right = 149.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 90, 35 )
+toggle_mode = true
+text = "装备"
+icon = ExtResource( 5 )
+expand_icon = true
+
+[node name="Button3" type="Button" parent="VBoxContainer" index="2"]
+margin_top = 84.0
+margin_right = 149.0
+margin_bottom = 122.0
+rect_min_size = Vector2( 90, 35 )
+toggle_mode = true
+text = "消耗品"
+icon = ExtResource( 1 )
+expand_icon = true
+
+[node name="Button4" type="Button" parent="VBoxContainer" index="3"]
+margin_top = 126.0
+margin_right = 149.0
+margin_bottom = 164.0
+rect_min_size = Vector2( 90, 35 )
+toggle_mode = true
+text = "其他"
+icon = ExtResource( 6 )
+expand_icon = true
+
+[node name="sell" type="NinePatchRect" parent="." index="3"]
+margin_left = 46.0
+margin_top = 211.5
+margin_right = 133.0
+margin_bottom = 293.5
+mouse_filter = 1
+texture = ExtResource( 9 )
+script = SubResource( 1 )
+
+[node name="93Swap" type="Sprite" parent="sell" index="0"]
+position = Vector2( 42, 43 )
+scale = Vector2( 0.304688, 0.296875 )
+texture = ExtResource( 8 )
+
+[node name="TextureRect" type="TextureRect" parent="sell" index="1"]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 7 )
+expand = true
+
+[node name="Label" type="Label" parent="sell" index="2"]
+margin_left = 8.0
+margin_top = 52.5
+margin_right = 76.0
+margin_bottom = 74.5
+custom_fonts/font = ExtResource( 11 )
+text = "卖出"
+align = 1
+
+[node name="items" parent="sell" index="3" instance=ExtResource( 10 )]
+margin_left = 18.0
+margin_top = 16.0
+margin_right = 20.0
+margin_bottom = 4.0
+rect_scale = Vector2( 0.8, 0.8 )
+mouse_filter = 1
+
+[node name="box" parent="sell/items" index="0"]
+alignment = 1
+
+[node name="Button" type="Button" parent="sell" index="4"]
+margin_left = -28.0
+margin_top = 89.0
+margin_right = 118.0
+margin_bottom = 127.0
+text = "一键出售"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button4" to="." method="_on_Button4_pressed"]
+[connection signal="pressed" from="sell/Button" to="sell" method="_on_Button_pressed"]
+
+[editable path="sell/items"]

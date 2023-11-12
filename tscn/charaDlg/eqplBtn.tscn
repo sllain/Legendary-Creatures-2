@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://tscn/item/itemBtn.tscn" type="PackedScene" id=1]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_AddPlayer.png" type="Texture" id=2]
+[ext_resource path="res://res/Gui/UiElements/Options_pin2.png" type="Texture" id=3]
+[ext_resource path="res://tscn/charaDlg/eqplBtn.gd" type="Script" id=4]
+
+[node name="item" instance=ExtResource( 1 )]
+script = ExtResource( 4 )
+
+[node name="wearer" type="TextureRect" parent="." index="2"]
+margin_left = 37.0
+margin_top = 37.0
+margin_right = 62.0
+margin_bottom = 62.0
+texture = ExtResource( 3 )
+expand = true
+
+[node name="37Accept" type="Sprite" parent="wearer" index="0"]
+position = Vector2( 12.75, 11.75 )
+scale = Vector2( 0.113281, 0.113281 )
+texture = ExtResource( 2 )

@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" load_steps=14 format=2]
+
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/roboid2.png" type="Texture" id=1]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/roboid5.png" type="Texture" id=2]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/idle/roboid-idle1.png" type="Texture" id=3]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/hurt/roboid-hurt.png" type="Texture" id=4]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/jump/roboid-jump.png" type="Texture" id=5]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/roboid1.png" type="Texture" id=6]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/idle/roboid-idle2.png" type="Texture" id=7]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/roboid6.png" type="Texture" id=8]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/roboid3.png" type="Texture" id=9]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/jump/roboid-fall.png" type="Texture" id=10]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/idle/roboid-idle4.png" type="Texture" id=11]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/roboid4.png" type="Texture" id=12]
+[ext_resource path="res://res/animImg/qiangshou/Sprites/Roboid/idle/roboid-idle3.png" type="Texture" id=13]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 7 ), ExtResource( 13 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "atk",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 10 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "buff",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 4 ), ExtResource( 4 ), ExtResource( 4 ) ],
+"loop": false,
+"name": "death",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 7 ), ExtResource( 13 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 1 ), ExtResource( 9 ), ExtResource( 12 ), ExtResource( 2 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "move",
+"speed": 10.0
+} ]

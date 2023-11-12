@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://ex/eff/buff/p_jieShuang.tres" type="Material" id=1]
+[ext_resource path="res://res/eff/1.png" type="Texture" id=2]
+
+[sub_resource type="CanvasItemMaterial" id=19]
+blend_mode = 1
+
+[sub_resource type="GDScript" id=18]
+script/source = "extends Particles2D
+
+func _ready():
+	pass # Replace with function body.
+
+func init(buff:Buff):
+	buff.connect(\"onDel\",self,\"r\")
+	
+func r():
+	queue_free()
+	
+"
+
+[node name="ganDian" type="Particles2D"]
+material = SubResource( 19 )
+scale = Vector2( 0.6, 0.6 )
+process_material = ExtResource( 1 )
+texture = ExtResource( 2 )
+script = SubResource( 18 )

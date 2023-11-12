@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://tscn/chara/hurtNum.gd" type="Script" id=1]
+[ext_resource path="res://res/font/SourceHanSansCN-Black.otf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 12
+outline_size = 1
+outline_color = Color( 0, 0, 0, 0.67451 )
+extra_spacing_top = -6
+font_data = ExtResource( 2 )
+
+[node name="hurtNum" type="Label"]
+margin_top = 18.0
+margin_right = 81.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 10 )
+rect_pivot_offset = Vector2( 41, 12 )
+custom_fonts/font = SubResource( 1 )
+text = "100"
+align = 1
+script = ExtResource( 1 )

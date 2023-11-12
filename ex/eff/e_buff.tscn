@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://tscn/eff/eff.tscn" type="PackedScene" id=2]
+
+[sub_resource type="GDScript" id=8]
+script/source = "extends Eff
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	$up/anim.frame = 0
+	sys.playSe(\"TeleportationCircleEnd.wav\")
+	yield(get_tree().create_timer(0.05),\"timeout\")
+	sys.playSe(\"Aggregate.wav\")
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+"
+
+[sub_resource type="CanvasItemMaterial" id=34]
+blend_mode = 1
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [  ],
+"loop": true,
+"name": "default",
+"speed": 20.0
+} ]
+
+[node name="eff" instance=ExtResource( 2 )]
+script = SubResource( 8 )
+
+[node name="anim" type="AnimatedSprite" parent="up" index="0"]
+material = SubResource( 34 )
+position = Vector2( 0, -38 )
+scale = Vector2( 0.5, 0.5 )
+frames = SubResource( 7 )
+playing = true
+
+[connection signal="animation_finished" from="up/anim" to="." method="del"]

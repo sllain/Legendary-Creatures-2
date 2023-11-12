@@ -1,0 +1,156 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://res/Gui/UiElements/OptionsKeyboard_frame_long.png" type="Texture" id=1]
+[ext_resource path="res://res/font/SourceHanSansCN-Regular.otf" type="DynamicFontData" id=2]
+[ext_resource path="res://tscn/chara/popLv.gd" type="Script" id=3]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_Up.png" type="Texture" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 10
+outline_size = 1
+outline_color = Color( 0, 0, 0, 0.67451 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="Animation" id=3]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("lvLab:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.952941, 0.694118, 0.145098, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("95Upgrade:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("95Upgrade:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "a"
+tracks/0/type = "value"
+tracks/0/path = NodePath("lvLab:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.952941, 0.694118, 0.145098, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("95Upgrade:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "l"
+length = 0.5
+loop = true
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("lvLab:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.952941, 0.694118, 0.145098, 1 ), Color( 1, 1, 1, 1 ), Color( 0.952941, 0.694118, 0.145098, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("95Upgrade:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.25, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0.290196 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.290196 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("95Upgrade:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="CanvasItemMaterial" id=5]
+blend_mode = 1
+
+[node name="popLv" type="NinePatchRect"]
+margin_right = 17.0
+margin_bottom = 12.0
+rect_min_size = Vector2( 17, 12 )
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="lvLab" type="Label" parent="."]
+margin_top = -2.0
+margin_right = 17.0
+margin_bottom = 14.0
+mouse_filter = 1
+custom_colors/font_color = Color( 0.952941, 0.694118, 0.145098, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "1"
+align = 1
+valign = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 3 )
+anims/a = SubResource( 4 )
+anims/l = SubResource( 2 )
+
+[node name="95Upgrade" type="TextureRect" parent="."]
+visible = false
+material = SubResource( 5 )
+margin_left = -2.0
+margin_top = -16.0
+margin_right = 18.0
+margin_bottom = 4.0
+texture = ExtResource( 4 )
+expand = true

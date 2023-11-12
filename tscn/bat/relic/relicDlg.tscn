@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/bat/relic/relicDlg.gd" type="Script" id=3]
+
+[node name="relicDlg" instance=ExtResource( 1 )]
+margin_left = -269.0
+margin_top = -172.0
+margin_right = 273.0
+margin_bottom = 150.0
+script = ExtResource( 3 )
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+text = "神徽"
+
+[node name="items" type="ScrollContainer" parent="." index="1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 15.0
+margin_top = 42.0
+margin_right = -16.0
+margin_bottom = -16.0
+
+[node name="box" type="GridContainer" parent="items" index="0"]
+columns = 7

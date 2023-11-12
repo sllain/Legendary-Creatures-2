@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ex/ico/mater/ico_m_cry.png" type="Texture" id=1]
+[ext_resource path="res://tscn/eventDlg/reUp/reUpBtn.gd" type="Script" id=2]
+
+[node name="reUpBtn" type="Button"]
+margin_left = 632.0
+margin_top = 50.0
+margin_right = 732.0
+margin_bottom = 88.0
+text = "换一批"
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 23.0
+margin_top = -23.0
+margin_right = 67.0
+margin_bottom = -1.0
+text = "15"
+align = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 68.0
+margin_top = -29.0
+margin_right = 99.0
+margin_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+
+[connection signal="pressed" from="." to="." method="_on_reUpBtn_pressed"]

@@ -1,0 +1,150 @@
+,zh_CN,en,ja,zh_HK
+,,,,
+普通,普通,Common,コモン,普通
+卓越,卓越,Elite,アンコモン,卓越
+史诗,史诗,Epic,エピック,史詩
+传奇,传奇,Legendary,レジェンド,傳奇
+远古,远古,Ancestral,エンシェント,遠古
+神话,神话,Mythic,ゴッデス,神話
+宇宙,宇宙,Celestial,ユニバース,宇宙
+,,,,
+,,,,
+战士,战士,Warrior,ファイター,戰士
+射手,射手,Ranger,マークスマン,射手
+坦克,坦克,Tank,タンク,坦克
+刺客,刺客,Assassin,アサシン,刺客
+法师,法师,Mage,メイジ,法師
+辅助,辅助,Support,サポーター,輔助
+,,,,
+,,,,
+剑士,剑士,Swordsman,剣士,劍士
+钝器使,钝器使,Smasher,鉄槌士,鈍器使
+狂战士,狂战士,Berserker,狂戦士,狂戰士
+,,,,
+弓手,弓手,Archer,弓手,弓手
+飞刺兽,飞刺兽,Flyingspike,飛棘獣,飛刺獸
+弩手,弩手,Crossbowman,弩兵,弩手
+火枪手,火枪手,Musketeer,銃士,火槍手
+,,,,
+盾卫,盾卫,Legionary,衛士,盾衛
+重甲士,重甲士,Juggernaut,重装士,重甲士
+肉霸,肉霸,Rocky,鉄壁,肉霸
+,,,,
+忍者,忍者,Ninja,忍者,忍者
+毒枭,毒枭,Poisoner,蟲毒士,毒梟
+侠客,侠客,Swashbuckler,侠客,俠客
+,,,,
+冰法,冰法,Cyro Mage,氷魔術士,冰法
+火法,火法,Inferno Mage,炎魔術士,火法
+雷法,雷法,Electro Mage,雷魔術士,雷法
+,,,,
+牧师,牧师,Clergy,牧師,牧師
+萨满,萨满,Shaman,シャーマン,薩滿
+圣骑士,圣骑士,Paladin,聖騎士,聖騎士
+,,,,
+魔武者,魔武者,Darkblades,魔道の武者,魔武者
+神族,神族,Divine Kin,神族,神族
+魔族,魔族,Demonic Kin,魔族,魔族
+,,,,
+机关人,机关人,Humanoid Machine,からくり人形,機關人
+格斗家,格斗家,Brawler,格闘家,格鬥家
+暗杀者,暗杀者,Assassin,暗殺者,暗殺者
+炼金术士,炼金术士,Alchemist,錬金術師,煉金術士
+,,,,
+国王,国王,King,国王,國王
+,,,,
+,,,,
+,,,,
+,,,,
+最大生命值,最大生命值,Max HP,最大HP,最大生命值
+物理攻击,物理攻击,Physical Attack,物理攻撃力,物理攻擊
+魔法攻击,魔法攻击,Magic Power,魔法攻撃力,魔法攻擊
+物理防御,物理防御,Physical Defense,物理防御力,物理防禦
+魔法防御,魔法防御,Magic Defense,魔法防御力,魔法防禦
+穿甲,穿甲,Armor Penetration,貫通力,穿甲
+射程,射程,Attack Range,射程,射程
+暴击率,暴击率,Crit Rate,会心率,暴擊率
+暴击伤害,暴击伤害,Crit Damage,会心ダメージ,暴擊傷害
+攻速,攻速,Attack Speed,攻撃速度,攻速
+冷却速度,冷却速度,Cooldown Speed,CD短縮速度,冷卻速度
+,,,,
+,,,,
+单位,单位,Unit,ユニット,單位
+物品,物品,Item,アイテム,物品
+技能,技能,Skill,スキル,技能
+设施,设施,Facility,施設,設施
+神徽,神徽,Emblem,シンボル,神徽
+消耗品,消耗品,Consumable,消耗品,消耗品
+材料,材料,Material,材料,材料
+全部,全部,All,全部,全部
+其他,其他,Others,その他,其他
+金币,金币,Coin,金貨,金幣
+晶石,晶石,Crystal,晶石,晶石
+魂,魂,Essence,ソウル,魂
+魂值,魂值,Essence Value,ソウル値,魂值
+等级,等级,Level,レベル,等級
+等级：,等级：,Level:,Lv：,等級：
+被动,被动,Passive,パッシブ,被動
+职业,职业,Class,ジョブ,職業
+特殊宝石,特殊宝石,Special Gem,特別な宝石,特殊寶石
+普通宝石,普通宝石,Common Gem,普通の宝石,普通寶石
+,,,,
+,,,,
+BOSS,BOSS,BOSS,BOSS,BOSS
+"增伤,减伤,施放的治疗和护盾， 最终值提高 %d%%","增伤,减伤,施放的治疗和护盾， 最终值提高 %d%%","The final stats of DMG Boost, DMG Reduction, Healing (on others), and Shield Strength increase by %d%%",ダメージ増加、ダメージ減少、治癒、盾の最終値を %d%%上昇,"增傷,減傷,施放的治療和護盾， 最終值提高 %d%%"
+魔族军团,魔族军团,Demonic Troop,魔族軍,魔族軍團
+增伤和减伤的最终值提高 %d%%,增伤和减伤的最终值提高 %d%%,The final stats of DMG Boost and DMG Reduction increase by %d%%,ダメージ増加とダメージ減少の最終値は %d%% 増加します,增傷和減傷的最終值提高 %d%%
+超然,超然,Transcendent,超然,超然
+冷却速度提高 40% + 层数 * 1%,冷却速度提高 40% + 层数 * 1%,Cooldown Speed increases by 40% + 1% * Stack(s),CD短縮速度が 40％ + 層数 * 1％上昇,冷卻速度提高 40% + 層數 * 1%
+幽暗值,幽暗值,Gloom,幽暗値,幽暗值
+增伤和减伤 提高 %d%%,增伤和减伤 提高 %d%%,DMG Boost and DMG Reduction increase by %d%%,ダメージ増加とダメージ軽減が %d%% 上昇,增傷和減傷 提高 %d%%
+抵御,抵御,Armored,守護,抵禦
+物理和魔法防御提高 40% + 层数 * 1%,物理和魔法防御提高 40% + 层数 * 1%,Physical Defense and Magic Defense increase by 40% + 1% * Stack(s),物理防御と魔法防御が 40% + 層数 * 1%上昇,物理和魔法防禦提高 40% + 層數 * 1%
+装备偷取中,装备偷取中,Stealing Equipment,装備スチール中,裝備偷取中
+回合胜利后，概率获取一件装备,回合胜利后，概率获取一件装备,"Upon victory in a round, you stand a chance to acquire 1 piece of equipment.",ターン勝利後、一定の確率で装備を手に入れる,回合勝利後，概率獲取一件裝備
+坚如磐石,坚如磐石,Sturdy,堅如盤石,堅如磐石
+,,,,
+挑战中,挑战中,Challenging,挑戦中,挑戰中
+增伤和减伤+50%,增伤和减伤+50%,DMG Boost and DMG Reduction +50%,ダメージ増加とダメージ軽減が50％上昇,增傷和減傷+50%
+魂挑战,魂挑战,Essence Challenge,ソウルチャレンジ,魂挑戰
+增伤和减伤+50%，获胜后可获得额外魂,增伤和减伤+50%，获胜后可获得额外魂,DMG Boost and DMG Reduction +50%; Gain extra Essence after victory,ダメージ増加とダメージ軽減が50％上昇、勝利後ソウルを追加で獲得する,增傷和減傷+50%，獲勝後可獲得額外魂
+金币挑战,金币挑战,Coin Challenge,金貨チャレンジ,金幣挑戰
+增伤和减伤+50%，获胜后可获得额外金币,增伤和减伤+50%，获胜后可获得额外金币,DMG Boost and DMG Reduction +50%; Gain extra Coins after victory,ダメージ増加とダメージ軽減が50％上昇、勝利後金貨を追加で獲得する,增傷和減傷+50%，獲勝後可獲得額外金幣
+,,,,
+,,,,
+瘴气,瘴气,Miasma,瘴気,瘴氣
+生命值 攻击 防御 各 提高 %d%%,生命值 攻击 防御 各 提高 %d%%,"HP, Physical Attack and Defense each increases by %d%%",HP、攻撃力、防御力がそれぞれ %d%%上昇する,生命值 攻擊 防禦 各 提高 %d%%
+角色偷取中,角色偷取中,Stealing Character,キャラスチール中,角色偷取中
+回合胜利后，概率获取一个敌方角色,回合胜利后，概率获取一个敌方角色,"Upon victory in a round, you stand a chance to acquire 1 enemy unit.",ターン勝利後、一定の確率で敵キャラを1体獲得する,回合勝利後，概率獲取一個敵方角色
+,,,,
+冰霜附魔,冰霜附魔,Cyro Enchanted,氷のエンチャント,冰霜附魔
+普攻附加%d%%魔法伤害，3层结霜,普攻附加%d%%魔法伤害，3层结霜,Normal Attack deals an extra %d%% Magic DMG and inflicts 3 stacks of Frozen,普通攻撃に%d%%の魔法ダメージを追加し、霜降を3層付与する,普攻附加%d%%魔法傷害，3層結霜
+火焰附魔,火焰附魔,Pyro Enchanted,火のエンチャント,火焰附魔
+普攻附加%d%%魔法伤害，3层烧灼,普攻附加%d%%魔法伤害，3层烧灼,Normal Attack deals an extra %d%% Magic DMG and inflicts 3 stacks of Burning,普通攻撃に%d%%の魔法ダメージを追加し、火傷を3層付与する,普攻附加%d%%魔法傷害，3層燒灼
+,,,,
+超然,超然,Transcendent,超然,超然
+冷却速度提高 %d%%，最高 %d%%,冷却速度提高 %d%%，最高 %d%%,"CD Speed increases by %d%%, up to %d%%",クールタイムを %d%%短縮、最大 %d%%まで,冷卻速度提高 %d%%，最高 %d%%
+抵御,抵御,Armored,守護,抵禦
+物理和魔法防御提高 %d%%，最高 %d%%,物理和魔法防御提高 %d%%，最高 %d%%,"Physical and Magic Defense increases by %d%%, up to %d%%",物理防御力と魔法防御力を %d%%増加、最大 %d%%まで,物理和魔法防禦提高 %d%%，最高 %d%%
+急速,急速,Hasted,急速,急速
+攻击速度提高 %d%%，最高 %d%%,攻击速度提高 %d%%，最高 %d%%,"Attack Speed increases by %d%%, up to %d%%",攻撃速度を %d%%増加、最大 %d%%まで,攻擊速度提高 %d%%，最高 %d%%
+狂怒,狂怒,Berserked,激怒,狂怒
+物理攻击提高 %d%%，最高 %d%%,物理攻击提高 %d%%，最高 %d%%,"Physical Attack increases by %d%%, up to %d%%",物理攻撃力を %d%%増加、最大 %d%%まで,物理攻擊提高 %d%%，最高 %d%%
+威能,威能,Empowered,神威,威能
+魔法攻击提高 %d%%，最高 %d%%,魔法攻击提高 %d%%，最高 %d%%,"Magic Power increases by %d%%, up to %d%%",魔法攻撃力を %d%%増加、最大 %d%%まで,魔法攻擊提高 %d%%，最高 %d%%
+结霜,结霜,Frozen,霜降,結霜
+普攻速度减少 %d%%，最高 %d%%,普攻速度减少 %d%%，最高 %d%%,"Normal Attack Speed decreases by %d%%, up to %d%%",通常攻撃速度を %d%%減少、最大 %d%%まで,普攻速度減少 %d%%，最高 %d%%
+流血,流血,Hemorrhaged,出血,流血
+治疗效果减少 %d%%，每秒受到%d%%最大生命值的物理伤害，最高 %d%%,治疗效果减少 %d%%，每秒受到%d%%最大生命值的物理伤害，最高 %d%%,"Healing Received decreases by %d%%; Take Physical DMG equal to %d%% of your Max HP per second, up to %d%%",治療効果を %d%%減少、毎秒最大HP%d%%分の物理ダメージを受ける、最大で %d%%,治療效果減少 %d%%，每秒受到%d%%最大生命值的物理傷害，最高 %d%%
+麻痹,麻痹,Paralyzed,麻痺,麻痹
+冷却速度减少 %d%%，最高 %d%%,冷却速度减少 %d%%，最高 %d%%,"CD Speed decreases by %d%%, up to %d%%",クールタイムを %d%%増加、最大 %d%%まで,冷卻速度減少 %d%%，最高 %d%%
+破甲,破甲,Pierced,破甲,破甲
+物理和魔法防御减少 %d%%，最高 %d%%,物理和魔法防御减少 %d%%，最高 %d%%,"Physical and Magic Defense decrease by %d%%, up to %d%%",物理防御力と魔法防御力を %d%%減少、最大 %d%%まで,物理和魔法防禦減少 %d%%，最高 %d%%
+烧灼,烧灼,Burning,火傷,燒灼
+每秒受到%d%%最大生命值的魔法伤害，最高 %d%%,每秒受到%d%%最大生命值的魔法伤害，最高 %d%%,"Takes Magic DMG that equals %d%% of Max HP per second, up to %d%%",毎秒最大HP%d%%分の魔法ダメージを受ける、 最大%d%%,每秒受到%d%%最大生命值的魔法傷害，最高 %d%%
+眩晕,眩晕,Stunned,スタン,眩暈
+无法行动,无法行动,Cannot take action,行動できない,無法行動
+中毒,中毒,Poisoned,毒,中毒
+额外承受 %d%%的伤害，最高 %d%%,额外承受 %d%%的伤害，最高 %d%%,"Takes extra %d%% DMG, up to %d%%",追加で %d%%のダメージを受ける、最大 %d%%,額外承受 %d%%的傷害，最高 %d%%
+隐身,隐身,Invisible,インビジブル,隱身
+无法被锁定和普攻,无法被锁定和普攻,Cannot be targeted or hit by Normal Attack,ロックオン及び通常攻撃対象にならない,無法被鎖定和普攻

@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://res/Gui/UiElements/BoldFrame.png" type="Texture" id=2]
+[ext_resource path="res://tscn/charaDlg/skill/skillBtn.gd" type="Script" id=3]
+
+[node name="skillBtn" type="TextureButton"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 64, 64 )
+expand = true
+script = ExtResource( 3 )
+
+[node name="img" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 2.0
+margin_top = 3.0
+margin_right = -3.0
+margin_bottom = -3.0
+expand = true
+
+[node name="k" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -2.0
+margin_top = -1.0
+margin_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true

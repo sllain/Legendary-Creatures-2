@@ -1,0 +1,109 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://tscn/map/map.tres" type="TileSet" id=1]
+
+[node name="map" type="TileMap"]
+scale = Vector2( 0.27, 0.27 )
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 193 )
+cell_half_offset = 0
+cell_y_sort = true
+centered_textures = true
+format = 1
+tile_data = PoolIntArray( 327689, 0, 0, 327690, 0, 0, 393225, 0, 0, 393230, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458765, 0, 0, 524297, 0, 0, 524300, 0, 0, 524301, 0, 0, 589833, 0, 0, 589835, 0, 0, 589836, 0, 0, 655370, 0, 0, 655371, 0, 0, 720903, 0, 0, 720904, 0, 0, 720905, 0, 0, 720907, 0, 0, 786444, 0, 0, 851974, 0, 0, 851975, 0, 0, 851976, 0, 0, 851979, 0, 0, 851980, 0, 0, 917510, 0, 0, 917512, 0, 0, 917515, 0, 0, 917517, 0, 0, 983047, 0, 0, 983050, 0, 0, 1048584, 0, 0, 1048585, 0, 0, 1048586, 0, 0, 1114122, 0, 0 )
+
+[node name="faci_bat2" type="Position2D" parent="."]
+position = Vector2( 2311.11, 1518.52 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat2|2" type="Position2D" parent="."]
+position = Vector2( 2700, 2092.59 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat2|3" type="Position2D" parent="."]
+position = Vector2( 3333.33, 2666.67 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat2|4" type="Position2D" parent="."]
+position = Vector2( 2022.22, 3055.56 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat2|5" type="Position2D" parent="."]
+position = Vector2( 3588.89, 1514.82 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat2|6" type="Position2D" parent="."]
+position = Vector2( 2277.78, 2281.48 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat" type="Position2D" parent="."]
+position = Vector2( 2062.96, 1507.41 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|2" type="Position2D" parent="."]
+position = Vector2( 2570.37, 1133.33 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|3" type="Position2D" parent="."]
+position = Vector2( 2562.96, 2270.37 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|4" type="Position2D" parent="."]
+position = Vector2( 3192.59, 1718.52 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|5" type="Position2D" parent="."]
+position = Vector2( 3474.07, 1688.89 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|6" type="Position2D" parent="."]
+position = Vector2( 2570.37, 1859.26 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|7" type="Position2D" parent="."]
+position = Vector2( 3070.37, 2296.3 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|8" type="Position2D" parent="."]
+position = Vector2( 2955.56, 2862.96 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|9" type="Position2D" parent="."]
+position = Vector2( 2685.19, 3240.74 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|10" type="Position2D" parent="."]
+position = Vector2( 2155.56, 3211.11 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|11" type="Position2D" parent="."]
+position = Vector2( 2185.19, 2859.26 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat|12" type="Position2D" parent="."]
+position = Vector2( 2022.22, 2659.26 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_bat3" type="Position2D" parent="."]
+position = Vector2( 1659.26, 2874.07 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_box" type="Position2D" parent="."]
+position = Vector2( 2818.52, 1125.93 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_box|2" type="Position2D" parent="."]
+position = Vector2( 2048.15, 2307.41 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_box|3" type="Position2D" parent="."]
+position = Vector2( 3714.81, 1325.93 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_box2" type="Position2D" parent="."]
+position = Vector2( 3444.44, 2859.26 )
+scale = Vector2( 3.7037, 3.7037 )
+
+[node name="faci_box2|3" type="Position2D" parent="."]
+position = Vector2( 2814.81, 3448.15 )
+scale = Vector2( 3.7037, 3.7037 )

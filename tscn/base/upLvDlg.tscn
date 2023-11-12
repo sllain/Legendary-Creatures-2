@@ -1,0 +1,117 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=1]
+[ext_resource path="res://res/Gui/UiElements/Little_shadow.png" type="Texture" id=2]
+[ext_resource path="res://tscn/base/upLvDlg.gd" type="Script" id=3]
+
+[node name="baseDlg" instance=ExtResource( 1 )]
+visible = false
+margin_left = -237.0
+margin_top = -181.0
+margin_right = 237.0
+margin_bottom = 164.0
+script = ExtResource( 3 )
+
+[node name="now" type="NinePatchRect" parent="." index="1"]
+margin_left = 23.0
+margin_top = 39.0
+margin_right = 447.0
+margin_bottom = 114.0
+texture = ExtResource( 2 )
+patch_margin_left = 29
+patch_margin_top = 28
+patch_margin_right = 22
+patch_margin_bottom = 24
+
+[node name="txc" type="RichTextLabel" parent="now" index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 6.0
+margin_top = 25.0
+margin_right = -4.0
+margin_bottom = -5.0
+bbcode_enabled = true
+bbcode_text = "升级前
+你好你好
+升级后
+你好你好"
+text = "升级前
+你好你好
+升级后
+你好你好"
+
+[node name="Label" type="Label" parent="now" index="1"]
+anchor_right = 1.0
+margin_bottom = 22.0
+custom_colors/font_color = Color( 0.666667, 0.666667, 0.666667, 1 )
+text = "当前Lv：1"
+align = 1
+
+[node name="now2" type="NinePatchRect" parent="." index="2"]
+margin_left = 23.0
+margin_top = 117.0
+margin_right = 447.0
+margin_bottom = 191.0
+texture = ExtResource( 2 )
+patch_margin_left = 29
+patch_margin_top = 28
+patch_margin_right = 22
+patch_margin_bottom = 24
+
+[node name="txc" type="RichTextLabel" parent="now2" index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 6.0
+margin_top = 25.0
+margin_right = -4.0
+margin_bottom = -5.0
+bbcode_enabled = true
+bbcode_text = "升级前
+你好你好
+升级后
+你好你好"
+text = "升级前
+你好你好
+升级后
+你好你好"
+
+[node name="Label" type="Label" parent="now2" index="1"]
+anchor_right = 1.0
+margin_bottom = 22.0
+custom_colors/font_color = Color( 0.47451, 0.643137, 0.819608, 1 )
+text = "升级Lv：1"
+align = 1
+
+[node name="now3" type="NinePatchRect" parent="." index="3"]
+margin_left = 23.0
+margin_top = 194.0
+margin_right = 447.0
+margin_bottom = 299.0
+texture = ExtResource( 2 )
+patch_margin_left = 29
+patch_margin_top = 28
+patch_margin_right = 22
+patch_margin_bottom = 24
+
+[node name="HBoxContainer" type="HBoxContainer" parent="now3" index="0"]
+margin_left = 10.0
+margin_top = 33.0
+margin_right = 50.0
+margin_bottom = 73.0
+
+[node name="Label" type="Label" parent="now3" index="1"]
+anchor_right = 1.0
+margin_top = 2.0
+margin_bottom = 24.0
+custom_colors/font_color = Color( 0.733333, 0.588235, 0.356863, 1 )
+text = "需要"
+align = 1
+
+[node name="Button" type="Button" parent="." index="4"]
+margin_left = 190.0
+margin_top = 299.0
+margin_right = 276.0
+margin_bottom = 337.0
+text = "升级"
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

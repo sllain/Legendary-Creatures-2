@@ -1,0 +1,56 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://res/eff/24_Fire_3_1.png" type="Texture" id=1]
+
+[sub_resource type="GDScript" id=24]
+script/source = "extends Node2D
+
+
+func _ready():
+	pass # Replace with function body.
+
+func init(buff:Buff):
+	buff.connect(\"onDel\",self,\"r\")
+	
+func r():
+	queue_free()
+	
+"
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 1 )
+region = Rect2( 768, 512, 256, 256 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 768, 256, 256 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 1 )
+region = Rect2( 256, 768, 256, 256 )
+
+[sub_resource type="AtlasTexture" id=22]
+atlas = ExtResource( 1 )
+region = Rect2( 512, 768, 256, 256 )
+
+[sub_resource type="AtlasTexture" id=23]
+atlas = ExtResource( 1 )
+region = Rect2( 768, 768, 256, 256 )
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ SubResource( 19 ), SubResource( 20 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ) ],
+"loop": true,
+"name": "default",
+"speed": 15.0
+} ]
+
+[node name="Node2D" type="Node2D"]
+script = SubResource( 24 )
+
+[node name="ganDian" type="AnimatedSprite" parent="."]
+position = Vector2( 0, 16 )
+scale = Vector2( 0.3, 0.3 )
+frames = SubResource( 6 )
+frame = 4
+playing = true

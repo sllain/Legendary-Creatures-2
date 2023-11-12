@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://res/eff/11_Fire_Slash.png" type="Texture" id=1]
+[ext_resource path="res://tscn/eff/eff.tscn" type="PackedScene" id=2]
+
+[sub_resource type="CanvasItemMaterial" id=1]
+blend_mode = 1
+
+[node name="eff" instance=ExtResource( 2 )]
+
+[node name="img" type="Sprite" parent="up" index="0"]
+material = SubResource( 1 )
+position = Vector2( 1.19209e-07, 1 )
+rotation = -2.3569
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 333.767, 32.4743, 136.134, 143.067 )

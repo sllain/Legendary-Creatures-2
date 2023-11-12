@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://tscn/charaDlg/buffsPan.gd" type="Script" id=1]
+
+[node name="buffs" type="GridContainer"]
+margin_left = -70.0
+margin_top = -125.0
+margin_right = -30.0
+margin_bottom = -101.0
+columns = 4
+script = ExtResource( 1 )

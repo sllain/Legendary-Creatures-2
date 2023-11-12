@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://tscn/mod/modCom.gd" type="Script" id=1]
+
+[node name="Popup" type="Popup"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+popup_exclusive = true
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.843137 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 235.0
+margin_top = 114.0
+margin_right = 733.0
+margin_bottom = 349.0
+bbcode_enabled = true
+
+[node name="Button" type="Button" parent="."]
+visible = false
+margin_left = 412.0
+margin_top = 377.0
+margin_right = 571.0
+margin_bottom = 415.0
+text = "确定"
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

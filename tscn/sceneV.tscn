@@ -1,0 +1,82 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://tscn/scene.gd" type="Script" id=1]
+[ext_resource path="res://res/map/0-0.png" type="Texture" id=2]
+[ext_resource path="res://res/map/1.res" type="TileSet" id=3]
+
+[sub_resource type="CanvasItemMaterial" id=3]
+blend_mode = 1
+
+[sub_resource type="Animation" id=1]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "idle"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0.266667 ), Color( 0.458824, 0.85098, 0.443137, 0.847059 ), Color( 1, 1, 1, 0.266667 ) ]
+}
+
+[node name="scene" type="Control"]
+mouse_filter = 1
+script = ExtResource( 1 )
+
+[node name="k" type="ReferenceRect" parent="."]
+margin_right = 962.0
+margin_bottom = 484.0
+mouse_filter = 1
+
+[node name="map" type="TileMap" parent="."]
+scale = Vector2( 0.27, 0.27 )
+tile_set = ExtResource( 3 )
+cell_size = Vector2( 256, 194 )
+cell_half_offset = 0
+cell_y_sort = true
+centered_textures = true
+format = 1
+
+[node name="mouseCell" type="Sprite" parent="."]
+material = SubResource( 3 )
+position = Vector2( 0, -48 )
+scale = Vector2( 0.27, 0.27 )
+texture = ExtResource( 2 )
+hframes = 8
+vframes = 5
+frame = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="mouseCell"]
+autoplay = "idle"
+anims/RESET = SubResource( 1 )
+anims/idle = SubResource( 2 )
+
+[node name="objMap" type="TileMap" parent="."]
+cell_y_sort = true
+format = 1
+
+[node name="ui" type="CanvasLayer" parent="."]
+layer = 2
+
+[connection signal="tree_entered" from="." to="." method="_on_scene_tree_entered"]
+[connection signal="tree_exited" from="." to="." method="_on_scene_tree_exited"]
+[connection signal="gui_input" from="k" to="." method="_on_k_gui_input"]

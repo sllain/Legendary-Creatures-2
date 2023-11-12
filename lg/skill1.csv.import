@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://lg/skill1.zh_CN.translation", "res://lg/skill1.en.translation", "res://lg/skill1.ja.translation", "res://lg/skill1.zh_HK.translation" ]
+
+source_file="res://lg/skill1.csv"
+dest_files=[ "res://lg/skill1.zh_CN.translation", "res://lg/skill1.en.translation", "res://lg/skill1.ja.translation", "res://lg/skill1.zh_HK.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

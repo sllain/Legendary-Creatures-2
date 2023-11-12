@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://tscn/base/baseDlg.tscn" type="PackedScene" id=2]
+[ext_resource path="res://tscn/item/selItemDlg.gd" type="Script" id=3]
+
+[node name="baseDlg" instance=ExtResource( 2 )]
+margin_left = -438.0
+margin_top = -198.0
+margin_right = 428.0
+margin_bottom = 227.0
+script = ExtResource( 3 )
+
+[node name="NinePatchRect" parent="bg" index="0"]
+margin_left = -201.0
+margin_top = -38.0
+margin_right = 196.0
+margin_bottom = 28.0
+
+[node name="tile" parent="bg/NinePatchRect" index="0"]
+anchor_top = -0.597827
+anchor_bottom = -0.323652
+text = "装备"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." index="1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 24.0
+margin_top = 54.0
+margin_right = -32.0
+margin_bottom = -81.0
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer" index="0"]
+columns = 10

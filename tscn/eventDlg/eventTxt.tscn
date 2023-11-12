@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://tscn/eventDlg/eventBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/eventDlg/eventTxt.gd" type="Script" id=2]
+
+[node name="bonusListTxt" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." index="0"]
+margin_left = 18.0
+margin_top = 7.0
+margin_right = 628.0
+margin_bottom = 94.0
+bbcode_enabled = true
+
+[node name="Button" type="Button" parent="." index="1"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -105.0
+margin_top = -14.0
+margin_right = -18.0
+margin_bottom = 24.0
+focus_mode = 1
+text = "继续"
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

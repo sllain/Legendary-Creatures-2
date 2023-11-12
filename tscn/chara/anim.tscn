@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://res/anim/p/p1.tres" type="SpriteFrames" id=1]
+[ext_resource path="res://tscn/chara/anim.gd" type="Script" id=2]
+[ext_resource path="res://tscn/chara/charaShader.tres" type="Material" id=3]
+
+[node name="anim" type="AnimatedSprite"]
+material = ExtResource( 3 )
+position = Vector2( 0, -38 )
+scale = Vector2( 1.5, 1.5 )
+frames = ExtResource( 1 )
+animation = "idle"
+frame = 6
+playing = true
+script = ExtResource( 2 )
+
+[connection signal="animation_finished" from="." to="." method="_on_anim_animation_finished"]

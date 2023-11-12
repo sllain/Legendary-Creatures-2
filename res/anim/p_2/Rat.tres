@@ -1,0 +1,44 @@
+[gd_resource type="SpriteFrames" load_steps=20 format=2]
+
+[ext_resource path="res://res/animImg/monster/Rat/rat-run-03.png" type="Texture" id=1]
+[ext_resource path="res://res/animImg/monster/Rat/rat-attack-05.png" type="Texture" id=2]
+[ext_resource path="res://res/animImg/monster/Rat/rat-idle-01.png" type="Texture" id=3]
+[ext_resource path="res://res/animImg/monster/Rat/rat-idle-00.png" type="Texture" id=4]
+[ext_resource path="res://res/animImg/monster/Rat/rat-idle-03.png" type="Texture" id=5]
+[ext_resource path="res://res/animImg/monster/Rat/rat-die-02.png" type="Texture" id=6]
+[ext_resource path="res://res/animImg/monster/Rat/rat-die-00.png" type="Texture" id=7]
+[ext_resource path="res://res/animImg/monster/Rat/rat-die-04.png" type="Texture" id=8]
+[ext_resource path="res://res/animImg/monster/Rat/rat-attack-04.png" type="Texture" id=9]
+[ext_resource path="res://res/animImg/monster/Rat/rat-idle-02.png" type="Texture" id=10]
+[ext_resource path="res://res/animImg/monster/Rat/rat-die-01.png" type="Texture" id=11]
+[ext_resource path="res://res/animImg/monster/Rat/rat-die-03.png" type="Texture" id=12]
+[ext_resource path="res://res/animImg/monster/Rat/rat-run-00.png" type="Texture" id=13]
+[ext_resource path="res://res/animImg/monster/Rat/rat-run-01.png" type="Texture" id=14]
+[ext_resource path="res://res/animImg/monster/Rat/rat-run-02.png" type="Texture" id=15]
+[ext_resource path="res://res/animImg/monster/Rat/rat-attack-03.png" type="Texture" id=16]
+[ext_resource path="res://res/animImg/monster/Rat/rat-attack-00.png" type="Texture" id=17]
+[ext_resource path="res://res/animImg/monster/Rat/rat-attack-01.png" type="Texture" id=18]
+[ext_resource path="res://res/animImg/monster/Rat/rat-attack-02.png" type="Texture" id=19]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 16 ), ExtResource( 9 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "atk",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 7 ), ExtResource( 11 ), ExtResource( 6 ), ExtResource( 12 ), ExtResource( 8 ) ],
+"loop": false,
+"name": "death",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 3 ), ExtResource( 10 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "move",
+"speed": 10.0
+} ]

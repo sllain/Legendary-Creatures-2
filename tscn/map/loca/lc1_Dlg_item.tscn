@@ -1,0 +1,72 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://tscn/chara/anim.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/chara/popLv.tscn" type="PackedScene" id=2]
+[ext_resource path="res://res/ying/ying.png" type="Texture" id=3]
+[ext_resource path="res://tscn/chara/dragK.gd" type="Script" id=4]
+[ext_resource path="res://tscn/map/loca/lc1_Dlg_item.gd" type="Script" id=5]
+[ext_resource path="res://res/BonusIcons/4_Skills/No_bg/Warrior_04_nb.png" type="Texture" id=6]
+[ext_resource path="res://res/Gui/UiElements/Login_window.png" type="Texture" id=7]
+
+[node name="lc1_Dlg_item" type="NinePatchRect"]
+margin_right = 120.0
+margin_bottom = 170.0
+rect_min_size = Vector2( 120, 170 )
+texture = ExtResource( 7 )
+patch_margin_left = 49
+patch_margin_top = 21
+patch_margin_right = 50
+patch_margin_bottom = 18
+script = ExtResource( 5 )
+
+[node name="c_" type="Node2D" parent="." groups=["charaV"]]
+position = Vector2( 60, 106 )
+
+[node name="Ying" type="Sprite" parent="c_"]
+self_modulate = Color( 0, 0, 0, 0.470588 )
+position = Vector2( 0, -2 )
+scale = Vector2( 0.796875, 0.414063 )
+texture = ExtResource( 3 )
+
+[node name="anim" parent="c_" instance=ExtResource( 1 )]
+position = Vector2( 3, -40 )
+frame = 5
+
+[node name="ui" type="Node2D" parent="c_"]
+z_index = 10
+
+[node name="dragK" type="TextureButton" parent="c_/ui"]
+margin_left = -22.0
+margin_top = -64.0
+margin_right = 20.0
+margin_bottom = -1.0
+mouse_filter = 1
+script = ExtResource( 4 )
+
+[node name="popLv" parent="." instance=ExtResource( 2 )]
+margin_left = 43.0
+margin_top = 116.0
+margin_right = 77.0
+margin_bottom = 128.0
+
+[node name="Button" type="Button" parent="."]
+margin_left = 21.0
+margin_top = 135.0
+margin_right = 101.0
+margin_bottom = 165.0
+text = "招募"
+icon = ExtResource( 6 )
+expand_icon = true
+
+[node name="name" type="Label" parent="."]
+margin_left = 6.0
+margin_top = 7.0
+margin_right = 115.0
+margin_bottom = 29.0
+text = "1"
+align = 1
+
+[connection signal="mouse_entered" from="c_/ui/dragK" to="." method="_on_dragK_mouse_entered"]
+[connection signal="mouse_exited" from="c_/ui/dragK" to="." method="_on_dragK_mouse_exited"]
+[connection signal="pressed" from="c_/ui/dragK" to="." method="_on_dragK_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

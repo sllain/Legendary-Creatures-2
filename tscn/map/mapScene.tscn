@@ -1,0 +1,125 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://tscn/sceneV.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tscn/map/mapScene.gd" type="Script" id=2]
+[ext_resource path="res://res/map/0-8.png" type="Texture" id=3]
+[ext_resource path="res://res/Colored/74_farther.png" type="Texture" id=4]
+[ext_resource path="res://tscn/base/imgBtn.tscn" type="PackedScene" id=5]
+[ext_resource path="res://res/Gui/UiElements/Background_04.png" type="Texture" id=6]
+[ext_resource path="res://res/Gui/UiElements/BlackCircle_frame.png" type="Texture" id=7]
+
+[sub_resource type="CanvasItemMaterial" id=2]
+
+[sub_resource type="TileSet" id=3]
+0/name = "0-8.png 0"
+0/texture = ExtResource( 3 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 1536, 0, 256, 384 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+
+[node name="mapScene" instance=ExtResource( 1 )]
+margin_right = 2363.0
+margin_bottom = 1391.0
+script = ExtResource( 2 )
+
+[node name="bg" type="CanvasLayer" parent="." index="0"]
+layer = -1
+
+[node name="TextureRect" type="TextureRect" parent="bg" index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 7.0
+margin_bottom = 4.0
+mouse_filter = 2
+texture = ExtResource( 6 )
+expand = true
+
+[node name="map" parent="." index="2"]
+cell_size = Vector2( 256, 193 )
+
+[node name="fog" type="TileMap" parent="." index="3"]
+modulate = Color( 1, 1, 1, 0.501961 )
+material = SubResource( 2 )
+scale = Vector2( 0.27, 0.27 )
+tile_set = SubResource( 3 )
+cell_size = Vector2( 256, 193 )
+cell_half_offset = 0
+cell_y_sort = true
+centered_textures = true
+format = 1
+
+[node name="Camera2D" type="Camera2D" parent="." index="4"]
+position = Vector2( 844, 565 )
+current = true
+smoothing_enabled = true
+smoothing_speed = 1.5
+
+[node name="ui1" type="CanvasLayer" parent="." index="7"]
+layer = 0
+
+[node name="camCon" type="Control" parent="ui1" index="0"]
+margin_top = 40.0
+margin_right = 40.0
+margin_bottom = 80.0
+
+[node name="3" parent="ui1/camCon" index="0" instance=ExtResource( 5 )]
+margin_left = 920.0
+margin_top = 28.0
+margin_right = 952.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 32, 32 )
+texture_normal = ExtResource( 7 )
+
+[node name="node" parent="ui1/camCon/3" index="0"]
+position = Vector2( 16, 16 )
+
+[node name="img" parent="ui1/camCon/3/node" index="0"]
+margin_left = -16.0
+margin_top = -16.0
+margin_right = 16.0
+margin_bottom = 16.0
+texture = ExtResource( 4 )
+
+[node name="Label" parent="ui1/camCon/3" index="1"]
+visible = false
+
+[node name="HSlider" type="VSlider" parent="ui1/camCon" index="1"]
+margin_left = 928.0
+margin_top = 61.0
+margin_right = 944.0
+margin_bottom = 140.0
+min_value = 1.0
+max_value = 10.0
+value = 1.0
+
+[node name="Control" type="Control" parent="ui1" index="1"]
+margin_left = 762.0
+margin_top = 11.0
+margin_right = 802.0
+margin_bottom = 51.0
+
+[node name="obFaci" type="OptionButton" parent="ui1/Control" index="0"]
+unique_name_in_owner = true
+margin_left = 107.0
+margin_top = 8.0
+margin_right = 182.0
+margin_bottom = 46.0
+text = "全部"
+items = [ "全部", null, false, 0, null, "整顿", null, false, 1, null, "战斗", null, false, 2, null ]
+selected = 0
+
+[connection signal="tree_entered" from="." to="." method="_on_mapScene_tree_entered"]
+[connection signal="pressed" from="ui1/camCon/3" to="." method="_on_3_pressed"]
+[connection signal="value_changed" from="ui1/camCon/HSlider" to="." method="_on_HSlider_value_changed"]
+[connection signal="item_selected" from="ui1/Control/obFaci" to="." method="_on_obFaci_item_selected"]
+
+[editable path="ui1/camCon/3"]

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://res/map/1.res" type="TileSet" id=1]
+[ext_resource path="res://tscn/map/towerMap.gd" type="Script" id=2]
+
+[node name="map" type="TileMap"]
+scale = Vector2( 0.27, 0.27 )
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 193 )
+cell_half_offset = 0
+cell_y_sort = true
+centered_textures = true
+format = 1
+tile_data = PoolIntArray( 0, 191, 0, 1, 274, 0, 2, 180, 0, 3, 146, 0, 4, 116, 0, 5, 335, 0, 65536, 279, 0, 65537, 290, 0, 65538, 212, 0, 65539, 38, 0, 65540, 18, 0, 65541, 39, 0 )
+script = ExtResource( 2 )

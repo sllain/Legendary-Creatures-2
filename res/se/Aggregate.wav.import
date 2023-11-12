@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Aggregate.wav-1ffda1a97ff28835b8ed49b8beb12dde.sample"
+
+[deps]
+
+source_file="res://res/se/Aggregate.wav"
+dest_files=[ "res://.import/Aggregate.wav-1ffda1a97ff28835b8ed49b8beb12dde.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

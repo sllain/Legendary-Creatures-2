@@ -1,0 +1,15 @@
+[gd_scene format=2]
+
+[node name="selItemBB" type="Button"]
+margin_right = 400.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 600, 0 )
+
+[node name="txt" type="RichTextLabel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 9.0
+margin_top = 7.0
+margin_right = -8.0
+mouse_filter = 1
+bbcode_enabled = true
