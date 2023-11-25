@@ -15,4 +15,4 @@ func r(atkInfo):
 	if atkInfo.atkType != ATKTYPE.SKILL :return
 	var xcha = masCha.getWeakCha(2)
 	if xcha != null	:
-		masCha.plusHp(per(1.0) * atkInfo.finalVal,xcha)
+		plusHp(per(1.0) * atkInfo.finalVal,xcha)

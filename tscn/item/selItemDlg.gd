@@ -19,7 +19,7 @@ func init(items,type = 0,exItems = null,isOnly = true):
 
 func addItem(item,inx):
 	if isSel(item) == false: return
-	var itemBtn = preload("res://tscn/item/selItemBtn.tscn").instance()
+	var itemBtn = load("res://tscn/item/selItemBtn.tscn").instance()
 	box.add_child(itemBtn)
 	itemBtn.init(item)
 	itemBtn.connect("pressed",self,"rPressed",[item])

@@ -20,7 +20,7 @@ func _ready():
 	if sys.isMod:
 		sys.newDlg("res://tscn/mod/modManage.tscn")
 	else:
-		var tile = preload("res://tscn/tile/tile.tscn").instance()
+		var tile = load("res://tscn/tile/tile.tscn").instance()
 		add_child(tile)
 
 func printAtt(base):
@@ -108,7 +108,7 @@ func delAllDlg():
 	
 func delGame():
 	if is_instance_valid(sys.game) : sys.game.queue_free()
-	var tile = preload("res://tscn/tile/tile.tscn").instance()
+	var tile = load("res://tscn/tile/tile.tscn").instance()
 	sys.main.add_child(tile)
 	for i in ui.get_children():
 		i.queue_free()
@@ -158,7 +158,7 @@ func newGame(lv):
 		if i is Tile :
 			i.queue_free()
 	delAllDlg()
-	var game = preload("res://tscn/game/game.tscn").instance()
+	var game = load("res://tscn/game/game.tscn").instance()
 	sys.main.add_child(game)
 	game.diffLv = lv
 	game.mode = "map"
@@ -169,7 +169,7 @@ func newTowerGame(lv):
 		if i is Tile :
 			i.queue_free()
 	delAllDlg()
-	var game = preload("res://tscn/game/game.tscn").instance()
+	var game = load("res://tscn/game/game.tscn").instance()
 	sys.main.add_child(game)
 	game.mode = "tower"
 	game.diffLv = lv

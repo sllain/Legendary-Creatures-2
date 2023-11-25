@@ -18,7 +18,7 @@ func init(skill):
 	self.skill = skill
 	img.texture = data.newRes("ico_%s" % skill.id)
 	if skill.cd == 0:
-		$k.texture = preload("res://res/Gui/UiElements/Frame_Square.png")
+		$k.texture = load("res://res/Gui/UiElements/Frame_Square.png")
 	
 func initTip():
 	var cd = skill.cd

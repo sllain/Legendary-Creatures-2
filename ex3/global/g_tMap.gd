@@ -36,11 +36,13 @@ func initFaci():
 			faciCreate("faci_n3",rings[0]) #洗点
 		else:
 			faciCreate("faci_buy",rings[0]) #买
+	else:
+		faciCreate("faci_eqpUp",rings[0])
 	
 	faciCreate("faci_town",rings[1]).isShowIco = true
 	faciCreate(rnp.subPoolDs["faci_unk"].rndItem().id,rings[1]) #问号
 	
-	faciCreate("faci_eqpUp",rings[2])
+	faciCreate(rnp.subPoolDs["faci_unk"].rndItem().id,rings[2]) #问号
 	faciCreate("faci_box2",rings[2])
 	
 	if lv % 2 == 0 :

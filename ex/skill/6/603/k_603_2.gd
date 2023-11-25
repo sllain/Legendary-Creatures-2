@@ -19,5 +19,5 @@ func _cast():
 	var info = hurt(masCha.aiCha,masCha.maxHp * per(0.3),HURTTYPE.MAG)
 	var cha = masCha.getWeakCha(2)
 	if cha != null && info != null:
-		masCha.plusWard(info.finalVal,cha)
+		plusWard(info.finalVal,cha)
 

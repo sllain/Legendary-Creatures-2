@@ -16,7 +16,7 @@ func _ready():
 func init(loca:Loca):
 	self.loca = loca
 	for i in loca.ts:
-		var item = preload("res://tscn/home/loca/lcLvItem.tscn").instance()
+		var item = load("res://tscn/home/loca/lcLvItem.tscn").instance()
 		$lvK/lvBox.add_child(item)
 		item.init(i)
 	tile.text = loca.name

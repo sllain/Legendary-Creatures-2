@@ -21,9 +21,9 @@ func init(faci):
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _setCell():
 	if sys.mapScene.map.get_cellv(faci.cell) in [338,341] :
-		$"%img".texture_normal = preload("res://res/Colored/68_ship.png")
+		$"%img".texture_normal = load("res://res/Colored/68_ship.png")
 	else:
-		$"%img".texture_normal = preload("res://res/Colored/27_players.png")
+		$"%img".texture_normal = load("res://res/Colored/27_players.png")
 	$"%glow".texture = $"%img".texture_normal
 	
 func rNextTime():

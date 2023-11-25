@@ -42,7 +42,7 @@ func lvPer(lv,baseVal,val):
 	return baseVal * (1 + (lv-1) * val)
 
 func newMsg(txt,isSel = false):
-	var msg = preload("res://tscn/base/msgDlg.tscn").instance()
+	var msg = load("res://tscn/base/msgDlg.tscn").instance()
 	main.ui.add_child(msg)
 	msg.init(tr(txt),isSel)
 	msg.popup()
@@ -108,7 +108,7 @@ func playSe(file,bd = 0,absPath = false):
 		file = "res://res/se/" + file
 	if file in oldSeFile : return
 	oldSeFile.append(file)
-	var se = preload("res://tscn/main/se.tscn").instance()
+	var se = load("res://tscn/main/se.tscn").instance()
 	add_child(se)
 	se.volume_db = bd
 	se.init(file)

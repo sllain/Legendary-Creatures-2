@@ -13,4 +13,4 @@ func _in():
 	masCha.connect("onKill",self,"r")
 	
 func r(atkInfo):
-	masCha.plusHp((masCha.maxHp-masCha.hp)*per(0.2))
+	plusHp((masCha.maxHp-masCha.hp)*per(0.2))

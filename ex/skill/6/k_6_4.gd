@@ -16,4 +16,4 @@ func _cast():
 	if xcha != null	:
 		var eff = mas.scene.newEff("e_zhiLiaoShu", xcha.position, xcha.imgCenterPos)
 		yield(ctime(0.1),"timeout")
-		masCha.plusHp(per(masCha.matk * 1.7),xcha)
+		plusHp(per(masCha.matk * 1.7),xcha)

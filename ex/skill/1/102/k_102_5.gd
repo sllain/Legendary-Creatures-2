@@ -14,4 +14,4 @@ func _in():
 func r(bf):
 	if bf.id == "b_b_poJia":
 		masCha.castBuff(masCha,"b_a_diYu",per(5))
-		masCha.plusWard(masCha.atk * per(0.5))
+		plusWard(masCha.atk * per(0.5))

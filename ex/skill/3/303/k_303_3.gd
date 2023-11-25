@@ -22,7 +22,7 @@ func r2(info):
 func r():
 	var eff = mas.scene.newEff("e_zhiLiaoShu", mas.position, mas.imgCenterPos)
 	yield(ctime(0.1),"timeout")
-	masCha.plusHp(masCha.maxHp * per(0.25))
+	plusHp(masCha.maxHp * per(0.25))
 
 func rEnd(b):
 	r()

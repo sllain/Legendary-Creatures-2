@@ -32,6 +32,13 @@ func _batEnd(win):
 func _batStart():
 	off()
 	isBat = true
+	var chas = sys.batScene.getAllChas()
+	for i in chas:
+		if i.team == sys.player.team :
+			if i.hasTab("刺客"):
+				i.castBuff(i,"b_a_yinShen",5)
+			if i.hasTab("战士"):
+				i.castBuff(i,"b_a_plusPer",20)
 	
 func off():
 	isBat = false

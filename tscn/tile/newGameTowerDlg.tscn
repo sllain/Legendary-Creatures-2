@@ -11,7 +11,6 @@
 [ext_resource path="res://res/Gui/UiElements/Equipment_background_v4.png" type="Texture" id=9]
 
 [node name="baseDlg" instance=ExtResource( 1 )]
-visible = true
 margin_left = -255.5
 margin_top = -151.5
 margin_right = 255.5

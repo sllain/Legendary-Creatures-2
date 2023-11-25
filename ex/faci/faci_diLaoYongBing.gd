@@ -45,9 +45,8 @@ func rf(cha:Chara):
 func _trig():
 	sys.eventDlg.txt(dec,true)
 	var dlg = sys.eventDlg.buyCha(chas)
-	if chasUp :
-		dlg.reUpBtn.link(10,self,"initChas")
-		dlg.reUpBtn.connect("onReUp",self,"reUp",[0])
+	dlg.reUpBtn.link(10,self,"initChas")
+	dlg.reUpBtn.connect("onReUp",self,"reUp",[0])
 		
 func reUp(inx):
 	if inx == 0 :

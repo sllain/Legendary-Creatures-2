@@ -19,6 +19,7 @@ func _in():
 func rEnd(isWin):
 	if isWin && is_instance_valid(sys.batScene)  && sys.batScene.faci.name != "普通敌人":
 		plHp += per(25)
+		self.maxHp = plHp
 
 func getSave():
 	var ds = {

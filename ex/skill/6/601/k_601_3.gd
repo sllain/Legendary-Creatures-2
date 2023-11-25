@@ -18,4 +18,4 @@ func _cast():
 	hurt(masCha.aiCha,h,HURTTYPE.MAG,ATKTYPE.SKILL)
 	for i in masCha.scene.getCellChas(masCha.aiCha.cell) :
 		if i.team == mas.team :
-			masCha.plusHp(h * 0.9,i)
+			plusHp(h * 0.9,i)

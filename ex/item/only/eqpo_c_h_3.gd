@@ -19,4 +19,4 @@ func _in():
 	
 func r(buff:Buff):
 	if buff.id == "b_a_diYu" :
-		masCha.plusHp(masCha.maxHp * 0.03 * buff.plusLv * 0.2)
+		plusHp(masCha.maxHp * 0.03 * buff.plusLv * 0.2)

@@ -17,6 +17,8 @@
 普通攻击%d%%的几率附加%d层烧灼，并且获得%d层狂怒和急速,普通攻击%d%%的几率附加%d层烧灼，并且获得%d层狂怒和急速,Normal Attack has a %d%% chance to inflict %d stack(s) of Burning and grant %d stack(s) of Berserked and Hasted,通常攻撃に%d%%の確率で%d層の火傷を付与し、%d層の激怒と急速を獲得する,普通攻擊%d%%的幾率附加%d層燒灼，並且獲得%d層狂怒和急速
 罡气崩拳,罡气崩拳,Blasting Fist,北斗の崩拳,罡氣崩拳
 消除自身增益状态，对目标1格敌人造成%d%%的物理攻击的真实伤害，每5层增益状态，使该伤害提高%d%%,消除自身增益状态，对目标1格敌人造成%d%%的物理攻击的真实伤害，每5层增益状态，使该伤害提高%d%%,"Removes all current buffs and deals %d%% True Damage to the enemies of the target tile and within the radius of 1 tile around. For every 5 stacks of buffs you have, the damage increases by %d%%",自身のバフ状態を解除し、目標と周囲1マスの敵に%d%%物理攻撃力分の固定ダメージを与える、解除したバフが5層毎にこのダメージを%d%%増加する,消除自身增益狀態，對目標1格敵人造成%d%%的物理攻擊的真實傷害，每5層增益狀態，使該傷害提高%d%%
+打造,打造,build,建てる,打造
+"将身上3个相同等级的装备合成为高一级的装备,1级装备无法合成，每合成一个装备永久获得 %d * 装备等级 的物理攻击","将身上3个相同等级的装备合成为高一级的装备,1级装备无法合成，每合成一个装备永久获得 %d * 装备等级 的物理攻击","Synthesize 3 pieces of equipment of the same level into a higher level of equipment, level 1 equipment cannot be crafted, and each piece of equipment synthesized permanently gains %d * equipment level physical attack",同じレベルの装備を3つ合成してより高いレベルの装備にする、レベル1の装備は作成できず、合成された各装備は永続的に%d *装備レベルの物理攻撃力を獲得する,將身上3個相同等級的裝備合成為高一級的裝備，1級裝備無法合成，每合成一個裝備永久獲得 %d * 裝備等級 的物理攻擊
 ,,,,
 精装弓矢,精装弓矢,Exquisite Bow,精製の弓矢,精裝弓矢
 获得%d%%暴击率，暴击时获得%d层急速,获得%d%%暴击率，暴击时获得%d层急速,Gains %d%% Crit rate. And gains %d stack(s) of Hasted when dealing Crit DMG.,会心率を%d%%獲得、会心時で急速を%d層獲得する。,獲得%d%%暴擊率，暴擊時獲得%d層急速

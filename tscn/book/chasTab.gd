@@ -23,7 +23,7 @@ func addProf(prof,cha):
 		if i.prof == prof :
 			i.addCha(cha)
 			return
-	var pan = preload("res://tscn/book/chasPan.tscn").instance()
+	var pan = load("res://tscn/book/chasPan.tscn").instance()
 	box.add_child(pan)
 	pan.init(prof)
 	pan.addCha(cha)

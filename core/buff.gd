@@ -73,6 +73,12 @@ func hurtPerM(cha,per,atkType = ATKTYPE.SKILL):
 func hurt(cha,val,hurtType = HURTTYPE.PHY,atkType = ATKTYPE.SKILL):
 	return mas.hurt(cha,val,hurtType,atkType,self)
 	
+func plusHp(val,cha = null,isEff = true):
+	mas.plusHp(val,cha,isEff,self)
+	
+func plusWard(val,cha = null,isEff = true):
+	mas.plusWard(val,cha,isEff,self)
+	
 func getSave():
 	var ds = {
 		icoId = icoId,

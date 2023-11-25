@@ -84,7 +84,7 @@ func getRndEqp(lv,minLv = 0,maxLv = 9):
 var rs
 #获取遗物对话框
 func relicDlg():
-	sys.eventDlg.selRelic(relicGet()).reUpBtn.link(20,self,"relicGet")
+	sys.eventDlg.selRelic(relicGet()).reUpBtn.link(15,self,"relicGet")
 func relicGet():
 	rs = []
 	for i in 4 :

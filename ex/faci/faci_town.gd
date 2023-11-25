@@ -87,14 +87,14 @@ func _trig():
 			i.plusHp(i.maxHp)
 	elif inx == 1 :
 		var dlg = sys.eventDlg.buyCha(chas)
-		if chasUp :
-			dlg.reUpBtn.link(10,self,"initChas")
-			dlg.reUpBtn.connect("onReUp",self,"reUp",[0])
+		
+		dlg.reUpBtn.link(10,self,"initChas")
+		dlg.reUpBtn.connect("onReUp",self,"reUp",[0])
 	elif inx == 2 :
 		var dlg = sys.eventDlg.buy(items)
-		if itemsUp :
-			dlg.reUpBtn.link(10,self,"initItems")
-			dlg.reUpBtn.connect("onReUp",self,"reUp",[1])
+		
+		dlg.reUpBtn.link(10,self,"initItems")
+		dlg.reUpBtn.connect("onReUp",self,"reUp",[1])
 
 func reUp(inx):
 	if inx == 0 :

@@ -7,18 +7,27 @@ func _data():
 	isCs = true
 	isPressed = true
 	name = "铁匠"
-	dec = "合成装备，升级装备"
+	dec = "铁匠加入你的队伍，他能帮你合成和升级装备"
 	weight = 0.5
 	tab = "world"
-	num = 5
+	num = 1
 
 var n1 = 3
 var g = 100
 
 func _in():
 	lv = 0
+	yield(ctime(0.1),"timeout")
+	matMoveUp(sys.mapScene.getNullCell(sys.mapScene.playFaci.cell + Vector2(1,1)))
+	self.visible = true
 
 func _trig():
+	sys.eventDlg.txt(dec)
+	var cha = data.newBase("c_1_tj")
+	sys.player.addAlterCha(cha)
+	del()
+	sys.eventDlg.txt("在部队页面中，把3个同等级装备放入铁匠身上即可完成合成")
+	return
 	items.clear()
 	sys.eventDlg.txt(dec,true)
 	var inx = yield(sys.eventDlg.selBB([tr("合成装备 | 剩余%d次") % n1,tr("升级装备（需要宝石）"),tr("重新随机一个装备的词条"),tr("离开")]),"onSel")

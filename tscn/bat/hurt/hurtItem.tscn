@@ -22,38 +22,37 @@ margin_right = 126.0
 margin_bottom = 26.0
 text = "恶魔之王"
 
-[node name="a" type="Label" parent="."]
-margin_left = 137.0
+[node name="a" type="LinkButton" parent="."]
+margin_left = 177.0
 margin_top = 4.0
-margin_right = 235.0
+margin_right = 275.0
 margin_bottom = 26.0
 custom_colors/font_color = Color( 0.980392, 0.4, 0.4, 1 )
 text = "20000"
-align = 2
 
 [node name="d" type="Label" parent="."]
-margin_left = 250.0
+margin_left = 306.0
 margin_top = 4.0
-margin_right = 379.0
+margin_right = 435.0
 margin_bottom = 26.0
 custom_colors/font_color = Color( 0.807843, 0.807843, 0.807843, 1 )
 text = "20000"
-align = 2
 
-[node name="h" type="Label" parent="."]
-margin_left = 395.0
+[node name="h" type="LinkButton" parent="."]
+margin_left = 451.0
 margin_top = 4.0
-margin_right = 513.0
+margin_right = 569.0
 margin_bottom = 26.0
 custom_colors/font_color = Color( 0.368627, 0.807843, 0.32549, 1 )
 text = "20000"
-align = 2
 
 [node name="b" type="Label" parent="."]
-margin_left = 532.0
+margin_left = 588.0
 margin_top = 4.0
-margin_right = 650.0
+margin_right = 706.0
 margin_bottom = 26.0
 custom_colors/font_color = Color( 0.560784, 0.505882, 1, 1 )
 text = "20000"
-align = 2
+
+[connection signal="pressed" from="a" to="." method="_on_a_pressed"]
+[connection signal="pressed" from="h" to="." method="_on_h_pressed"]

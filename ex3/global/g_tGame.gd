@@ -17,21 +17,11 @@ func _data():
 func _in():
 	sys.game.connect("onNewGame",self,"newGame")
 	sys.game.connect("onBattleEnd",self,"_batEnd")
-	sys.game.connect("onBattleStart",self,"_battleStart")
 	sys.game.isTimeOn = false
 	
 func setLv(val):
 	.setLv(val)
 	self.txt = "%d" % lv
-	
-func _battleStart():
-	var chas = sys.batScene.getAllChas()
-	for i in chas:
-		if i.team == sys.player.team :
-			if i.hasTab("刺客"):
-				i.castBuff(i,"b_a_yinShen",5)
-			if i.hasTab("战士"):
-				i.castBuff(i,"b_a_plusPer",20)
 	
 func newGame():
 	sys.player.items.addItem(data.newBase("m_gold").setNum(125*2))

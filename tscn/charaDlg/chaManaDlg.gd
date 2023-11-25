@@ -27,7 +27,7 @@ func init(player):
 	for j in range(sys.player.items.items.size()-1,-1,-1) :
 		var i = sys.player.items.items[j]
 		if i is Mater && i.isHomeShow:
-			var mi = preload("res://tscn/item/itemBtn.tscn").instance()
+			var mi = load("res://tscn/item/itemBtn.tscn").instance()
 			$m/box.add_child(mi)
 			mi.init(i)
 			
@@ -45,7 +45,7 @@ func rChaMove():
 
 func rAddItem(item,inx):
 	if item is Eqp:
-		var itemBt = preload("res://tscn/charaDlg/eqplBtn.tscn").instance()
+		var itemBt = load("res://tscn/charaDlg/eqplBtn.tscn").instance()
 		itemBox.add_child(itemBt)
 		itemBt.init(item)
 	#	itemBt.connect("pressed",item,"use")
@@ -75,3 +75,6 @@ func del():
 	if sys.game.globals.has("g_game") :
 		sys.game.globals.g_game.jtip = 1
 	sys.player.upBatLv()
+
+func _on_eqpUp_pressed():
+	pass # Replace with function body.

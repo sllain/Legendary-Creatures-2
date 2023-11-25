@@ -16,6 +16,9 @@ var w = 0.0
 var b1 = 0
 var b2 = 0
 
+var infosA = {}
+var infosH = {}
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -30,8 +33,13 @@ func init(cha:Chara):
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
-func rHurt(atkInfo):
-	a += atkInfo.finalVal
+func rHurt(info):
+	a += info.finalVal
+	if info.finalVal == 0 :return
+	if infosA.has(info.source) :
+		infosA[info.source] += info.finalVal
+	else:
+		infosA[info.source] = info.finalVal
 	
 func r2(atkInfo):
 	d += atkInfo.finalVal
@@ -41,6 +49,11 @@ func rPlus(info):
 		h += info.finalVal
 	elif info.type == "ward" :
 		w += info.finalVal
+	if info.finalVal == 0 :return
+	if infosH.has(info.source) :
+		infosH[info.source] += info.finalVal
+	else:
+		infosH[info.source] = info.finalVal
 		
 func rBuff(buff:Buff):
 	if buff.hasTab("buff") :
@@ -53,3 +66,26 @@ func up():
 	dl.text = "%d" % d
 	hl.text = "%d/%d" % [h,w]
 	bl.text = "%d/%d" % [b1,b2]
+		
+func getInfoStr(infos):
+	var arr = []
+	var txt = ""
+	for i in infos.keys():
+		arr.append([i,infos[i]])
+	arr.sort_custom(self,"_arrSort")
+	for i in arr:
+		if i[0] == null:
+			txt += "%s : %d\n" % [tr("其他"),i[1]]
+		else:
+			txt += "%s : %d\n" % [tr(i[0].name),i[1]]
+	return txt
+	
+func _arrSort(a,b):
+	if a[1] > b[1] :return true
+	return false
+
+func _on_a_pressed():
+	sys.newMsg(getInfoStr(infosA))
+
+func _on_h_pressed():
+	sys.newMsg(getInfoStr(infosH))

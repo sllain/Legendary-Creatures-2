@@ -45,7 +45,7 @@ func _on_Button2_pressed():
 
 func _on_Button4_pressed():
 	queue_free()
-	var game = preload("res://tscn/game/game.tscn").instance()
+	var game = load("res://tscn/game/game.tscn").instance()
 	game.mode = loadMode
 	sys.main.add_child(game)
 	game.loadGame()

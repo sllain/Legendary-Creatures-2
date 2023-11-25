@@ -19,7 +19,7 @@ func init(cha):
 	for i in 2 :
 		items.append(data.newBase(rnp.variPool.rndItem(self,"rnf").id))
 	for i in items:
-		var bt = preload("res://tscn/eventDlg/itemVariSel.tscn").instance()
+		var bt = load("res://tscn/eventDlg/itemVariSel.tscn").instance()
 		box.add_child(bt)
 		bt.init(i)
 		bt.connect("onSel",self,"r")

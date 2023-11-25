@@ -13,9 +13,9 @@ func getDec():
 func _cast():
 	mas.playAnim("buff")
 	yield(ctime(0.3),"timeout")
-	masCha.plusWard(masCha.maxHp * per(0.15),masCha)
+	plusWard(masCha.maxHp * per(0.15),masCha)
 	masCha.castBuff(masCha,"b_a_diYu",10)
 	var cha = masCha.getWeakCha(2)
 	if cha != null:
-		masCha.plusWard(masCha.maxHp * per(0.15),cha)
+		plusWard(masCha.maxHp * per(0.15),cha)
 		masCha.castBuff(cha,"b_a_diYu",10)

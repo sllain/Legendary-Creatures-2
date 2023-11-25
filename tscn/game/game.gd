@@ -179,7 +179,7 @@ func toMapBase(id,cell = null,lv = 1):
 	if is_instance_valid(sys.mapScene) :
 		sys.mapScene.queue_free()
 	var scene :MapScene
-	scene = preload("res://tscn/map/mapScene.tscn").instance()
+	scene = load("res://tscn/map/mapScene.tscn").instance()
 	add_child(scene)
 	scene.lv = lv
 	scene.initMap(id,cell)
@@ -251,6 +251,7 @@ func getSave():
 		diffLv = diffLv,
 		plusCryNum = plusCryNum,
 		mode = mode,
+		seedVal = sys.rndRan(0,10000),
 		achs = achs.getSave(),
 	}
 	return  ds
@@ -265,6 +266,8 @@ func setSave(ds:Dictionary):
 	diffLv = ds.diffLv
 	dsSet("plusCryNum",ds)
 	dsSet("mode",ds)
+	if ds.has("seedVal") :
+		seed(ds.seedVal)
 	for i in ds.gs :
 		globals[i.id].setSave(i)
 	if ds.has("achs") :

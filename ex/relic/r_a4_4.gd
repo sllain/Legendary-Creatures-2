@@ -9,9 +9,10 @@ func getDec():
 
 func _in():
 	sys.game.connect("onChaInScene",self,"r")
-	sys.game.connect("onChaCastHurtStart",self,"r2")
+	sys.game.connect("onChaCastHurt",self,"r2")
 	
 func r(cha):
+	if cha.team != sys.player.team :return
 	if cha.hasTab("刺客") == false:return
 	var att = Att.new()
 	cha.addAtt(att)

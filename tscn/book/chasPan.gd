@@ -18,13 +18,13 @@ func init(prof):
 #	pass
 func addCha(item):	
 	#if item.lock == 1 :print("%s|%s|%s" % [item.name,item.tab,item.origin])
-	var bt = preload("res://tscn/chara/charaItem.tscn").instance()
+	var bt = load("res://tscn/chara/charaItem.tscn").instance()
 	box.add_child(bt)
 	bt.init(item)
 	bt.get_node("popLv").hide()
 	bt.get_node("name").hide()
 	if item.lock == 1 : return
-	var lbt = preload("res://tscn/book/lock.tscn").instance()
+	var lbt = load("res://tscn/book/lock.tscn").instance()
 	bt.add_child(lbt)
 	lbt.init(item)
 	lbt.position = Vector2(bt.rect_size.x * 0.5,bt.rect_size.y - 16)

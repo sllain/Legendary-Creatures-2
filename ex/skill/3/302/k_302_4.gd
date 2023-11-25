@@ -17,5 +17,5 @@ func r(buff):
 		var b = masCha.castBuff(masCha,"b_a_diYu",per(5))
 		if b == null:
 			p += b.lv * 0.03
-			masCha.plusHp(masCha.maxHp * 0.04 * p)
+			plusHp(masCha.maxHp * 0.04 * p)
 

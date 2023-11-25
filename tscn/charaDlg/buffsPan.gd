@@ -25,6 +25,6 @@ func _addBuff(buff:Buff):
 	for i in get_children():
 		if i.bf.id == buff.id :
 			return
-	var btn = preload("res://tscn/charaDlg/buffBtn.tscn").instance()
+	var btn = load("res://tscn/charaDlg/buffBtn.tscn").instance()
 	add_child(btn)
 	btn.init(buff)

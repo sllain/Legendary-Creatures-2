@@ -16,4 +16,4 @@ func r(atkInfo):
 		masCha.castBuff(masCha,"b_a_diYu",5)
 		for i in masCha.skills.items:
 			if i.cd > 0 :
-				i.cdVal *= 1 - 0.05
+				i.cdVal *= 1 + 0.05

@@ -10,7 +10,7 @@ func _in():
 	
 func r(atkInfo):
 	if atkInfo.atkType == ATKTYPE.NORMAL:
-		masCha.plusWard(masCha.maxHp * per(0.05))
+		plusWard(masCha.maxHp * per(0.05))
 		hurt(atkInfo.cha,masCha.ward * per(0.3),HURTTYPE.PHY,ATKTYPE.EFF)
 
 func getDec():

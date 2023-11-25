@@ -18,6 +18,6 @@ var b = false
 func rD(atkInfo):
 	if atkInfo.cha.team == sys.player.team && atkInfo.cha.isSummon == false && b && atkInfo.cha.isDeath:
 		atkInfo.cha.revive(false)
-		masCha.plusHp(atkInfo.cha.maxHp * per(0.5),atkInfo.cha)
+		plusHp(atkInfo.cha.maxHp * per(0.5),atkInfo.cha)
 		b = false
 		masCha.castBuff(atkInfo.cha,"b_a_yinShen",10)

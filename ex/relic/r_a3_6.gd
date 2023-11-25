@@ -12,6 +12,7 @@ func _in():
 	sys.game.connect("onChaCastHurt",self,"sk")
 	
 func r(cha):
+	if cha.team != sys.player.team :return
 	if cha.hasTab("坦克") == false :return
 	var att = Att.new()
 	cha.addAtt(att)

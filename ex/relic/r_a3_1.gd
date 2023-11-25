@@ -11,4 +11,4 @@ func _in():
 
 func r(skill):
 	if skill.masCha.team == sys.player.team && skill.masCha.hasTab("坦克"):
-		skill.masCha.plusHp(skill.masCha.maxHp * lvPer(lv,0.06))
+		plusHp(skill.masCha.maxHp * lvPer(lv,0.06),skill.masCha)

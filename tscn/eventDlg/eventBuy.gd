@@ -8,7 +8,7 @@ func init(items):
 	for i in $items/box.get_children():
 		i.queue_free()
 	for i in items.items:
-		var bt = preload("res://tscn/eventDlg/itemBuy.tscn").instance()
+		var bt = load("res://tscn/eventDlg/itemBuy.tscn").instance()
 		$items/box.add_child(bt)
 		bt.init(i)
 		bt.connect("onBuy",self,"r")

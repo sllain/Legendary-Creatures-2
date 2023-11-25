@@ -26,7 +26,7 @@ func init(item):
 		var mt = data.newBase(i)
 		mt.num = sys.lvPer(item.lv,item.lvUps[i],0.5)
 		ds[mt.id] = mt.num
-		var it = preload("res://tscn/item/itemBtn.tscn").instance()
+		var it = load("res://tscn/item/itemBtn.tscn").instance()
 		box.add_child(it)
 		it.init(mt)
 		

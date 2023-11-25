@@ -15,4 +15,4 @@ func _cast():
 	var eff = masCha.scene.newEff("e_ziSeZhuaJi", masCha.aiCha.position, masCha.aiCha.imgCenterPos)
 	yield(ctime(0.1),"timeout")
 	hurtPer(masCha.aiCha,per(2.0))
-	masCha.plusHp(masCha.atk * per(0.6) * (1 + (masCha.hp / masCha.maxHp)))
+	plusHp(masCha.atk * per(0.6) * (1 + (masCha.hp / masCha.maxHp)))

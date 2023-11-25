@@ -15,4 +15,4 @@ func _cast():
 	var eff = mas.scene.newEff("e_zhongPi",masCha.aiCha.position, mas.imgCenterPos)
 	yield(ctime(0.1),"timeout")
 	var atkInfo = hurtPer(masCha.aiCha,per(2.5))
-	masCha.plusHp(atkInfo.finalVal)
+	plusHp(atkInfo.finalVal)

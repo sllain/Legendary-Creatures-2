@@ -13,6 +13,6 @@ func _cast():
 	#mas.playSe("res://res/se/HeavySword4.wav")
 	yield(ctime(0.4),"timeout")
 	masCha.castBuff(masCha,"b_a_diYu",per(20))
-	masCha.plusWard(masCha.maxHp * per(0.20))
+	plusWard(masCha.maxHp * per(0.20))
 
 

@@ -16,7 +16,7 @@ func _ready():
 func init(cha:Chara):
 	for i in cons.attDs:
 		if i == "maxHp" :continue
-		var at = preload("res://tscn/charaDlg/att.tscn").instance()
+		var at = load("res://tscn/charaDlg/att.tscn").instance()
 		$"%attBox".add_child(at)
 		at.name = i
 		at.init(cha,i)
@@ -56,7 +56,7 @@ func init(cha:Chara):
 	
 	self.itemGrid = cha.eqps
 	for i in itemGrid.items:
-		var btn = preload("res://tscn/charaDlg/eqpBtn.tscn").instance()
+		var btn = load("res://tscn/charaDlg/eqpBtn.tscn").instance()
 		$eqpBox.add_child(btn)
 		btn.init(i,ifEqp())
 		btn.connect("pressed",self,"eqpPressed",[btn])
@@ -70,7 +70,7 @@ func _setSp():
 
 	
 func _addSkill(skill,inx):
-	var kBtn = preload("res://tscn/charaDlg/skill/skillPan.tscn").instance()
+	var kBtn = load("res://tscn/charaDlg/skill/skillPan.tscn").instance()
 	$"%skillBox".add_child(kBtn)
 	kBtn.init(skill,cha)
 

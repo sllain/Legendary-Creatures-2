@@ -18,5 +18,5 @@ func rD(atkInfo):
 	if b && masCha.isDeath:
 		masCha.revive(false)
 		masCha.castBuff(masCha,"b_a_yinShen",per(5))
-		masCha.plusHp(per(800))
+		plusHp(per(800))
 		b = false

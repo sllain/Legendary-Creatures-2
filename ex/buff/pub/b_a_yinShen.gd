@@ -5,7 +5,7 @@ func _data():
 	isDie = true
 	isLong = false
 	dec = "无法被锁定和普攻"
-	tab = "deBuff"
+	tab = "buff"
 
 func setLv(val):
 	.setLv(val)

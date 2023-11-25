@@ -18,7 +18,7 @@ func init(items):
 	for i in $box.get_children():
 		i.queue_free()
 	for i in items:
-		var it = preload("res://tscn/item/itemBtn.tscn").instance()
+		var it = load("res://tscn/item/itemBtn.tscn").instance()
 		$box.add_child(it)
 		it.init(i)
 

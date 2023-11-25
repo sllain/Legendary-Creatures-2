@@ -12,4 +12,4 @@ var times = 0
 
 func _upS():
 	if masCha.yingTime > 0:
-		masCha.plusHp((masCha.maxHp-masCha.hp)*per(0.12))
+		plusHp((masCha.maxHp-masCha.hp)*per(0.12))

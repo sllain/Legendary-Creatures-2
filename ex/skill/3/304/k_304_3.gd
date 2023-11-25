@@ -13,5 +13,5 @@ func _in():
 	
 func r(buff):
 	if buff.masCha.team != masCha.team && buff.id == "b_b_maBi" :
-		masCha.plusWard(masCha.maxHp * buff.plusLv * 0.2 * per(0.05))
+		plusWard(masCha.maxHp * buff.plusLv * 0.2 * per(0.05))
 

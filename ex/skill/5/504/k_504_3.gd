@@ -10,7 +10,7 @@ func _in():
 	
 func r(atkInfo):
 	if atkInfo.atkType == ATKTYPE.EFF : return
-	masCha.plusWard(atkInfo.finalVal * per(0.3))
+	plusWard(atkInfo.finalVal * per(0.3))
 
 func getDec():
 	return tr("造成非被动伤害的%d%%转为护盾值") % per(30)

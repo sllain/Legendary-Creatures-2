@@ -17,6 +17,6 @@ func _ready():
 func init(loca:Loca):
 	.init(loca)
 	for i in loca.chas :
-		var item = preload("res://tscn/home/loca/lc1_Dlg_item.tscn").instance()
+		var item = load("res://tscn/home/loca/lc1_Dlg_item.tscn").instance()
 		box.add_child(item)
 		item.init(i,loca)

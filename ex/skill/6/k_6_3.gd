@@ -13,5 +13,5 @@ func _in():
 
 func r(skill):
 	var xcha = masCha.getWeakCha(2)
-	masCha.plusWard(masCha.matk * per(1.0),xcha)
+	plusWard(masCha.matk * per(1.0),xcha)
 

@@ -14,4 +14,4 @@ func _cast():
 	yield(ctime(0.4),"timeout")
 	for i in masCha.scene.getCellChas(mas.cell,2):
 		if i.team == mas.team :
-			masCha.plusHp(i.maxHp * per(0.05),i)
+			plusHp(i.maxHp * per(0.05),i)

@@ -42,8 +42,8 @@ func initMap(id,cell):
 	
 	map.queue_free()
 	if id == sys.game.mainMapId :
-		#map = preload("res://tscn/map/worldMap.tscn").instance()
-		map = preload("res://tscn/map/worldMap.tscn").instance()
+		#map = load("res://tscn/map/worldMap.tscn").instance()
+		map = load("res://tscn/map/worldMap.tscn").instance()
 		add_child_below_node($bg,map)
 		map.mapId = id
 		if sys.hasFile(sys.game.dataDir + "/%s.map" % mapId) :  #是否有地皮档
@@ -52,8 +52,8 @@ func initMap(id,cell):
 			map.newMap()
 	elif id.split("_")[0] == "rndMap" :
 		if sys.game.mode == "tower" :
-			map = preload("res://tscn/map/towerMap.tscn").instance()
-		else:map = preload("res://tscn/map/dungeonMap.tscn").instance()
+			map = load("res://tscn/map/towerMap.tscn").instance()
+		else:map = load("res://tscn/map/dungeonMap.tscn").instance()
 		add_child_below_node($bg,map)
 		map.mapId = id
 		if sys.hasFile(sys.game.dataDir + "/%s.map" % mapId) :  #是否有地皮档

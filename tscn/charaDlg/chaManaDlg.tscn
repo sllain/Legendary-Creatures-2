@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://tscn/base/close.tscn" type="PackedScene" id=1]
 [ext_resource path="res://tscn/charaDlg/chaScene.tscn" type="PackedScene" id=2]
@@ -10,8 +10,14 @@
 [ext_resource path="res://res/Gui/UiElements/MiniInventory_shadow.png" type="Texture" id=8]
 [ext_resource path="res://res/Gui/UiElements/Slide_frame_bot.png" type="Texture" id=9]
 [ext_resource path="res://res/Gui/UiElements/Slide_frame_top.png" type="Texture" id=10]
+[ext_resource path="res://res/Gui/MiniUiIcons/Icon_hummer.png" type="Texture" id=11]
+[ext_resource path="res://res/Gui/UiElements/RoundButton_green.png" type="Texture" id=12]
+[ext_resource path="res://res/Gui/UiElements/RoundButton.png" type="Texture" id=13]
+[ext_resource path="res://res/Gui/UiElements/RoundButton_blue.png" type="Texture" id=14]
+[ext_resource path="res://tscn/charaDlg/eqpUp.gd" type="Script" id=15]
 
 [node name="Popup" type="Popup"]
+visible = true
 margin_right = 963.0
 margin_bottom = 484.0
 script = ExtResource( 4 )
@@ -133,4 +139,22 @@ texture = ExtResource( 8 )
 patch_margin_left = 11
 patch_margin_right = 11
 
+[node name="eqpUp" type="TextureButton" parent="."]
+margin_left = 918.0
+margin_top = 51.0
+margin_right = 959.0
+margin_bottom = 92.0
+texture_normal = ExtResource( 14 )
+texture_pressed = ExtResource( 13 )
+texture_hover = ExtResource( 12 )
+expand = true
+script = ExtResource( 15 )
+
+[node name="TextureRect" type="TextureRect" parent="eqpUp"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 11 )
+expand = true
+
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="eqpUp" to="eqpUp" method="_on_eqpUp_pressed"]

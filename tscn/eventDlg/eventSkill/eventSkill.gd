@@ -18,7 +18,7 @@ func init(skills):
 	for i in box.get_children():
 		i.queue_free()
 	for i in skills.items:
-		var bt = preload("res://tscn/eventDlg/eventSkill/itemSkillSel.tscn").instance()
+		var bt = load("res://tscn/eventDlg/eventSkill/itemSkillSel.tscn").instance()
 		box.add_child(bt)
 		bt.init(i)
 		bt.connect("onSel",self,"r")

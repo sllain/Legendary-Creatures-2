@@ -59,7 +59,7 @@ func newBase(id):
 func getInfo(id):
 	pass
 	
-var nullPng = preload("res://icon.png")
+var nullPng = load("res://icon.png")
 #创建指定id的资源
 func newRes(id):
 	if id == "" :

@@ -5,7 +5,7 @@ signal onSelDiff(lv)
 # var b = "text"
 var lv = 0
 var llv = 0
-var maxLv = 5
+var maxLv = 6
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	if sys.isDemo :

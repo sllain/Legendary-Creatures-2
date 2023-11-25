@@ -24,4 +24,4 @@ func _cast():
 			var info = hurtPer(i,p2)
 			if info != null:
 				p += info.finalVal
-	masCha.plusHp(p * 0.7)
+	plusHp(p * 0.7)

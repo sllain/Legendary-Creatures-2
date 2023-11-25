@@ -114,7 +114,7 @@ margin_top = 8.0
 margin_right = 182.0
 margin_bottom = 46.0
 text = "全部"
-items = [ "全部", null, false, 0, null, "整顿", null, false, 1, null, "战斗", null, false, 2, null ]
+items = [ "全部", null, false, 0, null, "回城", null, false, 1, null, "整顿", null, false, 2, null, "战斗", null, false, 3, null ]
 selected = 0
 
 [connection signal="tree_entered" from="." to="." method="_on_mapScene_tree_entered"]

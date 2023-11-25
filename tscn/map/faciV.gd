@@ -100,9 +100,11 @@ func _physics_process(delta):
 
 func upSift():
 	if sys.game.isMainMap() == false:return true
-	if sys.game.faciSiftInx == 1 && faci is FaciBat:
+	if sys.game.faciSiftInx == 1 && faci.isCs == false:
 		return false
-	elif sys.game.faciSiftInx == 2 && faci is FaciBat == false:
+	elif sys.game.faciSiftInx == 2 && (faci.isCs || faci is FaciBat):
+		return false
+	elif sys.game.faciSiftInx == 3 && faci is FaciBat == false:
 		return false
 	elif faci.id == "faci_bat" :
 		return  scale.x < 2

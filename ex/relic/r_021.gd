@@ -7,6 +7,7 @@ func _in():
 	sys.game.connect("onChaInScene",self,"r")
 	
 func r(cha):
+	if cha.team != sys.player.team :return
 	var att = Att.new()
 	cha.addAtt(att)
 	att.perAdd(aid,lvPer(lv,0.08))

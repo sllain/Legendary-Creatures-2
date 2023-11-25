@@ -10,7 +10,7 @@ extends HBoxContainer
 func init():
 	for i in sys.game.globals:
 		var g = sys.game.globals[i]
-		var bt = preload("res://tscn/game/gBtn.tscn").instance()
+		var bt = load("res://tscn/game/gBtn.tscn").instance()
 		add_child(bt)
 		bt.init(g)
 		

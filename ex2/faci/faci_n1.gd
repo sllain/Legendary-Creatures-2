@@ -23,8 +23,10 @@ func _in():
 	lv = 0
 
 func _initInfo():
+	skills.clear()
 	for i in 4 :
 		skills.addItem(data.newBase(rnp.skillPool.rndItem(self,"upSKillsRnf").id))
+	return skills
 		
 func upSKillsRnf(skill):
 	if skill.hasTab("专属") :return false
@@ -35,7 +37,9 @@ func upSKillsRnf(skill):
 
 func _trig():
 	sys.eventDlg.txt("%s" % [dec],true)
-	var skill = yield(sys.eventDlg.selSkill(skills),"onSel")
+	var kdlg = sys.eventDlg.selSkill(skills)
+	kdlg.reUpBtn.link(20,self,"_initInfo")
+	var skill = yield(kdlg,"onSel")
 	if skill == null:return
 	var dlg = sys.newDlg("res://tscn/chara/selChaDlg.tscn")
 	dlg.init(sys.player.team)

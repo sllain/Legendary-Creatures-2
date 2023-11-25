@@ -16,5 +16,5 @@ func r(atkInfo):
 		for i in chas:
 			if i == null : continue
 			if i.team != masCha.team :continue
-			masCha.plusWard(masCha.maxHp*per(0.05),i)
+			plusWard(masCha.maxHp*per(0.05),i)
 			

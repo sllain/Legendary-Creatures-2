@@ -10,7 +10,7 @@ func _in():
 	
 func r(atkInfo):
 	if atkInfo.atkType == ATKTYPE.NORMAL:
-		masCha.plusHp(atkInfo.finalVal * per(0.1))
+		plusHp(atkInfo.finalVal * per(0.1))
 
 func getDec():
 	return tr("普攻伤害获得%d%%吸血") % per(10)

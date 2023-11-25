@@ -17,4 +17,4 @@ func _cast():
 	for i in masCha.scene.getCellChas(mas.cell) :
 		if i.team != mas.team :
 			i.aiCha = masCha
-			masCha.plusWard(masCha.maxHp * per(0.15))
+			plusWard(masCha.maxHp * per(0.15))

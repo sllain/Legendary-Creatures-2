@@ -13,17 +13,7 @@ func _data():
 func _in():
 	sys.game.connect("onOutDungeon",self,"_onOutDungeon")
 	sys.game.connect("onNewGame",self,"newGame")
-	sys.game.connect("onBattleStart",self,"_battleStart")
-	
-func _battleStart():
-	var chas = sys.batScene.getAllChas()
-	for i in chas:
-		if i.team == sys.player.team :
-			if i.hasTab("刺客"):
-				i.castBuff(i,"b_a_yinShen",5)
-			if i.hasTab("战士"):
-				i.castBuff(i,"b_a_plusPer",20)
-	
+
 func newGame():
 	sys.player.items.addItem(data.newBase("m_gold").setNum(125*2))
 	sys.player.items.addItem(data.newBase("m_xp").setNum(0))
@@ -42,11 +32,6 @@ func newGame():
 	yield(buyCha,"onSel")
 	sys.player.items.addItem(data.newBase("m_gold").setNum(300))
 	sys.eventDlg.txt(tr("获得 %dG初始金币") % gold)
-
-	if sys.isTest :
-		var cha = data.newBase("c_4_3_2")
-		sys.player.addAlterCha(cha)
-		cha.skills.addItem(data.newBase("k_c_m_2"))
 
 func getGameChas():
 	newGameChas = ItemPck.new()

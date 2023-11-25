@@ -11,7 +11,7 @@ func init():
 	for j in range(sys.player.items.items.size()-1,-1,-1) :
 		var i = sys.player.items.items[j]
 		if i is Mater && i.isHomeShow:
-			var mi = preload("res://tscn/item/itemBtn.tscn").instance()
+			var mi = load("res://tscn/item/itemBtn.tscn").instance()
 			$mRect/box.add_child(mi)
 			mi.init(i)
 	
@@ -56,7 +56,7 @@ func _on_take_onPressed():
 	tween.parallel().tween_property($take,"rect_position",Vector2(960,0), 0.3).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 
 func _on_1_pressed():
-	var dlg = preload("res://tscn/charaDlg/chaManaDlg.tscn").instance()
+	var dlg = load("res://tscn/charaDlg/chaManaDlg.tscn").instance()
 	add_child(dlg)
 	dlg.popup()
 	dlg.init(sys.player)
@@ -70,7 +70,7 @@ func _on_2_pressed():
 
 func toRouge(layer):
 	queue_free()
-#	var rogue = preload("res://tscn/rogue/rogue.tscn").instance()
+#	var rogue = load("res://tscn/rogue/rogue.tscn").instance()
 #	sys.game.add_child(rogue)
 #	rogue.init(layer)
 

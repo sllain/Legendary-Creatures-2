@@ -16,6 +16,6 @@ func _in():
 func r(atkInfo):
 	bval += atkInfo.finalVal 
 	if bval >= masCha.maxHp * 0.3:
-		masCha.plusWard(masCha.maxHp * per(0.09))
+		plusWard(masCha.maxHp * per(0.09))
 		bval = 0
 

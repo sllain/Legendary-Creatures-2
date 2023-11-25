@@ -7,6 +7,7 @@ func _in():
 	sys.game.connect("onChaInScene",self,"r")
 	
 func r(cha):
+	if cha.team != sys.player.team :return
 	if cha.hasTab("法师") == false:return
 	var att = Att.new()
 	cha.addAtt(att)

@@ -87,6 +87,8 @@ BOSS,BOSS,BOSS,BOSS,BOSS
 支付 %d 金币,支付 %d 金币,Pay %d Coins,金貨を %d 支払う,支付 %d 金幣
 金币 不足,金币 不足,Insufficient Coins,金貨 不足,金幣 不足
 装备等级不一致,装备等级不一致,Mismatched equipment levels.,装備のレベルが一致していません,裝備等級不一致
+铁匠加入你的队伍，他能帮你合成和升级装备,铁匠加入你的队伍，他能帮你合成和升级装备,Join your team with a blacksmith who can help you craft and upgrade your equipment,装備の作成とアップグレードを手伝ってくれる鍛冶屋と一緒にチームに参加してください,鐵匠加入你的隊伍，他能幫你合成和升級裝備
+在部队页面中，把3个同等级装备放入铁匠身上即可完成合成,在部队页面中，把3个同等级装备放入铁匠身上即可完成合成,"On the Troops page, you can complete the synthesis by placing 3 pieces of equipment of the same level on the Blacksmith",部隊ページでは、鍛冶屋に同じレベルの装備を3つ配置することで合成を完了できます,在部隊頁面中，把3個同等級裝備放入鐵匠身上即可完成合成
 ,,,,
 提升宝石,提升宝石,Upgrade Gem,宝石を強化,提升寶石
 "将一颗宝石的等级提高1级,最多提升至4级","将一颗宝石的等级提高1级,最多提升至4级",Upgrade a gem by 1 level (4 levels at most),宝石のレベルを1上げる、最大で4レベルまで,"將一顆寶石的等級提高1級,最多提升至4級"

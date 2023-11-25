@@ -21,7 +21,7 @@ func _cast():
 			hurtPerM(c,per(0.8))
 			masCha.castBuff(c,"b_b_zhongDu",per(10))
 		else:
-			masCha.plusHp(per(0.4) * masCha.matk,c)
+			plusHp(per(0.4) * masCha.matk,c)
 
 func getDec():
 	return tr("打击2格范围敌人，造成%d%%魔法伤害，附加%d层中毒。而范围内友军则回复%d%%魔法攻击的生命值") % [per(70),per(10),per(35)]

@@ -15,7 +15,7 @@ func init():
 		for i in data.getList("c") :
 			var item = data.newBase(i.id)
 			if item.lock == -1 :continue
-			var bt = preload("res://tscn/chara/charaItem.tscn").instance()
+			var bt = load("res://tscn/chara/charaItem.tscn").instance()
 			bt.get_node("popLv").hide()
 			bt.get_node("name").hide()
 			addItem(item,bt)
@@ -23,7 +23,7 @@ func init():
 		for i in data.getList("k") :
 			var item = data.newBase(i.id)
 			if item.lock == -1 :continue
-			var bt = preload("res://tscn/charaDlg/skill/skillBtn.tscn").instance()
+			var bt = load("res://tscn/charaDlg/skill/skillBtn.tscn").instance()
 			addItem(item,bt)
 			bt.initTip()
 			
@@ -31,33 +31,33 @@ func init():
 		for i in data.getList("csb") :
 			var item = data.newBase(i.id)
 			if item.lock == -1 :continue
-			var bt = preload("res://tscn/item/itemBtn.tscn").instance()
+			var bt = load("res://tscn/item/itemBtn.tscn").instance()
 			addItem(item,bt)
 		for i in data.getList("gem") :
 			var item = data.newBase(i.id)
 			if item.lock == -1 :continue
 			if item.isUnique == true :
 				item.lv = 4
-			var bt = preload("res://tscn/item/itemBtn.tscn").instance()
+			var bt = load("res://tscn/item/itemBtn.tscn").instance()
 			addItem(item,bt)
 		for i in data.getList("eqp") :
 			var item = data.newBase(i.id)
 			if item.lock == -1 :continue
-			var bt = preload("res://tscn/item/itemBtn.tscn").instance()
+			var bt = load("res://tscn/item/itemBtn.tscn").instance()
 			addItem(item,bt)
 	elif name == "设施" :
 		for i in data.getList("faci") :
 			var item = data.newBase(i.id)
 			if item.lock == -1 :continue
 			if item.id.split("_").size() > 2 : continue
-			var bt = preload("res://tscn/book/faciBtn.tscn").instance()
+			var bt = load("res://tscn/book/faciBtn.tscn").instance()
 			addItem(item,bt)
 			bt.init(item)
 	elif name == "神徽" :
 		for i in data.getList("r") :
 			var item = data.newBase(i.id)
 			if item.lock == -1 :continue
-			var bt = preload("res://tscn/book/faciBtn.tscn").instance()
+			var bt = load("res://tscn/book/faciBtn.tscn").instance()
 			addItem(item,bt)
 			bt.init(item)		
 
@@ -65,7 +65,7 @@ func addItem(item,bt):
 	box.add_child(bt)
 	bt.init(item)
 	if item.lock == 1 : return
-	var lbt = preload("res://tscn/book/lock.tscn").instance()
+	var lbt = load("res://tscn/book/lock.tscn").instance()
 	bt.add_child(lbt)
 	lbt.init(item)
 	lbt.position = Vector2(bt.rect_size.x * 0.5,bt.rect_size.y - 16)

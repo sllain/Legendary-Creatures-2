@@ -18,7 +18,7 @@ func init(items):
 	for i in $HBoxContainer.get_children():
 		i.queue_free()
 	for i in items:
-		var bt =  preload("res://tscn/eventDlg/eventItemSel/itemSel.tscn").instance()
+		var bt =  load("res://tscn/eventDlg/eventItemSel/itemSel.tscn").instance()
 		$HBoxContainer.add_child(bt)
 		bt.init(i)
 		bt.connect("onSel",self,"r",[i])

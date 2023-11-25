@@ -19,6 +19,6 @@ func _cast():
 	# masCha.aiCha.playAnim("hit2")
 	for i in masCha.scene.getCellChas(masCha.aiCha.cell) :
 		if i.team != mas.team && i != masCha.aiCha:
-			hurtPer(i,per(1.0))
+			hurtPer(i,per(1.2))
 			masCha.castBuff(i,"b_b_poJia",per(10))
 			# i.playAnim("hit2")

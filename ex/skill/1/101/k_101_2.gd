@@ -17,4 +17,4 @@ func _cast():
 	hurtPer(masCha.aiCha,per(2.0))
 	var buff = masCha.castBuff(masCha.aiCha,"b_b_liuXue",per(15))
 	if buff == null:return
-	masCha.plusWard(masCha.atk * per(0.5) * buff.lv * 0.2)
+	plusWard(masCha.atk * per(0.5) * buff.lv * 0.2)

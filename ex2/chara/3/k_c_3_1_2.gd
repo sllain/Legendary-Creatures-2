@@ -13,8 +13,8 @@ func _in():
 	masCha.connect("onPlus",self,"r2")
 
 func r():
-	masCha.plusWard(masCha.maxHp * per(0.3))
+	plusWard(masCha.maxHp * per(0.3))
 	
 func r2(info):
 	if info.type == "ward" :
-		masCha.plusHp(info.val * 0.5)
+		plusHp(info.val * 0.5)

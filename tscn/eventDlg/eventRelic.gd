@@ -18,7 +18,7 @@ func init(items):
 	for i in $HBoxContainer.get_children():
 		i.queue_free()
 	for i in items:
-		var bt =  preload("res://tscn/bat/relic/bonusRelic.tscn").instance()
+		var bt =  load("res://tscn/bat/relic/bonusRelic.tscn").instance()
 		$HBoxContainer.add_child(bt)
 		for j in sys.player.relics.items:
 			if i.id == j.id :

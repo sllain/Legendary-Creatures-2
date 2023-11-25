@@ -14,4 +14,4 @@ func _in():
 	
 func r(atkInfo):
 	if atkInfo.atkType != ATKTYPE.SKILL :return
-	masCha.plusWard(atkInfo.finalVal * per(0.15))
+	plusWard(atkInfo.finalVal * per(0.15))

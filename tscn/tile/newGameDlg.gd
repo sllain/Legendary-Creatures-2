@@ -8,7 +8,7 @@ var llv = 0
 var ds = {}
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	ds = preload("res://ex/global/g_diff.gd").new().lvDec
+	ds = load("res://ex/global/g_diff.gd").new().lvDec
 	if sys.isDemo :
 		llv = 0
 	else:

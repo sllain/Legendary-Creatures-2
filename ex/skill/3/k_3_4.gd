@@ -12,7 +12,7 @@ func _cast():
 	masCha.playAnim("buff")
 	#mas.playSe("res://res/se/HeavySword4.wav")
 	yield(ctime(0.4),"timeout")
-	masCha.plusHp(masCha.maxHp * per(0.13))
+	plusHp(masCha.maxHp * per(0.13))
 
 func _in():
 	masCha.connect("onHurt",self,"r")

@@ -9,9 +9,9 @@ extends BaseDlg
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var dt = Directory.new()
-	dt.make_dir_recursive("user://mods/")
-	sys.main.searchPck("user://mods/")
-
+	var dir = OS.get_executable_path().get_base_dir() + "/mods"
+	dt.make_dir_recursive(dir)
+	sys.main.searchPck(dir)
 
 func _on_Button_pressed():
 	queue_free()

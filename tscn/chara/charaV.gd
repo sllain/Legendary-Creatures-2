@@ -174,7 +174,7 @@ func rHurt(atkInfo):
 func effNum(val,c):
 	var eid
 	
-	var num = preload("res://tscn/chara/hurtNum.tscn").instance()
+	var num = load("res://tscn/chara/hurtNum.tscn").instance()
 	box.add_child(num)
 	num.init(val,c)
 	

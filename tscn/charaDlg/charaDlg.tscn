@@ -44,7 +44,7 @@ scale = Vector2( 1, 0.546876 )
 texture = ExtResource( 7 )
 
 [node name="anim" parent="c/body" index="1" instance=ExtResource( 5 )]
-frame = 3
+frame = 0
 
 [node name="popLv" parent="c" index="1" instance=ExtResource( 9 )]
 unique_name_in_owner = true
@@ -127,6 +127,7 @@ alignment = 2
 margin_top = 42.0
 margin_right = 85.0
 margin_bottom = 80.0
+focus_mode = 0
 custom_colors/font_color = Color( 0.960784, 0.572549, 0.572549, 1 )
 text = "解雇"
 icon = ExtResource( 16 )

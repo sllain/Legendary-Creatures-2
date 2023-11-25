@@ -240,6 +240,7 @@ func hurtBase(atkInfo):
 		atkInfo.cha.hp += ward
 		atkInfo.cha.ward = 0
 	if atkInfo.cha.hp <= 0 :
+		atkInfo.finalVal = abs(atkInfo.cha.hp)
 		atkInfo.cha.hp = 0
 		atkInfo.cha.death(atkInfo)
 	atkInfo.cha.ward = ward
@@ -255,6 +256,7 @@ func hurt(chara,atkVal,hurtType = HURTTYPE.PHY,atkType = ATKTYPE.SKILL,source = 
 	return hurtBase(atkInfo)
 	
 func newAtkInfo(chara,atkVal,hurtType = HURTTYPE.PHY,atkType = ATKTYPE.SKILL,source = null):
+	if source == null:source = self
 	var atkInfo = {castCha=self,cha=chara,val=atkVal,source=source,atkType=atkType,hurtType=hurtType,per=1.0,finalPer = 1.0,finalVal=0,canCri=false,isCri=false}
 	return atkInfo
 	
@@ -371,13 +373,15 @@ func castBuff(cha,bId,lv = 5):
 		sys.game.emit_signal("onChaAddBuff",bf)
 		return bf
 	
-func plusHp(val,cha = null,isEff = true):
-	var info = {castCha=self,cha=cha,val=val,type="hp",source=self,per=1.0,finalPer = 1.0,finalVal=0,canCri=false,isCri=false,isEff=isEff}
+func plusHp(val,cha = null,isEff = true,source = null):
+	if source == null: source = self
+	var info = {castCha=self,cha=cha,val=val,type="hp",source=source,per=1.0,finalPer = 1.0,finalVal=0,canCri=false,isCri=false,isEff=isEff}
 	if cha == null: info.cha = self
 	plusBase(info)
 	
-func plusWard(val,cha = null,isEff = true):
-	var info = {castCha=self,cha=cha,val=val,type="ward",source=self,per=1.0,finalPer = 1.0,finalVal=0,canCri=false,isCri=false,isEff=isEff}
+func plusWard(val,cha = null,isEff = true,source = null):
+	if source == null: source = self
+	var info = {castCha=self,cha=cha,val=val,type="ward",source=source,per=1.0,finalPer = 1.0,finalVal=0,canCri=false,isCri=false,isEff=isEff}
 	if cha == null: info.cha = self
 	plusBase(info)
 
@@ -394,6 +398,7 @@ func plusBase(info):
 	if info.type == "hp" :
 		info.cha.hp += info.finalVal
 		if info.cha.hp > info.cha.maxHp :
+			info.finalVal = info.cha.hp - info.cha.maxHp
 			info.cha.hp = info.cha.maxHp
 	elif info.type == "ward" :
 		info.cha.ward += info.finalVal

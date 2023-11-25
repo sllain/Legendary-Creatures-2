@@ -14,7 +14,7 @@ func _cast():
 	yield(ctime(0.3),"timeout")
 	var cha = masCha.getMaxAttCha("def",2)
 	if cha != null:
-		masCha.plusWard(masCha.matk * lvPer(lv,1.8),cha)
+		plusWard(masCha.matk * lvPer(lv,1.8),cha)
 		for i in masCha.scene.getCellChas(cha.cell) :
 			if i.team != mas.team :
 				masCha.castBuff(i,"b_b_jieShuang",per(10))

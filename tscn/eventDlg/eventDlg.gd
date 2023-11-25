@@ -9,91 +9,91 @@ func _ready():
 	hide()
 
 func txt(txt,isNext = false):
-	var list = preload("res://tscn/eventDlg/eventTxt.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventTxt.tscn").instance()
 	box.add_child(list)
 	addItem(list)
 	list.init(txt,isNext)
 	return list
 	
 func sel(arr,isNext = false):
-	var list = preload("res://tscn/eventDlg/eventSel.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventSel.tscn").instance()
 	box.add_child(list)
 	list.init(arr,isNext)
 	addItem(list)
 	return list
 
 func selBB(arr,isNext = false):
-	var list = preload("res://tscn/eventDlg/eventSel.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventSel.tscn").instance()
 	box.add_child(list)
 	list.initBB(arr,isNext)
 	addItem(list)
 	return list
 	
 func buy(items):
-	var list = preload("res://tscn/eventDlg/eventBuy.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventBuy.tscn").instance()
 	box.add_child(list)
 	list.init(items)
 	addItem(list)
 	return list
 	
 func buyCha(items):
-	var list = preload("res://tscn/eventDlg/eventBuyCha.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventBuyCha.tscn").instance()
 	box.add_child(list)
 	list.init(items)
 	addItem(list)
 	return list
 	
 func check(per,mId = "",subVal = 1,stup = 0.2,tab = "",maxNum = 1):
-	var list = preload("res://tscn/eventDlg/eventCheck.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventCheck.tscn").instance()
 	box.add_child(list)
 	list.init(per,mId,stup,subVal,tab,maxNum)
 	addItem(list)
 	return list
 	
 func bat(team,canExit = true,faci = null):
-	var list = preload("res://tscn/eventDlg/eventBat.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventBat.tscn").instance()
 	box.add_child(list)
 	list.init(team,canExit,faci)
 	addItem(list)
 	return list
 
 func items(items):
-	var list = preload("res://tscn/eventDlg/eventItem.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventItem.tscn").instance()
 	box.add_child(list)
 	list.init(items)
 	addItem(list)
 	return list
 	
 func selRelic(items):
-	var list = preload("res://tscn/eventDlg/eventRelic.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventRelic.tscn").instance()
 	box.add_child(list)
 	list.init(items)
 	addItem(list)
 	return list
 
 func selSkill(skills):
-	var list = preload("res://tscn/eventDlg/eventSkill/eventSkill.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventSkill/eventSkill.tscn").instance()
 	box.add_child(list)
 	list.init(skills)
 	addItem(list)
 	return list
 	
 func itemSel(num,type = 0,isOnly = true):
-	var list = preload("res://tscn/eventDlg/eventItemSel/eventItemSel.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventItemSel/eventItemSel.tscn").instance()
 	box.add_child(list)
 	list.init(num,type,isOnly)
 	addItem(list)
 	return list
 #显示一些物品（物品包：ItemPck）
 func itemShow(items):
-	var list = preload("res://tscn/eventDlg/eventItemShow/eventItemShow.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventItemShow/eventItemShow.tscn").instance()
 	box.add_child(list)
 	list.init(items)
 	addItem(list)
 	return list
 	
 func selItem(items):
-	var list = preload("res://tscn/eventDlg/eventSelItem.tscn").instance()
+	var list = load("res://tscn/eventDlg/eventSelItem.tscn").instance()
 	box.add_child(list)
 	list.init(items)
 	addItem(list)

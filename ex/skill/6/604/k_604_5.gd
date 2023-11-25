@@ -13,6 +13,7 @@ func _in():
 	
 func _r(buff):
 	var c = buff.masCha
+	if c.team == sys.player.team :return
 	if c != null && buff.castCha.team == masCha.team && rndPer(0.4) &&  buff.hasTab("deBuff"):
 		var eff = scene.newEff("e_atk1", masCha.position,masCha.imgCenterPos)
 		eff.get_node("up/img").frame = 3

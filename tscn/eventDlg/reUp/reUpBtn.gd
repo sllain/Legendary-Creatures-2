@@ -31,7 +31,6 @@ func link(num,obj,reF):
 func _on_reUpBtn_pressed():
 	if sys.player.subItem("m_cry",num) :
 		emit_signal("onReUp")
-		hide()
 		get_parent().init(obj.call(reF))
 	else:
 		sys.newMsg("晶石 不足")

@@ -15,4 +15,4 @@ func r(buff):
 	if buff.id == "b_b_shaoZhuo" || buff.id == "b_b_zhongDu":
 		masCha.delAff(buff)
 		if rndPer(0.4) :
-			masCha.plusHp(masCha.maxHp * per(0.05))
+			plusHp(masCha.maxHp * per(0.05))

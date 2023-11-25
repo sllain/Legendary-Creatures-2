@@ -14,7 +14,7 @@ func _in():
 
 func r(buff):
 	if buff.id == "b_b_shaoZhuo":
-		masCha.delAff(buff)
+		buff.del()
 
 func r2(atkInfo):
 	if atkInfo.atkType == ATKTYPE.SKILL:

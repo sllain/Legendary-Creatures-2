@@ -17,7 +17,7 @@ func init(loca):
 	$k/img.texture = data.newRes("img_" + loca.id)
 	
 	for i in loca.ts:
-		var item = preload("res://tscn/home/loca/lvItem.tscn").instance()
+		var item = load("res://tscn/home/loca/lvItem.tscn").instance()
 		$k/lvBox.add_child(item)
 		item.init(i)
 

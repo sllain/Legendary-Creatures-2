@@ -11,7 +11,7 @@ func _ready():
 	for i in data.getList("b") :
 		var b = data.newBase(i.id)
 		if b.lock == -1 :continue
-		var bt = preload("res://tscn/charaDlg/buffBtn.tscn").instance()
+		var bt = load("res://tscn/charaDlg/buffBtn.tscn").instance()
 		$HFlowContainer.add_child(bt)
 		bt.init(b)
 	var ss = [

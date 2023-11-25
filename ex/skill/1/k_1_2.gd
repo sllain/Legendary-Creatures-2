@@ -9,7 +9,7 @@ func _in():
 	masCha.connect("onCastHurt",self,"r")
 	
 func r(atkInfo):
-	masCha.plusHp(atkInfo.finalVal * per(0.30))
+	plusHp(atkInfo.finalVal * per(0.30))
 
 func getDec():
 	return tr("获得%d%%全能吸血") % per(30)

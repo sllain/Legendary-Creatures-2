@@ -24,7 +24,7 @@ func _cast():
 	for i in bbfs:
 		masCha.castBuff(masCha,i,per(15))
 	var h = masCha.atk * 0.5
-	masCha.plusHp(h)
-	masCha.plusWard(h)
+	plusHp(h)
+	plusWard(h)
 
 

@@ -15,6 +15,6 @@ func _ready():
 #	pass
 func init(items):
 	for i in items:
-		var bt = preload("res://tscn/item/relicBtn.tscn").instance()
+		var bt = load("res://tscn/item/relicBtn.tscn").instance()
 		$items/box.add_child(bt)
 		bt.init(i)

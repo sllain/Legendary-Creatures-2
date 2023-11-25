@@ -22,6 +22,6 @@ func _cast():
 				if j is Buff && j.hasTab("buff") && j.lv > 0:
 					p += (j.lv / 5 ) * 0.15
 			if p <= 0 :return
-			masCha.plusHp(masCha.matk * per(1.0) * p,i)
+			plusHp(masCha.matk * per(1.0) * p,i)
 
 

@@ -13,5 +13,5 @@ func _in():
 
 func r(info):
 	if info.type == "hp" :
-		masCha.plusWard(info.finalVal * per(0.60),info.cha)
+		plusWard(info.finalVal * per(0.60),info.cha)
 

@@ -27,7 +27,7 @@ func d(ocha):
 			eff.flyToChara(cha, 0.1)
 			eff.scale.x = distance
 			n -= 1
-			masCha.plusHp(per(0.06) * cha.maxHp,cha)
+			plusHp(per(0.06) * cha.maxHp,cha)
 			yield(ctime(0.2),"timeout")
 			if is_instance_valid(scene) == false :return
 			d(cha)

@@ -20,6 +20,7 @@ func _cast():
 
 func r(cha):
 	var atkInfo = masCha.newAtkInfo(cha,masCha.atk * per(2.0),HURTTYPE.PHY,ATKTYPE.SKILL,self)
+	
 	atkInfo.canCri = true
 	masCha.hurtBase(atkInfo)
 	masCha.castBuff(cha,"b_b_poJia",per(15))

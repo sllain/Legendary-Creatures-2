@@ -13,8 +13,8 @@ func _in():
 	
 func r(atkInfo):
 	if atkInfo.atkType == ATKTYPE.SKILL :
-		masCha.plusWard(masCha.maxHp * per(0.05),masCha)
+		plusWard(masCha.maxHp * per(0.05),masCha)
 		var cha = masCha.getMinRanCha(2)
 		if cha != null:
-			masCha.plusWard(cha.maxHp * per(0.05),cha)
+			plusWard(cha.maxHp * per(0.05),cha)
 

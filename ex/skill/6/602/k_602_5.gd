@@ -14,6 +14,6 @@ func _cast():
 	for i in masCha.getMinRanChas(0,6):
 		var eff = mas.scene.newEff("e_zhiLiaoShu", i.position, i.imgCenterPos)
 		if i.team == mas.team:
-			masCha.plusHp(masCha.matk * per(1.3),i)
+			plusHp(masCha.matk * per(1.3),i)
 		else:
 			hurtPerM(i,per(1.5))

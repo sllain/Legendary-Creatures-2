@@ -18,7 +18,7 @@ var b = false
 func rD(atkInfo):
 	if b && masCha.isDeath:
 		masCha.revive(false)
-		masCha.plusHp(masCha.maxHp * per(0.5))
-		masCha.plusWard(masCha.maxHp * per(0.5))
+		plusHp(masCha.maxHp * per(0.5))
+		plusWard(masCha.maxHp * per(0.5))
 		b = false
 		masCha.castBuff(masCha,"b_a_diYu",per(30))

@@ -14,7 +14,7 @@ func _in():
 
 func r(buff):
 	if buff.id == "b_b_jieShuang":
-		masCha.delAff(buff)
+		buff.del()
 
 func r2(atkInfo):
 	if atkInfo.atkType == ATKTYPE.NORMAL && rndPer(0.3):

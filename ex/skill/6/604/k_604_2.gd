@@ -14,15 +14,15 @@ func _cast():
 	yield(ctime(0.4),"timeout")
 	var cha = masCha.getMaxAttCha("maxHp",2)
 	if cha != null:
-		masCha.plusHp(masCha.matk * per(1.0),cha)
+		plusHp(masCha.matk * per(1.0),cha)
 		masCha.castBuff(cha,"b_a_diYu",per(10))
 
 	cha = masCha.getMaxAttCha("atk",2)
 	if cha != null:
-		masCha.plusHp(masCha.matk * per(1.0),cha)
+		plusHp(masCha.matk * per(1.0),cha)
 		masCha.castBuff(cha,"b_a_kuangNu",per(10))
 		
 	cha = masCha.getMaxAttCha("matk",2)
 	if cha != null:
-		masCha.plusHp(masCha.matk * per(1.0),cha)
+		plusHp(masCha.matk * per(1.0),cha)
 		masCha.castBuff(cha,"b_a_weiNeng",per(10))

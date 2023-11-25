@@ -16,7 +16,7 @@ func _ready():
 #	pass
 func init(team:Team,canExit = true,faci = null):
 	for i in team.chas:
-		var c = preload("res://tscn/chara/charaItem.tscn").instance()
+		var c = load("res://tscn/chara/charaItem.tscn").instance()
 		$ScrollContainer/HBoxContainer.add_child(c)
 		c.init(i)
 	self.team = team

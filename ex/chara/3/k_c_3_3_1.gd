@@ -12,4 +12,4 @@ func _in():
 	sys.game.connect("onChaDeath",self,"r")
 	
 func r(atkInfo):
-	masCha.plusHp(masCha.maxHp * per(0.15))
+	plusHp(masCha.maxHp * per(0.15))

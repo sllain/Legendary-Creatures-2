@@ -20,7 +20,7 @@ func _cast():
 	for i in 3 :
 		if i >= chas.size() : break
 		var cha = chas[i]
-		masCha.plusHp(masCha.matk * per(1.0),cha)
+		plusHp(masCha.matk * per(1.0),cha)
 		masCha.castBuff(cha,"b_a_diYu",per(10))
 
 func sort(a,b):

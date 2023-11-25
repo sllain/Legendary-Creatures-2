@@ -16,4 +16,4 @@ func _ready():
 #	pass
 func init():
 	for i in sys.player.relics.items:
-		preload()
+		load()

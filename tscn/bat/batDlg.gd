@@ -40,7 +40,7 @@ func initTeam(enemyTeam:Team):
 
 func rAddItem(item,inx):
 	if item is Csb:
-		var itemBt = preload("res://tscn/item/itemBtn.tscn").instance()
+		var itemBt = load("res://tscn/item/itemBtn.tscn").instance()
 		itemBox.add_child(itemBt)
 		itemBt.init(item)
 		itemBt.connect("pressed",self,"_csbUse",[item])

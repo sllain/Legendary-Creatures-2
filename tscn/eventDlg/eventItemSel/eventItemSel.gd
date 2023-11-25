@@ -19,7 +19,7 @@ func init(num,type = 0,isOnly = true):
 	self.isOnly = isOnly
 	self.type = type
 	for i in num :
-		var bt = preload("res://tscn/eventDlg/eventItemSel/itemSel.tscn").instance()
+		var bt = load("res://tscn/eventDlg/eventItemSel/itemSel.tscn").instance()
 		$ScrollContainer/HBoxContainer.add_child(bt)
 		bt.init(null)
 		bt.connect("onSel",self,"r",[bt,i])

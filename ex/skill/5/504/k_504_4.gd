@@ -26,4 +26,4 @@ func r(cha):
 	info = hurtPer(cha,per(1.0),HURTTYPE.PHY)
 	if info != null:
 		w += info.finalVal
-	masCha.plusWard(w * 0.7)
+	plusWard(w * 0.7)
