@@ -150,7 +150,7 @@ func searchPck(dirStr):
 	
 func loadMods():
 	for i in modsInfo.values():
-		ProjectSettings.load_resource_pack(i.file,false) 
+		ProjectSettings.load_resource_pack(i.file,true) 
 		data.loadDir(i.dir)
 
 func newGame(lv):

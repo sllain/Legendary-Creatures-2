@@ -43,7 +43,7 @@ func newGame():
 	
 	#初始选人
 	yield(sys.get_tree().create_timer(0.3),"timeout")
-	sys.eventDlg.txt("请雇佣%d个初始单位" % 2)
+	sys.eventDlg.txt(tr("请雇佣%d个初始单位") % 2)
 	var buyCha = sys.eventDlg.buyCha(getGameChas())
 	buyCha.reUpBtn.link(0,self,"getGameChas")
 #	yield(buyCha,"onSel")

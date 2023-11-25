@@ -36,7 +36,7 @@ func newGame():
 	yield(sys.get_tree().create_timer(0.3),"timeout")
 	sys.eventDlg.txt(tr("打败最高峰的魔王即可获得胜利，在这之前你可以任意探索大陆，积累战力。"))
 	if sys.isDemo : sys.eventDlg.txt(tr("试玩版只能体验到%d天") % sys.demoDay)
-	sys.eventDlg.txt("请雇佣%d个初始单位" % 2)
+	sys.eventDlg.txt(tr("请雇佣%d个初始单位") % 2)
 	var buyCha = sys.eventDlg.buyCha(getGameChas())
 	buyCha.reUpBtn.link(0,self,"getGameChas")
 	yield(buyCha,"onSel")
