@@ -17,6 +17,6 @@ func getDec():
 	return tr("开战时和每%d秒抵消一次技能伤害") % [10-lv]
 
 var cds = 0
-func upS():
+func _upS():
 	if cds > 0 :
 		cds -= 1

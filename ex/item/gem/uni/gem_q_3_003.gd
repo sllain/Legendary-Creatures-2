@@ -9,7 +9,7 @@ func getDec():
 	return tr("每5秒获得%d层抵御") % [per(10)]
 	
 var sd = 0
-func upS():
+func _upS():
 	sd += 1 
 	if sd >= 5 :
 		sd = 0

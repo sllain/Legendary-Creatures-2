@@ -4,7 +4,7 @@ func _data():
 	name = "谜团"
 	dec = ""
 	weight = 0.5
-	num = 4
+	num = 2
 	tab = "world"
 	isCs = true
 	canPerfect = false
@@ -17,7 +17,6 @@ var nowItems = ItemPck.new()
 	
 func _in():
 	lv = 5	
-	sys.game.connect("onFaciFound",self,"rFound")
 	
 func _create():
 	if sys.game.mode != "map":
@@ -28,12 +27,6 @@ func _create():
 		if rndPer(0.5) :y = rndRan(96,98)
 		else: y = rndRan(2,4)
 	matMoveUp(Vector2(x,y))
-
-func rFound(faci):
-	if faci == self :
-		for i in sys.mapScene.objs.items: 
-			if i.id == "faci_haiYang" && i != self:
-				i.del()
 
 var ids = []
 var selId = ""
@@ -93,7 +86,6 @@ func bonus(itemPck:ItemPck):
 	
 func countEnd(win):
 	if win :
-		
 		sys.eventDlg.txt(tr("胜利，获得奖励。"),true)
 		var itemPck = ItemPck.new()
 		itemPck.addItem(data.newBase("eqpo_" + selId))

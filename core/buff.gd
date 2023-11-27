@@ -2,13 +2,17 @@ extends Att
 class_name Buff
 
 signal onEff()
+signal onSetIco()
 
 var isLong = true #长久 不会每秒消弱的buff
 var isDie = false #是否是负面状态
 var isVis = false #是否显示在状态栏
 var castCha:Chara = null
 var masCha:Chara = null
-var icoId = ""
+var icoId = "" setget setIco
+func setIco(val):
+	icoId = val
+	emit_signal("onSetIco")
 var maxLv = 50
 var effId = null #绑定的特效
 var plusLv = 0
