@@ -87,8 +87,8 @@ BOSS,BOSS,BOSS,BOSS,BOSS
 支付 %d 金币,支付 %d 金币,Pay %d Coins,金貨を %d 支払う,支付 %d 金幣
 金币 不足,金币 不足,Insufficient Coins,金貨 不足,金幣 不足
 装备等级不一致,装备等级不一致,Mismatched equipment levels.,装備のレベルが一致していません,裝備等級不一致
-铁匠加入你的队伍，他能帮你合成和升级装备,铁匠加入你的队伍，他能帮你合成和升级装备,Join your team with a blacksmith who can help you craft and upgrade your equipment,装備の作成とアップグレードを手伝ってくれる鍛冶屋と一緒にチームに参加してください,鐵匠加入你的隊伍，他能幫你合成和升級裝備
-在部队页面中，把3个同等级装备放入铁匠身上即可完成合成,在部队页面中，把3个同等级装备放入铁匠身上即可完成合成,"On the Troops page, you can complete the synthesis by placing 3 pieces of equipment of the same level on the Blacksmith",部隊ページでは、鍛冶屋に同じレベルの装備を3つ配置することで合成を完了できます,在部隊頁面中，把3個同等級裝備放入鐵匠身上即可完成合成
+铁匠加入你的队伍，他能帮你合成和升级装备,铁匠加入你的队伍，他能帮你合成和升级装备,The Blacksmith has joined your team to help you craft and upgrade your equipment,鍛冶屋がチームに加わり、装備の合成やアップグレードを手伝ってくれます。,鐵匠加入你的隊伍，他能幫你合成和升級裝備
+在部队页面中，把3个同等级装备放入铁匠身上即可完成合成,在部队页面中，把3个同等级装备放入铁匠身上即可完成合成,"On the Troops page, you can complete the crafting process by placing 3 pieces of equipment of the same level onto the Blacksmith",部隊ページで同じレベルの装備を3つ鍛冶屋に入れると合成が完了します。,在部隊頁面中，把3個同等級裝備放入鐵匠身上即可完成合成
 ,,,,
 提升宝石,提升宝石,Upgrade Gem,宝石を強化,提升寶石
 "将一颗宝石的等级提高1级,最多提升至4级","将一颗宝石的等级提高1级,最多提升至4级",Upgrade a gem by 1 level (4 levels at most),宝石のレベルを1上げる、最大で4レベルまで,"將一顆寶石的等級提高1級,最多提升至4級"
@@ -266,3 +266,7 @@ BOSS,BOSS,BOSS,BOSS,BOSS
 通关难度9,通关难度9,Clear Difficulty 9,難易9をクリアする,通關難度9
 ,,,,
 只有本地牢的幽暗值达到%d层才可挑战,只有本地牢的幽暗值达到%d层才可挑战,Reach Gloom of %d to challenge,幽暗値が%d層になることで挑戦可能,只有本地牢的幽暗值達到%d層才可挑戰
+,,,,
+传送门,传送门,Portals,ポータル,傳送門
+前往下一层,前往下一层,Go to the next floor,次の階に行く,前往下一層
+,,,,

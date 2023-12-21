@@ -62,7 +62,9 @@ var mode = "map"
 
 func setTimeNext(val):
 	timeNext = val
-
+	
+func plusCry(n):
+	self.plusCryNum += n
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	dataDir = sys.main.dataDir
@@ -108,8 +110,6 @@ func _gInStart():
 		i.inStart(self)		
 	$ui/home/gbox.init()
 	
-func plusCry(n):
-	plusCryNum += n
 	
 var ups = 0.0
 func _physics_process(delta):

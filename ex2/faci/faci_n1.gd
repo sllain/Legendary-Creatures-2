@@ -14,7 +14,7 @@ func _data():
 const nums = [2,4]
 	
 func _createStart():
-	createLv = nums[0]
+	createLv = 0
 	nums.remove(0)
 	
 var skills = ItemPck.new()

@@ -93,7 +93,7 @@ func countEnd(win):
 		if itemPck.items.size() > 0 :
 			sys.eventDlg.items(itemPck)
 		var mcha = data.newBase(selId)
-		sys.eventDlg.txt(tr("招募了 %s") % mcha.name)
+		sys.eventDlg.txt(tr("招募了 %s") % tr(mcha.name))
 		sys.player.addAlterCha(mcha)
 		del()
 	else:

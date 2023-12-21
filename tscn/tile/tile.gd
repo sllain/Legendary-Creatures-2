@@ -60,7 +60,7 @@ func _on_book_pressed():
 func _input(event):
 	if sys.isMod && event.is_action_pressed("mod") :
 		sys.isTest = true
-		$modBtn.show()
+		#$modBtn.show()
 	pass
 
 var lgDs = {

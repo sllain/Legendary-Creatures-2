@@ -30,6 +30,7 @@ func bonus(itemPck:ItemPck):
 	item = data.newBase("m_cry")
 	item.num = lvPer(lv,10,0.3) * lvPer(sys.game.diffLv,1,0.05) * bonusR
 	itemPck.addItem(item)
+	sys.game.plusCry(item.num)
 	
 func enemyInit(powM,lv):
 	.enemyInit(powM,lv)

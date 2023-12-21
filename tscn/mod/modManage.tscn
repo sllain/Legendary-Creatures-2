@@ -4,6 +4,7 @@
 [ext_resource path="res://tscn/mod/modManage.gd" type="Script" id=2]
 
 [node name="baseDlg" instance=ExtResource( 1 )]
+visible = true
 margin_left = -245.5
 margin_top = -188.5
 margin_right = 245.5
@@ -22,6 +23,13 @@ margin_left = 157.5
 margin_top = 365.5
 margin_right = 327.5
 margin_bottom = 403.5
-text = "启动"
+text = "加载"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." index="2"]
+margin_left = 71.0
+margin_top = 70.0
+margin_right = 411.0
+margin_bottom = 344.0
+bbcode_enabled = true
 
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

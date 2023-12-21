@@ -81,6 +81,8 @@ func setDic():
 	return dic
 
 func updata():
+	if setDic() == null:
+		return
 	var dlg = sys.newDlg("res://tscn/mod/modCom.tscn")
 	dlg.addText("上传中-请等待")
 	var file_name = $Panel/dir/Label.text + "/itemId.dic"

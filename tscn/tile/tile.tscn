@@ -154,14 +154,6 @@ selected = 0
 anchor_mode = 0
 current = true
 
-[node name="modBtn" type="Button" parent="."]
-visible = false
-margin_left = 22.0
-margin_top = 30.0
-margin_right = 138.0
-margin_bottom = 68.0
-text = "Mod工具"
-
 [connection signal="tree_exiting" from="." to="." method="_on_tile_tree_exiting"]
 [connection signal="pressed" from="NinePatchRect2/VBoxContainer/Button4" to="." method="_on_Button4_pressed"]
 [connection signal="pressed" from="NinePatchRect2/VBoxContainer/Button1" to="." method="_on_Button_pressed"]
@@ -169,4 +161,3 @@ text = "Mod工具"
 [connection signal="pressed" from="NinePatchRect2/VBoxContainer/Button2" to="." method="_on_Button2_pressed"]
 [connection signal="pressed" from="NinePatchRect2/VBoxContainer/Button3" to="." method="_on_Button3_pressed"]
 [connection signal="item_selected" from="OptionButton" to="." method="_on_OptionButton_item_selected"]
-[connection signal="pressed" from="modBtn" to="." method="_on_modBtn_pressed"]

@@ -1,6 +1,6 @@
 extends Node
 
-const attDs = {
+var attDs = {
 	maxHp={name="最大生命值",dec="决定生命上限",isPer=false,rt=100},
 	atk={name="物理攻击",dec="提升普通攻击和物理伤害",isPer=false,rt=6},
 	matk={name="魔法攻击",dec="大幅提升魔法伤害",isPer=false,rt=9},
@@ -14,23 +14,23 @@ const attDs = {
 	cdSpd={name="冷却速度",dec="主动技能的冷却速度",isPer=true,rt=0.075},
 	#matkp={name="",dec="",isPer=false,rt=5},
 }
-const defCoe = 100.0
-const perR = 0.6
-const upAtt = ["maxHp","atk","def","matk","mdef"]
-const ctAtt = ["ct1","ct2","ct3","ct4","ct5"]
+var defCoe = 100.0
+var perR = 0.6
+var upAtt = ["maxHp","atk","def","matk","mdef"]
+var ctAtt = ["ct1","ct2","ct3","ct4","ct5"]
 
-const colorDs = {
+var colorDs = {
 	att="#99dd99",
 	lvs = ["#dadada","#88abfe","#e883f6","#ff9a0c","#ff4444","#88ff99","#ffffff","#ffffff"]
 }
 
-const lvStr = ["普通","卓越","史诗","传奇","远古","神话","宇宙","宇宙"]
+var lvStr = ["普通","卓越","史诗","传奇","远古","神话","宇宙","宇宙"]
 
-const tipDs = {
+var tipDs = {
 }
 
-const priceRatio = 0.3
-const castNumMax = 50
+var priceRatio = 0.3
+var castNumMax = 50
 
 func init():
 	tipDs.clear()
@@ -39,7 +39,7 @@ func init():
 		if bf.lock == 1 :
 			tipDs[bf.name] = bf.dec
 
-const chaAttDs = {
+var chaAttDs = {
 	1:{
 		ran = 1,
 		atk = 9,

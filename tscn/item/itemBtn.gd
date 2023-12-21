@@ -23,8 +23,17 @@ func init(item:Item):
 		$Label.hide()
 		self_modulate = Color("#ffffff")
 		return
-
 	self.item = item
+	up()
+	cdel()
+	item.connect("onSetNum",self,"num")
+	item.connect("onSetLv",self,"_setLv")
+	
+func _setLv():
+	call_deferred("up")
+	
+func up():
+	if item == null:return
 	txt = "\n[b][color=%s]%s\n[/color][/b]" % [cons.colorDs.lvs[item.lv-1],tr(item.name)]
 	if item is Gem :
 		if item.lv > 3 :
@@ -68,8 +77,6 @@ func init(item:Item):
 		$Label.text = "%d" % item.num
 	else:
 		$Label.hide()
-	cdel()
-	item.connect("onSetNum",self,"num")
 	
 func cdel():
 	item.connect("onExit",self,"queue_free")

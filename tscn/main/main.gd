@@ -8,13 +8,6 @@ onready var txt = $ui2/tip/txt
 onready var k = $ui2/tip/k
 
 var dataDir = ""
-var modsInfo = {}
-
-class ModInfo:
-	extends Resource
-	var id = ""
-	var dir = ""
-	var file = ""
 
 func _ready():
 	if sys.isMod:
@@ -125,33 +118,6 @@ func initSaveDir():
 				dir.remove(file_name)
 			file_name = dir.get_next()
 	dir.make_dir_recursive(dataDir)
-	
-func modStart():
-	loadMods()
-	delGame()
-	
-func searchPck(dirStr):
-	var dir = Directory.new()
-	dir.open(dirStr)
-	dir.list_dir_begin()
-	var dname = dir.get_next()
-	while dname != "":
-		if dir.current_is_dir() && dname != "core" && dname != "." && dname != "..":
-			searchPck(dirStr + "/" + dname)
-		elif !dir.current_is_dir() && dname.get_extension() == "pck":
-			var modInfo = ModInfo.new()
-			modInfo.id = dname.get_basename()
-			modInfo.dir = "res://%s" % modInfo.id
-			modInfo.file = dirStr+"/"+dname
-			modsInfo[dname] = modInfo
-		dname = dir.get_next()
-	dir.list_dir_end()
-	#minLoadMods("res://mods/")
-	
-func loadMods():
-	for i in modsInfo.values():
-		ProjectSettings.load_resource_pack(i.file,true) 
-		data.loadDir(i.dir)
 
 func newGame(lv):
 	for i in get_children():

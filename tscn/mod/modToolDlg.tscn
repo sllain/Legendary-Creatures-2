@@ -5,6 +5,7 @@
 [ext_resource path="res://tscn/mod/modToolDlg.gd" type="Script" id=3]
 
 [node name="baseDlg" instance=ExtResource( 1 )]
+visible = true
 margin_left = -464.0
 margin_top = -189.0
 margin_right = 466.0
@@ -139,6 +140,7 @@ margin_bottom = 402.375
 text = "上传"
 
 [node name="Button2" type="Button" parent="." index="3"]
+visible = false
 margin_left = 787.0
 margin_top = 298.0
 margin_right = 907.0

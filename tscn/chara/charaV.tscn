@@ -21,7 +21,7 @@ texture = ExtResource( 4 )
 [node name="anim" parent="." instance=ExtResource( 1 )]
 position = Vector2( 0, -35 )
 frames = ExtResource( 7 )
-frame = 7
+frame = 10
 
 [node name="ui" type="Node2D" parent="."]
 

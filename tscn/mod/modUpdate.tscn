@@ -1,0 +1,224 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://tscn/mod/modUpdate.gd" type="Script" id=2]
+[ext_resource path="res://res/theme.tres" type="Theme" id=4]
+
+[sub_resource type="StyleBoxTexture" id=1]
+region_rect = Rect2( 0, 0, 529, 726 )
+margin_left = 82.0218
+margin_right = 86.3388
+margin_top = 123.033
+margin_bottom = 99.2896
+
+[node name="msgBaseX" type="Popup"]
+visible = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -605.5
+margin_top = -346.5
+margin_right = 605.5
+margin_bottom = 346.5
+theme = ExtResource( 4 )
+popup_exclusive = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 27.0
+margin_top = 27.0
+margin_right = -28.0
+margin_bottom = -33.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -97.5
+margin_top = 12.0
+margin_right = 97.5
+margin_bottom = 51.0
+text = "创意工坊-上传和更新"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="id" type="Label" parent="Panel"]
+margin_left = 421.519
+margin_top = 61.4238
+margin_right = 607.519
+margin_bottom = 99.4238
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tile" type="Label" parent="Panel"]
+margin_left = 228.42
+margin_top = 175.789
+margin_right = 274.42
+margin_bottom = 213.789
+text = "标题"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="Panel/tile"]
+margin_left = 114.0
+margin_top = 2.0
+margin_right = 506.0
+margin_bottom = 40.0
+caret_blink = true
+caret_blink_speed = 0.5
+
+[node name="info" type="Label" parent="Panel"]
+margin_left = 229.472
+margin_top = 218.946
+margin_right = 275.472
+margin_bottom = 256.946
+text = "描述"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="TextEdit" parent="Panel/info"]
+margin_left = 112.0
+margin_top = 2.0
+margin_right = 508.0
+margin_bottom = 148.0
+
+[node name="dir" type="Label" parent="Panel"]
+margin_left = 224.209
+margin_top = 110.525
+margin_right = 331.209
+margin_bottom = 148.525
+text = "mod文件夹"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Panel/dir"]
+margin_left = 553.484
+margin_top = 2.73623
+margin_right = 681.905
+margin_bottom = 46.1116
+text = "选择"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel/dir"]
+margin_left = 134.0
+margin_top = 7.0
+margin_right = 528.0
+margin_bottom = 46.0
+
+[node name="Button2" type="Button" parent="Panel/dir"]
+margin_left = -121.35
+margin_top = -0.949997
+margin_right = -23.929
+margin_bottom = 47.4254
+text = "?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="file" type="Label" parent="Panel"]
+margin_left = 219.999
+margin_top = 398.946
+margin_right = 284.999
+margin_bottom = 436.946
+text = "封面图"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Panel/file"]
+margin_left = 106.0
+margin_top = -6.0
+margin_right = 204.0
+margin_bottom = 37.3754
+text = "选择"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel/file"]
+margin_left = 239.47
+margin_top = -1.12244
+margin_right = 660.47
+margin_bottom = 37.8776
+
+[node name="Button" type="Button" parent="."]
+margin_left = 496.357
+margin_top = 531.048
+margin_right = 683.357
+margin_bottom = 579.423
+text = "上传"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 496.357
+margin_top = 586.837
+margin_right = 683.357
+margin_bottom = 635.213
+text = "返回"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FileDialog" type="FileDialog" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -633.5
+margin_top = -335.5
+margin_right = 634.5
+margin_bottom = 336.5
+rect_min_size = Vector2( 300, 105 )
+theme = ExtResource( 4 )
+popup_exclusive = true
+window_title = "打开目录"
+mode = 2
+access = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FileDialog2" type="FileDialog" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -675.5
+margin_top = -353.5
+margin_right = 675.5
+margin_bottom = 368.5
+rect_min_size = Vector2( 300, 105 )
+theme = ExtResource( 4 )
+popup_exclusive = true
+window_title = "打开文件"
+mode = 0
+access = 2
+filters = PoolStringArray( "*.jpg" )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Panel/dir/Button" to="." method="_on_Button_mod_pressed"]
+[connection signal="pressed" from="Panel/dir/Button2" to="." method="_on_wenhao_pressed"]
+[connection signal="pressed" from="Panel/file/Button" to="." method="_on_png_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
+[connection signal="dir_selected" from="FileDialog" to="." method="_on_FileDialog_dir_selected"]
+[connection signal="file_selected" from="FileDialog2" to="." method="_on_FileDialog2_file_selected"]
