@@ -98,7 +98,7 @@
 盾术精通,盾术精通,Shield Master,盾精通,盾術精通
 提高%d%%获得的护盾值,提高%d%%获得的护盾值,Increases the shield strength by %d%%,獲得した盾値が%d%%増加する。,提高%d%%獲得的護盾值
 ,,,,
-反伤甲,反伤甲,Throny Armor,棘の鎧,反傷甲
+反伤甲,反伤甲,Thorny Armor,棘の鎧,反傷甲
 对他造成伤害的单位会受到反伤，普攻攻击者受到%d%%的物理防御的魔法伤害，技能攻击者受到%d%%的魔法防御的魔法伤害,对他造成伤害的单位会受到反伤，普攻攻击者受到%d%%的物理防御的魔法伤害，技能攻击者受到%d%%的魔法防御的魔法伤害,"Enemies that deal DMG to this unit receive reflective DMG, attackers who perform Normal Attack receive Magic DMG of %d%% Physical Defense, attackers who perform Skill Attack receive Magic DMG of %d%% Magic Defense",それにダメージを与えた単位は反傷を受け、通常攻撃の攻撃者は%d%%の物理防御力の魔法ダメージを受ける、スキルによる攻撃の攻撃者は%d%%の魔法防御力の魔法ダメージを受ける。,對他造成傷害的單位會受到反傷，普攻攻擊者受到%d%%的物理防禦的魔法傷害，技能攻擊者受到%d%%的魔法防禦的魔法傷害
 臂铠重击,臂铠重击,Gauntlet Strike,籠手重撃,臂鎧重擊
 对目标造成%d%%物理防御+魔法防御的魔法伤害，获取目标%d%%双抗，最高%d点，战斗结束重置,对目标造成%d%%物理防御+魔法防御的魔法伤害，获取目标%d%%双抗，最高%d点，战斗结束重置,Deals Magic DMG that equals %d%% of the total of Physical and Magic Defense to a target and increases both kinds of Defense by %d%% of the target's (up to %d); this effect will be removed after each battle,目標に対し物理防御力＋魔法防御力の%d%%分の魔法ダメージを与え、目標物理と魔法防御力の%d%%分を獲得する、最大%dまで、戦闘終了時リセット,對目標造成%d%%物理防禦+魔法防禦的魔法傷害，獲取目標%d%%雙抗，最高%d點，戰鬥結束重置
