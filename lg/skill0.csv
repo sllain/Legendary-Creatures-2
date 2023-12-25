@@ -105,7 +105,7 @@
 死亡时复活1次，恢复%d%%生命值，获得%d%%最大生命值的护盾，获得%d层抵御,死亡时复活1次，恢复%d%%生命值，获得%d%%最大生命值的护盾，获得%d层抵御,"Respawns upon death once, restores %d%% HP and gains a shield and its strength equals %d%% Max HP. Gains %d stack(s) of Armored",倒された際、1回のみ復活しHPを%d%%回復する。さらにHP最大値%d%%分の盾を獲得し、更に自身が守護を%d層獲得する,死亡時復活1次，恢復%d%%生命值，獲得%d%%最大生命值的護盾，獲得%d層抵禦
 感染,感染,Infection,感染,感染
 杀死敌人时召唤一个丧尸，拥有%d%%的生命值,杀死敌人时召唤一个丧尸，拥有%d%%的生命值,Summons a zombie after killing an enemy and the zombie has %d%% HP,敵を倒した際、%d%%HPのゾンビを1体召喚する。,殺死敵人時召喚一個喪屍，擁有%d%%的生命值
-凶镰,凶镰,Inauspicious Sycthe,凶鎌,兇鐮
+凶镰,凶镰,Inauspicious Scythe,凶鎌,兇鐮
 "技能附加%d%%物理伤害,普攻附加%d%%的魔法伤害","技能附加%d%%物理伤害,普攻附加%d%%的魔法伤害",Skills deal an extra %d%% Physical DMG; Normal Attack deals an extra %d%% Magic DMG,スキルに%d%%の物理ダメージを追加し、通常攻撃に%d%%の魔法ダメージを追加する。,"技能附加%d%%物理傷害,普攻附加%d%%的魔法傷害"
 招魂术,招魂术,Soul Call,降霊術,招魂術
 复活第一个死亡的非召唤友方单位，恢复%d%%生命值，并使其获得%d层隐身,复活第一个死亡的非召唤友方单位，恢复%d%%生命值，并使其获得%d层隐身,"Resurrects the first killed non-summoned ally, restores %d%% of their HP, and grants them %d stack(s) of Invisible",最初に倒れた召喚ユニット以外の味方ユニット1体を復活し、HPを%d%%回復させ、更に%d層のインビジブルを付与する,復活第一個死亡的非召喚友方單位，恢復%d%%生命值，並使其獲得%d層隱身

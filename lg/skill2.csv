@@ -16,7 +16,7 @@
 对目标单位造成%d%%的物理伤害，并对其周围1格其他单位造成%d%%伤害，附加%d层中毒,对目标单位造成%d%%的物理伤害，并对其周围1格其他单位造成%d%%伤害，附加%d层中毒,"Deals %d%% Physical DMG to the target and %d%% DMG to other units within a radius of 1 tile around, inflicting %d stack(s) of Poisoned",目標ユニットに対し%d%%の物理ダメージを与える。更に周囲1マスのユニットに%d%%のダメージを与え、%d層の毒を付与する。,對目標單位造成%d%%的物理傷害，並對其周圍1格其他單位造成%d%%傷害，附加%d層中毒
 毒爪,毒爪,Toxic Claws,毒の爪,毒爪
 普攻%d%%几率附加%d层中毒,普攻%d%%几率附加%d层中毒,Normal Attack has a %d%% chance to inflict %d stack(s) of Poisoned,%d%%の確率で通常攻撃に%d層の毒を付与する。,普攻%d%%幾率附加%d層中毒
-毒爆,毒爆,Poison Brust,毒爆,毒爆
+毒爆,毒爆,Poison Burst,毒爆,毒爆
 对敌人附加的中毒达到30层时，消除层数，对目标1格范围造成%d%%的物理伤害,对敌人附加的中毒达到30层时，消除层数，对目标1格范围造成%d%%的物理伤害,"At 30 stacks of Poisoned inflicted on an enemy, resets the stack number to 0 and deals %d%% Physical DMG to the target and within the radius of 1 tile around them",敵に付与した毒が30層に達した際、層数をリセットし、目標の1マス範囲内の敵に%d%%の物理ダメージを与える。,對敵人附加的中毒達到30層時，消除層數，對目標1格範圍造成%d%%的物理傷害
 毒创,毒创,Rotting Wound,毒瘡,毒創
 普攻附加%d%%的物理伤害，每层中毒使该伤害提高3%%,普攻附加%d%%的物理伤害，每层中毒使该伤害提高3%%,Normal Attack deals extra %d%% Physical DMG and the DMG increases by 3%% for each stack of Poisoned,通常攻撃時%d%%の物理ダメージを追加で与える。このダメージが毒層数により1層ごとに3%%増加する。,普攻附加%d%%的物理傷害，每層中毒使該傷害提高3%%

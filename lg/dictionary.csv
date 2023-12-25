@@ -34,7 +34,7 @@
 毒枭,毒枭,Poisoner,蟲毒士,毒梟
 侠客,侠客,Swashbuckler,侠客,俠客
 ,,,,
-冰法,冰法,Cyro Mage,氷魔術士,冰法
+冰法,冰法,Cryo Mage,氷魔術士,冰法
 火法,火法,Inferno Mage,炎魔術士,火法
 雷法,雷法,Electro Mage,雷魔術士,雷法
 ,,,,
@@ -117,7 +117,7 @@ BOSS,BOSS,BOSS,BOSS,BOSS
 角色偷取中,角色偷取中,Stealing Character,キャラスチール中,角色偷取中
 回合胜利后，概率获取一个敌方角色,回合胜利后，概率获取一个敌方角色,"Upon victory in a round, you stand a chance to acquire 1 enemy unit.",ターン勝利後、一定の確率で敵キャラを1体獲得する,回合勝利後，概率獲取一個敵方角色
 ,,,,
-冰霜附魔,冰霜附魔,Cyro Enchanted,氷のエンチャント,冰霜附魔
+冰霜附魔,冰霜附魔,Cryo Enchanted,氷のエンチャント,冰霜附魔
 普攻附加%d%%魔法伤害，3层结霜,普攻附加%d%%魔法伤害，3层结霜,Normal Attack deals an extra %d%% Magic DMG and inflicts 3 stacks of Frozen,普通攻撃に%d%%の魔法ダメージを追加し、霜降を3層付与する,普攻附加%d%%魔法傷害，3層結霜
 火焰附魔,火焰附魔,Pyro Enchanted,火のエンチャント,火焰附魔
 普攻附加%d%%魔法伤害，3层烧灼,普攻附加%d%%魔法伤害，3层烧灼,Normal Attack deals an extra %d%% Magic DMG and inflicts 3 stacks of Burning,普通攻撃に%d%%の魔法ダメージを追加し、火傷を3層付与する,普攻附加%d%%魔法傷害，3層燒灼
